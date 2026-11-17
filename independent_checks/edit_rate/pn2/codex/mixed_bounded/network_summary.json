@@ -1,0 +1,14 @@
+{
+  "chain_id": "0x89",
+  "head": "0x5ce0f61",
+  "selected_rows": 39,
+  "selected_question_ids": 39,
+  "creation_lookup": "Exact CSV-claimed block, matched questionID; no global creation uniqueness claim.",
+  "clarification_chunks": 40,
+  "unique_logs": 48,
+  "first_block": 58008243,
+  "last_block": 97166757,
+  "source": "https://gateway.tenderly.co/public/polygon",
+  "creation_cache_sha256": "efa2575ccafa8620e8d5bc8621179db480350af7e7188bd2d4b3e5ff795dd561",
+  "creation_source": "https://poly.api.pocket.network"
+}

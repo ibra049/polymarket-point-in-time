@@ -1,0 +1,17 @@
+# E-006 single analysis — 2026-11-17
+
+Status: INVALID-RUN. Operational status: BLOCKED for any new run on a separately authorized design; checkpoint-3 diagnosis complete, no retry.
+
+Question: do daily BTC tail quotes exceed a smile-consistent options benchmark after executable sizing and fees? The frozen v1.2 run cannot answer it: 12/61 counted snapshots failed pipeline checks (0.19672131147540983 > 0.05). The synthetic flat gate passed (error 0.00002063824328080166); 11,754 marks checked, 3 bad. The original aggregate output did not isolate the failed checks. The subsequent read-only diagnostic finds 16 monotonicity violations in 10 snapshots and 3 bad marks in 3 snapshots (one overlap), with zero range failures. Independent R-039 traced monotonicity failure to non-convex Deribit source marks passed through the frozen method, rather than interpolation kinks. Source non-convexity appears in 61/61 snapshots, including all 49 passing snapshots; passing this gate does not establish sound surfaces. The 3 mark discrepancies remain provisional C (source/model consistency; B possible), with rounding and collection timing ruled out. Deribit’s upstream mechanism remains unknown and is unnecessary to establish INVALID-RUN. See research/reviews/R-039_claude_E-006_diagnosis_review.md.
+
+Inputs/version: unchanged main 0d177f7 frozen code and manifest; all four pinned hashes verified by analyze(), git-bound data/e006 commit 43ae08cee24dd8971b2a5b97f69f5a5b57cb6d04. Single invocation began after window end on November 17 ~02:02 UTC; exit 0, empty stderr. Raw output, bound manifest, stderr and exit code: research/results/E-006_2026-11-17/. No rerun.
+
+65 supplied files, 61 in-sample, 4 duplicate-hour exclusions; 61 valid snapshots across 260 scheduled hours. Missing hours: 199/260 (76.5384615%). R-036 reports source refusal after November 12 10:55 UTC to window end; source cause remains undiagnosed. Missing hours include approximately 109 during the reported outage and 90 earlier cron skips (R-038 estimate); missing collection does not cause the pipeline failure. Earlier health counts are not substituted for the exact run ledger. Its file-level dispositions are preserved unchanged.
+
+S and secondary statistics remain in the preserved raw output and are not interpreted because the pipeline gate failed.
+
+Codex independent assessment (recorded before Claude sees results): apply INVALID-RUN exactly as frozen; preserve all evidence and stop. Do not interpret S against the decision threshold after an earlier gate fails. A new run requires diagnosis, appropriate reproducer/fix, independent review and explicit authorization; no window extension or threshold change is proposed. Options-implied Q probabilities are not physical probabilities, hourly fills are approximate, wing coverage limits scope, and equal-market weighting is not portfolio return.
+
+Hourly GitHub collector 408927052 disabled manually at 2026-11-17T02:02:06Z; backstop was already disabled. No VPS/production action, paid API, holdout read or source workaround.
+
+Checkpoint 3 complete: R-038 independently confirmed INVALID-RUN; R-039 independently reconstructed the diagnostic and corrected its mechanism. Codex accepts that correction; no further diagnosis on this run is needed. B-14 remains unresolved. Neither the 49 passing snapshots nor the preserved S may be re-analyzed as a valid study. Any fresh design/window needs separate authority; no retry is authorized here.

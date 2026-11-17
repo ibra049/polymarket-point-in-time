@@ -1,0 +1,16 @@
+{
+  "before_ce4d39f": {
+    "network_calls_after_two_invocations": 2,
+    "errors": [
+      "{\"started_utc\": \"2026-11-16T00:53:31.507110+00:00\", \"elapsed_seconds\": 2.4709035642445087e-05, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"quota\"}}",
+      "{\"started_utc\": \"2026-11-16T00:53:31.507747+00:00\", \"elapsed_seconds\": 4.208064638078213e-06, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"quota\"}}"
+    ]
+  },
+  "after_79f06a0": {
+    "network_calls_after_two_invocations": 1,
+    "errors": [
+      "{\"started_utc\": \"2026-11-16T00:53:31.507908+00:00\", \"elapsed_seconds\": 4.166970029473305e-06, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"quota\"}}",
+      "source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:53:31.507908+00:00\", \"elapsed_seconds\": 4.166970029473305e-06, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"quota\"}}"
+    ]
+  }
+}

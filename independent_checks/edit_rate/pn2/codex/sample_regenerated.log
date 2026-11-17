@@ -1,0 +1,14 @@
+{
+ "seed": 20261111,
+ "max_draws": 2000,
+ "n_markets_parquet": 729133,
+ "n_gamma_with_qid": 727053,
+ "population_size": 727053,
+ "population_sha256_sorted_ids": "cf5d6281dd18dd843955659964e15360ca665d0f1fba7d69a0a5a5bb7f7bf538",
+ "population_hash_rule": "sha256 of \"\\n\".join(str(market_id) for market_id in sorted numeric ids)",
+ "input_sha256": {
+  "markets.parquet": "ca0a8438097fa830a2f94025e46196f4ff7a803656419e041f5c86c081c4a723",
+  "gamma_rules.jsonl": "6e5144a0afe3878d0b56836f45a871b916e619a32cb7d3c1daeaa360a028ef15"
+ }
+}
+first 5 draws: ['1398743', '1093387', '1243632', '678563', '1414518']

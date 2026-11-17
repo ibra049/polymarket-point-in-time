@@ -1,0 +1,4 @@
+  File "r0a_codex/diagnose_null_market.py", line 77
+    unknown_tokens.extend(pc.filter(ids, pc.invert(pc.is_in(ids, value_set=pred["prediction_id"])))).to_pylist())
+                                                                                                                ^
+SyntaxError: unmatched ')'

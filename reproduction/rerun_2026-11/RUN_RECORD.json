@@ -1,0 +1,64 @@
+{
+ "date_utc": "2026-11-12",
+ "environment": {
+  "machine": "Apple M1, 8 GB RAM",
+  "os": "macOS 26.4.1",
+  "python": "3.14.3",
+  "numpy": "2.4.5",
+  "pyarrow": "24.0.0",
+  "checksum_tool": "Python 3.15.1 hashlib"
+ },
+ "dataset": {
+  "repo": "vgregoire/polymarket-users (Hugging Face, dataset)",
+  "commit": "91ddb961b090de18fd79e79edd8fa15f36ca11b9",
+  "files_used": [
+   "trades/** (1,218 files, 23,354,367,274 bytes)",
+   "predictions.parquet",
+   "user_features.parquet"
+  ]
+ },
+ "checksums": {
+  "method": "full SHA-256 re-hash of every file, compared with the per-file LFS SHA-256 of the Hub at that commit (local manifest independently matched against the Hub API on 2026-11-12: 1,218/1,218 trades paths and hashes equal; predictions, user_features, markets, events equal)",
+  "files_checked": 1223,
+  "trades_files": 1218,
+  "bytes_hashed": 24309274723,
+  "mismatches": [],
+  "start_utc": "2026-11-12T04:05:09+00:00",
+  "end_utc": "2026-11-12T04:05:26+00:00"
+ },
+ "original_script_run": {
+  "script_sha256": "72975daf815a3721084f39cae2e48ea10cdd83699159e5120f685fd1581a0d58",
+  "note": "unchanged since committed before the 2026-10-08 run",
+  "start_utc": "2026-11-12T03:08:53Z",
+  "end_utc": "2026-11-12T04:04:12Z",
+  "wall_s": 3319.39,
+  "user_s": 383.1,
+  "sys_s": 621.42,
+  "max_rss_bytes": 4179558400,
+  "peak_memory_footprint_bytes": 8531660992,
+  "exit": 0,
+  "output": "result_original_script_2026-11-12.json",
+  "output_sha256": "d7b6636b80f6d11509c9337958ff77e4c3095b0b2e5ca5fbe433e48c5965cd16",
+  "verdict": "PASS"
+ },
+ "public_script_run": {
+  "script_sha256": "953241b208e3cce9a97f8c7dfb224cb829018087c90961d4aea25247d689063c",
+  "start_utc": "2026-11-12T04:04:58Z",
+  "end_utc": "2026-11-12T04:30:08Z",
+  "wall_s": 1509.61,
+  "user_s": 379.38,
+  "sys_s": 457.48,
+  "max_rss_bytes": 3888513024,
+  "peak_memory_footprint_bytes": 7540215360,
+  "exit": 0,
+  "output": "public_script_run/result.json",
+  "output_sha256": "d7b6636b80f6d11509c9337958ff77e4c3095b0b2e5ca5fbe433e48c5965cd16",
+  "verdict": "PASS"
+ },
+ "comparison_with_2026_10_08_record": {
+  "recorded_sha256": "d7b6636b80f6d11509c9337958ff77e4c3095b0b2e5ca5fbe433e48c5965cd16",
+  "values_compared": 55,
+  "differences": 0,
+  "byte_identical": true
+ }
+}

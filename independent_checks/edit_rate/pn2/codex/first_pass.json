@@ -1,0 +1,367 @@
+{
+  "study": "PN-2 independent CSV recount",
+  "generated_utc": "2026-11-16T00:44:32.949095+00:00",
+  "status": "INCONCLUSIVE",
+  "status_reason": "Descriptive audit has no frozen promote/reject threshold; provenance and chain checks are separate.",
+  "input_sha256": {
+    "polysignal/research/public_note/pn2/edit_rate_sample.csv": "30314969af2965150a1e123d3a86b86a0d7817156219dfb6fe29be60fa66da2c",
+    "polysignal/research/public_note/pn2/replaced_draws.csv": "95299facb26c5dbb8389ba6d5bdbd987ed2de34950aaa673681b3bd824494344"
+  },
+  "method": {
+    "seed": 20261111,
+    "bootstrap_replicates": 10000,
+    "bootstrap_clusters": "eligible events separately per metric; first-seen event order",
+    "bootstrap_rng": "Python random.Random, choices; RNG restarted per metric",
+    "quantiles": "linear interpolation"
+  },
+  "achieved_n": 1000,
+  "distinct_events": 989,
+  "unique_market_ids": 1000,
+  "draw_ranks_partition_prefix": true,
+  "draws_walked": 1372,
+  "replacements": 372,
+  "replacement_categories": {
+    "Crypto": 362,
+    "Sports": 10
+  },
+  "replacement_reasons": {
+    "unverifiable: no creation event": 372
+  },
+  "verified_categories": {
+    "Crypto": 139,
+    "Culture": 34,
+    "Finance": 35,
+    "Politics": 47,
+    "Sports": 693,
+    "Tech": 11,
+    "Weather": 41
+  },
+  "M1": {
+    "k": 7,
+    "n": 1000,
+    "rate": 0.007,
+    "wilson_95": [
+      0.0033948684009907646,
+      0.014378315465766588
+    ],
+    "event_cluster_bootstrap_95": [
+      0.002008032128514056,
+      0.01287160604068335
+    ],
+    "eligible_events": 989,
+    "positive_events": 7,
+    "by_category": {
+      "Crypto": {
+        "k": 0,
+        "n": 139,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.026893164298442428
+        ]
+      },
+      "Culture": {
+        "k": 1,
+        "n": 34,
+        "rate": 0.029411764705882353,
+        "wilson_95": [
+          0.0052109062762689395,
+          0.1491557329268593
+        ]
+      },
+      "Finance": {
+        "k": 0,
+        "n": 35,
+        "rate": 0.0,
+        "wilson_95": [
+          6.938893903907228e-18,
+          0.09890099232440402
+        ]
+      },
+      "Politics": {
+        "k": 1,
+        "n": 47,
+        "rate": 0.02127659574468085,
+        "wilson_95": [
+          0.0037657680385967812,
+          0.11112981041629329
+        ]
+      },
+      "Sports": {
+        "k": 3,
+        "n": 693,
+        "rate": 0.004329004329004329,
+        "wilson_95": [
+          0.0014733211551765327,
+          0.012649631341578477
+        ]
+      },
+      "Tech": {
+        "k": 2,
+        "n": 11,
+        "rate": 0.18181818181818182,
+        "wilson_95": [
+          0.05136768974608513,
+          0.4769805619608442
+        ]
+      },
+      "Weather": {
+        "k": 0,
+        "n": 41,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.08566757018443186
+        ]
+      }
+    }
+  },
+  "M2": {
+    "k": 1,
+    "n": 641,
+    "rate": 0.0015600624024961,
+    "wilson_95": [
+      0.000275442423655051,
+      0.00878330952349358
+    ],
+    "event_cluster_bootstrap_95": [
+      0.0,
+      0.004709576138147566
+    ],
+    "eligible_events": 631,
+    "positive_events": 1,
+    "by_category": {
+      "Crypto": {
+        "k": 0,
+        "n": 5,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.43448246478317476
+        ]
+      },
+      "Culture": {
+        "k": 0,
+        "n": 12,
+        "rate": 0.0,
+        "wilson_95": [
+          2.7755575615628914e-17,
+          0.24249400665524085
+        ]
+      },
+      "Finance": {
+        "k": 0,
+        "n": 7,
+        "rate": 0.0,
+        "wilson_95": [
+          5.551115123125783e-17,
+          0.35433043506668743
+        ]
+      },
+      "Politics": {
+        "k": 1,
+        "n": 19,
+        "rate": 0.05263157894736842,
+        "wilson_95": [
+          0.009351994062300362,
+          0.24638731166898786
+        ]
+      },
+      "Sports": {
+        "k": 0,
+        "n": 590,
+        "rate": 0.0,
+        "wilson_95": [
+          4.336808689942018e-19,
+          0.006468828950277155
+        ]
+      },
+      "Tech": {
+        "k": 0,
+        "n": 8,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.32440756488388023
+        ]
+      }
+    }
+  },
+  "FORMAT": {
+    "k": 0,
+    "n": 641,
+    "rate": 0.0,
+    "wilson_95": [
+      0.0,
+      0.005957214394557545
+    ],
+    "event_cluster_bootstrap_95": [
+      0.0,
+      0.0
+    ],
+    "eligible_events": 631,
+    "positive_events": 0,
+    "by_category": {
+      "Crypto": {
+        "k": 0,
+        "n": 5,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.43448246478317476
+        ]
+      },
+      "Culture": {
+        "k": 0,
+        "n": 12,
+        "rate": 0.0,
+        "wilson_95": [
+          2.7755575615628914e-17,
+          0.24249400665524085
+        ]
+      },
+      "Finance": {
+        "k": 0,
+        "n": 7,
+        "rate": 0.0,
+        "wilson_95": [
+          5.551115123125783e-17,
+          0.35433043506668743
+        ]
+      },
+      "Politics": {
+        "k": 0,
+        "n": 19,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.16817922405261626
+        ]
+      },
+      "Sports": {
+        "k": 0,
+        "n": 590,
+        "rate": 0.0,
+        "wilson_95": [
+          4.336808689942018e-19,
+          0.006468828950277155
+        ]
+      },
+      "Tech": {
+        "k": 0,
+        "n": 8,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.32440756488388023
+        ]
+      }
+    }
+  },
+  "M3": {
+    "k": 8,
+    "n": 1000,
+    "rate": 0.008,
+    "wilson_95": [
+      0.004059195818806103,
+      0.015706334530980144
+    ],
+    "event_cluster_bootstrap_95": [
+      0.003,
+      0.013972055888223553
+    ],
+    "eligible_events": 989,
+    "positive_events": 8,
+    "by_category": {
+      "Crypto": {
+        "k": 2,
+        "n": 139,
+        "rate": 0.014388489208633094,
+        "wilson_95": [
+          0.003954752436952022,
+          0.050941486270168326
+        ]
+      },
+      "Culture": {
+        "k": 0,
+        "n": 34,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.10151455415332376
+        ]
+      },
+      "Finance": {
+        "k": 1,
+        "n": 35,
+        "rate": 0.02857142857142857,
+        "wilson_95": [
+          0.005061491855444203,
+          0.14533087233613673
+        ]
+      },
+      "Politics": {
+        "k": 2,
+        "n": 47,
+        "rate": 0.0425531914893617,
+        "wilson_95": [
+          0.011748275966789345,
+          0.1424852767789945
+        ]
+      },
+      "Sports": {
+        "k": 2,
+        "n": 693,
+        "rate": 0.002886002886002886,
+        "wilson_95": [
+          0.0007918031919414955,
+          0.010461056007860837
+        ]
+      },
+      "Tech": {
+        "k": 1,
+        "n": 11,
+        "rate": 0.09090909090909091,
+        "wilson_95": [
+          0.016232172885884855,
+          0.37735843645159567
+        ]
+      },
+      "Weather": {
+        "k": 0,
+        "n": 41,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.08566757018443186
+        ]
+      }
+    }
+  },
+  "median_abs_delta_hours_M2": 24.0,
+  "csv_field_mismatches": [],
+  "positive_market_ids": {
+    "m1": [
+      "520318",
+      "821089",
+      "659069",
+      "621127",
+      "530903",
+      "502480",
+      "502302"
+    ],
+    "m2": [
+      "942709"
+    ],
+    "m3": [
+      "665226",
+      "1357997",
+      "520318",
+      "659069",
+      "1353142",
+      "1553593",
+      "1554878",
+      "1554899"
+    ]
+  }
+}

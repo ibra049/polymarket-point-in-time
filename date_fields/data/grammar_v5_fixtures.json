@@ -1,0 +1,128 @@
+{
+ "spec": "A17 grammar v5 adversarial fixtures, frozen before schedule_grammar_v5.py is written. All of these AND all 21 grammar_v4_fixtures.json cases must pass under v5.",
+ "fixtures": [
+  {
+   "id": "two_clocks_between",
+   "source": "R-009 s2 (895178 wording)",
+   "text": "This market will resolve to \"Yes\" if X for a majority of minutes during the 4-hour period between 2:00 PM and 5:59 PM ET on December 12, 2025.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "time_window_gap",
+   "primary": false
+  },
+  {
+   "id": "two_clocks_first_zoned",
+   "source": "R-010 extra 5 (238670 wording)",
+   "text": "This market will resolve to \"Yes\" if X happens between the launch of this market, August 27, 2025 at 4:00 PM ET, and 11:59:59 PM ET on October 31, 2025.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "time_window_gap",
+   "primary": false
+  },
+  {
+   "id": "two_clocks_24h",
+   "source": "R-010 extra 5 (252047 wording)",
+   "text": "This market will resolve to \"Yes\" if X happens between 00:00 ET and 23:59 ET on August 24, 2025.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "time_window_gap",
+   "primary": false
+  },
+  {
+   "id": "two_clocks_from_to",
+   "text": "This market will resolve to \"Yes\" if X trading occurs from 9:30 AM to 4:00 PM ET on February 23, 2026.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "time_window_gap",
+   "primary": false
+  },
+  {
+   "id": "noon_restatement_conservative_loss",
+   "source": "R-010 benign 506909 wording",
+   "text": "This market will resolve to \"Yes\" if X happens at 12:00 PM ET (noon) on September 30, 2025.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "time_window_gap",
+   "primary": false
+  },
+  {
+   "id": "time_first_unknown_zone",
+   "source": "R-009 s3 probe",
+   "text": "This market will resolve according to the price at 9 AM CEST on May 31, 2025.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "unknown_timezone",
+   "primary": false
+  },
+  {
+   "id": "time_first_unknown_zone_dotted",
+   "source": "R-009 s3 probe",
+   "text": "This market will resolve according to the price at 9 a.m. CEST on May 31, 2025.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "unknown_timezone",
+   "primary": false
+  },
+  {
+   "id": "time_first_known_zone_control",
+   "source": "R-009 s3 control",
+   "text": "This market will resolve according to the price at 9 AM PT on May 31, 2025.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F2",
+   "instant": "2025-05-31T16:00:00Z",
+   "primary": true
+  },
+  {
+   "id": "time_first_single_clock_control",
+   "text": "This market will resolve to \"Yes\" if X happens by 11:59 PM ET on May 31, 2025.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F2",
+   "instant": "2025-06-01T03:59:00Z",
+   "primary": true
+  },
+  {
+   "id": "F4_multi_day_to",
+   "source": "R-009 K3 #19 (1500815 wording)",
+   "text": "This market will resolve according to the winner of the tournament, currently scheduled for March 7 to March 15, 2026.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "multi_day_schedule",
+   "primary": false
+  },
+  {
+   "id": "F4_multi_day_dash",
+   "text": "This market will resolve according to the winner of the event, scheduled for March 7-15, 2026.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "multi_day_schedule",
+   "primary": false
+  },
+  {
+   "id": "F4_multi_day_through_timed",
+   "text": "This market will resolve according to the winner of the event, scheduled for March 7, 2026 at 10:00 AM ET through March 15, 2026.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "multi_day_schedule",
+   "primary": false
+  },
+  {
+   "id": "F4_single_day_with_later_to_control",
+   "text": "In the upcoming game, scheduled for March 7, 2025 at 7:00 PM ET, to be played in Boston: This market will resolve to \"A\" if A wins.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F4",
+   "instant": "2025-03-08T00:00:00Z",
+   "primary": true
+  },
+  {
+   "id": "F3_two_windows",
+   "source": "F3 free gap",
+   "text": "This market will resolve to \"Yes\" if X happens from June 1 to June 15, 2025 or from June 20 to June 30, 2025.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "multiple_deadlines",
+   "primary": false
+  },
+  {
+   "id": "F3_clock_in_gap_control",
+   "source": "F3 free gap",
+   "text": "This market will resolve to \"Yes\" if X happens between June 1, 2025 at 9:00 AM ET and June 30, 2025.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F3",
+   "instant": "2025-07-01T03:59:59Z",
+   "primary": true
+  }
+ ]
+}

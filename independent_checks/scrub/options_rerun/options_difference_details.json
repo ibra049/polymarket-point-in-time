@@ -1,0 +1,166 @@
+{
+  "source": "persisted first-pass output, no rerun or tolerance introduced",
+  "differences": [
+    {
+      "path": "/cheap_side/ci95",
+      "recorded": [
+        0.0,
+        0.0
+      ],
+      "rerun": [
+        0.0,
+        0.0
+      ],
+      "recorded_type": "list",
+      "rerun_type": "list",
+      "persisted_equal": true
+    },
+    {
+      "path": "/ci95",
+      "recorded": [
+        0.03225806451612903,
+        0.125
+      ],
+      "rerun": [
+        0.03225806451612903,
+        0.125
+      ],
+      "recorded_type": "list",
+      "rerun_type": "list",
+      "persisted_equal": true
+    },
+    {
+      "path": "/flat_benchmark/ci95",
+      "recorded": [
+        0.0,
+        0.0
+      ],
+      "rerun": [
+        0.0,
+        0.0
+      ],
+      "recorded_type": "list",
+      "rerun_type": "list",
+      "persisted_equal": true
+    },
+    {
+      "path": "/manifest/data_commit",
+      "recorded": "43ae08cee24dd8971b2a5b97f69f5a5b57cb6d04",
+      "rerun": "0000000000000000000000000000000000000000",
+      "recorded_type": "str",
+      "rerun_type": "str",
+      "persisted_equal": false
+    },
+    {
+      "path": "/manifest/data_verified",
+      "recorded": true,
+      "rerun": false,
+      "recorded_type": "bool",
+      "rerun_type": "bool",
+      "persisted_equal": false
+    },
+    {
+      "path": "/manifest/hash_verified",
+      "recorded": true,
+      "rerun": false,
+      "recorded_type": "bool",
+      "rerun_type": "bool",
+      "persisted_equal": false
+    },
+    {
+      "path": "/manifest/synthetic",
+      "recorded": false,
+      "rerun": true,
+      "recorded_type": "bool",
+      "rerun_type": "bool",
+      "persisted_equal": false
+    },
+    {
+      "path": "/non_tail/ci95",
+      "recorded": [
+        0.0,
+        0.24
+      ],
+      "rerun": [
+        0.0,
+        0.24
+      ],
+      "recorded_type": "list",
+      "rerun_type": "list",
+      "persisted_equal": true
+    },
+    {
+      "path": "/pipeline/synthetic_flat_error",
+      "recorded": 2.063824328080166e-05,
+      "rerun": 2.0638243426240876e-05,
+      "recorded_type": "float",
+      "rerun_type": "float",
+      "persisted_equal": false,
+      "rerun_minus_recorded": "1.45439216E-13"
+    },
+    {
+      "path": "/return_per_dollar/max",
+      "recorded": 0.020330248700464723,
+      "rerun": 0.020330248700467117,
+      "recorded_type": "float",
+      "rerun_type": "float",
+      "persisted_equal": false,
+      "rerun_minus_recorded": "2.394E-15"
+    },
+    {
+      "path": "/return_per_dollar/median",
+      "recorded": 0.00023870965660074581,
+      "rerun": 0.0002387096566001768,
+      "recorded_type": "float",
+      "rerun_type": "float",
+      "persisted_equal": false,
+      "rerun_minus_recorded": "-5.6901E-16"
+    },
+    {
+      "path": "/return_per_dollar/min",
+      "recorded": -0.011888699871853637,
+      "rerun": -0.011888699871843846,
+      "recorded_type": "float",
+      "rerun_type": "float",
+      "persisted_equal": false,
+      "rerun_minus_recorded": "9.791E-15"
+    },
+    {
+      "path": "/return_per_dollar/p25",
+      "recorded": -0.0024888337798788795,
+      "rerun": -0.002488833779874096,
+      "recorded_type": "float",
+      "rerun_type": "float",
+      "persisted_equal": false,
+      "rerun_minus_recorded": "4.7835E-15"
+    },
+    {
+      "path": "/return_per_dollar/p75",
+      "recorded": 0.0016638270131876945,
+      "rerun": 0.0016638270131854012,
+      "recorded_type": "float",
+      "rerun_type": "float",
+      "persisted_equal": false,
+      "rerun_minus_recorded": "-2.2933E-15"
+    },
+    {
+      "path": "/return_per_dollar/p95",
+      "recorded": 0.012882455774829214,
+      "rerun": 0.012882455774856142,
+      "recorded_type": "float",
+      "rerun_type": "float",
+      "persisted_equal": false,
+      "rerun_minus_recorded": "2.6928E-14"
+    }
+  ],
+  "persisted_non_manifest_unequal_paths": [
+    "/pipeline/synthetic_flat_error",
+    "/return_per_dollar/max",
+    "/return_per_dollar/median",
+    "/return_per_dollar/min",
+    "/return_per_dollar/p25",
+    "/return_per_dollar/p75",
+    "/return_per_dollar/p95"
+  ],
+  "first_pass_options_output_sha256": "7e70a8728bdad2894699f1ddfcefb8a40ba5e32fb3cbb29be6d36d03bf28caa0"
+}

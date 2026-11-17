@@ -1,0 +1,642 @@
+{
+ "question": "F1 markets whose question-text deadline changed after the on-chain creation record",
+ "prereg": "PN-1_deadline_edit_audit_prereg.md (frozen before counts)",
+ "dataset": "huggingface.co/datasets/vgregoire/polymarket-users @ 91ddb961 (Users v1.3, CC-BY-4.0)",
+ "inputs_sha256": {
+  "markets.parquet": "ca0a8438097fa830a2f94025e46196f4ff7a803656419e041f5c86c081c4a723",
+  "events.parquet": "634dc8f45bd88d8d742d9d8bdf564fbe98b0d7b4b004283fd3103a2e72882dce",
+  "F1_onchain_instants_final.json": "79cbe795329b78b8c996836196a6071f1028987f9db72896ed41f65f2c1ce510",
+  "creation_texts.jsonl": "5daf17a6d36ea3ae1f42408c0f8f38be31fc612c0a67ef5faa8a750c983f27ce"
+ },
+ "recount": {
+  "f1_rows": 5744,
+  "status_counts": {
+   "excluded: no creation event": 120,
+   "excluded: on-chain family F3": 3,
+   "excluded: on-chain parse invalid_date": 1,
+   "excluded: on-chain parse no_clause": 10,
+   "ok": 5610
+  },
+  "final_status_counts": {
+   "excluded: no creation event": 120,
+   "excluded: on-chain deadline not after creation (creation-text error, A13a)": 51,
+   "excluded: on-chain family F3": 3,
+   "excluded: on-chain parse invalid_date": 1,
+   "excluded: on-chain parse no_clause": 10,
+   "ok": 5559
+  },
+  "final_ok": 5559,
+  "final_ok_changed": 42,
+  "final_ok_changed_by_sign": {
+   "later": 32,
+   "earlier": 10
+  },
+  "a13a_label_count": 51,
+  "a13a_rule_recomputed_count": 51,
+  "a13a_rule_matches_label": true
+ },
+ "recorded_headline": {
+  "date": "2026-10-08",
+  "kept_ok": 5559,
+  "changed": 42,
+  "later": 32,
+  "earlier": 10,
+  "a13a_creation_text_errors": 51
+ },
+ "classification": {
+  "rule": "delta = current Gamma instant - creation on-chain instant; FORMAT |delta|<1h; MATERIAL-LATER delta>=1h; MATERIAL-EARLIER delta<=-1h",
+  "by_class": {
+   "FORMAT": {
+    "markets": 4,
+    "events": 4,
+    "median_abs_delta_days": 0.0007
+   },
+   "MATERIAL-LATER": {
+    "markets": 31,
+    "events": 13,
+    "median_abs_delta_days": 58.9583
+   },
+   "MATERIAL-EARLIER": {
+    "markets": 7,
+    "events": 7,
+    "median_abs_delta_days": 92.0417
+   }
+  },
+  "material": {
+   "markets": 38,
+   "events": 20,
+   "median_abs_delta_days": 58.9583,
+   "share_of_final_ok": 0.006836
+  },
+  "all_changed_events": 24,
+  "material_list": [
+   {
+    "market_id": "1731346",
+    "event_id": "310530",
+    "event_slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 275.0417
+   },
+   {
+    "market_id": "524292",
+    "event_id": "19123",
+    "event_slug": "will-trump-withdraw-the-us-from-nato-in-2025",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 184.0417
+   },
+   {
+    "market_id": "1731345",
+    "event_id": "310530",
+    "event_slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 91.0
+   },
+   {
+    "market_id": "573828",
+    "event_id": "36308",
+    "event_slug": "claude-5-released-by",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 89.9583
+   },
+   {
+    "market_id": "573830",
+    "event_id": "36309",
+    "event_slug": "grok-5-released-by",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 89.9583
+   },
+   {
+    "market_id": "587167",
+    "event_id": "41639",
+    "event_slug": "afd-deaths-foul-play-confirmed-in-2025",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 61.0417
+   },
+   {
+    "market_id": "587171",
+    "event_id": "41642",
+    "event_slug": "meek-mill-releases-ai-app-in-2025",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 61.0417
+   },
+   {
+    "market_id": "511867",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511868",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511869",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511870",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511871",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511872",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511873",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511874",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511877",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511878",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511879",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "511880",
+    "event_id": "14034",
+    "event_slug": "trump-administration",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 58.9583
+   },
+   {
+    "market_id": "568052",
+    "event_id": "34328",
+    "event_slug": "will-trump-pardon-ghislaine-maxwell-by-august-31",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 31.0
+   },
+   {
+    "market_id": "1731344",
+    "event_id": "310530",
+    "event_slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 30.0
+   },
+   {
+    "market_id": "581142",
+    "event_id": "39659",
+    "event_slug": "which-cities-will-trump-send-the-national-guard-to-by-september-30",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 15.0
+   },
+   {
+    "market_id": "581143",
+    "event_id": "39659",
+    "event_slug": "which-cities-will-trump-send-the-national-guard-to-by-september-30",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 15.0
+   },
+   {
+    "market_id": "581144",
+    "event_id": "39659",
+    "event_slug": "which-cities-will-trump-send-the-national-guard-to-by-september-30",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 15.0
+   },
+   {
+    "market_id": "581146",
+    "event_id": "39659",
+    "event_slug": "which-cities-will-trump-send-the-national-guard-to-by-september-30",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 15.0
+   },
+   {
+    "market_id": "581147",
+    "event_id": "39659",
+    "event_slug": "which-cities-will-trump-send-the-national-guard-to-by-september-30",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 15.0
+   },
+   {
+    "market_id": "581148",
+    "event_id": "39659",
+    "event_slug": "which-cities-will-trump-send-the-national-guard-to-by-september-30",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 15.0
+   },
+   {
+    "market_id": "518002",
+    "event_id": "16540",
+    "event_slug": "sunset-wildfire-burns-1k-or-more-acres-by-sunday",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 2.0
+   },
+   {
+    "market_id": "790889",
+    "event_id": "95318",
+    "event_slug": "will-baluta-flip-ciucu-for-bucharest-mayor-by-saturday",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 1.0
+   },
+   {
+    "market_id": "502112",
+    "event_id": "10919",
+    "event_slug": "bitcoin-all-time-high-in-june",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 0.9993
+   },
+   {
+    "market_id": "687789",
+    "event_id": "83837",
+    "event_slug": "sp500-all-time-high-by-december-31",
+    "cls": "MATERIAL-LATER",
+    "delta_days": 0.4583
+   },
+   {
+    "market_id": "504389",
+    "event_id": "11794",
+    "event_slug": "will-openai-release-gpt-5-in-2024",
+    "cls": "MATERIAL-EARLIER",
+    "delta_days": -365.0
+   },
+   {
+    "market_id": "663965",
+    "event_id": "72458",
+    "event_slug": "will-nancy-pelosi-announce-her-retirement-by",
+    "cls": "MATERIAL-EARLIER",
+    "delta_days": -365.0
+   },
+   {
+    "market_id": "253241",
+    "event_id": "902946",
+    "event_slug": "will-the-kyberswap-exploiters-demands-be-met",
+    "cls": "MATERIAL-EARLIER",
+    "delta_days": -197.959
+   },
+   {
+    "market_id": "581003",
+    "event_id": "39652",
+    "event_slug": "trump-renames-department-of-defense-by-september-30",
+    "cls": "MATERIAL-EARLIER",
+    "delta_days": -92.0417
+   },
+   {
+    "market_id": "552105",
+    "event_id": "26897",
+    "event_slug": "will-israel-declare-war-on-iran-by-next-friday",
+    "cls": "MATERIAL-EARLIER",
+    "delta_days": -10.0
+   },
+   {
+    "market_id": "525275",
+    "event_id": "19679",
+    "event_slug": "mary-kate-cornett-statement-by-friday",
+    "cls": "MATERIAL-EARLIER",
+    "delta_days": -7.0
+   },
+   {
+    "market_id": "525277",
+    "event_id": "19681",
+    "event_slug": "adan-test-pump-fun",
+    "cls": "MATERIAL-EARLIER",
+    "delta_days": -0.4993
+   }
+  ],
+  "format_list": [
+   {
+    "market_id": "1144762",
+    "event_id": "153773",
+    "delta_hours": 0.0167
+   },
+   {
+    "market_id": "248850",
+    "event_id": "901322",
+    "delta_hours": -0.0164
+   },
+   {
+    "market_id": "503296",
+    "event_id": "11438",
+    "delta_hours": -0.0164
+   },
+   {
+    "market_id": "506548",
+    "event_id": "12435",
+    "delta_hours": -0.0164
+   }
+  ]
+ },
+ "creation_text_errors_a13a": {
+  "markets": 51,
+  "events": 23,
+  "current_differs_from_creation": 43,
+  "median_abs_delta_days": 365.0,
+  "list": [
+   {
+    "market_id": "513495",
+    "event_id": "14590",
+    "delta_days": 366.0
+   },
+   {
+    "market_id": "514561",
+    "event_id": "15058",
+    "delta_days": 366.0
+   },
+   {
+    "market_id": "515500",
+    "event_id": "15416",
+    "delta_days": 366.0
+   },
+   {
+    "market_id": "253254",
+    "event_id": "902959",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "501679",
+    "event_id": "10707",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "512313",
+    "event_id": "14219",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "512314",
+    "event_id": "14219",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "512315",
+    "event_id": "14219",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "512316",
+    "event_id": "14219",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "512317",
+    "event_id": "14219",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "512318",
+    "event_id": "14219",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "512319",
+    "event_id": "14219",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513591",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513592",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513593",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513594",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513595",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513596",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513597",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513598",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513599",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513600",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513601",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "513603",
+    "event_id": "14615",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "515368",
+    "event_id": "15373",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599377",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599378",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599379",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599380",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599381",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599382",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599383",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599384",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599385",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599386",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "599387",
+    "event_id": "45024",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "919767",
+    "event_id": "38900",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "923647",
+    "event_id": "103773",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "994884",
+    "event_id": "98174",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "1333241",
+    "event_id": "36308",
+    "delta_days": 365.0
+   },
+   {
+    "market_id": "1117833",
+    "event_id": "146072",
+    "delta_days": 364.9993
+   },
+   {
+    "market_id": "1320787",
+    "event_id": "36308",
+    "delta_days": 334.0417
+   },
+   {
+    "market_id": "503964",
+    "event_id": "11631",
+    "delta_days": 30.0
+   },
+   {
+    "market_id": "504599",
+    "event_id": "11886",
+    "delta_days": 0.0
+   },
+   {
+    "market_id": "512535",
+    "event_id": "14260",
+    "delta_days": 0.0
+   },
+   {
+    "market_id": "512735",
+    "event_id": "14344",
+    "delta_days": 0.0
+   },
+   {
+    "market_id": "512758",
+    "event_id": "14351",
+    "delta_days": 0.0
+   },
+   {
+    "market_id": "513302",
+    "event_id": "14524",
+    "delta_days": 0.0
+   },
+   {
+    "market_id": "515757",
+    "event_id": "15583",
+    "delta_days": 0.0
+   },
+   {
+    "market_id": "567261",
+    "event_id": "33862",
+    "delta_days": 0.0
+   },
+   {
+    "market_id": "1716989",
+    "event_id": "307026",
+    "delta_days": 0.0
+   }
+  ]
+ },
+ "creation_texts_retrieved": {
+  "deadline_edits": 42,
+  "deadline_edits_total": 42,
+  "creation_text_errors": 51,
+  "creation_text_errors_total": 51
+ },
+ "creation_text_checks": {
+  "retrieved": 93,
+  "second_provider_same_bytes": 93,
+  "reparse_reproduces_f1_both_instants": 92,
+  "reparse_mismatch_market_ids": [
+   "1117833"
+  ],
+  "note": "1117833: creation text reads 'March 31, 20256'. The A13 run read this as 2025 (before the A13a regex fix); the committed grammar reads no year, infers 2026, and gives 23:59:59 ET (59 s from the current instant). The F1 file, as recorded, is what is classified."
+ },
+ "cannot_see": "Edit timing is unknown: only the creation record and the 2026-10-07 Gamma text are compared; intermediate edits, and edits that were later reverted, are invisible."
+}

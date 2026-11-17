@@ -1,0 +1,5331 @@
+{
+  "code_commit": "8020a2c9b82bd3656f1c4cf966cc689b8e162261",
+  "database_access": "mode=ro; PRAGMA query_only=ON; read transaction",
+  "database_sha256_after": "1fb018c6c3e0dc74d740d142120f26193c9b452825e89bb4524b566763425885",
+  "e002": {
+    "d1_recount": {
+      "best_net_cases": [
+        {
+          "direction": "long",
+          "event_id": "850698",
+          "fee": "0.0000",
+          "gross": "0.00",
+          "min_ask_size": "11.0",
+          "net": "0.0000",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "title": "How many ships transit Bab el-Mandeb Strait week of August 17?"
+        },
+        {
+          "direction": "long",
+          "event_id": "627652",
+          "fee": "0.02284780",
+          "gross": "0.018",
+          "min_ask_size": "19.99",
+          "net": "-0.00484780",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "title": "Bank of Russia decision in September?"
+        },
+        {
+          "direction": "long",
+          "event_id": "627652",
+          "fee": "0.02284780",
+          "gross": "0.018",
+          "min_ask_size": "19.99",
+          "net": "-0.00484780",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "title": "Bank of Russia decision in September?"
+        },
+        {
+          "direction": "short",
+          "event_id": "839075",
+          "fee": "0.00172235",
+          "gross": "-0.005",
+          "min_ask_size": "900.0",
+          "net": "-0.00672235",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "title": "Test Series England vs Pakistan: England vs Pakistan"
+        },
+        {
+          "direction": "long",
+          "event_id": "850698",
+          "fee": "0.0000",
+          "gross": "-0.01",
+          "min_ask_size": "102.0",
+          "net": "-0.0100",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "title": "How many ships transit Bab el-Mandeb Strait week of August 17?"
+        },
+        {
+          "direction": "short",
+          "event_id": "147974",
+          "fee": "0.000000",
+          "gross": "-0.010",
+          "min_ask_size": "10.0",
+          "net": "-0.010000",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "title": "United Russia seats in the next Russian legislative election?"
+        },
+        {
+          "direction": "short",
+          "event_id": "147974",
+          "fee": "0.000000",
+          "gross": "-0.010",
+          "min_ask_size": "10.0",
+          "net": "-0.010000",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "title": "United Russia seats in the next Russian legislative election?"
+        },
+        {
+          "direction": "short",
+          "event_id": "147974",
+          "fee": "0.000000",
+          "gross": "-0.010",
+          "min_ask_size": "10.0",
+          "net": "-0.010000",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "title": "United Russia seats in the next Russian legislative election?"
+        },
+        {
+          "direction": "long",
+          "event_id": "839075",
+          "fee": "0.00429895",
+          "gross": "-0.009",
+          "min_ask_size": "97.5",
+          "net": "-0.01329895",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "title": "Test Series England vs Pakistan: England vs Pakistan"
+        },
+        {
+          "direction": "short",
+          "event_id": "839075",
+          "fee": "0.00461030",
+          "gross": "-0.010",
+          "min_ask_size": "18.74",
+          "net": "-0.01461030",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "title": "Test Series England vs Pakistan: England vs Pakistan"
+        }
+      ],
+      "decision_reason": "zero opportunities at cadence",
+      "episodes": [],
+      "event_slots": [
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.036095",
+          "edge_short": "-0.045590",
+          "event_id": "825565",
+          "exchange_span_seconds": 30.014,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.01",
+          "gross_short": "-0.02",
+          "leg_ids": [
+            "3474300",
+            "3474304",
+            "3474309"
+          ],
+          "long_fee": "0.026095",
+          "long_size_ok": true,
+          "min_ask_size": "306.34",
+          "n_legs": 3,
+          "neg_risk_id": "0x03e4313a04ee8c0c1fdd7032e02db780651f833c944e59dd853a04e3079c1a00",
+          "one_minus_sum_bid": "0.02",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.025590",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12415,
+            13053,
+            12595
+          ],
+          "sum_ask_minus_one": "0.01",
+          "title": "Paris Saint-Germain FC vs. Stade Rennais FC 1901"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.026670",
+          "edge_short": "-0.065850",
+          "event_id": "825565",
+          "exchange_span_seconds": 0.113,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "0.00",
+          "gross_short": "-0.04",
+          "leg_ids": [
+            "3474300",
+            "3474304",
+            "3474309"
+          ],
+          "long_fee": "0.026670",
+          "long_size_ok": true,
+          "min_ask_size": "903.12",
+          "n_legs": 3,
+          "neg_risk_id": "0x03e4313a04ee8c0c1fdd7032e02db780651f833c944e59dd853a04e3079c1a00",
+          "one_minus_sum_bid": "0.04",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.025850",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            23796,
+            24473,
+            24001
+          ],
+          "sum_ask_minus_one": "0.00",
+          "title": "Paris Saint-Germain FC vs. Stade Rennais FC 1901"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.037005",
+          "edge_short": "-0.056195",
+          "event_id": "825565",
+          "exchange_span_seconds": 34.571,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.01",
+          "gross_short": "-0.03",
+          "leg_ids": [
+            "3474300",
+            "3474304",
+            "3474309"
+          ],
+          "long_fee": "0.027005",
+          "long_size_ok": true,
+          "min_ask_size": "1531.72",
+          "n_legs": 3,
+          "neg_risk_id": "0x03e4313a04ee8c0c1fdd7032e02db780651f833c944e59dd853a04e3079c1a00",
+          "one_minus_sum_bid": "0.03",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.026195",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35728,
+            36429,
+            35895
+          ],
+          "sum_ask_minus_one": "0.01",
+          "title": "Paris Saint-Germain FC vs. Stade Rennais FC 1901"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.037005",
+          "edge_short": "-0.056195",
+          "event_id": "825565",
+          "exchange_span_seconds": 0.079,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.01",
+          "gross_short": "-0.03",
+          "leg_ids": [
+            "3474300",
+            "3474304",
+            "3474309"
+          ],
+          "long_fee": "0.027005",
+          "long_size_ok": true,
+          "min_ask_size": "1183.0",
+          "n_legs": 3,
+          "neg_risk_id": "0x03e4313a04ee8c0c1fdd7032e02db780651f833c944e59dd853a04e3079c1a00",
+          "one_minus_sum_bid": "0.03",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.026195",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47548,
+            48238,
+            47719
+          ],
+          "sum_ask_minus_one": "0.01",
+          "title": "Paris Saint-Germain FC vs. Stade Rennais FC 1901"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.047330",
+          "edge_short": "-0.056195",
+          "event_id": "825565",
+          "exchange_span_seconds": 2.556,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.02",
+          "gross_short": "-0.03",
+          "leg_ids": [
+            "3474300",
+            "3474304",
+            "3474309"
+          ],
+          "long_fee": "0.027330",
+          "long_size_ok": true,
+          "min_ask_size": "161.42",
+          "n_legs": 3,
+          "neg_risk_id": "0x03e4313a04ee8c0c1fdd7032e02db780651f833c944e59dd853a04e3079c1a00",
+          "one_minus_sum_bid": "0.03",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.026195",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60267,
+            60993,
+            60452
+          ],
+          "sum_ask_minus_one": "0.02",
+          "title": "Paris Saint-Germain FC vs. Stade Rennais FC 1901"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.04070030",
+          "edge_short": "-0.02354215",
+          "event_id": "481717",
+          "exchange_span_seconds": 8.936,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.020",
+          "gross_short": "-0.003",
+          "leg_ids": [
+            "2252242",
+            "2252243",
+            "2252244",
+            "2252245",
+            "2252246"
+          ],
+          "long_fee": "0.02070030",
+          "long_size_ok": true,
+          "min_ask_size": "4742.31",
+          "n_legs": 5,
+          "neg_risk_id": "0x128d7d75905674954c484aa559fd18435376720a91f4614a2a5c2b60aa94c900",
+          "one_minus_sum_bid": "0.003",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.02054215",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            11937,
+            11933,
+            11934,
+            11935,
+            11936
+          ],
+          "sum_ask_minus_one": "0.020",
+          "title": "Fed Decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.04115030",
+          "edge_short": "-0.02399215",
+          "event_id": "481717",
+          "exchange_span_seconds": 0.103,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.020",
+          "gross_short": "-0.003",
+          "leg_ids": [
+            "2252242",
+            "2252243",
+            "2252244",
+            "2252245",
+            "2252246"
+          ],
+          "long_fee": "0.02115030",
+          "long_size_ok": true,
+          "min_ask_size": "25784.19",
+          "n_legs": 5,
+          "neg_risk_id": "0x128d7d75905674954c484aa559fd18435376720a91f4614a2a5c2b60aa94c900",
+          "one_minus_sum_bid": "0.003",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.02099215",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            23445,
+            23441,
+            23442,
+            23443,
+            23444
+          ],
+          "sum_ask_minus_one": "0.020",
+          "title": "Fed Decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.03136530",
+          "edge_short": "-0.03514830",
+          "event_id": "481717",
+          "exchange_span_seconds": 19.445,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.010",
+          "gross_short": "-0.014",
+          "leg_ids": [
+            "2252242",
+            "2252243",
+            "2252244",
+            "2252245",
+            "2252246"
+          ],
+          "long_fee": "0.02136530",
+          "long_size_ok": true,
+          "min_ask_size": "10949.87",
+          "n_legs": 5,
+          "neg_risk_id": "0x128d7d75905674954c484aa559fd18435376720a91f4614a2a5c2b60aa94c900",
+          "one_minus_sum_bid": "0.014",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.02114830",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35382,
+            35378,
+            35379,
+            35380,
+            35381
+          ],
+          "sum_ask_minus_one": "0.010",
+          "title": "Fed Decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.04115030",
+          "edge_short": "-0.02399215",
+          "event_id": "481717",
+          "exchange_span_seconds": 41.572,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.020",
+          "gross_short": "-0.003",
+          "leg_ids": [
+            "2252242",
+            "2252243",
+            "2252244",
+            "2252245",
+            "2252246"
+          ],
+          "long_fee": "0.02115030",
+          "long_size_ok": true,
+          "min_ask_size": "11611.5",
+          "n_legs": 5,
+          "neg_risk_id": "0x128d7d75905674954c484aa559fd18435376720a91f4614a2a5c2b60aa94c900",
+          "one_minus_sum_bid": "0.003",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.02099215",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47199,
+            47195,
+            47196,
+            47197,
+            47198
+          ],
+          "sum_ask_minus_one": "0.020",
+          "title": "Fed Decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.03031655",
+          "edge_short": "-0.03514830",
+          "event_id": "481717",
+          "exchange_span_seconds": 22.656,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.009",
+          "gross_short": "-0.014",
+          "leg_ids": [
+            "2252242",
+            "2252243",
+            "2252244",
+            "2252245",
+            "2252246"
+          ],
+          "long_fee": "0.02131655",
+          "long_size_ok": true,
+          "min_ask_size": "5735.13",
+          "n_legs": 5,
+          "neg_risk_id": "0x128d7d75905674954c484aa559fd18435376720a91f4614a2a5c2b60aa94c900",
+          "one_minus_sum_bid": "0.014",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.02114830",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            59937,
+            59933,
+            59934,
+            59935,
+            59936
+          ],
+          "sum_ask_minus_one": "0.009",
+          "title": "Fed Decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.23258170",
+          "edge_short": "-0.13344075",
+          "event_id": "831368",
+          "exchange_span_seconds": 1.68,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.210",
+          "gross_short": "-0.115",
+          "leg_ids": [
+            "3505953",
+            "3505964",
+            "3505974",
+            "3505985",
+            "3505999"
+          ],
+          "long_fee": "0.02258170",
+          "long_size_ok": true,
+          "min_ask_size": "10.0",
+          "n_legs": 5,
+          "neg_risk_id": "0x2570050a7be5c580b596803a5ad6f246b8750d55940aa01a0593e21449d61e00",
+          "one_minus_sum_bid": "0.115",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.01844075",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            13325,
+            12864,
+            12878,
+            12672,
+            12742
+          ],
+          "sum_ask_minus_one": "0.210",
+          "title": "White House # posts August 14 - August 21, 2026?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.455430",
+          "edge_short": "-0.297175",
+          "event_id": "807100",
+          "exchange_span_seconds": 4.961,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.42",
+          "gross_short": "-0.27",
+          "leg_ids": [
+            "3386070",
+            "3386071",
+            "3386072"
+          ],
+          "long_fee": "0.035430",
+          "long_size_ok": true,
+          "min_ask_size": "18.75",
+          "n_legs": 3,
+          "neg_risk_id": "0x31257ea321d83da8a83ab47723e3e80720758a36550f8debe73b53e278ed2300",
+          "one_minus_sum_bid": "0.27",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.027175",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12946,
+            13190,
+            13042
+          ],
+          "sum_ask_minus_one": "0.42",
+          "title": "CA River Plate vs. Independiente Santa Fe - Halftime Result"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.300995",
+          "edge_short": "-0.431995",
+          "event_id": "807100",
+          "exchange_span_seconds": 199.81,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.27",
+          "gross_short": "-0.41",
+          "leg_ids": [
+            "3386070",
+            "3386071",
+            "3386072"
+          ],
+          "long_fee": "0.030995",
+          "long_size_ok": true,
+          "min_ask_size": "19.12",
+          "n_legs": 3,
+          "neg_risk_id": "0x31257ea321d83da8a83ab47723e3e80720758a36550f8debe73b53e278ed2300",
+          "one_minus_sum_bid": "0.41",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.021995",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            24418,
+            24651,
+            24283
+          ],
+          "sum_ask_minus_one": "0.27",
+          "title": "CA River Plate vs. Independiente Santa Fe - Halftime Result"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.330740",
+          "edge_short": "-0.392775",
+          "event_id": "807100",
+          "exchange_span_seconds": 2.002,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.30",
+          "gross_short": "-0.37",
+          "leg_ids": [
+            "3386070",
+            "3386071",
+            "3386072"
+          ],
+          "long_fee": "0.030740",
+          "long_size_ok": true,
+          "min_ask_size": "19.5",
+          "n_legs": 3,
+          "neg_risk_id": "0x31257ea321d83da8a83ab47723e3e80720758a36550f8debe73b53e278ed2300",
+          "one_minus_sum_bid": "0.37",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.022775",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            36398,
+            36630,
+            36261
+          ],
+          "sum_ask_minus_one": "0.30",
+          "title": "CA River Plate vs. Independiente Santa Fe - Halftime Result"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.390470",
+          "edge_short": "-0.480900",
+          "event_id": "807100",
+          "exchange_span_seconds": 103.326,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.36",
+          "gross_short": "-0.46",
+          "leg_ids": [
+            "3386070",
+            "3386071",
+            "3386072"
+          ],
+          "long_fee": "0.030470",
+          "long_size_ok": true,
+          "min_ask_size": "253.3",
+          "n_legs": 3,
+          "neg_risk_id": "0x31257ea321d83da8a83ab47723e3e80720758a36550f8debe73b53e278ed2300",
+          "one_minus_sum_bid": "0.46",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.020900",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            48222,
+            48458,
+            48083
+          ],
+          "sum_ask_minus_one": "0.36",
+          "title": "CA River Plate vs. Independiente Santa Fe - Halftime Result"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.390470",
+          "edge_short": "-0.519940",
+          "event_id": "807100",
+          "exchange_span_seconds": 60.462,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.36",
+          "gross_short": "-0.50",
+          "leg_ids": [
+            "3386070",
+            "3386071",
+            "3386072"
+          ],
+          "long_fee": "0.030470",
+          "long_size_ok": true,
+          "min_ask_size": "247.35",
+          "n_legs": 3,
+          "neg_risk_id": "0x31257ea321d83da8a83ab47723e3e80720758a36550f8debe73b53e278ed2300",
+          "one_minus_sum_bid": "0.50",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.019940",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60978,
+            61210,
+            60841
+          ],
+          "sum_ask_minus_one": "0.36",
+          "title": "CA River Plate vs. Independiente Santa Fe - Halftime Result"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.07205095",
+          "edge_short": "-0.01974995",
+          "event_id": "839075",
+          "exchange_span_seconds": 17.781,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.061",
+          "gross_short": "-0.011",
+          "leg_ids": [
+            "3541724",
+            "3541727",
+            "3541731"
+          ],
+          "long_fee": "0.01105095",
+          "long_size_ok": true,
+          "min_ask_size": "516.66",
+          "n_legs": 3,
+          "neg_risk_id": "0x3737aff0051f976bcd9f5f112cbba960d3c26446b08c91b90fa8a485dd6ea000",
+          "one_minus_sum_bid": "0.011",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.00874995",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12536,
+            13059,
+            12585
+          ],
+          "sum_ask_minus_one": "0.061",
+          "title": "Test Series England vs Pakistan: England vs Pakistan"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.02074975",
+          "edge_short": "-0.03697900",
+          "event_id": "839075",
+          "exchange_span_seconds": 929.946,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.017",
+          "gross_short": "-0.034",
+          "leg_ids": [
+            "3541724",
+            "3541727",
+            "3541731"
+          ],
+          "long_fee": "0.00374975",
+          "long_size_ok": true,
+          "min_ask_size": "40.0",
+          "n_legs": 3,
+          "neg_risk_id": "0x3737aff0051f976bcd9f5f112cbba960d3c26446b08c91b90fa8a485dd6ea000",
+          "one_minus_sum_bid": "0.034",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.00297900",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            23775,
+            24405,
+            23980
+          ],
+          "sum_ask_minus_one": "0.017",
+          "title": "Test Series England vs Pakistan: England vs Pakistan"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.01329895",
+          "edge_short": "-0.01935095",
+          "event_id": "839075",
+          "exchange_span_seconds": 26.404,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.009",
+          "gross_short": "-0.015",
+          "leg_ids": [
+            "3541724",
+            "3541727",
+            "3541731"
+          ],
+          "long_fee": "0.00429895",
+          "long_size_ok": true,
+          "min_ask_size": "97.5",
+          "n_legs": 3,
+          "neg_risk_id": "0x3737aff0051f976bcd9f5f112cbba960d3c26446b08c91b90fa8a485dd6ea000",
+          "one_minus_sum_bid": "0.015",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.00435095",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35713,
+            36311,
+            35918
+          ],
+          "sum_ask_minus_one": "0.009",
+          "title": "Test Series England vs Pakistan: England vs Pakistan"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.02259715",
+          "edge_short": "-0.01461030",
+          "event_id": "839075",
+          "exchange_span_seconds": 68.984,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.017",
+          "gross_short": "-0.010",
+          "leg_ids": [
+            "3541724",
+            "3541727",
+            "3541731"
+          ],
+          "long_fee": "0.00559715",
+          "long_size_ok": true,
+          "min_ask_size": "18.74",
+          "n_legs": 3,
+          "neg_risk_id": "0x3737aff0051f976bcd9f5f112cbba960d3c26446b08c91b90fa8a485dd6ea000",
+          "one_minus_sum_bid": "0.010",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.00461030",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47533,
+            48130,
+            47696
+          ],
+          "sum_ask_minus_one": "0.017",
+          "title": "Test Series England vs Pakistan: England vs Pakistan"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.02547710",
+          "edge_short": "-0.00672235",
+          "event_id": "839075",
+          "exchange_span_seconds": 21.898,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.024",
+          "gross_short": "-0.005",
+          "leg_ids": [
+            "3541724",
+            "3541727",
+            "3541731"
+          ],
+          "long_fee": "0.00147710",
+          "long_size_ok": true,
+          "min_ask_size": "900.0",
+          "n_legs": 3,
+          "neg_risk_id": "0x3737aff0051f976bcd9f5f112cbba960d3c26446b08c91b90fa8a485dd6ea000",
+          "one_minus_sum_bid": "0.005",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.00172235",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60243,
+            60842,
+            60316
+          ],
+          "sum_ask_minus_one": "0.024",
+          "title": "Test Series England vs Pakistan: England vs Pakistan"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.05365420",
+          "edge_short": "-0.04660455",
+          "event_id": "432111",
+          "exchange_span_seconds": 2.123,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.034",
+          "gross_short": "-0.027",
+          "leg_ids": [
+            "2118801",
+            "2118802",
+            "2118805"
+          ],
+          "long_fee": "0.01965420",
+          "long_size_ok": true,
+          "min_ask_size": "11.23",
+          "n_legs": 3,
+          "neg_risk_id": "0x407cf01a2b91d7b6688c928bcd5812dfc0112c4bdcc82799f31b760bc9ab9c00",
+          "one_minus_sum_bid": "0.027",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.01960455",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12040,
+            12171,
+            12025
+          ],
+          "sum_ask_minus_one": "0.034",
+          "title": "Fed decisions (Jun-Sep)"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.05831180",
+          "edge_short": "-0.02613420",
+          "event_id": "432111",
+          "exchange_span_seconds": 42.541,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.038",
+          "gross_short": "-0.006",
+          "leg_ids": [
+            "2118801",
+            "2118802",
+            "2118805"
+          ],
+          "long_fee": "0.02031180",
+          "long_size_ok": true,
+          "min_ask_size": "21.04",
+          "n_legs": 3,
+          "neg_risk_id": "0x407cf01a2b91d7b6688c928bcd5812dfc0112c4bdcc82799f31b760bc9ab9c00",
+          "one_minus_sum_bid": "0.006",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.02013420",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            23548,
+            23664,
+            23533
+          ],
+          "sum_ask_minus_one": "0.038",
+          "title": "Fed decisions (Jun-Sep)"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.05875180",
+          "edge_short": "-0.03634920",
+          "event_id": "432111",
+          "exchange_span_seconds": 10.547,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.038",
+          "gross_short": "-0.016",
+          "leg_ids": [
+            "2118801",
+            "2118802",
+            "2118805"
+          ],
+          "long_fee": "0.02075180",
+          "long_size_ok": true,
+          "min_ask_size": "21.04",
+          "n_legs": 3,
+          "neg_risk_id": "0x407cf01a2b91d7b6688c928bcd5812dfc0112c4bdcc82799f31b760bc9ab9c00",
+          "one_minus_sum_bid": "0.016",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.02034920",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35488,
+            35613,
+            35474
+          ],
+          "sum_ask_minus_one": "0.038",
+          "title": "Fed decisions (Jun-Sep)"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.04792755",
+          "edge_short": "-0.01678920",
+          "event_id": "432111",
+          "exchange_span_seconds": 0.066,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.027",
+          "gross_short": "0.004",
+          "leg_ids": [
+            "2118801",
+            "2118802",
+            "2118805"
+          ],
+          "long_fee": "0.02092755",
+          "long_size_ok": true,
+          "min_ask_size": "8.56",
+          "n_legs": 3,
+          "neg_risk_id": "0x407cf01a2b91d7b6688c928bcd5812dfc0112c4bdcc82799f31b760bc9ab9c00",
+          "one_minus_sum_bid": "-0.004",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.02078920",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47309,
+            47431,
+            47293
+          ],
+          "sum_ask_minus_one": "0.027",
+          "title": "Fed decisions (Jun-Sep)"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.04792755",
+          "edge_short": "-0.01583875",
+          "event_id": "432111",
+          "exchange_span_seconds": 6.943,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.027",
+          "gross_short": "0.005",
+          "leg_ids": [
+            "2118801",
+            "2118802",
+            "2118805"
+          ],
+          "long_fee": "0.02092755",
+          "long_size_ok": true,
+          "min_ask_size": "8.56",
+          "n_legs": 3,
+          "neg_risk_id": "0x407cf01a2b91d7b6688c928bcd5812dfc0112c4bdcc82799f31b760bc9ab9c00",
+          "one_minus_sum_bid": "-0.005",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.02083875",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60046,
+            60165,
+            60032
+          ],
+          "sum_ask_minus_one": "0.027",
+          "title": "Fed decisions (Jun-Sep)"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.01853020",
+          "edge_short": "-0.03239350",
+          "event_id": "811684",
+          "exchange_span_seconds": 14.19,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.014",
+          "gross_short": "-0.028",
+          "leg_ids": [
+            "3404009",
+            "3404010",
+            "3404011"
+          ],
+          "long_fee": "0.00453020",
+          "long_size_ok": true,
+          "min_ask_size": "15.1",
+          "n_legs": 3,
+          "neg_risk_id": "0x59f53f792643eec6aafbf99ac8092ef33a7542a09ac1346c8cd394d3c02f4200",
+          "one_minus_sum_bid": "0.028",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.00439350",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12847,
+            12812,
+            13542
+          ],
+          "sum_ask_minus_one": "0.014",
+          "title": "SC St. T\u00f6nis 11/20 vs. Eintracht Frankfurt"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.07890744",
+          "edge_short": "-0.10125416",
+          "event_id": "769586",
+          "exchange_span_seconds": 12.205,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.054",
+          "gross_short": "-0.080",
+          "leg_ids": [
+            "3210140",
+            "3210141",
+            "3210142",
+            "3210143"
+          ],
+          "long_fee": "0.02490744",
+          "long_size_ok": true,
+          "min_ask_size": "21.2",
+          "n_legs": 4,
+          "neg_risk_id": "0x64c351f7c1c5e6f8c609007d56d70bfdc2d30fa12f53e2deb192e44f1a9c3b00",
+          "one_minus_sum_bid": "0.080",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.02125416",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12933,
+            13061,
+            13572,
+            13578
+          ],
+          "sum_ask_minus_one": "0.054",
+          "title": "Will Claude go down on __ days in August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.22727144",
+          "edge_short": "-0.20582680",
+          "event_id": "769586",
+          "exchange_span_seconds": 6.069,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.200",
+          "gross_short": "-0.188",
+          "leg_ids": [
+            "3210140",
+            "3210141",
+            "3210142",
+            "3210143"
+          ],
+          "long_fee": "0.02727144",
+          "long_size_ok": true,
+          "min_ask_size": "11.0",
+          "n_legs": 4,
+          "neg_risk_id": "0x64c351f7c1c5e6f8c609007d56d70bfdc2d30fa12f53e2deb192e44f1a9c3b00",
+          "one_minus_sum_bid": "0.188",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.01782680",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            24402,
+            24529,
+            25007,
+            25037
+          ],
+          "sum_ask_minus_one": "0.200",
+          "title": "Will Claude go down on __ days in August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.10056800",
+          "edge_short": "-0.07525064",
+          "event_id": "769586",
+          "exchange_span_seconds": 2.185,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.076",
+          "gross_short": "-0.054",
+          "leg_ids": [
+            "3210140",
+            "3210141",
+            "3210142",
+            "3210143"
+          ],
+          "long_fee": "0.02456800",
+          "long_size_ok": true,
+          "min_ask_size": "60.0",
+          "n_legs": 4,
+          "neg_risk_id": "0x64c351f7c1c5e6f8c609007d56d70bfdc2d30fa12f53e2deb192e44f1a9c3b00",
+          "one_minus_sum_bid": "0.054",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.02125064",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            36348,
+            36493,
+            36919,
+            36922
+          ],
+          "sum_ask_minus_one": "0.076",
+          "title": "Will Claude go down on __ days in August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.08310956",
+          "edge_short": "-0.06031068",
+          "event_id": "769586",
+          "exchange_span_seconds": 0.058,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.059",
+          "gross_short": "-0.039",
+          "leg_ids": [
+            "3210140",
+            "3210141",
+            "3210142",
+            "3210143"
+          ],
+          "long_fee": "0.02410956",
+          "long_size_ok": true,
+          "min_ask_size": "6.46",
+          "n_legs": 4,
+          "neg_risk_id": "0x64c351f7c1c5e6f8c609007d56d70bfdc2d30fa12f53e2deb192e44f1a9c3b00",
+          "one_minus_sum_bid": "0.039",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.02131068",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            48165,
+            48315,
+            48758,
+            48734
+          ],
+          "sum_ask_minus_one": "0.059",
+          "title": "Will Claude go down on __ days in August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.09088884",
+          "edge_short": "-0.07327084",
+          "event_id": "769586",
+          "exchange_span_seconds": 149.686,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.067",
+          "gross_short": "-0.053",
+          "leg_ids": [
+            "3210140",
+            "3210141",
+            "3210142",
+            "3210143"
+          ],
+          "long_fee": "0.02388884",
+          "long_size_ok": true,
+          "min_ask_size": "27.95",
+          "n_legs": 4,
+          "neg_risk_id": "0x64c351f7c1c5e6f8c609007d56d70bfdc2d30fa12f53e2deb192e44f1a9c3b00",
+          "one_minus_sum_bid": "0.053",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.02027084",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60923,
+            61059,
+            61503,
+            61487
+          ],
+          "sum_ask_minus_one": "0.067",
+          "title": "Will Claude go down on __ days in August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.024375",
+          "edge_short": "-0.033870",
+          "event_id": "814080",
+          "exchange_span_seconds": 5.918,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.01",
+          "gross_short": "-0.02",
+          "leg_ids": [
+            "3414490",
+            "3414494",
+            "3414498"
+          ],
+          "long_fee": "0.014375",
+          "long_size_ok": true,
+          "min_ask_size": "353.0",
+          "n_legs": 3,
+          "neg_risk_id": "0x7219629fddef5307ea9ccf7be849dfda40d04e485670ee0be936db3857908600",
+          "one_minus_sum_bid": "0.02",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.013870",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12210,
+            13404,
+            12215
+          ],
+          "sum_ask_minus_one": "0.01",
+          "title": "Arsenal FC vs. Coventry City FC"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.024375",
+          "edge_short": "-0.033870",
+          "event_id": "814080",
+          "exchange_span_seconds": 0.0,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.01",
+          "gross_short": "-0.02",
+          "leg_ids": [
+            "3414490",
+            "3414494",
+            "3414498"
+          ],
+          "long_fee": "0.014375",
+          "long_size_ok": true,
+          "min_ask_size": "2400.89",
+          "n_legs": 3,
+          "neg_risk_id": "0x7219629fddef5307ea9ccf7be849dfda40d04e485670ee0be936db3857908600",
+          "one_minus_sum_bid": "0.02",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.013870",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            23695,
+            24801,
+            23703
+          ],
+          "sum_ask_minus_one": "0.01",
+          "title": "Arsenal FC vs. Coventry City FC"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.18257025",
+          "edge_short": "-0.21913170",
+          "event_id": "686075",
+          "exchange_span_seconds": 1.018,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.153",
+          "gross_short": "-0.204",
+          "leg_ids": [
+            "2865401",
+            "2865402",
+            "2865403",
+            "2865404",
+            "2865405"
+          ],
+          "long_fee": "0.02957025",
+          "long_size_ok": true,
+          "min_ask_size": "40.1",
+          "n_legs": 5,
+          "neg_risk_id": "0x74bf7cf3253a4c9aae9f8fd2173a70416e06d8033f7e902995628767e129c200",
+          "one_minus_sum_bid": "0.204",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.01513170",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12698,
+            12476,
+            12551,
+            12375,
+            12738
+          ],
+          "sum_ask_minus_one": "0.153",
+          "title": "Emmys 2026: Outstanding variety series"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.08871370",
+          "edge_short": "-0.22267245",
+          "event_id": "686075",
+          "exchange_span_seconds": 14.703,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.062",
+          "gross_short": "-0.207",
+          "leg_ids": [
+            "2865401",
+            "2865402",
+            "2865403",
+            "2865404",
+            "2865405"
+          ],
+          "long_fee": "0.02671370",
+          "long_size_ok": true,
+          "min_ask_size": "62.4",
+          "n_legs": 5,
+          "neg_risk_id": "0x74bf7cf3253a4c9aae9f8fd2173a70416e06d8033f7e902995628767e129c200",
+          "one_minus_sum_bid": "0.207",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.01567245",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            24175,
+            23953,
+            24030,
+            23869,
+            24214
+          ],
+          "sum_ask_minus_one": "0.062",
+          "title": "Emmys 2026: Outstanding variety series"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.06361365",
+          "edge_short": "-0.18983940",
+          "event_id": "686075",
+          "exchange_span_seconds": 0.651,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.039",
+          "gross_short": "-0.174",
+          "leg_ids": [
+            "2865401",
+            "2865402",
+            "2865403",
+            "2865404",
+            "2865405"
+          ],
+          "long_fee": "0.02461365",
+          "long_size_ok": true,
+          "min_ask_size": "15.0",
+          "n_legs": 5,
+          "neg_risk_id": "0x74bf7cf3253a4c9aae9f8fd2173a70416e06d8033f7e902995628767e129c200",
+          "one_minus_sum_bid": "0.174",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.01583940",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            36144,
+            35915,
+            36003,
+            35821,
+            36161
+          ],
+          "sum_ask_minus_one": "0.039",
+          "title": "Emmys 2026: Outstanding variety series"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.03737225",
+          "edge_short": "-0.24064600",
+          "event_id": "686075",
+          "exchange_span_seconds": 30.857,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.015",
+          "gross_short": "-0.228",
+          "leg_ids": [
+            "2865401",
+            "2865402",
+            "2865403",
+            "2865404",
+            "2865405"
+          ],
+          "long_fee": "0.02237225",
+          "long_size_ok": true,
+          "min_ask_size": "20.1",
+          "n_legs": 5,
+          "neg_risk_id": "0x74bf7cf3253a4c9aae9f8fd2173a70416e06d8033f7e902995628767e129c200",
+          "one_minus_sum_bid": "0.228",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.01264600",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47965,
+            47738,
+            47803,
+            47642,
+            47982
+          ],
+          "sum_ask_minus_one": "0.015",
+          "title": "Emmys 2026: Outstanding variety series"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.03419850",
+          "edge_short": "-0.17775490",
+          "event_id": "686075",
+          "exchange_span_seconds": 99.869,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.012",
+          "gross_short": "-0.162",
+          "leg_ids": [
+            "2865401",
+            "2865402",
+            "2865403",
+            "2865404",
+            "2865405"
+          ],
+          "long_fee": "0.02219850",
+          "long_size_ok": true,
+          "min_ask_size": "19.0",
+          "n_legs": 5,
+          "neg_risk_id": "0x74bf7cf3253a4c9aae9f8fd2173a70416e06d8033f7e902995628767e129c200",
+          "one_minus_sum_bid": "0.162",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.01575490",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60721,
+            60480,
+            60545,
+            60389,
+            60736
+          ],
+          "sum_ask_minus_one": "0.012",
+          "title": "Emmys 2026: Outstanding variety series"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.039000",
+          "edge_short": "-0.058000",
+          "event_id": "777470",
+          "exchange_span_seconds": 1.117,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "metadata_disabled",
+            "metadata_disabled",
+            "metadata_disabled",
+            "metadata_disabled",
+            "metadata_disabled"
+          ],
+          "gross_long": "-0.039",
+          "gross_short": "-0.058",
+          "leg_ids": [
+            "3242434",
+            "3242435",
+            "3242436",
+            "3242437",
+            "3242438"
+          ],
+          "long_fee": "0.000000",
+          "long_size_ok": true,
+          "min_ask_size": "45.0",
+          "n_legs": 5,
+          "neg_risk_id": "0x8f9fec6f5a011c03424dafa9e0cfbb42dfd065434b12b17ba8f135ccfff12b00",
+          "one_minus_sum_bid": "0.058",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.000000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            13265,
+            13164,
+            13154,
+            13470,
+            13016
+          ],
+          "sum_ask_minus_one": "0.039",
+          "title": "Avg. # of ships transiting Bab el-Mandeb Strait end of August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.084000",
+          "edge_short": "-0.080000",
+          "event_id": "777470",
+          "exchange_span_seconds": 54.52,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "-0.084",
+          "gross_short": "-0.080",
+          "leg_ids": [
+            "3242434",
+            "3242435",
+            "3242436",
+            "3242437",
+            "3242438"
+          ],
+          "long_fee": "0.000000",
+          "long_size_ok": true,
+          "min_ask_size": "25.0",
+          "n_legs": 5,
+          "neg_risk_id": "0x8f9fec6f5a011c03424dafa9e0cfbb42dfd065434b12b17ba8f135ccfff12b00",
+          "one_minus_sum_bid": "0.080",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.000000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            24692,
+            24464,
+            24476,
+            24830,
+            24482
+          ],
+          "sum_ask_minus_one": "0.084",
+          "title": "Avg. # of ships transiting Bab el-Mandeb Strait end of August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.071000",
+          "edge_short": "-0.054000",
+          "event_id": "777470",
+          "exchange_span_seconds": 29.858,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "-0.071",
+          "gross_short": "-0.054",
+          "leg_ids": [
+            "3242434",
+            "3242435",
+            "3242436",
+            "3242437",
+            "3242438"
+          ],
+          "long_fee": "0.000000",
+          "long_size_ok": true,
+          "min_ask_size": "45.0",
+          "n_legs": 5,
+          "neg_risk_id": "0x8f9fec6f5a011c03424dafa9e0cfbb42dfd065434b12b17ba8f135ccfff12b00",
+          "one_minus_sum_bid": "0.054",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.000000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            36670,
+            36439,
+            36450,
+            36814,
+            36455
+          ],
+          "sum_ask_minus_one": "0.071",
+          "title": "Avg. # of ships transiting Bab el-Mandeb Strait end of August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.078000",
+          "edge_short": "-0.057000",
+          "event_id": "777470",
+          "exchange_span_seconds": 0.636,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "-0.078",
+          "gross_short": "-0.057",
+          "leg_ids": [
+            "3242434",
+            "3242435",
+            "3242436",
+            "3242437",
+            "3242438"
+          ],
+          "long_fee": "0.000000",
+          "long_size_ok": true,
+          "min_ask_size": "60.0",
+          "n_legs": 5,
+          "neg_risk_id": "0x8f9fec6f5a011c03424dafa9e0cfbb42dfd065434b12b17ba8f135ccfff12b00",
+          "one_minus_sum_bid": "0.057",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.000000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            48498,
+            48247,
+            48246,
+            48642,
+            48285
+          ],
+          "sum_ask_minus_one": "0.078",
+          "title": "Avg. # of ships transiting Bab el-Mandeb Strait end of August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.060000",
+          "edge_short": "-0.066000",
+          "event_id": "777470",
+          "exchange_span_seconds": 1.097,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "-0.060",
+          "gross_short": "-0.066",
+          "leg_ids": [
+            "3242434",
+            "3242435",
+            "3242436",
+            "3242437",
+            "3242438"
+          ],
+          "long_fee": "0.000000",
+          "long_size_ok": true,
+          "min_ask_size": "40.0",
+          "n_legs": 5,
+          "neg_risk_id": "0x8f9fec6f5a011c03424dafa9e0cfbb42dfd065434b12b17ba8f135ccfff12b00",
+          "one_minus_sum_bid": "0.066",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.000000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            61246,
+            61003,
+            60998,
+            61394,
+            61033
+          ],
+          "sum_ask_minus_one": "0.060",
+          "title": "Avg. # of ships transiting Bab el-Mandeb Strait end of August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.032255",
+          "edge_short": "-0.03604820",
+          "event_id": "627652",
+          "exchange_span_seconds": 0.836,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.01",
+          "gross_short": "-0.014",
+          "leg_ids": [
+            "2661522",
+            "2661523",
+            "2661524"
+          ],
+          "long_fee": "0.022255",
+          "long_size_ok": true,
+          "min_ask_size": "19.96",
+          "n_legs": 3,
+          "neg_risk_id": "0x948091e9a33bc51aaf4ad145cd8a4d5c6656e6fb83d5d8c9360ca3dc727c2300",
+          "one_minus_sum_bid": "0.014",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.02204820",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12439,
+            12393,
+            12384
+          ],
+          "sum_ask_minus_one": "0.01",
+          "title": "Bank of Russia decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.03435280",
+          "edge_short": "-0.03604820",
+          "event_id": "627652",
+          "exchange_span_seconds": 11.584,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.012",
+          "gross_short": "-0.014",
+          "leg_ids": [
+            "2661522",
+            "2661523",
+            "2661524"
+          ],
+          "long_fee": "0.02235280",
+          "long_size_ok": true,
+          "min_ask_size": "19.99",
+          "n_legs": 3,
+          "neg_risk_id": "0x948091e9a33bc51aaf4ad145cd8a4d5c6656e6fb83d5d8c9360ca3dc727c2300",
+          "one_minus_sum_bid": "0.014",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.02204820",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            23929,
+            23881,
+            23864
+          ],
+          "sum_ask_minus_one": "0.012",
+          "title": "Bank of Russia decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.00484780",
+          "edge_short": "-0.08392095",
+          "event_id": "627652",
+          "exchange_span_seconds": 33.216,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "0.018",
+          "gross_short": "-0.061",
+          "leg_ids": [
+            "2661522",
+            "2661523",
+            "2661524"
+          ],
+          "long_fee": "0.02284780",
+          "long_size_ok": true,
+          "min_ask_size": "19.99",
+          "n_legs": 3,
+          "neg_risk_id": "0x948091e9a33bc51aaf4ad145cd8a4d5c6656e6fb83d5d8c9360ca3dc727c2300",
+          "one_minus_sum_bid": "0.061",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.02292095",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35891,
+            35834,
+            35825
+          ],
+          "sum_ask_minus_one": "-0.018",
+          "title": "Bank of Russia decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.00484780",
+          "edge_short": "-0.09403595",
+          "event_id": "627652",
+          "exchange_span_seconds": 16.657,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "0.018",
+          "gross_short": "-0.071",
+          "leg_ids": [
+            "2661522",
+            "2661523",
+            "2661524"
+          ],
+          "long_fee": "0.02284780",
+          "long_size_ok": true,
+          "min_ask_size": "19.99",
+          "n_legs": 3,
+          "neg_risk_id": "0x948091e9a33bc51aaf4ad145cd8a4d5c6656e6fb83d5d8c9360ca3dc727c2300",
+          "one_minus_sum_bid": "0.071",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.02303595",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47715,
+            47656,
+            47645
+          ],
+          "sum_ask_minus_one": "-0.018",
+          "title": "Bank of Russia decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.02557655",
+          "edge_short": "-0.05351595",
+          "event_id": "627652",
+          "exchange_span_seconds": 0.997,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.003",
+          "gross_short": "-0.031",
+          "leg_ids": [
+            "2661522",
+            "2661523",
+            "2661524"
+          ],
+          "long_fee": "0.02257655",
+          "long_size_ok": true,
+          "min_ask_size": "9.99",
+          "n_legs": 3,
+          "neg_risk_id": "0x948091e9a33bc51aaf4ad145cd8a4d5c6656e6fb83d5d8c9360ca3dc727c2300",
+          "one_minus_sum_bid": "0.031",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.02251595",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60457,
+            60397,
+            60391
+          ],
+          "sum_ask_minus_one": "0.003",
+          "title": "Bank of Russia decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.051490",
+          "edge_short": "-0.040995",
+          "event_id": "825567",
+          "exchange_span_seconds": 12.866,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.02",
+          "gross_short": "-0.01",
+          "leg_ids": [
+            "3474305",
+            "3474310",
+            "3474314"
+          ],
+          "long_fee": "0.031490",
+          "long_size_ok": true,
+          "min_ask_size": "2002.76",
+          "n_legs": 3,
+          "neg_risk_id": "0x98b71c96427312760aa92979059539879945b3f6b0968af1aa9f48b6afd6d400",
+          "one_minus_sum_bid": "0.01",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.030995",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12614,
+            12443,
+            12339
+          ],
+          "sum_ask_minus_one": "0.02",
+          "title": "Newcastle United FC vs. Liverpool FC"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.051490",
+          "edge_short": "-0.040995",
+          "event_id": "825567",
+          "exchange_span_seconds": 39.604,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.02",
+          "gross_short": "-0.01",
+          "leg_ids": [
+            "3474305",
+            "3474310",
+            "3474314"
+          ],
+          "long_fee": "0.031490",
+          "long_size_ok": true,
+          "min_ask_size": "3173.57",
+          "n_legs": 3,
+          "neg_risk_id": "0x98b71c96427312760aa92979059539879945b3f6b0968af1aa9f48b6afd6d400",
+          "one_minus_sum_bid": "0.01",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.030995",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            24081,
+            23921,
+            23833
+          ],
+          "sum_ask_minus_one": "0.02",
+          "title": "Newcastle United FC vs. Liverpool FC"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.051490",
+          "edge_short": "-0.040995",
+          "event_id": "825567",
+          "exchange_span_seconds": 10.477,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.02",
+          "gross_short": "-0.01",
+          "leg_ids": [
+            "3474305",
+            "3474310",
+            "3474314"
+          ],
+          "long_fee": "0.031490",
+          "long_size_ok": true,
+          "min_ask_size": "2727.96",
+          "n_legs": 3,
+          "neg_risk_id": "0x98b71c96427312760aa92979059539879945b3f6b0968af1aa9f48b6afd6d400",
+          "one_minus_sum_bid": "0.01",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.030995",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35994,
+            35694,
+            35794
+          ],
+          "sum_ask_minus_one": "0.02",
+          "title": "Newcastle United FC vs. Liverpool FC"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.061475",
+          "edge_short": "-0.030990",
+          "event_id": "825567",
+          "exchange_span_seconds": 0.19,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.03",
+          "gross_short": "0.00",
+          "leg_ids": [
+            "3474305",
+            "3474310",
+            "3474314"
+          ],
+          "long_fee": "0.031475",
+          "long_size_ok": true,
+          "min_ask_size": "4766.32",
+          "n_legs": 3,
+          "neg_risk_id": "0x98b71c96427312760aa92979059539879945b3f6b0968af1aa9f48b6afd6d400",
+          "one_minus_sum_bid": "0.00",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.030990",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47813,
+            47438,
+            47601
+          ],
+          "sum_ask_minus_one": "0.03",
+          "title": "Newcastle United FC vs. Liverpool FC"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.061475",
+          "edge_short": "-0.030990",
+          "event_id": "825567",
+          "exchange_span_seconds": 0.046,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.03",
+          "gross_short": "0.00",
+          "leg_ids": [
+            "3474305",
+            "3474310",
+            "3474314"
+          ],
+          "long_fee": "0.031475",
+          "long_size_ok": true,
+          "min_ask_size": "8646.94",
+          "n_legs": 3,
+          "neg_risk_id": "0x98b71c96427312760aa92979059539879945b3f6b0968af1aa9f48b6afd6d400",
+          "one_minus_sum_bid": "0.00",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.030990",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60554,
+            60171,
+            60345
+          ],
+          "sum_ask_minus_one": "0.03",
+          "title": "Newcastle United FC vs. Liverpool FC"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.0100",
+          "edge_short": "-0.1000",
+          "event_id": "850698",
+          "exchange_span_seconds": 12.975,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "metadata_disabled",
+            "metadata_disabled",
+            "metadata_disabled",
+            "metadata_disabled"
+          ],
+          "gross_long": "-0.01",
+          "gross_short": "-0.10",
+          "leg_ids": [
+            "3592068",
+            "3592069",
+            "3592070",
+            "3592071"
+          ],
+          "long_fee": "0.0000",
+          "long_size_ok": true,
+          "min_ask_size": "102.0",
+          "n_legs": 4,
+          "neg_risk_id": "0x9de5095b8d362daa74afb3cf30abba708a5ff37d575dce69a9e2c5f7bde7d600",
+          "one_minus_sum_bid": "0.10",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.0000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            13201,
+            13498,
+            13511,
+            13631
+          ],
+          "sum_ask_minus_one": "0.01",
+          "title": "How many ships transit Bab el-Mandeb Strait week of August 17?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.0300",
+          "edge_short": "-0.1100",
+          "event_id": "850698",
+          "exchange_span_seconds": 16.071,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "-0.03",
+          "gross_short": "-0.11",
+          "leg_ids": [
+            "3592068",
+            "3592069",
+            "3592070",
+            "3592071"
+          ],
+          "long_fee": "0.0000",
+          "long_size_ok": true,
+          "min_ask_size": "25.0",
+          "n_legs": 4,
+          "neg_risk_id": "0x9de5095b8d362daa74afb3cf30abba708a5ff37d575dce69a9e2c5f7bde7d600",
+          "one_minus_sum_bid": "0.11",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.0000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            24656,
+            24949,
+            24971,
+            25082
+          ],
+          "sum_ask_minus_one": "0.03",
+          "title": "How many ships transit Bab el-Mandeb Strait week of August 17?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "0.0000",
+          "edge_short": "-0.2100",
+          "event_id": "850698",
+          "exchange_span_seconds": 0.287,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "0.00",
+          "gross_short": "-0.21",
+          "leg_ids": [
+            "3592068",
+            "3592069",
+            "3592070",
+            "3592071"
+          ],
+          "long_fee": "0.0000",
+          "long_size_ok": true,
+          "min_ask_size": "11.0",
+          "n_legs": 4,
+          "neg_risk_id": "0x9de5095b8d362daa74afb3cf30abba708a5ff37d575dce69a9e2c5f7bde7d600",
+          "one_minus_sum_bid": "0.21",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.0000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            36601,
+            36852,
+            36880,
+            36870
+          ],
+          "sum_ask_minus_one": "0.00",
+          "title": "How many ships transit Bab el-Mandeb Strait week of August 17?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.0200",
+          "edge_short": "-0.0900",
+          "event_id": "850698",
+          "exchange_span_seconds": 121.636,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "-0.02",
+          "gross_short": "-0.09",
+          "leg_ids": [
+            "3592068",
+            "3592069",
+            "3592070",
+            "3592071"
+          ],
+          "long_fee": "0.0000",
+          "long_size_ok": true,
+          "min_ask_size": "50.1",
+          "n_legs": 4,
+          "neg_risk_id": "0x9de5095b8d362daa74afb3cf30abba708a5ff37d575dce69a9e2c5f7bde7d600",
+          "one_minus_sum_bid": "0.09",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.0000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            48414,
+            48654,
+            48681,
+            48664
+          ],
+          "sum_ask_minus_one": "0.02",
+          "title": "How many ships transit Bab el-Mandeb Strait week of August 17?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.0600",
+          "edge_short": "-0.1000",
+          "event_id": "850698",
+          "exchange_span_seconds": 14.87,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "-0.06",
+          "gross_short": "-0.10",
+          "leg_ids": [
+            "3592068",
+            "3592069",
+            "3592070",
+            "3592071"
+          ],
+          "long_fee": "0.0000",
+          "long_size_ok": true,
+          "min_ask_size": "117.07",
+          "n_legs": 4,
+          "neg_risk_id": "0x9de5095b8d362daa74afb3cf30abba708a5ff37d575dce69a9e2c5f7bde7d600",
+          "one_minus_sum_bid": "0.10",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.0000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            61087,
+            61381,
+            61416,
+            61382
+          ],
+          "sum_ask_minus_one": "0.06",
+          "title": "How many ships transit Bab el-Mandeb Strait week of August 17?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.03913104",
+          "edge_short": "-0.10974860",
+          "event_id": "101977",
+          "exchange_span_seconds": 72.51,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.026",
+          "gross_short": "-0.101",
+          "leg_ids": [
+            "909055",
+            "909056",
+            "909057",
+            "909058",
+            "909059",
+            "909060",
+            "909061"
+          ],
+          "long_fee": "0.01313104",
+          "long_size_ok": false,
+          "min_ask_size": "1.0",
+          "n_legs": 7,
+          "neg_risk_id": "0xad87a86d64b719a89107afa83f52a36ff440296ec57c9141530f3035927fa500",
+          "one_minus_sum_bid": "0.101",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.00874860",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            24394,
+            23950,
+            23918,
+            24393,
+            24261,
+            24712,
+            24755
+          ],
+          "sum_ask_minus_one": "0.026",
+          "title": "How many Republican House members not running in 2026?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.03082928",
+          "edge_short": "-0.10398476",
+          "event_id": "101977",
+          "exchange_span_seconds": 8.308,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.018",
+          "gross_short": "-0.095",
+          "leg_ids": [
+            "909055",
+            "909056",
+            "909057",
+            "909058",
+            "909059",
+            "909060",
+            "909061"
+          ],
+          "long_fee": "0.01282928",
+          "long_size_ok": false,
+          "min_ask_size": "1.0",
+          "n_legs": 7,
+          "neg_risk_id": "0xad87a86d64b719a89107afa83f52a36ff440296ec57c9141530f3035927fa500",
+          "one_minus_sum_bid": "0.095",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.00898476",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            36372,
+            35922,
+            35882,
+            36371,
+            36234,
+            36690,
+            36740
+          ],
+          "sum_ask_minus_one": "0.018",
+          "title": "How many Republican House members not running in 2026?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.02461040",
+          "edge_short": "-0.11263064",
+          "event_id": "101977",
+          "exchange_span_seconds": 49.67,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.012",
+          "gross_short": "-0.104",
+          "leg_ids": [
+            "909055",
+            "909056",
+            "909057",
+            "909058",
+            "909059",
+            "909060",
+            "909061"
+          ],
+          "long_fee": "0.01261040",
+          "long_size_ok": false,
+          "min_ask_size": "1.0",
+          "n_legs": 7,
+          "neg_risk_id": "0xad87a86d64b719a89107afa83f52a36ff440296ec57c9141530f3035927fa500",
+          "one_minus_sum_bid": "0.104",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.00863064",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            48196,
+            47743,
+            47706,
+            48191,
+            48054,
+            48521,
+            48569
+          ],
+          "sum_ask_minus_one": "0.012",
+          "title": "How many Republican House members not running in 2026?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.04892540",
+          "edge_short": "-0.11160412",
+          "event_id": "101977",
+          "exchange_span_seconds": 63.288,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.037",
+          "gross_short": "-0.103",
+          "leg_ids": [
+            "909055",
+            "909056",
+            "909057",
+            "909058",
+            "909059",
+            "909060",
+            "909061"
+          ],
+          "long_fee": "0.01192540",
+          "long_size_ok": false,
+          "min_ask_size": "1.0",
+          "n_legs": 7,
+          "neg_risk_id": "0xad87a86d64b719a89107afa83f52a36ff440296ec57c9141530f3035927fa500",
+          "one_minus_sum_bid": "0.103",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.00860412",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60953,
+            60486,
+            60451,
+            60949,
+            60800,
+            61266,
+            61312
+          ],
+          "sum_ask_minus_one": "0.037",
+          "title": "How many Republican House members not running in 2026?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.13366790",
+          "edge_short": "-0.11651490",
+          "event_id": "688518",
+          "exchange_span_seconds": 198.0,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.100",
+          "gross_short": "-0.090",
+          "leg_ids": [
+            "2871900",
+            "2871901",
+            "2871902",
+            "2871903",
+            "2871904"
+          ],
+          "long_fee": "0.03366790",
+          "long_size_ok": true,
+          "min_ask_size": "21.01",
+          "n_legs": 5,
+          "neg_risk_id": "0xae35db19a7ac8109beb0abc95336e8656deddab2258a8cd684ee91e4dc1d3200",
+          "one_minus_sum_bid": "0.090",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.02651490",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12430,
+            12683,
+            13760,
+            12826,
+            12733
+          ],
+          "sum_ask_minus_one": "0.100",
+          "title": "Emmys 2026: Outstanding lead actor in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.13470975",
+          "edge_short": "-0.14916720",
+          "event_id": "688518",
+          "exchange_span_seconds": 76.339,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.101",
+          "gross_short": "-0.124",
+          "leg_ids": [
+            "2871900",
+            "2871901",
+            "2871902",
+            "2871903",
+            "2871904"
+          ],
+          "long_fee": "0.03370975",
+          "long_size_ok": false,
+          "min_ask_size": "0.36",
+          "n_legs": 5,
+          "neg_risk_id": "0xae35db19a7ac8109beb0abc95336e8656deddab2258a8cd684ee91e4dc1d3200",
+          "one_minus_sum_bid": "0.124",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.02516720",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            23916,
+            24164,
+            25215,
+            24309,
+            24217
+          ],
+          "sum_ask_minus_one": "0.101",
+          "title": "Emmys 2026: Outstanding lead actor in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.11406975",
+          "edge_short": "-0.14432075",
+          "event_id": "688518",
+          "exchange_span_seconds": 13.698,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.081",
+          "gross_short": "-0.119",
+          "leg_ids": [
+            "2871900",
+            "2871901",
+            "2871902",
+            "2871903",
+            "2871904"
+          ],
+          "long_fee": "0.03306975",
+          "long_size_ok": false,
+          "min_ask_size": "0.36",
+          "n_legs": 5,
+          "neg_risk_id": "0xae35db19a7ac8109beb0abc95336e8656deddab2258a8cd684ee91e4dc1d3200",
+          "one_minus_sum_bid": "0.119",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.02532075",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35880,
+            36134,
+            37172,
+            36286,
+            36192
+          ],
+          "sum_ask_minus_one": "0.081",
+          "title": "Emmys 2026: Outstanding lead actor in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.12439475",
+          "edge_short": "-0.13575410",
+          "event_id": "688518",
+          "exchange_span_seconds": 1.129,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.091",
+          "gross_short": "-0.110",
+          "leg_ids": [
+            "2871900",
+            "2871901",
+            "2871902",
+            "2871903",
+            "2871904"
+          ],
+          "long_fee": "0.03339475",
+          "long_size_ok": false,
+          "min_ask_size": "0.36",
+          "n_legs": 5,
+          "neg_risk_id": "0xae35db19a7ac8109beb0abc95336e8656deddab2258a8cd684ee91e4dc1d3200",
+          "one_minus_sum_bid": "0.110",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.02575410",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47703,
+            47952,
+            49023,
+            48113,
+            48011
+          ],
+          "sum_ask_minus_one": "0.091",
+          "title": "Emmys 2026: Outstanding lead actor in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.14461475",
+          "edge_short": "-0.10928455",
+          "event_id": "688518",
+          "exchange_span_seconds": 93.524,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.111",
+          "gross_short": "-0.083",
+          "leg_ids": [
+            "2871900",
+            "2871901",
+            "2871902",
+            "2871903",
+            "2871904"
+          ],
+          "long_fee": "0.03361475",
+          "long_size_ok": false,
+          "min_ask_size": "0.36",
+          "n_legs": 5,
+          "neg_risk_id": "0xae35db19a7ac8109beb0abc95336e8656deddab2258a8cd684ee91e4dc1d3200",
+          "one_minus_sum_bid": "0.083",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.02628455",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60449,
+            60705,
+            61763,
+            60868,
+            60765
+          ],
+          "sum_ask_minus_one": "0.111",
+          "title": "Emmys 2026: Outstanding lead actor in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.05744980",
+          "edge_short": "-0.03442995",
+          "event_id": "688094",
+          "exchange_span_seconds": 3.158,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.042",
+          "gross_short": "-0.019",
+          "leg_ids": [
+            "2870692",
+            "2870693",
+            "2870694"
+          ],
+          "long_fee": "0.01544980",
+          "long_size_ok": true,
+          "min_ask_size": "192.4",
+          "n_legs": 3,
+          "neg_risk_id": "0xb05c906549cfc0d2e7b93613e3040409261aa9c537673a1eb58621d24349e500",
+          "one_minus_sum_bid": "0.019",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.01542995",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12451,
+            12363,
+            12893
+          ],
+          "sum_ask_minus_one": "0.042",
+          "title": "Bank of Israel Decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.03684980",
+          "edge_short": "-0.04346495",
+          "event_id": "688094",
+          "exchange_span_seconds": 0.282,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.022",
+          "gross_short": "-0.029",
+          "leg_ids": [
+            "2870692",
+            "2870693",
+            "2870694"
+          ],
+          "long_fee": "0.01484980",
+          "long_size_ok": true,
+          "min_ask_size": "35.2",
+          "n_legs": 3,
+          "neg_risk_id": "0xb05c906549cfc0d2e7b93613e3040409261aa9c537673a1eb58621d24349e500",
+          "one_minus_sum_bid": "0.029",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.01446495",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            23935,
+            23849,
+            24366
+          ],
+          "sum_ask_minus_one": "0.022",
+          "title": "Bank of Israel Decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.04517480",
+          "edge_short": "-0.03247995",
+          "event_id": "688094",
+          "exchange_span_seconds": 3.264,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.032",
+          "gross_short": "-0.019",
+          "leg_ids": [
+            "2870692",
+            "2870693",
+            "2870694"
+          ],
+          "long_fee": "0.01317480",
+          "long_size_ok": true,
+          "min_ask_size": "20.0",
+          "n_legs": 3,
+          "neg_risk_id": "0xb05c906549cfc0d2e7b93613e3040409261aa9c537673a1eb58621d24349e500",
+          "one_minus_sum_bid": "0.019",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.01347995",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35900,
+            35806,
+            36344
+          ],
+          "sum_ask_minus_one": "0.032",
+          "title": "Bank of Israel Decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.04375480",
+          "edge_short": "-0.06066495",
+          "event_id": "688094",
+          "exchange_span_seconds": 0.041,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.032",
+          "gross_short": "-0.049",
+          "leg_ids": [
+            "2870692",
+            "2870693",
+            "2870694"
+          ],
+          "long_fee": "0.01175480",
+          "long_size_ok": true,
+          "min_ask_size": "20.0",
+          "n_legs": 3,
+          "neg_risk_id": "0xb05c906549cfc0d2e7b93613e3040409261aa9c537673a1eb58621d24349e500",
+          "one_minus_sum_bid": "0.049",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.01166495",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47724,
+            47628,
+            48162
+          ],
+          "sum_ask_minus_one": "0.032",
+          "title": "Bank of Israel Decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.06297480",
+          "edge_short": "-0.03996495",
+          "event_id": "688094",
+          "exchange_span_seconds": 10.074,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.052",
+          "gross_short": "-0.029",
+          "leg_ids": [
+            "2870692",
+            "2870693",
+            "2870694"
+          ],
+          "long_fee": "0.01097480",
+          "long_size_ok": true,
+          "min_ask_size": "35.5",
+          "n_legs": 3,
+          "neg_risk_id": "0xb05c906549cfc0d2e7b93613e3040409261aa9c537673a1eb58621d24349e500",
+          "one_minus_sum_bid": "0.029",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.01096495",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60469,
+            60375,
+            60921
+          ],
+          "sum_ask_minus_one": "0.052",
+          "title": "Bank of Israel Decision in September?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.15819310",
+          "edge_short": "-0.12122140",
+          "event_id": "688517",
+          "exchange_span_seconds": 19.975,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.120",
+          "gross_short": "-0.090",
+          "leg_ids": [
+            "2871894",
+            "2871895",
+            "2871896",
+            "2871897",
+            "2871898"
+          ],
+          "long_fee": "0.03819310",
+          "long_size_ok": true,
+          "min_ask_size": "5.32",
+          "n_legs": 5,
+          "neg_risk_id": "0xb1985693b1ce662255c357d97f01b5bc12f51639459db90eb72b169951c28900",
+          "one_minus_sum_bid": "0.090",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.03122140",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            13643,
+            13142,
+            12488,
+            12765,
+            12725
+          ],
+          "sum_ask_minus_one": "0.120",
+          "title": "Emmys 2026: Outstanding lead actress in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.14576530",
+          "edge_short": "-0.13971005",
+          "event_id": "688517",
+          "exchange_span_seconds": 54.814,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.108",
+          "gross_short": "-0.109",
+          "leg_ids": [
+            "2871894",
+            "2871895",
+            "2871896",
+            "2871897",
+            "2871898"
+          ],
+          "long_fee": "0.03776530",
+          "long_size_ok": true,
+          "min_ask_size": "5.32",
+          "n_legs": 5,
+          "neg_risk_id": "0xb1985693b1ce662255c357d97f01b5bc12f51639459db90eb72b169951c28900",
+          "one_minus_sum_bid": "0.109",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.03071005",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            25090,
+            24606,
+            23969,
+            24241,
+            24207
+          ],
+          "sum_ask_minus_one": "0.108",
+          "title": "Emmys 2026: Outstanding lead actress in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.14695625",
+          "edge_short": "-0.15204220",
+          "event_id": "688517",
+          "exchange_span_seconds": 115.24,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.109",
+          "gross_short": "-0.122",
+          "leg_ids": [
+            "2871894",
+            "2871895",
+            "2871896",
+            "2871897",
+            "2871898"
+          ],
+          "long_fee": "0.03795625",
+          "long_size_ok": false,
+          "min_ask_size": "2.1",
+          "n_legs": 5,
+          "neg_risk_id": "0xb1985693b1ce662255c357d97f01b5bc12f51639459db90eb72b169951c28900",
+          "one_minus_sum_bid": "0.122",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.03004220",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            37055,
+            36583,
+            35941,
+            36213,
+            36185
+          ],
+          "sum_ask_minus_one": "0.109",
+          "title": "Emmys 2026: Outstanding lead actress in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.15730625",
+          "edge_short": "-0.12806575",
+          "event_id": "688517",
+          "exchange_span_seconds": 2.749,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.119",
+          "gross_short": "-0.097",
+          "leg_ids": [
+            "2871894",
+            "2871895",
+            "2871896",
+            "2871897",
+            "2871898"
+          ],
+          "long_fee": "0.03830625",
+          "long_size_ok": false,
+          "min_ask_size": "2.1",
+          "n_legs": 5,
+          "neg_risk_id": "0xb1985693b1ce662255c357d97f01b5bc12f51639459db90eb72b169951c28900",
+          "one_minus_sum_bid": "0.097",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.03106575",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            48892,
+            48415,
+            47763,
+            48033,
+            48005
+          ],
+          "sum_ask_minus_one": "0.119",
+          "title": "Emmys 2026: Outstanding lead actress in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.15198250",
+          "edge_short": "-0.13780615",
+          "event_id": "688517",
+          "exchange_span_seconds": 86.826,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.114",
+          "gross_short": "-0.107",
+          "leg_ids": [
+            "2871894",
+            "2871895",
+            "2871896",
+            "2871897",
+            "2871898"
+          ],
+          "long_fee": "0.03798250",
+          "long_size_ok": false,
+          "min_ask_size": "2.1",
+          "n_legs": 5,
+          "neg_risk_id": "0xb1985693b1ce662255c357d97f01b5bc12f51639459db90eb72b169951c28900",
+          "one_minus_sum_bid": "0.107",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.03080615",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            61635,
+            61164,
+            60508,
+            60791,
+            60758
+          ],
+          "sum_ask_minus_one": "0.114",
+          "title": "Emmys 2026: Outstanding lead actress in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.22630592",
+          "edge_short": "-0.06103808",
+          "event_id": "770193",
+          "exchange_span_seconds": 32.635,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.200",
+          "gross_short": "-0.042",
+          "leg_ids": [
+            "3213956",
+            "3213957",
+            "3213958",
+            "3213959",
+            "3213960",
+            "3213961",
+            "3213962"
+          ],
+          "long_fee": "0.02630592",
+          "long_size_ok": true,
+          "min_ask_size": "8.0",
+          "n_legs": 7,
+          "neg_risk_id": "0xb46a817a57e9efe2a5407554f14a3508cbb87a0e13ec6c238e07519ff8394000",
+          "one_minus_sum_bid": "0.042",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.01903808",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            13248,
+            12701,
+            12741,
+            12677,
+            12881,
+            12987,
+            12739
+          ],
+          "sum_ask_minus_one": "0.200",
+          "title": "Elon Musk Net Worth on August 31?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.17732228",
+          "edge_short": "-0.10038052",
+          "event_id": "770193",
+          "exchange_span_seconds": 48.336,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.147",
+          "gross_short": "-0.075",
+          "leg_ids": [
+            "3213956",
+            "3213957",
+            "3213958",
+            "3213959",
+            "3213960",
+            "3213961",
+            "3213962"
+          ],
+          "long_fee": "0.03032228",
+          "long_size_ok": true,
+          "min_ask_size": "10.0",
+          "n_legs": 7,
+          "neg_risk_id": "0xb46a817a57e9efe2a5407554f14a3508cbb87a0e13ec6c238e07519ff8394000",
+          "one_minus_sum_bid": "0.075",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.02538052",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            24584,
+            24165,
+            24187,
+            24147,
+            24334,
+            24440,
+            24211
+          ],
+          "sum_ask_minus_one": "0.147",
+          "title": "Elon Musk Net Worth on August 31?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.19589248",
+          "edge_short": "-0.09660952",
+          "event_id": "770193",
+          "exchange_span_seconds": 33.514,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.164",
+          "gross_short": "-0.072",
+          "leg_ids": [
+            "3213956",
+            "3213957",
+            "3213958",
+            "3213959",
+            "3213960",
+            "3213961",
+            "3213962"
+          ],
+          "long_fee": "0.03189248",
+          "long_size_ok": true,
+          "min_ask_size": "8.96",
+          "n_legs": 7,
+          "neg_risk_id": "0xb46a817a57e9efe2a5407554f14a3508cbb87a0e13ec6c238e07519ff8394000",
+          "one_minus_sum_bid": "0.072",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.02460952",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            36548,
+            36132,
+            36157,
+            36114,
+            36312,
+            36415,
+            36183
+          ],
+          "sum_ask_minus_one": "0.164",
+          "title": "Elon Musk Net Worth on August 31?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.21390112",
+          "edge_short": "-0.06778796",
+          "event_id": "770193",
+          "exchange_span_seconds": 13.312,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.182",
+          "gross_short": "-0.043",
+          "leg_ids": [
+            "3213956",
+            "3213957",
+            "3213958",
+            "3213959",
+            "3213960",
+            "3213961",
+            "3213962"
+          ],
+          "long_fee": "0.03190112",
+          "long_size_ok": true,
+          "min_ask_size": "12.89",
+          "n_legs": 7,
+          "neg_risk_id": "0xb46a817a57e9efe2a5407554f14a3508cbb87a0e13ec6c238e07519ff8394000",
+          "one_minus_sum_bid": "0.043",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.02478796",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            48378,
+            47951,
+            47977,
+            47927,
+            48131,
+            48243,
+            48003
+          ],
+          "sum_ask_minus_one": "0.182",
+          "title": "Elon Musk Net Worth on August 31?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.18152128",
+          "edge_short": "-0.03315588",
+          "event_id": "770193",
+          "exchange_span_seconds": 32.88,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.158",
+          "gross_short": "-0.015",
+          "leg_ids": [
+            "3213956",
+            "3213957",
+            "3213958",
+            "3213959",
+            "3213960",
+            "3213961",
+            "3213962"
+          ],
+          "long_fee": "0.02352128",
+          "long_size_ok": true,
+          "min_ask_size": "19.59",
+          "n_legs": 7,
+          "neg_risk_id": "0xb46a817a57e9efe2a5407554f14a3508cbb87a0e13ec6c238e07519ff8394000",
+          "one_minus_sum_bid": "0.015",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.01815588",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            61122,
+            60689,
+            60726,
+            60666,
+            60883,
+            60991,
+            60753
+          ],
+          "sum_ask_minus_one": "0.158",
+          "title": "Elon Musk Net Worth on August 31?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.14007145",
+          "edge_short": "-0.05702285",
+          "event_id": "686058",
+          "exchange_span_seconds": 0.774,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.103",
+          "gross_short": "-0.025",
+          "leg_ids": [
+            "2865357",
+            "2865358",
+            "2865359",
+            "2865360",
+            "2865361",
+            "2865362"
+          ],
+          "long_fee": "0.03707145",
+          "long_size_ok": true,
+          "min_ask_size": "27.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xc70c4a9ff6ddda9fa61f80111400d9be8a9a307daf5b92d2a6162551d8d6f600",
+          "one_minus_sum_bid": "0.025",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.03202285",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12709,
+            13730,
+            13160,
+            12777,
+            12601,
+            13525
+          ],
+          "sum_ask_minus_one": "0.103",
+          "title": "Emmys 2026: Outstanding guest actor in a comedy series"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.14984505",
+          "edge_short": "-0.05809170",
+          "event_id": "686058",
+          "exchange_span_seconds": 35.519,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.113",
+          "gross_short": "-0.026",
+          "leg_ids": [
+            "2865357",
+            "2865358",
+            "2865359",
+            "2865360",
+            "2865361",
+            "2865362"
+          ],
+          "long_fee": "0.03684505",
+          "long_size_ok": true,
+          "min_ask_size": "27.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xc70c4a9ff6ddda9fa61f80111400d9be8a9a307daf5b92d2a6162551d8d6f600",
+          "one_minus_sum_bid": "0.026",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.03209170",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            24184,
+            25186,
+            24625,
+            24256,
+            24080,
+            24984
+          ],
+          "sum_ask_minus_one": "0.113",
+          "title": "Emmys 2026: Outstanding guest actor in a comedy series"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.17886565",
+          "edge_short": "-0.09524685",
+          "event_id": "686058",
+          "exchange_span_seconds": 1.255,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.141",
+          "gross_short": "-0.065",
+          "leg_ids": [
+            "2865357",
+            "2865358",
+            "2865359",
+            "2865360",
+            "2865361",
+            "2865362"
+          ],
+          "long_fee": "0.03786565",
+          "long_size_ok": true,
+          "min_ask_size": "25.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xc70c4a9ff6ddda9fa61f80111400d9be8a9a307daf5b92d2a6162551d8d6f600",
+          "one_minus_sum_bid": "0.065",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.03024685",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            36153,
+            37145,
+            36602,
+            36229,
+            36054,
+            36951
+          ],
+          "sum_ask_minus_one": "0.141",
+          "title": "Emmys 2026: Outstanding guest actor in a comedy series"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.21907065",
+          "edge_short": "-0.05649590",
+          "event_id": "686058",
+          "exchange_span_seconds": 27.255,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.179",
+          "gross_short": "-0.024",
+          "leg_ids": [
+            "2865357",
+            "2865358",
+            "2865359",
+            "2865360",
+            "2865361",
+            "2865362"
+          ],
+          "long_fee": "0.04007065",
+          "long_size_ok": true,
+          "min_ask_size": "20.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xc70c4a9ff6ddda9fa61f80111400d9be8a9a307daf5b92d2a6162551d8d6f600",
+          "one_minus_sum_bid": "0.024",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.03249590",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47963,
+            48991,
+            48417,
+            48049,
+            47872,
+            48784
+          ],
+          "sum_ask_minus_one": "0.179",
+          "title": "Emmys 2026: Outstanding guest actor in a comedy series"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.19951595",
+          "edge_short": "-0.07984445",
+          "event_id": "686058",
+          "exchange_span_seconds": 6.513,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.161",
+          "gross_short": "-0.049",
+          "leg_ids": [
+            "2865357",
+            "2865358",
+            "2865359",
+            "2865360",
+            "2865361",
+            "2865362"
+          ],
+          "long_fee": "0.03851595",
+          "long_size_ok": true,
+          "min_ask_size": "30.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xc70c4a9ff6ddda9fa61f80111400d9be8a9a307daf5b92d2a6162551d8d6f600",
+          "one_minus_sum_bid": "0.049",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.03084445",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60719,
+            61730,
+            61116,
+            60808,
+            60612,
+            61453
+          ],
+          "sum_ask_minus_one": "0.161",
+          "title": "Emmys 2026: Outstanding guest actor in a comedy series"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.20168300",
+          "edge_short": "-0.18339936",
+          "event_id": "772776",
+          "exchange_span_seconds": 16.724,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.165",
+          "gross_short": "-0.156",
+          "leg_ids": [
+            "3222978",
+            "3222979",
+            "3222980",
+            "3222981",
+            "3222982",
+            "3222983"
+          ],
+          "long_fee": "0.03668300",
+          "long_size_ok": true,
+          "min_ask_size": "6.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xd39d30668911af445507d8d4de5d4ef2d0cf0b48e1baf96a5bb62e9fd056c000",
+          "one_minus_sum_bid": "0.156",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.02739936",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            13606,
+            13094,
+            13084,
+            13212,
+            13369,
+            13308
+          ],
+          "sum_ask_minus_one": "0.165",
+          "title": "GPU rental prices (H200) end of August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.30400300",
+          "edge_short": "-0.24152736",
+          "event_id": "772776",
+          "exchange_span_seconds": 494.544,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.265",
+          "gross_short": "-0.216",
+          "leg_ids": [
+            "3222978",
+            "3222979",
+            "3222980",
+            "3222981",
+            "3222982",
+            "3222983"
+          ],
+          "long_fee": "0.03900300",
+          "long_size_ok": true,
+          "min_ask_size": "20.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xd39d30668911af445507d8d4de5d4ef2d0cf0b48e1baf96a5bb62e9fd056c000",
+          "one_minus_sum_bid": "0.216",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.02552736",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            25063,
+            24563,
+            24553,
+            24672,
+            24826,
+            24763
+          ],
+          "sum_ask_minus_one": "0.265",
+          "title": "GPU rental prices (H200) end of August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.23541424",
+          "edge_short": "-0.13457936",
+          "event_id": "772776",
+          "exchange_span_seconds": 8.015,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.198",
+          "gross_short": "-0.106",
+          "leg_ids": [
+            "3222978",
+            "3222979",
+            "3222980",
+            "3222981",
+            "3222982",
+            "3222983"
+          ],
+          "long_fee": "0.03741424",
+          "long_size_ok": true,
+          "min_ask_size": "20.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xd39d30668911af445507d8d4de5d4ef2d0cf0b48e1baf96a5bb62e9fd056c000",
+          "one_minus_sum_bid": "0.106",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.02857936",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            37023,
+            36534,
+            36531,
+            36648,
+            36807,
+            36741
+          ],
+          "sum_ask_minus_one": "0.198",
+          "title": "GPU rental prices (H200) end of August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.26727596",
+          "edge_short": "-0.22166700",
+          "event_id": "772776",
+          "exchange_span_seconds": 23.784,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.229",
+          "gross_short": "-0.195",
+          "leg_ids": [
+            "3222978",
+            "3222979",
+            "3222980",
+            "3222981",
+            "3222982",
+            "3222983"
+          ],
+          "long_fee": "0.03827596",
+          "long_size_ok": true,
+          "min_ask_size": "6.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xd39d30668911af445507d8d4de5d4ef2d0cf0b48e1baf96a5bb62e9fd056c000",
+          "one_minus_sum_bid": "0.195",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.02666700",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            48869,
+            48362,
+            48353,
+            48449,
+            48638,
+            48571
+          ],
+          "sum_ask_minus_one": "0.229",
+          "title": "GPU rental prices (H200) end of August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.23349056",
+          "edge_short": "-0.236012",
+          "event_id": "772776",
+          "exchange_span_seconds": 44.215,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.196",
+          "gross_short": "-0.21",
+          "leg_ids": [
+            "3222978",
+            "3222979",
+            "3222980",
+            "3222981",
+            "3222982",
+            "3222983"
+          ],
+          "long_fee": "0.03749056",
+          "long_size_ok": false,
+          "min_ask_size": "1.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xd39d30668911af445507d8d4de5d4ef2d0cf0b48e1baf96a5bb62e9fd056c000",
+          "one_minus_sum_bid": "0.21",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.026012",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            61612,
+            61114,
+            61101,
+            61198,
+            61386,
+            61314
+          ],
+          "sum_ask_minus_one": "0.196",
+          "title": "GPU rental prices (H200) end of August?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.043000",
+          "edge_short": "-0.010000",
+          "event_id": "147974",
+          "exchange_span_seconds": 26.489,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "-0.043",
+          "gross_short": "-0.010",
+          "leg_ids": [
+            "1125100",
+            "1125101",
+            "1125102",
+            "1125103",
+            "1125104",
+            "1125105",
+            "1125106"
+          ],
+          "long_fee": "0.000000",
+          "long_size_ok": true,
+          "min_ask_size": "10.0",
+          "n_legs": 7,
+          "neg_risk_id": "0xd5593051376df9abb69332bd6f07bfc57c4e5b3148576349889046645a3fe000",
+          "one_minus_sum_bid": "0.010",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.000000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35850,
+            35972,
+            36078,
+            36002,
+            35839,
+            35703,
+            35766
+          ],
+          "sum_ask_minus_one": "0.043",
+          "title": "United Russia seats in the next Russian legislative election?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.039000",
+          "edge_short": "-0.010000",
+          "event_id": "147974",
+          "exchange_span_seconds": 12.278,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "-0.039",
+          "gross_short": "-0.010",
+          "leg_ids": [
+            "1125100",
+            "1125101",
+            "1125102",
+            "1125103",
+            "1125104",
+            "1125105",
+            "1125106"
+          ],
+          "long_fee": "0.000000",
+          "long_size_ok": true,
+          "min_ask_size": "10.0",
+          "n_legs": 7,
+          "neg_risk_id": "0xd5593051376df9abb69332bd6f07bfc57c4e5b3148576349889046645a3fe000",
+          "one_minus_sum_bid": "0.010",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.000000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47671,
+            47792,
+            47895,
+            47828,
+            47663,
+            47523,
+            47585
+          ],
+          "sum_ask_minus_one": "0.039",
+          "title": "United Russia seats in the next Russian legislative election?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.039000",
+          "edge_short": "-0.010000",
+          "event_id": "147974",
+          "exchange_span_seconds": 17.85,
+          "fee_rates": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "fee_sources": [
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled",
+            "observation_disabled"
+          ],
+          "gross_long": "-0.039",
+          "gross_short": "-0.010",
+          "leg_ids": [
+            "1125100",
+            "1125101",
+            "1125102",
+            "1125103",
+            "1125104",
+            "1125105",
+            "1125106"
+          ],
+          "long_fee": "0.000000",
+          "long_size_ok": true,
+          "min_ask_size": "10.0",
+          "n_legs": 7,
+          "neg_risk_id": "0xd5593051376df9abb69332bd6f07bfc57c4e5b3148576349889046645a3fe000",
+          "one_minus_sum_bid": "0.010",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.000000",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60416,
+            60537,
+            60644,
+            60571,
+            60408,
+            60265,
+            60327
+          ],
+          "sum_ask_minus_one": "0.039",
+          "title": "United Russia seats in the next Russian legislative election?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.18638190",
+          "edge_short": "-0.10383450",
+          "event_id": "688515",
+          "exchange_span_seconds": 40.848,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.160",
+          "gross_short": "-0.086",
+          "leg_ids": [
+            "2871882",
+            "2871883",
+            "2871884",
+            "2871885",
+            "2871886",
+            "2871887"
+          ],
+          "long_fee": "0.02638190",
+          "long_size_ok": true,
+          "min_ask_size": "40.01",
+          "n_legs": 6,
+          "neg_risk_id": "0xdc933798e95de1e39b062917b26511b3079b08c7583960a119922a263311c500",
+          "one_minus_sum_bid": "0.086",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.01783450",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12542,
+            13269,
+            13653,
+            13022,
+            13176,
+            13260
+          ],
+          "sum_ask_minus_one": "0.160",
+          "title": "Emmys 2026: Outstanding supporting actress in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.25610125",
+          "edge_short": "-0.09425640",
+          "event_id": "688515",
+          "exchange_span_seconds": 2.067,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.227",
+          "gross_short": "-0.076",
+          "leg_ids": [
+            "2871882",
+            "2871883",
+            "2871884",
+            "2871885",
+            "2871886",
+            "2871887"
+          ],
+          "long_fee": "0.02910125",
+          "long_size_ok": false,
+          "min_ask_size": "3.11",
+          "n_legs": 6,
+          "neg_risk_id": "0xdc933798e95de1e39b062917b26511b3079b08c7583960a119922a263311c500",
+          "one_minus_sum_bid": "0.076",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.01825640",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            24022,
+            24727,
+            25099,
+            24493,
+            24643,
+            24715
+          ],
+          "sum_ask_minus_one": "0.227",
+          "title": "Emmys 2026: Outstanding supporting actress in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.22993840",
+          "edge_short": "-0.07987305",
+          "event_id": "688515",
+          "exchange_span_seconds": 12.689,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.202",
+          "gross_short": "-0.061",
+          "leg_ids": [
+            "2871882",
+            "2871883",
+            "2871884",
+            "2871885",
+            "2871886",
+            "2871887"
+          ],
+          "long_fee": "0.02793840",
+          "long_size_ok": true,
+          "min_ask_size": "30.0",
+          "n_legs": 6,
+          "neg_risk_id": "0xdc933798e95de1e39b062917b26511b3079b08c7583960a119922a263311c500",
+          "one_minus_sum_bid": "0.061",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.01887305",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35993,
+            36706,
+            37062,
+            36466,
+            36620,
+            36683
+          ],
+          "sum_ask_minus_one": "0.202",
+          "title": "Emmys 2026: Outstanding supporting actress in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.26700265",
+          "edge_short": "-0.07504830",
+          "event_id": "688515",
+          "exchange_span_seconds": 4.258,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.237",
+          "gross_short": "-0.056",
+          "leg_ids": [
+            "2871882",
+            "2871883",
+            "2871884",
+            "2871885",
+            "2871886",
+            "2871887"
+          ],
+          "long_fee": "0.03000265",
+          "long_size_ok": false,
+          "min_ask_size": "3.11",
+          "n_legs": 6,
+          "neg_risk_id": "0xdc933798e95de1e39b062917b26511b3079b08c7583960a119922a263311c500",
+          "one_minus_sum_bid": "0.056",
+          "scheduled_slot": "2026-08-21T06:00:00+00:00",
+          "short_fee": "0.01904830",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            47819,
+            48537,
+            48903,
+            48297,
+            48448,
+            48514
+          ],
+          "sum_ask_minus_one": "0.237",
+          "title": "Emmys 2026: Outstanding supporting actress in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.17117995",
+          "edge_short": "-0.16299140",
+          "event_id": "688515",
+          "exchange_span_seconds": 4.219,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.145",
+          "gross_short": "-0.148",
+          "leg_ids": [
+            "2871882",
+            "2871883",
+            "2871884",
+            "2871885",
+            "2871886",
+            "2871887"
+          ],
+          "long_fee": "0.02617995",
+          "long_size_ok": true,
+          "min_ask_size": "6.9",
+          "n_legs": 6,
+          "neg_risk_id": "0xdc933798e95de1e39b062917b26511b3079b08c7583960a119922a263311c500",
+          "one_minus_sum_bid": "0.148",
+          "scheduled_slot": "2026-08-21T12:00:00+00:00",
+          "short_fee": "0.01499140",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            60563,
+            61281,
+            61645,
+            61047,
+            61197,
+            61260
+          ],
+          "sum_ask_minus_one": "0.145",
+          "title": "Emmys 2026: Outstanding supporting actress in a limited or anthology series or movie"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.10654495",
+          "edge_short": "-0.04954675",
+          "event_id": "865886",
+          "exchange_span_seconds": 0.952,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.067",
+          "gross_short": "-0.013",
+          "leg_ids": [
+            "3670533",
+            "3670534",
+            "3670535",
+            "3670536",
+            "3670537",
+            "3670538",
+            "3670540",
+            "3670541",
+            "3670542",
+            "3670543"
+          ],
+          "long_fee": "0.03954495",
+          "long_size_ok": true,
+          "min_ask_size": "20.0",
+          "n_legs": 10,
+          "neg_risk_id": "0xe7bbb26450f9615274cfa9fce2eb5bb3d7b1fe3ff26cbe7f836fafa2a778ac00",
+          "one_minus_sum_bid": "0.013",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.03654675",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            12581,
+            12786,
+            12875,
+            12898,
+            12624,
+            12525,
+            12650,
+            12995,
+            12858,
+            12906
+          ],
+          "sum_ask_minus_one": "0.067",
+          "title": "Elon Musk # tweets August 20 - August 22, 2026?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.18254700",
+          "edge_short": "-0.04442605",
+          "event_id": "865886",
+          "exchange_span_seconds": 3.018,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.140",
+          "gross_short": "-0.007",
+          "leg_ids": [
+            "3670533",
+            "3670534",
+            "3670535",
+            "3670536",
+            "3670537",
+            "3670538",
+            "3670540",
+            "3670541",
+            "3670542",
+            "3670543"
+          ],
+          "long_fee": "0.04254700",
+          "long_size_ok": true,
+          "min_ask_size": "5.0",
+          "n_legs": 10,
+          "neg_risk_id": "0xe7bbb26450f9615274cfa9fce2eb5bb3d7b1fe3ff26cbe7f836fafa2a778ac00",
+          "one_minus_sum_bid": "0.007",
+          "scheduled_slot": "2026-08-20T18:00:00+00:00",
+          "short_fee": "0.03742605",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            23917,
+            24006,
+            24055,
+            24135,
+            24008,
+            23956,
+            24061,
+            24252,
+            24174,
+            24058
+          ],
+          "sum_ask_minus_one": "0.140",
+          "title": "Elon Musk # tweets August 20 - August 22, 2026?"
+        },
+        {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.05073310",
+          "edge_short": "-0.08177665",
+          "event_id": "865886",
+          "exchange_span_seconds": 18.238,
+          "fee_rates": [
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05",
+            "0.05"
+          ],
+          "fee_sources": [
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate",
+            "observation_rate"
+          ],
+          "gross_long": "-0.012",
+          "gross_short": "-0.045",
+          "leg_ids": [
+            "3670533",
+            "3670534",
+            "3670535",
+            "3670536",
+            "3670537",
+            "3670538",
+            "3670540",
+            "3670541",
+            "3670542",
+            "3670543"
+          ],
+          "long_fee": "0.03873310",
+          "long_size_ok": true,
+          "min_ask_size": "40.0",
+          "n_legs": 10,
+          "neg_risk_id": "0xe7bbb26450f9615274cfa9fce2eb5bb3d7b1fe3ff26cbe7f836fafa2a778ac00",
+          "one_minus_sum_bid": "0.045",
+          "scheduled_slot": "2026-08-21T00:00:00+00:00",
+          "short_fee": "0.03677665",
+          "short_size_ok": true,
+          "snapshot_ids": [
+            35811,
+            35925,
+            35947,
+            36046,
+            35908,
+            35885,
+            35990,
+            36154,
+            36130,
+            36007
+          ],
+          "sum_ask_minus_one": "0.012",
+          "title": "Elon Musk # tweets August 20 - August 22, 2026?"
+        }
+      ],
+      "exchange_span_above_60_seconds": 16,
+      "exchange_span_unknown_slots": 0,
+      "exclusions": {
+        "incomplete": 1034,
+        "non_exhaustive_placeholder_event": 388
+      },
+      "fee_sources": {
+        "metadata_disabled": 9,
+        "metadata_schedule": 98,
+        "observation_disabled": 57,
+        "observation_rate": 331
+      },
+      "funnel": {
+        "complete": 105,
+        "either_direction_size_ok": 104,
+        "event_slots": 1527,
+        "fee_known": 105,
+        "long_size_ok": 90,
+        "neg_risk_events": 373,
+        "neg_risk_markets": 1364,
+        "null_slot_rows_excluded": 1056,
+        "short_size_ok": 104,
+        "synchronous": 105,
+        "unknown_minimum_size_slots": 0
+      },
+      "gamma_events_available": 373,
+      "gamma_events_with_usable_slotted_snapshots": 338,
+      "median_legs": "5.0",
+      "one_minus_sum_bid_quantiles": {
+        "0": "-0.005",
+        "0.05": "0.00300",
+        "0.25": "0.01825",
+        "0.5": "0.0540",
+        "0.75": "0.10450",
+        "0.95": "0.22620",
+        "1": "0.50"
+      },
+      "opportunity_directions": 0,
+      "opportunity_event_slots": 0,
+      "qualifying_event_slots": 104,
+      "qualifying_events": 24,
+      "qualifying_scheduled_slots": 5,
+      "status": "REJECT",
+      "sum_ask_minus_one_quantiles": {
+        "0": "-0.018",
+        "0.05": "0.00900",
+        "0.25": "0.02000",
+        "0.5": "0.0475",
+        "0.75": "0.14025",
+        "0.95": "0.26080",
+        "1": "0.42"
+      }
+    },
+    "strict_local_completeness": {
+      "event_markets_rows": 0,
+      "events_rows": 0,
+      "reason": "frozen full-event market-list source absent; D1 required",
+      "status": "DATA-BLOCKED"
+    }
+  },
+  "elapsed_seconds": 1.9683182500302792,
+  "generated_at_utc": "2026-11-16T00:47:50.927171+00:00",
+  "h002": {
+    "ask_sum_below_one": 0,
+    "ask_sum_mean": "1.036790889303482587064676617",
+    "ask_sum_min": "1.001",
+    "events": 624,
+    "exact_ladder_pairs": 6385,
+    "ladder_mismatch_timestamp_deltas_ms": {
+      "-3": 1,
+      "-2": 5,
+      "-1": 16,
+      "0": 7,
+      "1": 12,
+      "2": 2,
+      "4": 2,
+      "5": 1,
+      "17": 1
+    },
+    "ladder_mismatches": [
+      {
+        "ask_sum": "1.001",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 23465
+      },
+      {
+        "ask_sum": "1.009",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 23563
+      },
+      {
+        "ask_sum": "1.010",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 23566
+      },
+      {
+        "ask_sum": "1.001",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 23699
+      },
+      {
+        "ask_sum": "1.014",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 23779
+      },
+      {
+        "ask_sum": "1.026",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 24071
+      },
+      {
+        "ask_sum": "1.019",
+        "no_minus_yes_ms": 0,
+        "snapshot_id": 24140
+      },
+      {
+        "ask_sum": "1.047",
+        "no_minus_yes_ms": 17,
+        "snapshot_id": 24254
+      },
+      {
+        "ask_sum": "1.02",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 24425
+      },
+      {
+        "ask_sum": "1.049",
+        "no_minus_yes_ms": -2,
+        "snapshot_id": 24487
+      },
+      {
+        "ask_sum": "1.015",
+        "no_minus_yes_ms": 0,
+        "snapshot_id": 24607
+      },
+      {
+        "ask_sum": "1.02",
+        "no_minus_yes_ms": -2,
+        "snapshot_id": 35590
+      },
+      {
+        "ask_sum": "1.004",
+        "no_minus_yes_ms": -3,
+        "snapshot_id": 35972
+      },
+      {
+        "ask_sum": "1.006",
+        "no_minus_yes_ms": 5,
+        "snapshot_id": 36070
+      },
+      {
+        "ask_sum": "1.006",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 36211
+      },
+      {
+        "ask_sum": "1.07",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 36601
+      },
+      {
+        "ask_sum": "1.01",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 36738
+      },
+      {
+        "ask_sum": "1.003",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 36891
+      },
+      {
+        "ask_sum": "1.041",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 36946
+      },
+      {
+        "ask_sum": "1.011",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 37127
+      },
+      {
+        "ask_sum": "1.50",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 37157
+      },
+      {
+        "ask_sum": "1.044",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 47355
+      },
+      {
+        "ask_sum": "1.008",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 47369
+      },
+      {
+        "ask_sum": "1.028",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 47811
+      },
+      {
+        "ask_sum": "1.051",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 48060
+      },
+      {
+        "ask_sum": "1.002",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 48068
+      },
+      {
+        "ask_sum": "1.027",
+        "no_minus_yes_ms": 0,
+        "snapshot_id": 48169
+      },
+      {
+        "ask_sum": "1.089",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 48270
+      },
+      {
+        "ask_sum": "1.02",
+        "no_minus_yes_ms": 0,
+        "snapshot_id": 48483
+      },
+      {
+        "ask_sum": "1.007",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 48495
+      },
+      {
+        "ask_sum": "1.124",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 48736
+      },
+      {
+        "ask_sum": "1.054",
+        "no_minus_yes_ms": 2,
+        "snapshot_id": 48981
+      },
+      {
+        "ask_sum": "1.001",
+        "no_minus_yes_ms": 2,
+        "snapshot_id": 60047
+      },
+      {
+        "ask_sum": "1.004",
+        "no_minus_yes_ms": 4,
+        "snapshot_id": 60481
+      },
+      {
+        "ask_sum": "1.038",
+        "no_minus_yes_ms": -2,
+        "snapshot_id": 60569
+      },
+      {
+        "ask_sum": "1.026",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 60787
+      },
+      {
+        "ask_sum": "1.038",
+        "no_minus_yes_ms": 0,
+        "snapshot_id": 60859
+      },
+      {
+        "ask_sum": "1.03",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 60958
+      },
+      {
+        "ask_sum": "1.025",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 61077
+      },
+      {
+        "ask_sum": "1.019",
+        "no_minus_yes_ms": 0,
+        "snapshot_id": 61145
+      },
+      {
+        "ask_sum": "1.03",
+        "no_minus_yes_ms": 1,
+        "snapshot_id": 61179
+      },
+      {
+        "ask_sum": "1.021",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 61181
+      },
+      {
+        "ask_sum": "1.001",
+        "no_minus_yes_ms": -1,
+        "snapshot_id": 61213
+      },
+      {
+        "ask_sum": "1.008",
+        "no_minus_yes_ms": 4,
+        "snapshot_id": 61355
+      },
+      {
+        "ask_sum": "1.028",
+        "no_minus_yes_ms": -2,
+        "snapshot_id": 61488
+      },
+      {
+        "ask_sum": "1.098",
+        "no_minus_yes_ms": 0,
+        "snapshot_id": 61703
+      },
+      {
+        "ask_sum": "1.052",
+        "no_minus_yes_ms": -2,
+        "snapshot_id": 61720
+      }
+    ],
+    "markets": 1766,
+    "no_levels": 286048,
+    "pairs": 6432,
+    "scope": "single-binary quote mechanism; no numeric preregistration",
+    "slots": [
+      "2026-08-20T18:00:00+00:00",
+      "2026-08-21T00:00:00+00:00",
+      "2026-08-21T06:00:00+00:00",
+      "2026-08-21T12:00:00+00:00"
+    ],
+    "status": "REJECT",
+    "top_mirror_pairs": 6432,
+    "yes_levels": 286053
+  },
+  "implementation_choices": [
+    "Decimal math from SQLite string representations; exact raw decimal strings for ladders.",
+    "D1: use saved 2026-11-11 Gamma event payloads; historical 2026-10-05 payloads unavailable.",
+    "D2: exclude null scheduled_slot; no new threshold or time filter.",
+    "Unnamed placeholders recognized by Candidate/Person/Player/Team/Outcome plus one capital letter; require captured Other.",
+    "Do not substitute exchange timestamps into the frozen captured_at synchrony gate; report them separately.",
+    "Latest fee observation at/before each leg capture, then raw metadata feeSchedule; unknown fee excluded."
+  ],
+  "independence": "No author code opened before first-pass commit; handoff headlines, package README, and the existing recount summary were already visible. Not blinded to reported results.",
+  "inputs_sha256": {
+    "<author-orderbook-db>": "1fb018c6c3e0dc74d740d142120f26193c9b452825e89bb4524b566763425885",
+    "<this-repo>/negative_results/data/gamma_events.json.gz": "01bd94154c5514e00ff22e7e7c7035e2fbbc511fb4d1f9c10ecf9ee1e76336b7",
+    "<this-repo>/negative_results/negrisk_basket/E-002_frozen_protocol.yaml": "b63c91fdd582eb58ed399a6fddb97f87dd05b3a76531b9d10c6ac22d783186a9"
+  },
+  "python": "3.15.1 (main, Oct 21 2026, 05:55:12) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "script_sha256": "dbf9d512a75d64848837ba21fa554068c09208b9f2960f6702d7d6b408ed1c8d",
+  "snapshot_inventory": [
+    {
+      "first_capture": "2026-08-20T11:36:15.230404+00:00",
+      "is_authoritative": 0,
+      "last_capture": "2026-08-21T12:18:28.557075+00:00",
+      "rows": 70458
+    }
+  ]
+}

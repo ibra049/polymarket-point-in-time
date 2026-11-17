@@ -1,0 +1,35 @@
+{
+ "decision": "REJECT_at_cadence",
+ "funnel": {
+  "negrisk_markets": 1364,
+  "x_rows_null_slot": 1056,
+  "negrisk_events": 373,
+  "events_with_gamma": 373,
+  "event_slots": 1527,
+  "qualifying": 105,
+  "x_incomplete": 1422
+ },
+ "qualifying_events": 24,
+ "qualifying_slots": 5,
+ "opportunities": [],
+ "persistent_episodes": 0,
+ "sum_ask_minus_1": {
+  "0.0": -0.018,
+  "0.05": 0.009,
+  "0.25": 0.02,
+  "0.5": 0.043,
+  "0.75": 0.14,
+  "0.95": 0.237,
+  "1.0": 0.42
+ },
+ "one_minus_sum_bid": {
+  "0.0": -0.005,
+  "0.05": 0.003,
+  "0.25": 0.019,
+  "0.5": 0.054,
+  "0.75": 0.104,
+  "0.95": 0.216,
+  "1.0": 0.5
+ },
+ "legs_median": 5
+}

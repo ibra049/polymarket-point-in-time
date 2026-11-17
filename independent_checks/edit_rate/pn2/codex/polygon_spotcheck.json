@@ -1,0 +1,352 @@
+{
+  "generated_utc": "2026-11-16T00:48:56.160069+00:00",
+  "chain_id": "0x89",
+  "observed_head": 97389776,
+  "original_cutoff": 97166757,
+  "original_cutoff_utc": "2026-11-12T03:53:12+00:00",
+  "source": "https://polygon-mainnet.gateway.tatum.io",
+  "selection_plan": {
+    "created_utc": "2026-11-16T00:48:17.094922+00:00",
+    "seed": 20261111,
+    "rule": "random.sample of CSV sorted by numeric market_id; no replacement",
+    "csv_sha256": "30314969af2965150a1e123d3a86b86a0d7817156219dfb6fe29be60fa66da2c",
+    "historical_to_block": 97166757,
+    "primary_source": "https://polygon-mainnet.gateway.tatum.io",
+    "source_reason": "Independent provider: original fetch used Tenderly.",
+    "failure_rule": "No retries/provider substitutions; each failed row remains unknown.",
+    "random_market_ids": [
+      "1135904",
+      "1684136",
+      "1785819",
+      "666956",
+      "900797",
+      "586974",
+      "1155534",
+      "723097",
+      "1566927",
+      "1385451",
+      "1678315",
+      "1340102",
+      "562371",
+      "600658",
+      "1500010",
+      "531357",
+      "510370",
+      "1193701",
+      "1198667",
+      "659122",
+      "578549",
+      "1657239",
+      "690499",
+      "948313",
+      "564626"
+    ],
+    "supplemental_positive_market_ids": [
+      "665226",
+      "1357997",
+      "520318",
+      "821089",
+      "659069",
+      "621127",
+      "1353142",
+      "530903",
+      "1553593",
+      "942709",
+      "502480",
+      "1554878",
+      "1554899",
+      "502302"
+    ]
+  },
+  "summary": {
+    "random": {
+      "planned": 25,
+      "complete": 0,
+      "rows_with_mismatches": 0,
+      "field_mismatches": 0,
+      "unknown": 25
+    },
+    "supplemental-positive": {
+      "planned": 14,
+      "complete": 0,
+      "rows_with_mismatches": 0,
+      "field_mismatches": 0,
+      "unknown": 14
+    }
+  },
+  "rows": [
+    {
+      "market_id": "1135904",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:53.556214+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:53.556229+00:00\", \"elapsed_seconds\": 0.1481485420372337, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"id\": 1, \"jsonrpc\": \"2.0\", \"error\": {\"code\": -16412, \"message\": \"Requested range is over limit of 100\"}}}"
+    },
+    {
+      "market_id": "1684136",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:53.557928+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:53.557976+00:00\", \"elapsed_seconds\": 0.1466027080314234, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"id\": 1, \"jsonrpc\": \"2.0\", \"error\": {\"code\": -16412, \"message\": \"Requested range is over limit of 100\"}}}"
+    },
+    {
+      "market_id": "1785819",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:53.705296+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:53.705316+00:00\", \"elapsed_seconds\": 0.0842197920428589, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "666956",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:53.707000+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:53.707022+00:00\", \"elapsed_seconds\": 0.08321466704364866, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "900797",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:53.790501+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:53.790536+00:00\", \"elapsed_seconds\": 0.08694004209246486, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "586974",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:53.792816+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:53.792855+00:00\", \"elapsed_seconds\": 0.0869864170672372, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1155534",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:53.878333+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:53.878354+00:00\", \"elapsed_seconds\": 0.13545679196249694, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "723097",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:53.880417+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:53.880441+00:00\", \"elapsed_seconds\": 0.08581745799165219, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1566927",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:53.967948+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:53.968019+00:00\", \"elapsed_seconds\": 0.08835962496232241, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1385451",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.014243+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.014267+00:00\", \"elapsed_seconds\": 0.11926029098685831, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1678315",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.056838+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.056863+00:00\", \"elapsed_seconds\": 0.12250695808324963, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1340102",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.134096+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.134117+00:00\", \"elapsed_seconds\": 0.15475895791314542, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "562371",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.179860+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.179892+00:00\", \"elapsed_seconds\": 0.2659283330431208, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "600658",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.289373+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.289394+00:00\", \"elapsed_seconds\": 0.07860329200048, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1500010",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.368551+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.368594+00:00\", \"elapsed_seconds\": 0.13178812491241843, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "531357",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.446318+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.446342+00:00\", \"elapsed_seconds\": 0.07844112499151379, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "510370",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.500837+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.500865+00:00\", \"elapsed_seconds\": 0.07917108305264264, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1193701",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.525334+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.525355+00:00\", \"elapsed_seconds\": 0.1658491250127554, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1198667",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.580518+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.580543+00:00\", \"elapsed_seconds\": 0.10884750005789101, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "659122",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.689877+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.689902+00:00\", \"elapsed_seconds\": 0.07950120803434402, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "578549",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.691797+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.691822+00:00\", \"elapsed_seconds\": 0.15701237495522946, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1657239",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.770212+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.770236+00:00\", \"elapsed_seconds\": 0.3201552499085665, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "690499",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.849270+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.849288+00:00\", \"elapsed_seconds\": 0.1186517080059275, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "948313",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:54.968426+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:54.968454+00:00\", \"elapsed_seconds\": 0.1073163750115782, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "564626",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:48:55.076130+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.076152+00:00\", \"elapsed_seconds\": 0.12487279099877924, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "665226",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.090868+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.090885+00:00\", \"elapsed_seconds\": 0.11689750000368804, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1357997",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.201510+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.201539+00:00\", \"elapsed_seconds\": 0.07942924997769296, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "520318",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.208212+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.208245+00:00\", \"elapsed_seconds\": 0.07976791693363339, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "821089",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.281386+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.281412+00:00\", \"elapsed_seconds\": 0.12506962497718632, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "659069",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.288497+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.288512+00:00\", \"elapsed_seconds\": 0.07703879196196795, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "621127",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.366338+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.366361+00:00\", \"elapsed_seconds\": 0.0821080410387367, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1353142",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.406963+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.406985+00:00\", \"elapsed_seconds\": 0.33952024998143315, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "530903",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.448902+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.448928+00:00\", \"elapsed_seconds\": 0.09675549995154142, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1553593",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.546104+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.546129+00:00\", \"elapsed_seconds\": 0.10131166607607156, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "942709",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.647917+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.647940+00:00\", \"elapsed_seconds\": 0.25989245797973126, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "502480",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.747075+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.747100+00:00\", \"elapsed_seconds\": 0.2904402919812128, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1554878",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:55.908325+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:55.908357+00:00\", \"elapsed_seconds\": 0.17288054199889302, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "1554899",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:56.038416+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:56.038445+00:00\", \"elapsed_seconds\": 0.09747162496205419, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    },
+    {
+      "market_id": "502302",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:48:56.081717+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:48:56.081742+00:00\", \"elapsed_seconds\": 0.07785979204345495, \"source\": \"https://polygon-mainnet.gateway.tatum.io\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"statusCode\": 429, \"message\": \"You have exceeded your limit of 5 requests per minute. To increase this limit, upgrade to a Paid plan with 200 requests per second at https://co.tatum.io/upgrade\"}}"
+    }
+  ]
+}

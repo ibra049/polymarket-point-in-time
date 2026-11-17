@@ -1,0 +1,23 @@
+{
+  "status": "INCONCLUSIVE",
+  "scope": "diagnose the preserved paper Table 1 funnel mismatch; no first-pass changes",
+  "created_utc": "2026-11-16T02:28:18.455608+00:00",
+  "script_sha256": "c37b09fba633230891c3c7359c69531707f20ce03355a3b5e698819cc70ffcae",
+  "totals": {
+    "rows": 28554,
+    "null_prediction_id": 0,
+    "matched_prediction_id": 0,
+    "unmatched_prediction_id": 28554,
+    "known_payoff_rows": 0,
+    "high_hhi_buyer_rows": 108,
+    "after_hhi_rows": 28446,
+    "after_hhi_known_payoff_rows": 0
+  },
+  "unique_unmatched_prediction_ids": 878,
+  "footer_files_checked": 1218,
+  "candidate_files_decoded": 434,
+  "candidate_bytes_verified": 18321274720,
+  "wall_seconds": 498.5065873749554,
+  "peak_rss_bytes": 2118189056,
+  "limits": "No metadata is invented for unmatched tokens; their market outcome count remains unknown. No missing-return or missing-transaction coverage is inferred."
+}

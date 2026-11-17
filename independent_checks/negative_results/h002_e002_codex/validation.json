@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "first_pass_metrics_unchanged": true,
+    "h002_comparisons": true,
+    "exact_105_pre_size_membership": true,
+    "author_ask_quantiles": true,
+    "author_bid_quantiles": true,
+    "original_first_pass_bytes_unchanged": true,
+    "first_code_hash_matches_committed_script": true
+  },
+  "full_offline_suite": {
+    "command": "TMPDIR=<worktree>/.tmp PYTHONDONTWRITEBYTECODE=1 <existing-venv>/bin/python -m pytest -q -o cache_dir=../.pytest_cache --basetemp=../.tmp/pytest-recount tests research/public_note/h002_e002_codex/test_recount.py",
+    "passed": 377,
+    "subtests_passed": 18,
+    "seconds": 61.45,
+    "scope": "Full suite run before post-comparison diagnostic-only changes; four boundary tests rerun afterward."
+  },
+  "targeted_after_comparison": {
+    "passed": 4,
+    "seconds": 0.03
+  },
+  "initial_collection_attempt": "Interrupted before any tests ran, then restarted with explicit worktree TMPDIR and --basetemp.",
+  "author_execution": "No author script was executed; files were read only after first-pass commit. Exact membership alignment is labeled post-comparison."
+}

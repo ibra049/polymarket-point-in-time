@@ -1,0 +1,300 @@
+{
+ "protocol": "research/public_note/PN-3_closing_date_leak_prereg.md @ 26f4a9d",
+ "stage": "1 (outcome-free; no outcome column opened; resolved filter deferred to stage 3)",
+ "zone": {
+  "markets_total": 729133,
+  "markets_with_trades": 614883,
+  "markets_without_trades_excluded": 114250,
+  "markets_null_event_id_excluded": 9,
+  "trade_market_ids_not_in_markets_parquet": 1,
+  "market_rule_pass": 16690,
+  "market_rule_pass_but_event_rule_fail": 193,
+  "zone_markets": 16497,
+  "zone_events": 6517,
+  "zone_trade_rows": 17309278,
+  "zone_max_trade_ts": "2024-12-31T23:48:17.000000000",
+  "zone_markets_binary": 16497,
+  "zone_market_ids_sha256": "54976ede18c4bfd3179674794afd664921b7a5f03601522df2347477bd721b49",
+  "trade_files_total": 1218,
+  "trade_files_dated_before_2025": 765,
+  "trade_rows_in_files_dated_before_2025": 31420537,
+  "files_with_timestamps_outside_partition_day": 0,
+  "files_dated_2025_plus_all_ts_ge_cutoff": true
+ },
+ "v5_status_in_zone": {
+  "no_clause": 7565,
+  "ok:F4": 4430,
+  "ok:F3": 1434,
+  "ok:F4d": 1399,
+  "ok:F1i": 952,
+  "untimed_on_date": 327,
+  "ok:F2": 191,
+  "multi_day_schedule": 125,
+  "multiple_deadlines": 31,
+  "unknown_timezone": 21,
+  "ok:F1x": 16,
+  "time_window_gap": 4,
+  "partial_temporal": 1,
+  "invalid_date": 1
+ },
+ "v5_ok_in_zone_excluded": {
+  "a16_masked": 1
+ },
+ "zone_markets_non_binary": 0,
+ "q1_population_pre_resolution_filter": {
+  "note": "zone & binary & v5 status ok & one distinct instant & not A16-masked; F1 = v5 F1i+F1x; F4 = F4+F4d (also split); PN-1 on-chain instant replaces Gamma for F1 where final_status ok",
+  "families": {
+   "F1": {
+    "markets": 968,
+    "events": 767,
+    "deadline_source": {
+     "pn1_onchain": 925,
+     "v5_gamma": 43
+    },
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 395,
+      "events": 362
+     },
+     "MATCH": {
+      "markets": 567,
+      "events": 401
+     },
+     "LATER": {
+      "markets": 5,
+      "events": 5
+     },
+     "field_null": 1
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 364,
+      "events": 198
+     },
+     "MATCH": {
+      "markets": 567,
+      "events": 543
+     },
+     "LATER": {
+      "markets": 37,
+      "events": 36
+     },
+     "field_null": 0
+    }
+   },
+   "F2": {
+    "markets": 191,
+    "events": 114,
+    "deadline_source": {
+     "v5_gamma": 191
+    },
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 43,
+      "events": 24
+     },
+     "MATCH": {
+      "markets": 147,
+      "events": 90
+     },
+     "LATER": {
+      "markets": 0,
+      "events": 0
+     },
+     "field_null": 1
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 23,
+      "events": 19
+     },
+     "MATCH": {
+      "markets": 160,
+      "events": 90
+     },
+     "LATER": {
+      "markets": 8,
+      "events": 7
+     },
+     "field_null": 0
+    }
+   },
+   "F3": {
+    "markets": 1433,
+    "events": 711,
+    "deadline_source": {
+     "v5_gamma": 1433
+    },
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 273,
+      "events": 209
+     },
+     "MATCH": {
+      "markets": 1134,
+      "events": 495
+     },
+     "LATER": {
+      "markets": 18,
+      "events": 10
+     },
+     "field_null": 8
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 444,
+      "events": 215
+     },
+     "MATCH": {
+      "markets": 958,
+      "events": 538
+     },
+     "LATER": {
+      "markets": 31,
+      "events": 29
+     },
+     "field_null": 0
+    }
+   },
+   "F4": {
+    "markets": 5829,
+    "events": 2656,
+    "deadline_source": {
+     "v5_gamma": 5829
+    },
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 780,
+      "events": 332
+     },
+     "MATCH": {
+      "markets": 4195,
+      "events": 1695
+     },
+     "LATER": {
+      "markets": 822,
+      "events": 749
+     },
+     "field_null": 32
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 59,
+      "events": 21
+     },
+     "MATCH": {
+      "markets": 5479,
+      "events": 2536
+     },
+     "LATER": {
+      "markets": 291,
+      "events": 134
+     },
+     "field_null": 0
+    }
+   },
+   "F4_timed": {
+    "markets": 4430,
+    "events": 2230,
+    "deadline_source": {
+     "v5_gamma": 4430
+    },
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 289,
+      "events": 175
+     },
+     "MATCH": {
+      "markets": 3400,
+      "events": 1449
+     },
+     "LATER": {
+      "markets": 718,
+      "events": 718
+     },
+     "field_null": 23
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 4,
+      "events": 2
+     },
+     "MATCH": {
+      "markets": 4395,
+      "events": 2214
+     },
+     "LATER": {
+      "markets": 31,
+      "events": 28
+     },
+     "field_null": 0
+    }
+   },
+   "F4d_dateonly": {
+    "markets": 1399,
+    "events": 443,
+    "deadline_source": {
+     "v5_gamma": 1399
+    },
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 491,
+      "events": 157
+     },
+     "MATCH": {
+      "markets": 795,
+      "events": 261
+     },
+     "LATER": {
+      "markets": 104,
+      "events": 31
+     },
+     "field_null": 9
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 55,
+      "events": 19
+     },
+     "MATCH": {
+      "markets": 1084,
+      "events": 338
+     },
+     "LATER": {
+      "markets": 260,
+      "events": 106
+     },
+     "field_null": 0
+    }
+   }
+  }
+ },
+ "mechanism_check_F1_expiration_classes": {
+  "EARLIER": {
+   "markets": 395,
+   "with_close_time": 395,
+   "exp_within_1h_of_close": 1,
+   "share": 0.002531645569620253
+  },
+  "MATCH": {
+   "markets": 567,
+   "with_close_time": 567,
+   "exp_within_1h_of_close": 2,
+   "share": 0.003527336860670194
+  }
+ },
+ "q2_deadline_subset_pre_ledger": {
+  "markets": 8379,
+  "events": 4245,
+  "trade_rows": 4647611,
+  "families": {
+   "F1i": 951,
+   "F4": 4407,
+   "F4d": 1390,
+   "F3": 1425,
+   "F2": 190,
+   "F1x": 16
+  },
+  "dropped_null_expiration_or_close": 42
+ }
+}

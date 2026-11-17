@@ -1,0 +1,663 @@
+market_id,event_id,event_slug,event_title,question,market_start_time,creation_instant,current_instant,delta_hours,delta_days,creation_block,creation_tx,creation_block_time,creation_title,creation_text,current_text
+513495,14590,trump-cabinet-confirmation-on-jan-20,Trump Cabinet confirmation on Day 1?,Trump Cabinet confirmation on Day 1?,2024-11-19T22:32:42.702000+00:00,2024-01-21T04:59:00+00:00,2025-01-21T04:59:00+00:00,8784.0,366.0,64491140,0x120b5cad784909b9b8add33e83f9a8d5099a963b455323dd11b822d925e8ed31,2024-11-19T22:30:19+00:00,Trump Cabinet confirmation on Jan 20?,"q: title: Trump Cabinet confirmation on Jan 20?, description: This market will resolve to ""Yes"" if a Trump Cabinet nomination is confirmed by the U.S. Senate by January 20, 2024, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+A Cabinet position is defined as any of the heads of the 15 executive departments or a role formally designated as Cabinet-level by the President. Advisory roles will not qualify for this market.
+
+The resolution source for this market is information from the U.S. Senate (see: https://www.senate.gov/legislative/NominationsRejectedorWithdrawn.htm), however a consensus of credible reporting may also be used.
+ res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if a Trump Cabinet nomination is confirmed by the U.S. Senate by January 20, 2025, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+A Cabinet position is defined as any of the heads of the 15 executive departments or a role formally designated as Cabinet-level by the President. Advisory roles will not qualify for this market.
+
+The resolution source for this market is information from the U.S. Senate (see: https://www.senate.gov/legislative/NominationsRejectedorWithdrawn.htm), however a consensus of credible reporting may also be used.
+"
+514561,15058,will-us-government-sell-btc-before-trump-inauguration,Will US gov sell Bitcoin before Trump inauguration?,Will US gov sell Bitcoin before Trump inauguration?,2024-12-03T16:53:02.508000+00:00,2024-01-20T04:59:00+00:00,2025-01-20T04:59:00+00:00,8784.0,366.0,65039807,0xe23398cf960693e299684ffb2456a19eea7047a18dcd389e58b1eb04a66ee0dc,2024-12-03T16:49:45+00:00,Will US government sell Bitcoin before Trump inauguration?,"q: title: Will US government sell Bitcoin before Trump inauguration?, description: This market will resolve to ""Yes"" if the US government sells any of its Bitcoin by January 19, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The primary resolution source for this market will be information from the US government and on-chain data, however a consensus of credible reporting will also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if the US government sells any of its Bitcoin by January 19, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The primary resolution source for this market will be information from the US government and on-chain data, however a consensus of credible reporting will also be used."
+515500,15416,joe-burrow-and-olivia-holzmacher-break-up-this-season,Joe Burrow and Olivia Holzmacher break up this season?,Joe Burrow and Olivia Holzmacher break up this season?,2024-12-12T20:17:16.097000+00:00,2024-02-10T04:59:00+00:00,2025-02-10T04:59:00+00:00,8784.0,366.0,65404898,0xbb477ea8c659169842450233d318f06350a9208fe85abd454f92b521538eaa36,2024-12-12T20:14:11+00:00,Joe Burrow and Olivia Holzmacher break up this season?,"q: title: Joe Burrow and Olivia Holzmacher break up this season?, description: This market will resolve to ""Yes"" if Joe Burrow and Olivia Holzmacher end their romantic relationship by February 9, 2024, 11:59 PM ET. Confirmation can come in various forms, including, but not limited to, social media posts, interviews, press releases, official statements, or a consensus of credible reporting. This market will resolve to ""No"" otherwise.
+
+If it's unclear whether or not they are in a romantic relationship, this market will resolve to the side with the stronger argument based on credible reporting. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Joe Burrow and Olivia Holzmacher end their romantic relationship by February 9, 2025, 11:59 PM ET. Confirmation can come in various forms, including, but not limited to, social media posts, interviews, press releases, official statements, or a consensus of credible reporting. This market will resolve to ""No"" otherwise.
+
+If it's unclear whether or not they are in a romantic relationship, this market will resolve to the side with the stronger argument based on credible reporting."
+253254,902959,bitcoin-etf-approved-by-jan-15,Bitcoin ETF approved by Jan 15?,Bitcoin ETF approved by Jan 15?,2023-12-01T18:55:30.006000+00:00,2023-01-16T04:59:00+00:00,2024-01-16T04:59:00+00:00,8760.0,365.0,50623249,0x01bcfd64fe2db5a83a0b0c28c93d4d5226dd19e861bd1643d0371a68c74d5db1,2023-12-01T18:49:52+00:00,Bitcoin ETF approved by Jan 15?,"q: title: Bitcoin ETF approved by Jan 15?, description: This market will resolve to ""Yes"" if any Bitcoin ETF receives approval from the SEC by January 15, 2023, 11:59:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The primary resolution source for this market will be information from the SEC, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if any spot Bitcoin ETF receives approval from the SEC by January 15, 2024, 11:59:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The primary resolution source for this market will be information from the SEC, however a consensus of credible reporting may also be used."
+501679,10707,will-iran-president-raisi-be-found-today,Will Iran President Raisi be found today?,Will Iran President Raisi be found today?,2024-05-20T04:18:37.472000+00:00,2024-05-20T03:59:00+00:00,2025-05-20T03:59:00+00:00,8760.0,365.0,57151861,0x267ffb93869b7803f040bbdf40f2b6063fcd5f5900fc58e6cfe9844727d6db2b,2024-05-19T16:17:30+00:00,Will Iran President Raisi be found today?,"q: title: Will Iran President Raisi be found today?, description: This market will resolve to “Yes” if it is reported by May 19, 11:59 PM ET that Raisi has been located. Otherwise this market will resolve to “No.”
+
+The resolution source will be a consensus of credible reporting. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if it is reported by May 19, 11:59 PM ET that Raisi has been located. Otherwise this market will resolve to “No.”
+
+The resolution source will be a consensus of credible reporting."
+512313,14219,who-will-replace-jd-vance-as-ohio-senator,Who will replace JD Vance as Ohio Senator?,Will Vivek Ramaswamy be appointed as the next Ohio senator?,2024-11-07T22:34:54.922000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64011049,0x40b0c81432835a645f3fb546aade0fc7b4d2a66c8df48d5d710aa1b236dac6fa,2024-11-07T22:32:22+00:00,Will Vivek Ramaswamy be appointed as the next Ohio senator?,"q: title: Will Vivek Ramaswamy be appointed as the next Ohio senator?, description: This market will resolve to ""Yes"" if Vivek Ramaswamy is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Vivek Ramaswamy is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+512314,14219,who-will-replace-jd-vance-as-ohio-senator,Who will replace JD Vance as Ohio Senator?,Will Frank LaRose be appointed as the next Ohio senator?,2024-11-07T22:35:11.138000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64011060,0xf4a2dbde9ba2c8ed1412c72f79e7a747858e98c0235a4e0101757628a2c6fcaa,2024-11-07T22:32:46+00:00,Will Frank LaRose be appointed as the next Ohio senator?,"q: title: Will Frank LaRose be appointed as the next Ohio senator?, description: This market will resolve to ""Yes"" if Frank LaRose is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Frank LaRose is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+512315,14219,who-will-replace-jd-vance-as-ohio-senator,Who will replace JD Vance as Ohio Senator?,Will Matt Dolan be appointed as the next Ohio senator?,2024-11-07T22:35:47.151000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64011075,0x1969e2ef0839d2f4bd01238e1ce36ec264f2c2f5c3e49f4ab372afd1eab6cb2d,2024-11-07T22:33:18+00:00,Will Matt Dolan be appointed as the next Ohio senator?,"q: title: Will Matt Dolan be appointed as the next Ohio senator?, description: This market will resolve to ""Yes"" if Matt Dolan is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Matt Dolan is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+512316,14219,who-will-replace-jd-vance-as-ohio-senator,Who will replace JD Vance as Ohio Senator?,Will Jane Timken be appointed as the next Ohio senator?,2024-11-07T22:36:08.366000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64011087,0xb1fd6127938aa0c527a84c1f3eb7503863e8d742079c0bc0f4d62ba65f813c80,2024-11-07T22:33:42+00:00,Will Jane Timken be appointed as the next Ohio senator?,"q: title: Will Jane Timken be appointed as the next Ohio senator?, description: This market will resolve to ""Yes"" if Jane Timken is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Jane Timken is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+512317,14219,who-will-replace-jd-vance-as-ohio-senator,Who will replace JD Vance as Ohio Senator?,Will Jon Husted be appointed as the next Ohio senator?,2024-11-07T22:36:35.997000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64011098,0x452564803f45c83fe54c54f14b5a81333db7f30408ba8f89654dff2bed08544d,2024-11-07T22:34:06+00:00,Will Jon Husted be appointed as the next Ohio senator?,"q: title: Will Jon Husted be appointed as the next Ohio senator?, description: This market will resolve to ""Yes"" if Jon Husted is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Jon Husted is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+512318,14219,who-will-replace-jd-vance-as-ohio-senator,Who will replace JD Vance as Ohio Senator?,Will Mike Carey be appointed as the next Ohio senator?,2024-11-07T22:37:00.519000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64011109,0x431e84c9432c29fee7ef661e1aa64834548cdcf077a823a0f38a3cfb8b45bfa6,2024-11-07T22:34:30+00:00,Will Mike Carey be appointed as the next Ohio senator?,"q: title: Will Mike Carey be appointed as the next Ohio senator?, description: This market will resolve to ""Yes"" if Mike Carey is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Mike Carey is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+512319,14219,who-will-replace-jd-vance-as-ohio-senator,Who will replace JD Vance as Ohio Senator?,Will Warren Davidson be appointed as the next Ohio senator?,2024-11-07T22:37:22.665000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64011121,0x3bed9dc98b680cfff04433b920a10d801449885e5d7f34973e57342ad1281235,2024-11-07T22:34:56+00:00,Will Warren Davidson be appointed as the next Ohio senator?,"q: title: Will Warren Davidson be appointed as the next Ohio senator?, description: This market will resolve to ""Yes"" if Warren Davidson is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Warren Davidson is appointed as a U.S. Senator for Ohio as a replacement for vice-president elect J.D. Vance by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the first individual appointed to replace Vance as U.S. Senator for Ohio - if another person is appointed this position first, this market will immediately resolve to ""No"".
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+513591,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Speed next?,2024-11-20T22:33:17.237000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531428,0xabc6e0e97685079be6986c3d82b2d724880c31a81ddbab157635d95b4e652edb,2024-11-20T22:30:53+00:00,Will Jake Paul fight Speed next?,"q: title: Will Jake Paul fight Speed next?, description: This market will resolve to ""Yes"" if IShowSpeed signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if IShowSpeed signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513592,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Logan Paul next?,2024-11-20T22:33:47.358000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531440,0x80def2b965bc7be2befb42d3fc96f18e8a448d0286011f4f540ffd10a7e89f41,2024-11-20T22:31:19+00:00,Will Jake Paul fight Logan Paul next?,"q: title: Will Jake Paul fight Logan Paul next?, description: This market will resolve to ""Yes"" if Logan Paul signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Logan Paul signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513593,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Canelo Alvarez next?,2024-11-20T22:34:12.702000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531453,0x7485647181ecccaf9586f0fd222dc5dc5b2ee56d68df0149f890319868c854e4,2024-11-20T22:31:45+00:00,Will Jake Paul fight Canelo Alvarez next?,"q: title: Will Jake Paul fight Canelo Alvarez next?, description: This market will resolve to ""Yes"" if Canelo Alvarez signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Canelo Alvarez signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513594,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Artur Beterbiev next?,2024-11-20T22:34:38.111000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531465,0xbcf8daf57c1ccda59696f86b9f096c7f95a5773cc94d7286ae7aa27ee657c73a,2024-11-20T22:32:11+00:00,Will Jake Paul fight Artur Beterbiev next?,"q: title: Will Jake Paul fight Artur Beterbiev next?, description: This market will resolve to ""Yes"" if Artur Beterbiev signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Artur Beterbiev signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513595,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Tommy Fury next?,2024-11-20T22:35:08.222000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531479,0xe04602d071322231a7d6af1705395a8c2a22118812f745347c3db055eee1e15e,2024-11-20T22:32:41+00:00,Will Jake Paul fight Tommy Fury next?,"q: title: Will Jake Paul fight Tommy Fury next?, description: This market will resolve to ""Yes"" if Tommy Fury signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Tommy Fury signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513596,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight KSI next?,2024-11-20T22:35:43.242000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531490,0x33a2dfb6dbe84a7a2cb17ff611e24578f4080a40da17bd99ac3347340cd06727,2024-11-20T22:33:05+00:00,Will Jake Paul fight KSI next?,"q: title: Will Jake Paul fight KSI next?, description: This market will resolve to ""Yes"" if KSI signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if KSI signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513597,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Floyd Mayweather next?,2024-11-20T22:36:12.878000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531504,0xf773505c7e94b0a3329ac061303132dade70c21a66f0881a8fd0cb255237ce23,2024-11-20T22:33:35+00:00,Will Jake Paul fight Floyd Mayweather next?,"q: title: Will Jake Paul fight Floyd Mayweather next?, description: This market will resolve to ""Yes"" if Floyd Mayweather signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Floyd Mayweather signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513598,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Conor McGregor next?,2024-11-20T22:36:57.046000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531516,0x948c3a1c525d15eac7c7117265bade0226ccac9713bf4f8d9032a22b0c65caed,2024-11-20T22:33:59+00:00,Will Jake Paul fight Conor McGregor next?,"q: title: Will Jake Paul fight Conor McGregor next?, description: This market will resolve to ""Yes"" if Conor McGregor signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Conor McGregor signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513599,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Jorge Masvidal next?,2024-11-20T22:37:43.388000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531538,0xcff4e1c9c4f223c1c440feac45e96cbdd88ce115fb10f15b5688d524acd0db39,2024-11-20T22:34:47+00:00,Will Jake Paul fight Jorge Masvidal next?,"q: title: Will Jake Paul fight Jorge Masvidal next?, description: This market will resolve to ""Yes"" if Jorge Masvidal signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Jorge Masvidal signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513600,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Andrew Tate next?,2024-11-20T22:38:26.794000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531550,0x14e61aa752ed79438874db691c29933d773984d10cae1c678ba69f6874a6da66,2024-11-20T22:35:11+00:00,Will Jake Paul fight Person A next?,"q: title: Will Jake Paul fight Person A next?, description: This market will resolve to ""Yes"" if Person A signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market may be updated in the future to replace Person A with one of the potential opponents.
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Andrew Tate signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513601,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Ryan Garcia next?,2024-11-20T22:39:02.403000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531564,0x33d2526b33497cfb20f1e3063be1f9c13fec2c14487f70ba6f9f36f82e15f793,2024-11-20T22:35:41+00:00,Will Jake Paul fight Person B next?,"q: title: Will Jake Paul fight Person B next?, description: This market will resolve to ""Yes"" if Person B signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market may be updated in the future to replace Person B with one of the potential opponents.
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Ryan Garcia signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+513603,14615,who-will-jake-paul-fight-next,Who will Jake Paul fight next?,Will Jake Paul fight Julio Cesar Chavez Jr. next?,2024-11-20T22:39:17.065000+00:00,2024-07-01T03:59:00+00:00,2025-07-01T03:59:00+00:00,8760.0,365.0,64531571,0x271cab8d5bfca6772622decf18006ccd67b3f6984e5a34d6c484d323a29074ab,2024-11-20T22:36:05+00:00,Will Jake Paul fight Person C next?,"q: title: Will Jake Paul fight Person C next?, description: This market will resolve to ""Yes"" if Person C signs an agreement to fight Jake Paul by June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market may be updated in the future to replace Person C with one of the potential opponents.
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used., res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown. This request MUST only resolve to p1 or p2.  Updates made by the question creator via the bulletin board at 0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Julio Cesar Chavez Jr. signs an agreement to fight Jake Paul by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based off the first signed or officially agreed fight between Jake Paul and another competitor. If Jake Paul signs an agreement or officially schedules a fight with another competitor first, this market will resolve to ""No"".  
+
+Any officially scheduled fight, wether boxing, MMA, or another form of combat sport will qualify. 
+
+The primary resolution source for this market will be announcements from Paul and his respective opponent or their official representatives, however a consensus of credible reporting will also be used."
+515368,15373,fact-check-money-planted-on-luigi-mangione,Fact Check: Was the money planted on Luigi Mangione?,Fact Check: Was the money planted on Luigi Mangione?,2024-12-11T15:59:23.967000+00:00,2024-05-01T03:59:00+00:00,2025-05-01T03:59:00+00:00,8760.0,365.0,65357282,0xce394c800482f464fd605ab584b94a7ab006bbec94fe482493d0e2f93dcd273f,2024-12-11T15:56:15+00:00,Fact Check: Money planted on Luigi Mangione?,"q: title: Fact Check: Money planted on Luigi Mangione?, description: When Luigi Mangione, the suspect in the shooting of UnitedHealthcare CEO Brian Thompson, was detained by the police, ~$8,000 in cash was found on him. In a court appearance, Luigi claimed that money was planted.
+
+This market will resolve to ""Yes"" if it is confirmed that money was planted on Luigi Mangione by another individual or agency by April 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve once there have been statements from the relevant law enforcement agencies confirming whether Thompson was paid. If there has been no definitive statement by April 30, 2024, 11:59 PM ET, this market will resolve based on what law enforcement believe was most likely.
+ res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","When Luigi Mangione, the suspect in the shooting of UnitedHealthcare CEO Brian Thompson, was detained by the police, ~$8,000 in cash was found on him. In a court appearance, Luigi claimed that money was planted.
+
+This market will resolve to ""Yes"" if it is confirmed that money was planted on Luigi Mangione by another individual or agency by April 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The resolution source for this market will be official statements from Mangione, his legal representation, and information released by law enforcement, however a consensus of credible reporting may also be used."
+599377,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will Israel participate in Eurovision 2026?,2025-09-16T09:59:49.216000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515559,0x9eb6d0f2f0e2d8e187cdd8fcbeff663b41be8d705b21559e5e94e79bbcca1cdb,2025-09-16T09:59:02+00:00,Will Israel participate in Eurovision 2026?,"q: title: Will Israel participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599377 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+599378,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will Iceland participate in Eurovision 2026?,2025-09-16T09:59:51.160000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515560,0x15b062fd6366bb6578ae8830ff82960b5e9e6c97c06b68fde796f7805864acff,2025-09-16T09:59:04+00:00,Will Iceland participate in Eurovision 2026?,"q: title: Will Iceland participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599378 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+599379,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will Ireland participate in Eurovision 2026?,2025-09-16T09:59:49.469000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515560,0x8d68372bfd3d569137b4df7d3fd57753932bb279e44ad3f3d2b1bf5d61585443,2025-09-16T09:59:04+00:00,Will Ireland participate in Eurovision 2026?,"q: title: Will Ireland participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599379 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+599380,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will Netherlands participate in Eurovision 2026?,2025-09-16T09:59:59.719000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515563,0x46345a5bc492f249878df7df8130dffe659938ba934914a549914f9a059cc44b,2025-09-16T09:59:10+00:00,Will Netherlands participate in Eurovision 2026?,"q: title: Will Netherlands participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599380 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+599381,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will Slovenia participate in Eurovision 2026?,2025-09-16T09:59:59.466000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515563,0x30672310284e82c2ff84bef29879018d6dfa4913819039d96302a0c8b5b8e1d8,2025-09-16T09:59:10+00:00,Will Slovenia participate in Eurovision 2026?,"q: title: Will Slovenia participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599381 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+599382,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will Spain participate in Eurovision 2026?,2025-09-16T09:59:56.755000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515562,0x3f0c9fdf0e9bb7b9a19750b124aad685be72ff0f4b2d5f3466d7d1767101b55e,2025-09-16T09:59:08+00:00,Will Spain participate in Eurovision 2026?,"q: title: Will Spain participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599382 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+599383,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will Belgium participate in Eurovision 2026?,2025-09-16T09:59:56.248000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515561,0x2ac79058e408f557ce9b7247f555521995b4640a0cebcc99c616f2986c8b4dbe,2025-09-16T09:59:06+00:00,Will Belgium participate in Eurovision 2026?,"q: title: Will Belgium participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599383 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+599384,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will Germany participate in Eurovision 2026?,2025-09-16T09:59:56.501000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515561,0x654ac246598f5dccd25a7bb3d332294c5a8eb49bda71657abe70b64b9d0af402,2025-09-16T09:59:06+00:00,Will Germany participate in Eurovision 2026?,"q: title: Will Germany participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599384 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+599385,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will Italy participate in Eurovision 2026?,2025-09-16T09:59:58.380000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515562,0x6a28332a0df69255d38874f1b47af5ff0e4283d19c97019ef4aac2f97fbf9f68,2025-09-16T09:59:08+00:00,Will Italy participate in Eurovision 2026?,"q: title: Will Italy participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599385 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+599386,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will North Macedonia participate in Eurovision 2026?,2025-09-16T09:59:47.051000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515559,0x724988b2b6b8a7178aeaf87eefb558f0cd22269439bf23af608f946e4191e24b,2025-09-16T09:59:02+00:00,Will North Macedonia participate in Eurovision 2026?,"q: title: Will North Macedonia participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599386 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+599387,45024,eurovision-2026-participants,Eurovision 2026 Participants,Will Moldova participate in Eurovision 2026?,2025-09-16T09:59:45.064000+00:00,2025-05-12T03:59:00+00:00,2026-05-12T03:59:00+00:00,8760.0,365.0,76515558,0x1b7ef9c74d94aa7130e49b6e91458991e127d8a4cd776993b1eb295fa6f8213c,2025-09-16T09:59:00+00:00,Will Moldova participate in Eurovision 2026?,"q: title: Will Moldova participate in Eurovision 2026?, description: The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2025, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2025, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used. market_id: 599387 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","The final list of participating countries for Eurovision 2026 is expected to be officially published by the European Broadcasting Union (EBU) in mid-to-late December 2025.
+
+This market will resolve to ""Yes"" if the listed country is included in the earliest official list of participants for the Eurovision Song Contest 2026, as announced by the European Broadcasting Union (EBU) or Eurovision by May 11, 2026, 11:59 PM ET.
+
+This market will solely resolve based on the countries mentioned in the first official announcement; subsequent withdrawals or adjustments will not affect the resolution of this market.
+
+If no qualifying list is published by May 11, 2026, 11:59 PM ET, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the European Broadcasting Union (EBU) and Eurovision (e.g., https://eurovision.tv); however, a consensus of credible reporting may also be used."
+919767,38900,will-russia-capture-all-of-pokrovsk-by-september-30,Will Russia capture all of Pokrovsk by...?,Will Russia capture all of Pokrovsk by January 15?,2025-12-12T21:03:03.727000+00:00,2025-01-16T04:59:00+00:00,2026-01-16T04:59:00+00:00,8760.0,365.0,80233985,0xcf22ca2e09c75cb41c6ef55f440184697d02fc847f5a6545d635402f947b5245,2025-12-12T21:02:17+00:00,Will Russia capture all of Pokrovsk by January 15?,"q: title: Will Russia capture all of Pokrovsk by January 15?, description: This market will resolve to “Yes” if, according to the ISW map, Russia captures the entirety of Pokrovsk by January 15, 2025, 11:59 PM ET.
+
+Pokrovsk will be considered captured if the entirety of the municipality is shaded red on the ISW map (https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375) by the resolution date. If the area is not shaded red by January 15, 2025, 11:59 PM ET, the market will resolve to “No”.
+
+For any change on the ISW map to qualify for this market’s resolution, the relevant shading indicating Russian control must persist through the next full ISW daily update cycle. If ISW skips a day, shading must persist until the next finalized ISW update is published, regardless of the date. Any continuous shading which reflects either “Assessed Russian Control”, “Assessed Russian Advance In Ukraine”, or “Assessed Russian Gains in the Past 24 Hours” will qualify. “Assessed Russian Infiltration Areas in Ukraine” will not qualify.
+
+The territory of the municipality is shaded in light grey and is distinguished from bordering municipalities such as ""Rih"" with a darker grey line.  If all area within the municipality is shaded in red, however the shading does not precisely match up with the border such that there is a tiny amount of grey along the border of the city, this will still qualify for a ""Yes"" resolution.
+
+Once Russia captures the Pokrovsk, any subsequent loss of control will not be considered towards the resolution of this market.
+
+Pokrovsk Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/Pokrovosk+Location.png
+Location on Google Maps: https://maps.app.goo.gl/ixAs4fF8n8ccVeL17
+
+The primary resolution source for this market will be the ISW Ukraine map. If the ISW map is rendered unavailable, information from DeepStateMap (https://deepstatemap.live/) may be used. If information from both the ISW and DeepStateMap are rendered permanently unavailable, a consensus of credible reporting may be used.
+
+Note: Any temporary glitches or errors in the map which will not be considered.
+
+If Russia comes into control of this territory as a result of a negotiated settlement, this will qualify for a 'Yes' resolution, regardless of if it is shaded red in the ISW map. An announcement of a negotiated settlement which gives Russia de jure control will not qualify. Actual control must be established.
+ market_id: 919767 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if, according to the ISW map, Russia captures the entirety of Pokrovsk by January 15, 2026, 11:59 PM ET.
+
+Pokrovsk will be considered captured if the entirety of the municipality is shaded red on the ISW map (https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375) by the resolution date. If the area is not shaded red by January 15, 2026, 11:59 PM ET, the market will resolve to “No”.
+
+For any change on the ISW map to qualify for this market’s resolution, the relevant shading indicating Russian control must persist through the next full ISW daily update cycle. If ISW skips a day, shading must persist until the next finalized ISW update is published, regardless of the date. Any continuous shading which reflects either “Assessed Russian Control”, “Assessed Russian Advance In Ukraine”, or “Assessed Russian Gains in the Past 24 Hours” will qualify. “Assessed Russian Infiltration Areas in Ukraine” will not qualify.
+
+The territory of the municipality is shaded in light grey and is distinguished from bordering municipalities such as ""Rih"" with a darker grey line.  If all area within the municipality is shaded in red, however the shading does not precisely match up with the border such that there is a tiny amount of grey along the border of the city, this will still qualify for a ""Yes"" resolution.
+
+Once Russia captures the Pokrovsk, any subsequent loss of control will not be considered towards the resolution of this market.
+
+Pokrovsk Location: https://polymarket-upload.s3.us-east-2.amazonaws.com/Pokrovosk+Location.png
+Location on Google Maps: https://maps.app.goo.gl/ixAs4fF8n8ccVeL17
+
+The primary resolution source for this market will be the ISW Ukraine map. If the ISW map is rendered unavailable, information from DeepStateMap (https://deepstatemap.live/) may be used. If information from both the ISW and DeepStateMap are rendered permanently unavailable, a consensus of credible reporting may be used.
+
+Note: Any temporary glitches or errors in the map which will not be considered.
+
+If Russia comes into control of this territory as a result of a negotiated settlement, this will qualify for a 'Yes' resolution, regardless of if it is shaded red in the ISW map. An announcement of a negotiated settlement which gives Russia de jure control will not qualify. Actual control must be established.
+"
+923647,103773,chubb-and-aig-merger-announced-by-january-31,Chubb and AIG merger announced by January 31?,Chubb and AIG merger announced by January 31?,2025-12-13T02:23:47.500000+00:00,2025-02-01T04:59:00+00:00,2026-02-01T04:59:00+00:00,8760.0,365.0,80243589,0xccd3c9cd5a44044ca3eb187767b3431a05b00f11e85932e37460a121aa60d170,2025-12-13T02:23:01+00:00,Chubb and AIG merger announced by January 31?,"q: title: Chubb and AIG merger announced by January 31?, description: This market will resolve to ""Yes"" if it is announced that American International Group (AIG) Insurance will be, has been, or is being acquired by or merged with Chubb Insurance, or vice versa, by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+An announcement by Chubb or AIG will qualify for a ""Yes"" resolution, regardless of whether the announced acquisition/merger actually occurs.
+
+The primary resolution source for this market will be official information from Chubb or AIG, however a consensus of credible reporting may also be used. market_id: 923647 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if it is announced that American International Group (AIG) Insurance will be, has been, or is being acquired by or merged with Chubb Insurance, or vice versa, by January 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+An announcement by Chubb or AIG will qualify for a ""Yes"" resolution, regardless of whether the announced acquisition/merger actually occurs.
+
+The primary resolution source for this market will be official information from Chubb or AIG, however a consensus of credible reporting may also be used."
+994884,98174,another-critical-cloudflare-incident-by,Another critical Cloudflare incident by...?,Another critical Cloudflare incident by January 31?,2025-12-22T16:49:24+00:00,2025-02-01T04:59:00+00:00,2026-02-01T04:59:00+00:00,8760.0,365.0,80651445,0xd5969dabac74349f521a9e27f7a63c3f3311a3f50efe374b52ece49ea1ff4911,2025-12-22T16:48:37+00:00,Another critical Cloudflare incident by January 31?,"q: title: Another critical Cloudflare incident by January 31?, description: This market will resolve to “Yes” if Cloudflare experiences any incident classified as Critical (red) by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+Qualifying incidents may include outages and other issues that Cloudflare may classify as Critical.
+
+Revisions to the impact classification of any such incident will be considered as long as those revisions are published within this market’s timeframe.
+
+If an incident is ongoing at this market’s resolution time, the market may remain open until that incident receives an official impact classification, and it will resolve based on the first such classification published, regardless of subsequent revisions or corrections.
+
+The primary resolution source for this market will be official information from Cloudflare (for example, on cloudflarestatus.com or cloudflarestatus.com/history); however, a consensus of credible reporting may also be used. market_id: 994884 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if Cloudflare experiences any incident classified as Critical (red) by January 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+Qualifying incidents may include outages and other issues that Cloudflare may classify as Critical.
+
+Revisions to the impact classification of any such incident will be considered as long as those revisions are published within this market’s timeframe.
+
+If an incident is ongoing at this market’s resolution time, the market may remain open until that incident receives an official impact classification, and it will resolve based on the first such classification published, regardless of subsequent revisions or corrections.
+
+The primary resolution source for this market will be official information from Cloudflare (for example, on cloudflarestatus.com or cloudflarestatus.com/history); however, a consensus of credible reporting may also be used."
+1333241,36308,claude-5-released-by,Claude 5 released by…?,"Will Claude 5 be released by February 14, 2026?",2026-02-04T15:21:24.049000+00:00,2025-02-15T04:59:00+00:00,2026-02-15T04:59:00+00:00,8760.0,365.0,82549171,0xfbcf72c5e3c9bf31bbbb2afc3792c6a09cb843cb7dcf2fe92dc5d5d2eec55c43,2026-02-04T15:19:08+00:00,"Will Claude 5 be released by February 14, 2026?","q: title: Will Claude 5 be released by February 14, 2026?, description: This market will resolve to ""Yes"" if Anthropic's Claude 5 model is made available to the general public by February 14, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+For this market to resolve to ""Yes,"" Claude 5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Anthropic as being accessible to the general public.
+
+Claude 5 refers to a product explicitly named Claude 5 (e.g. Claude 5.0 would count), or one that is recognized as a successor to Claude 4, similar to the progression from Claude 2 to Claude 3. Products labeled as Claude 4.5 or similar will not count for this market's resolution.
+
+The primary resolution source for this market will be official information from Anthropic, with additional verification from a consensus of credible reporting. market_id: 1333241 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Anthropic's Claude 5 model is made available to the general public by February 14, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+For this market to resolve to ""Yes,"" Claude 5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Anthropic as being accessible to the general public.
+
+Claude 5 refers to a product explicitly named Claude 5 (e.g. Claude 5.0 would count), or one that is recognized as a successor to Claude 4, similar to the progression from Claude 2 to Claude 3. Products labeled as Claude 4.5 or similar will not count for this market's resolution.
+
+The primary resolution source for this market will be official information from Anthropic, with additional verification from a consensus of credible reporting."
+1117833,146072,will-trump-meet-with-delcy-rodrguez-by-march-31,Will Trump meet with Delcy Rodríguez by...?,Will Trump meet with Delcy Rodríguez by March 31?,2026-01-06T00:19:12.874000+00:00,2025-04-01T03:59:59+00:00,2026-04-01T03:59:00+00:00,8759.9836,364.9993,81269723,0xbcc095a53a3b7671885a1b8d588dbd0ee98659cfa147a6fb263276407110dce6,2026-01-06T00:18:25+00:00,Will Trump meet with Delcy Rodríguez by March 31?,"q: title: Will Trump meet with Delcy Rodríguez by March 31?, description: This market will resolve to ""Yes"" if Donald Trump meets with Delcy Rodríguez by March 31, 20256, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+An exchange of words, handshake, direct conversation, or other clear personal interaction between the named individuals will qualify as a meeting. Merely standing in proximity, making eye contact, or being present in the same room or event without direct interaction will not qualify.
+
+A meeting is defined as any encounter where both listed individual and Trump are present and interact with each other in person.
+
+The resolution source will be a consensus of credible reporting.
+ market_id: 1117833 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Donald Trump meets with Delcy Rodríguez by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+An exchange of words, handshake, direct conversation, or other clear personal interaction between the named individuals will qualify as a meeting. Merely standing in proximity, making eye contact, or being present in the same room or event without direct interaction will not qualify.
+
+A meeting is defined as any encounter where both listed individual and Trump are present and interact with each other in person.
+
+The resolution source will be a consensus of credible reporting. 
+"
+1320787,36308,claude-5-released-by,Claude 5 released by…?,"Will Claude 5 be released by February 28, 2026?",2026-02-02T19:56:34.404000+00:00,2025-04-01T03:59:00+00:00,2026-03-01T04:59:00+00:00,8017.0,334.0417,82471026,0xab95390b3b54686e2d4fb5da37f0caa4f3a74a2cb864f0b68b444a2d6292d8d2,2026-02-02T19:54:18+00:00,"Will Claude 5 be released by February 28, 2026?","q: title: Will Claude 5 be released by February 28, 2026?, description: This market will resolve to ""Yes"" if Anthropic's Claude 5 model is made available to the general public by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+For this market to resolve to ""Yes,"" Claude 5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Anthropic as being accessible to the general public.
+
+Claude 5 refers to a product explicitly named Claude 5 (e.g. Claude 5.0 would count), or one that is recognized as a successor to Claude 4, similar to the progression from Claude 2 to Claude 3. Products labeled as Claude 4.5 or similar will not count for this market's resolution.
+
+The primary resolution source for this market will be official information from Anthropic, with additional verification from a consensus of credible reporting. market_id: 1320787 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Anthropic's Claude 5 model is made available to the general public by February 28, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+For this market to resolve to ""Yes,"" Claude 5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Anthropic as being accessible to the general public.
+
+Claude 5 refers to a product explicitly named Claude 5 (e.g. Claude 5.0 would count), or one that is recognized as a successor to Claude 4, similar to the progression from Claude 2 to Claude 3. Products labeled as Claude 4.5 or similar will not count for this market's resolution.
+
+The primary resolution source for this market will be official information from Anthropic, with additional verification from a consensus of credible reporting."
+503964,11631,trumps-latest-tiktok-30m-views-by-friday,Trump’s latest TikTok >30m views by Friday?,Trump’s latest TikTok >30m views by Friday?,2024-07-23T16:54:54.168000+00:00,2024-06-27T03:59:00+00:00,2024-07-27T03:59:00+00:00,720.0,30.0,59717310,0x2e74bf76e52910c2cf86924e979b12da7b9f125b5ccabe3c25c2504c4df6ed4c,2024-07-23T16:24:20+00:00,Trump’s latest TikTok >30m views by Friday?,"q: title: Trump’s latest TikTok >30m views by Friday?, description: On July 21, @realdonaldtrump made his fourth TikTok post (https://www.tiktok.com/@realdonaldtrump/video/7393869869361466654).
+
+This market will resolve to ""Yes"" if Donald Trump's fourth TikTok video reaches 30 million views by June 26, 2024 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+Views can be seen by going to Trump's TikTok page https://www.tiktok.com/@realdonaldtrump/.
+
+The resolution source will be the official view count for Trump's first TikTok as displayed on Trump's TikTok account. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","On July 21, @realdonaldtrump made his fourth TikTok post (https://www.tiktok.com/@realdonaldtrump/video/7393869869361466654).
+
+This market will resolve to ""Yes"" if Donald Trump's fourth TikTok video reaches 30 million views by July 26, 2024 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+Views can be seen by going to Trump's TikTok page https://www.tiktok.com/@realdonaldtrump/.
+
+The resolution source will be the official view count for Trump's first TikTok as displayed on Trump's TikTok account."
+504599,11886,kamala-vs-trump-who-will-raise-more,Harris vs. Trump: Who will raise more each month?,Who will raise more in July?,2024-08-06T19:53:47.931000+00:00,2024-08-01T03:59:59+00:00,2024-08-01T03:59:59+00:00,0.0,0.0,60273124,0xba832e3b44f542ad9cd4006234cab21ab2efa9e087b0502f52737bfbdc5010a8,2024-08-06T19:33:52+00:00,Who will raise more in July?,"q: title: Who will raise more in July?, description: This market will resolve to ""Kamala"" if Kamala Harris’s campaign raises more money than Donald Trump's campaign during the period from July 1, 2024, to July 31, 2024. Conversely, it will resolve to ""Trump"" if Donald Trump's campaign raises more money than Kamala Harris's campaign during the same period.
+
+This market will resolve based on the ""Total Receipts"" reported for the period covering July 1, 2024, through July 31, 2024 found on the FEC filings.
+
+If the campaigns raise exactly the same amount of money, this market will resolve 50-50.
+
+The resolution source will be the FEC filings submitted in August 2024 for the month of July 2024, scheduled to be released on August 20. The specific filings can be accessed via the following links: Harris’s FEC filing at https://docquery.fec.gov/cgi-bin/forms/C00703975/sa and Trump's FEC filing at https://docquery.fec.gov/cgi-bin/forms/C00828541/DJTFP24.COM.
+
+If the FEC filings do not clearly indicate the total receipts for the specified period or if no report is filed by September 31, 2024, this market will resolve 50-50.
+
+Note: The FEC will count all funds reported under the Biden-Harris campaign, including those raised before Joe Biden's withdrawal, as part of Kamala Harris's campaign finances.
+ res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to Trump, p2 to Kamala, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Harris"" if Kamala Harris’s campaign raises more money than Donald Trump's campaign during the period from July 1, 2024, to July 31, 2024. Conversely, it will resolve to ""Trump"" if Donald Trump's campaign raises more money than Kamala Harris's campaign during the same period.
+
+This market will resolve based on the ""Total Receipts"" reported for the period covering July 1, 2024, through July 31, 2024 found on the FEC filings.
+
+If the campaigns raise exactly the same amount of money, this market will resolve 50-50.
+
+The resolution source will be the FEC filings submitted in August 2024 for the month of July 2024, scheduled to be released on August 20. The specific filings can be accessed via the following links: Harris’s FEC filing at https://docquery.fec.gov/cgi-bin/forms/C00703975/sa and Trump's FEC filing at https://docquery.fec.gov/cgi-bin/forms/C00828541/DJTFP24.COM.
+
+If the FEC filings do not clearly indicate the total receipts for the specified period or if no report is filed by September 31, 2024, this market will resolve 50-50.
+
+Note: The FEC will count all funds reported under the Biden-Harris campaign, including those raised before Joe Biden's withdrawal, as part of Kamala Harris's campaign finances.
+"
+512535,14260,will-trumps-hush-money-conviction-be-overturned,Will Trump's hush money conviction be overturned?,Will Trump's hush money conviction be overturned?,2024-11-08T23:20:08.050618+00:00,2024-01-20T04:59:00+00:00,2024-01-20T04:59:00+00:00,0.0,0.0,64052402,0x7cb93a4fa34e54d328b8e417168dfd7efcc12678f50ec5448160584ebb92df11,2024-11-08T23:17:44+00:00,Will Trump's hush money conviction be overturned?,"q: title: Will Trump's hush money conviction be overturned?, description: This market will resolve to ""Yes"" if Donald Trump's 34 felony convictions in the case ""The State of New York vs. Donald Trump"" are all vacated or overturned by January 19, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+If any sentence is rendered in this case, this market will resolve to ""No"" regardless of any subsequent appeals or changes to the sentence.
+
+The primary resolution source will be official information from the relevant court, however a consensus of credible reporting will also be used.
+ res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Donald Trump's 34 felony convictions in the case ""The State of New York vs. Donald Trump"" are all vacated or overturned by January 19, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+If any sentence is rendered in this case, this market will resolve to ""No"" regardless of any subsequent appeals or changes to the sentence.
+
+The primary resolution source will be official information from the relevant court, however a consensus of credible reporting will also be used.
+"
+512735,14344,will-biden-resign-before-inauguration,Will Biden resign before inauguration?,Will Biden resign before inauguration?,2024-11-11T21:56:49.830600+00:00,2024-01-20T04:59:00+00:00,2024-01-20T04:59:00+00:00,0.0,0.0,64170151,0x35b10d866dc15eb317b72e04ad88c4fc56fa89df20efcd170e22c1e0f134bb4f,2024-11-11T21:54:15+00:00,Will Biden resign before inauguration?,"q: title: Will Biden resign before inauguration?, description: This market will resolve to ""Yes"" if President of the United States Joe Biden announces has resigned or will resign the presidency by January 19, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+If it becomes impossible for Joe Biden to resign or to announce his resignation (e.g. due to his removal from office by other means, etc), this market will immediately resolve to ""No"".
+
+For this market to resolve to ""Yes"" it is only necessary Biden announce that he has or will resign. Whether he actually resigns will have no bearing on the resolution of this market.
+
+The primary resolution source for this market will be official information from the US federal government, however a consensus of credible reporting will also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if President of the United States Joe Biden announces has resigned or will resign the presidency by January 19, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+If it becomes impossible for Joe Biden to resign or to announce his resignation (e.g. due to his removal from office by other means, etc), this market will immediately resolve to ""No"".
+
+For this market to resolve to ""Yes"" it is only necessary Biden announce that he has or will resign. Whether he actually resigns will have no bearing on the resolution of this market.
+
+The primary resolution source for this market will be official information from the US federal government, however a consensus of credible reporting will also be used."
+512758,14351,will-biden-appoint-more-judges-than-trump,Will Biden appoint more judges than Trump?,Will Biden appoint more judges than Trump?,2024-11-11T21:56:17.667000+00:00,2024-01-20T04:59:00+00:00,2024-01-20T04:59:00+00:00,0.0,0.0,64170141,0x6c8ae908d32bff633dab705c047586bad564075a72d3a3d4a6e4637c027f67fc,2024-11-11T21:53:53+00:00,Will Biden appoint more judges than Trump?,"q: title: Will Biden appoint more judges than Trump?, description: As of November 11, President Joe Biden has appointed and the Senate has confirmed 213 Article III federal judges. Donald Trump was able to successfully appoint 234 Judges. (see: https://www.cnn.com/2024/11/11/politics/biden-senate-democrats-judicial-nominees/index.html).
+
+This market will resolve to ""Yes"" if the Biden administration is able to get 235 or more Article III federal judges confirmed by January 19, 2024, 11:59 PM ET.  Otherwise, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the U.S. government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","As of November 11, President Joe Biden has appointed and the Senate has confirmed 213 Article III federal judges. Donald Trump was able to successfully appoint 234 Judges. (see: https://www.cnn.com/2024/11/11/politics/biden-senate-democrats-judicial-nominees/index.html).
+
+This market will resolve to ""Yes"" if the Biden administration gets 235 or more Article III federal judges confirmed by January 19, 2024, 11:59 PM ET.  Otherwise, this market will resolve to ""No"".
+
+The primary resolution source for this market will be official information from the U.S. government, however a consensus of credible reporting may also be used."
+513302,14524,will-trump-go-on-snl-before-inauguration,Will Trump go on SNL before inauguration?,Will Trump go on SNL before inauguration?,2024-11-18T15:30:24.794384+00:00,2024-01-19T08:00:00+00:00,2024-01-19T08:00:00+00:00,0.0,0.0,64439276,0x8c422fbdbfcbb309d271608af5df50961577a798df6369aa46a057590734e391,2024-11-18T15:27:59+00:00,Will Trump go on SNL before inauguration?,"q: title: Will Trump go on SNL before inauguration?, description: This market will resolve to ""Yes"" if Donald Trump makes an in-person appearance on Saturday Night Live by January 19, 2024, 3:00 AM ET. Otherwise, this market will resolve to ""No.""
+
+Virtual appearances will not qualify.
+
+The primary resolution source will be a released episode of SNL which features Donald Trump. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Donald Trump makes an in-person appearance on Saturday Night Live by January 19, 2024, 3:00 AM ET. Otherwise, this market will resolve to ""No.""
+
+Virtual appearances will not qualify.
+
+The primary resolution source will be a released episode of SNL which features Donald Trump."
+515757,15583,will-trump-sue-ann-selzer-before-inauguration,Will Trump sue Ann Selzer before inauguration?,Will Trump sue Ann Selzer before inauguration?,2024-12-16T17:29:11.009155+00:00,2024-01-20T04:59:00+00:00,2024-01-20T04:59:00+00:00,0.0,0.0,65560535,0x3fee0924ca5d150cf6715f44f24fda9690f01736ff08228debefdea49d68aec3,2024-12-16T17:26:34+00:00,Will Trump sue Ann Selzer before inauguration?,"q: title: Will Trump sue Ann Selzer before inauguration?, description: This market will resolve to ""Yes"" if Donald Trump initiates a lawsuit against Ann Selzer or the Des Moines Register by January 19, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"". 
+
+The primary resolution source will be statements from relevant courts, Donald Trump, the Des Moines Register, Ann Selzer, or any of their legal representatives and a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Donald Trump initiates a lawsuit against Ann Selzer or the Des Moines Register by January 19, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"". 
+
+The primary resolution source will be statements from relevant courts, Donald Trump, the Des Moines Register, Ann Selzer, or any of their legal representatives and a consensus of credible reporting may also be used."
+567261,33862,will-there-be-a-recount-in-the-2025-nyc-mayoral-election,Will there be a recount in the 2025 NYC mayoral election?,Will there be a recount in the 2025 NYC mayoral election?,2025-07-23T22:02:10.573544+00:00,2025-01-02T04:59:59+00:00,2025-01-02T04:59:59+00:00,0.0,0.0,74326843,0x487c52349ee4d1f2d2dfb000a08bb56af9d456a7108ad5b1f47b5b04eafafe7e,2025-07-23T22:01:22+00:00,Will there be a recount in the 2025 NYC mayoral election?,"q: title: Will there be a recount in the 2025 NYC mayoral election?, description: This market will resolve to ""Yes"" if an official recount is initiated 2025 New York City Mayoral Election process by January 1, 2025. Otherwise this market will resolve to ""No"".
+
+If the legal deadline to initiate a recount has passed 2025 NYC mayoral election, and there are no formal or legal processes underway to initiate a recount, this market may resolve to ""No"".
+ 
+A recount is defined as a formal re-tallying of votes that is ordered by election authorities, whether automatically triggered by law, requested by a candidate, or ordered by a court. 
+
+The resolution source will be official information from the relevant election authorities. market_id: 567261 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if an official recount is initiated 2025 New York City Mayoral Election process by January 1, 2025. Otherwise this market will resolve to ""No"".
+
+If the legal deadline to initiate a recount has passed 2025 NYC mayoral election, and there are no formal or legal processes underway to initiate a recount, this market may resolve to ""No"".
+ 
+A recount is defined as a formal re-tallying of votes that is ordered by election authorities, whether automatically triggered by law, requested by a candidate, or ordered by a court. 
+
+The resolution source will be official information from the relevant election authorities."
+1716989,307026,katy-perry-and-justin-trudeau-breakup-before-august,Katy Perry and Justin Trudeau breakup before August? ,Katy Perry and Justin Trudeau breakup before August? ,2026-03-25T21:09:55.256497+00:00,2025-08-01T03:59:00+00:00,2025-08-01T03:59:00+00:00,0.0,0.0,84676412,0x44ab125fca7d88b778a6df7ab0686562e9ec55a8a56937c0d4393ce9dfd109dc,2026-03-25T21:07:39+00:00,Katy Perry and Justin Trudeau breakup before August?,"q: title: Katy Perry and Justin Trudeau breakup before August? , description: This market will resolve to ""Yes"" if Katy Perry and Justin Trudeau end their romantic relationship by July 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"". 
+
+If it's unclear whether or not they are in a romantic relationship, this market will resolve to the side with the stronger argument based on credible reporting.
+
+The primary resolution source for this market will be information from Katy Perry, Justin Trudeau, or one of their representatives, however a consensus of credible reporting will also be used. market_id: 1716989 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Katy Perry and Justin Trudeau end their romantic relationship by July 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"". 
+
+If it's unclear whether or not they are in a romantic relationship, this market will resolve to the side with the stronger argument based on credible reporting.
+
+The primary resolution source for this market will be information from Katy Perry, Justin Trudeau, or one of their representatives, however a consensus of credible reporting will also be used."

@@ -1,0 +1,49 @@
+{
+  "generated_utc": "2026-11-16T01:07:55.890859+00:00",
+  "checks": {
+    "all_counts_wilson_categories_events_match": true,
+    "all_disclosed_bootstraps_match_recorded_precision": true,
+    "all_input_hashes_match": true,
+    "prereg_unchanged": true,
+    "draws_match": true,
+    "first_pass_csv_mismatches_zero": true,
+    "random_25_complete_without_mismatches": true,
+    "positive_14_complete_without_mismatches": true,
+    "creation_cache_hash_matches_committed_plan": true,
+    "clarification_queries_within_planned_cap": true,
+    "clarification_intervals_contiguous": true,
+    "clarification_scan_covers_every_selected_creation_to_cutoff": true,
+    "successful_rpc_response_for_every_final_request": true,
+    "all_39_question_ids_in_each_clarification_query": true,
+    "all_8_completed_tenderly_creation_texts_match_pocket": true,
+    "original_cutoff_used": true
+  },
+  "random_spotcheck": {
+    "planned": 25,
+    "complete": 25,
+    "rows_with_mismatches": 0,
+    "field_mismatches": 0,
+    "unknown": 0
+  },
+  "supplemental_spotcheck": {
+    "planned": 14,
+    "complete": 14,
+    "rows_with_mismatches": 0,
+    "field_mismatches": 0,
+    "unknown": 0
+  },
+  "clarification_network_requests": 40,
+  "final_total_network_requests": 43,
+  "source_limitations": [
+    "Creation from independent Pocket; M3 scan from original Tenderly provider.",
+    "Creation lookups verify recorded blocks, not global uniqueness."
+  ],
+  "m2_positive": {
+    "current_title": "Will the Republican Party win the MI-04 House seat?",
+    "onchain_instant": "2026-11-05T04:59:59Z",
+    "current_instant": "2026-11-04T04:59:59Z",
+    "m2_deadline_edit": "1"
+  },
+  "original_head_block_utc": "2026-11-12T03:53:12+00:00",
+  "result_generated_utc": "2026-11-16T01:06:46.857476+00:00"
+}

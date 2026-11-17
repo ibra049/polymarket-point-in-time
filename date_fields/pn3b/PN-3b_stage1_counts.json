@@ -1,0 +1,240 @@
+{
+ "protocol": "research/public_note/PN-3b_fresh_sample_prereg.md @ 589f667",
+ "stage": "1 (outcome-free; no outcome column opened; null-outcome exclusion deferred to stage 3)",
+ "classes_h": {
+  "EARLIER": "delta < -72",
+  "GAP_NEG": "-72 <= delta < -36",
+  "MATCH": "-36 <= delta <= +36",
+  "GAP_POS": "+36 < delta <= +72",
+  "LATER": "delta > +72"
+ },
+ "waterfall": {
+  "v5_F1_ok_one_instant_not_masked": 5778,
+  "  no_trades": 176,
+  "  all_trades_before_2025": 978,
+  "with_trade_on_or_after_2025_01_01": 4624,
+  "  non_binary_excluded": 0,
+  "binary": 4624,
+  "  null_event_id_excluded": 0,
+  "non_null_event_id": 4624,
+  "  holdout_guard_excluded": 9,
+  "after_holdout_guard (pre null-outcome exclusion)": 4615,
+  "  events": 2209
+ },
+ "holdout_guard": {
+  "guard_events": 52547,
+  "guard_events_by_reason": {
+   "primary": 52532,
+   "no_v5_record": 14,
+   "a16_masked": 1
+  },
+  "guard_markets_by_reason": {
+   "primary": 262217,
+   "no_v5_record": 118,
+   "a16_masked": 3
+  }
+ },
+ "deadline_source": {
+  "pn1_onchain": 4543,
+  "v5_gamma": 72
+ },
+ "families": {
+  "F1i": 4481,
+  "F1x": 134
+ },
+ "fields": {
+  "expiration_time": {
+   "EARLIER": {
+    "markets": 306,
+    "events": 136,
+    "median_delta_h": -2164.983333333333,
+    "with_other_field": 306,
+    "within_1h_of_other_field": 85,
+    "share_within_1h": 0.2777777777777778
+   },
+   "GAP_NEG": {
+    "markets": 9,
+    "events": 9,
+    "median_delta_h": -40.983333333333334,
+    "with_other_field": 9,
+    "within_1h_of_other_field": 0,
+    "share_within_1h": 0.0
+   },
+   "MATCH": {
+    "markets": 4091,
+    "events": 2094,
+    "median_delta_h": -27.983333333333334,
+    "with_other_field": 4091,
+    "within_1h_of_other_field": 1138,
+    "share_within_1h": 0.2781715961867514
+   },
+   "GAP_POS": {
+    "markets": 1,
+    "events": 1,
+    "median_delta_h": 56.016666666666666,
+    "with_other_field": 1,
+    "within_1h_of_other_field": 0,
+    "share_within_1h": 0.0
+   },
+   "LATER": {
+    "markets": 136,
+    "events": 75,
+    "median_delta_h": 1399.0166666666667,
+    "with_other_field": 136,
+    "within_1h_of_other_field": 21,
+    "share_within_1h": 0.15441176470588236
+   },
+   "field_null_excluded": 72
+  },
+  "close_time": {
+   "EARLIER": {
+    "markets": 1381,
+    "events": 533,
+    "median_delta_h": -1929.9247222222223,
+    "with_other_field": 1377,
+    "within_1h_of_other_field": 85,
+    "share_within_1h": 0.06172839506172839
+   },
+   "GAP_NEG": {
+    "markets": 49,
+    "events": 46,
+    "median_delta_h": -53.85138888888889,
+    "with_other_field": 49,
+    "within_1h_of_other_field": 0,
+    "share_within_1h": 0.0
+   },
+   "MATCH": {
+    "markets": 3041,
+    "events": 1714,
+    "median_delta_h": 2.3666666666666667,
+    "with_other_field": 3014,
+    "within_1h_of_other_field": 1138,
+    "share_within_1h": 0.37757133377571334
+   },
+   "GAP_POS": {
+    "markets": 45,
+    "events": 35,
+    "median_delta_h": 48.576388888888886,
+    "with_other_field": 45,
+    "within_1h_of_other_field": 0,
+    "share_within_1h": 0.0
+   },
+   "LATER": {
+    "markets": 64,
+    "events": 41,
+    "median_delta_h": 1297.4397222222221,
+    "with_other_field": 58,
+    "within_1h_of_other_field": 21,
+    "share_within_1h": 0.3620689655172414
+   },
+   "field_null_excluded": 35
+  }
+ },
+ "by_category_counts": {
+  "expiration_time": {
+   "Crypto": {
+    "EARLIER": 9,
+    "GAP_NEG": 2,
+    "LATER": 2,
+    "MATCH": 278,
+    "nan": 8
+   },
+   "Culture": {
+    "EARLIER": 26,
+    "GAP_NEG": 2,
+    "GAP_POS": 1,
+    "LATER": 10,
+    "MATCH": 379
+   },
+   "Finance": {
+    "GAP_NEG": 1,
+    "LATER": 2,
+    "MATCH": 199
+   },
+   "Politics": {
+    "EARLIER": 190,
+    "GAP_NEG": 2,
+    "LATER": 84,
+    "MATCH": 1889,
+    "nan": 34
+   },
+   "Sports": {
+    "EARLIER": 7,
+    "GAP_NEG": 1,
+    "LATER": 7,
+    "MATCH": 795,
+    "nan": 13
+   },
+   "Tech": {
+    "EARLIER": 69,
+    "GAP_NEG": 1,
+    "LATER": 31,
+    "MATCH": 475,
+    "nan": 9
+   },
+   "Weather": {
+    "EARLIER": 5,
+    "MATCH": 76,
+    "nan": 8
+   }
+  },
+  "close_time": {
+   "Crypto": {
+    "EARLIER": 61,
+    "GAP_NEG": 5,
+    "GAP_POS": 4,
+    "MATCH": 226,
+    "nan": 3
+   },
+   "Culture": {
+    "EARLIER": 110,
+    "GAP_NEG": 10,
+    "GAP_POS": 14,
+    "LATER": 3,
+    "MATCH": 281
+   },
+   "Finance": {
+    "EARLIER": 25,
+    "GAP_POS": 1,
+    "LATER": 1,
+    "MATCH": 175
+   },
+   "Politics": {
+    "EARLIER": 546,
+    "GAP_NEG": 22,
+    "GAP_POS": 22,
+    "LATER": 47,
+    "MATCH": 1545,
+    "nan": 17
+   },
+   "Sports": {
+    "EARLIER": 435,
+    "GAP_NEG": 1,
+    "GAP_POS": 1,
+    "LATER": 1,
+    "MATCH": 373,
+    "nan": 12
+   },
+   "Tech": {
+    "EARLIER": 192,
+    "GAP_NEG": 9,
+    "GAP_POS": 2,
+    "LATER": 12,
+    "MATCH": 367,
+    "nan": 3
+   },
+   "Weather": {
+    "EARLIER": 12,
+    "GAP_NEG": 2,
+    "GAP_POS": 1,
+    "MATCH": 74
+   }
+  }
+ },
+ "stop_rule": {
+  "rule": "EARLIER < 30 markets for both fields -> stop, DATA-BLOCKED, no outcome read",
+  "triggered": false
+ },
+ "population_market_ids_sha256": "48b181ca9faa72339fa19e2f8a6681e74ad22f77e1fc3530bb8037193353ec19",
+ "trade_files_scanned": 1218
+}

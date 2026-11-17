@@ -1,0 +1,71 @@
+# E-001 — RC001 step 1: fee-and-spread kill test for taker favorite buying
+# Frozen before any category-level or bin-level gross returns were extracted.
+id: E-001
+hypothesis: H-001  # favorite-longshot bias, narrowed (executable, fee-net)
+rc: RC001
+author: Claude
+frozen_at: 2026-10-05
+status: FROZEN
+
+question: >
+  Do published gross returns on Polymarket buys at >= 90c exceed the current
+  official taker fee (and, where the published figure is not taker-specific,
+  the extra spread a taker pays)? If not, the taker variant of FLB is rejected
+  for the published populations before we spend effort on a dataset study.
+
+prior_exposure: >
+  Seen before freezing: the abstract's aggregate figure (+0.83c per $ on >= 90c
+  purchases, gross, fees excluded) and the official fee formula. Not yet seen:
+  category, bin, maker/taker or horizon-level figures, and local spreads at
+  >= 90c. Those numbers are the test inputs.
+
+inputs:
+  gross_returns:
+    source: "Cardozo & Rivero-Wildemauwe, arXiv 2609.12878v1 (full text, tables/figures)"
+    use: >
+      Every reported population with buys at >= 90c: the aggregate, each
+      category and each price bin. Use taker-specific rows ("accepted seller's
+      offer") when reported, otherwise blended rows. Record table/figure ids,
+      units and sign as published. Record a 95% CI when one is reported.
+  fees:
+    source: "https://docs.polymarket.com/trading/fees (fetched 2026-10-05)"
+    formula: "fee_usdc = C * feeRate * p * (1-p); per $ spent = feeRate * (1-p)"
+    rates: {Crypto: 0.07, Sports: 0.05, Finance: 0.04, Politics: 0.04, Economics: 0.05,
+            Culture: 0.05, Weather: 0.05, Other: 0.05, Mentions: 0.04, Tech: 0.04, Geopolitics: 0.0}
+    aggregate_rate: "0.07, the highest rate, for F_max; 0.04, the lowest non-zero rate, for F_min"
+  spread:
+    source: "local data/polysignal.db market_snapshots_v2 (Aug 20-21 2026, non-authoritative)"
+    measure: "median (best_ask - midpoint) / best_ask over fetch-ok rows, by best_ask bin [0.90,0.95), [0.95,0.99), [0.99,1.00)"
+    used_only_when: "the gross row is blended (not taker-specific)"
+
+definitions:
+  G: "published gross return per $ paid, in cents (point estimate)"
+  G_hi: "upper 95% CI bound if reported, else G"
+  F_min: "feeRate * (1 - p_high) * 100, where p_high is the bin's upper edge (0.99 for an open-ended >= 0.90 bin)"
+  F_max: "feeRate * (1 - p_low) * 100, where p_low is the bin's lower edge"
+  S: "extra taker spread in cents per $ (0 for taker-specific rows)"
+
+decision_rule_per_population_row:
+  KILL: "G_hi <= F_min  (even the cheapest possible fee consumes the best-case gross edge)"
+  SURVIVE: "G - F_max - S > 0  (edge remains under the most expensive fee and spread)"
+  OPEN: "neither of the above"
+
+overall_decision:
+  REJECT_taker_variant: >
+    Every reported >= 90c population row is KILL. Scope: those published
+    populations only (Nov 2022 to Mar 2026 trades, current fee schedule
+    applied counterfactually). Horizon-specific subcohorts the paper does not
+    report stay untested (Codex rebuttal v1).
+  PROCEED_to_step_2: "Any row is SURVIVE or OPEN. Write and freeze the step-2 protocol, then report to the owner before running it."
+  INVALID_RUN: "The paper's units or sign cannot be established from the full text, or it reports no >= 90c rows."
+
+not_tested_here:
+  - "Maker variant: makers pay no fee and earn 15-25% rebates, so it needs fill/adverse-selection data. Separate open question."
+  - "Time value and capital lockup to resolution (would only lower net returns)."
+  - "Fee-free Geopolitics: fees cannot kill it, so any positive G there is OPEN by construction."
+
+reopen_condition: >
+  The fee schedule changes (rates fall or exponent > 1 at high p), or a study
+  reports horizon- or subcohort-level taker returns at >= 90c above the matching F_min.
+
+resources: "Desk only. Free sources. One sitting."

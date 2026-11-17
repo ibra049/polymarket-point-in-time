@@ -1,0 +1,78 @@
+{
+  "author_opened_after_first_pass_commit": true,
+  "author_repo_head": "a1b3b2a282bfdbcece78f71c8c567fb9abc8e010",
+  "author_sources": {
+    "reproduction/checks.json": {
+      "matches_author_head": true,
+      "sha256": "2afa0f785bbce332b85e816f2910d8ed51c7ade22199b64461344ceab8ec03b8"
+    },
+    "reproduction/reproduce.py": {
+      "matches_author_head": true,
+      "sha256": "953241b208e3cce9a97f8c7dfb224cb829018087c90961d4aea25247d689063c"
+    }
+  },
+  "checks": {
+    "R0a_return_sample_purchases": {
+      "author_recorded": 560909624,
+      "difference_vs_author": 0,
+      "difference_vs_paper": 0,
+      "frozen_comparison_satisfied": true,
+      "frozen_tolerance": "exact",
+      "independent": 560909624,
+      "paper_target": 560909624
+    },
+    "R2_pooled_taker_favorite_pct": {
+      "author_recorded": 0.8774545230949149,
+      "difference_vs_author": 5.551115123125783e-16,
+      "difference_vs_handoff": -4.547690508449609e-05,
+      "difference_vs_paper": 0.00045452309491544884,
+      "frozen_comparison_satisfied": true,
+      "frozen_tolerance": 0.01,
+      "handoff_rounded": 0.8775,
+      "independent": 0.8774545230949155,
+      "independent_handoff_precision_satisfied": true,
+      "independent_paper_precision_satisfied": true,
+      "paper_target": 0.877
+    },
+    "R2m_pooled_maker_favorite_pct": {
+      "author_recorded": 0.8163412478445112,
+      "difference_vs_author": 3.3306690738754696e-16,
+      "difference_vs_handoff": 4.124784451153829e-05,
+      "difference_vs_paper": 0.00034124784451161627,
+      "frozen_comparison_satisfied": true,
+      "frozen_tolerance": 0.01,
+      "handoff_rounded": 0.8163,
+      "independent": 0.8163412478445116,
+      "independent_handoff_precision_satisfied": true,
+      "independent_paper_precision_satisfied": true,
+      "paper_target": 0.816
+    },
+    "observed_rows": {
+      "author_recorded": 588287492,
+      "difference_vs_author": 0,
+      "difference_vs_paper": 0,
+      "frozen_comparison_satisfied": true,
+      "frozen_tolerance": "exact",
+      "independent": 588287492,
+      "paper_target": 588287492
+    }
+  },
+  "created_utc": "2026-11-16T01:21:53.187621+00:00",
+  "first_pass_commit": "499d4d41ef7a1c9d315bf38f7aa2090d63a88e6b",
+  "funnel_status": "INCONCLUSIVE",
+  "funnel_vs_paper": {
+    "buyer_hhi": {
+      "difference": 28446,
+      "independent": 586151609,
+      "paper": 586123163
+    },
+    "two_outcome": {
+      "difference": 28554,
+      "independent": 588286587,
+      "paper": 588258033
+    }
+  },
+  "note": "First-pass values and its INCONCLUSIVE status are preserved unchanged. Author frozen tolerances remain unchanged. Independent rounding checks are additional diagnostics.",
+  "status": "PROMOTE",
+  "status_scope": "the four Job C headline checks only; no alpha or strategy claim"
+}

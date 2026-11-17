@@ -1,0 +1,23 @@
+{
+  "note": "E-006 run manifest (v1.2 FROZEN). Codex filled freeze_commit, freeze_ts and sha256 at freeze (python -m src.analysis.e006 --hash), and data_commit (full 40-hex data/e006 head) at the single analysis run. analyze() refuses to run while freeze fields are null, any pinned hash differs, data_commit is not a full commit, or the snapshot files differ from snapshots/ at data_commit; snapshots whose collector_sha256 differs from the pinned collector hash are excluded (CP2, R-026).",
+  "protocol": "research/experiments/E-006.yaml",
+  "protocol_version": "v1.2 FROZEN",
+  "freeze_commit": "c9470aab941ffded655b3370ce938534bd2ddbf8",
+  "freeze_ts": "2026-11-06T04:02:01.093405+00:00",
+  "window_end_exclusive": "2026-11-17T00:00:00+00:00",
+  "excluded_snapshots": [
+    {
+      "file": "20261102T2214Z.json.gz",
+      "started_minute": "2026-11-02T22:14",
+      "why": "step-1 pipeline snapshot, viewed by Claude before freeze"
+    }
+  ],
+  "data_branch": "data/e006",
+  "data_commit": null,
+  "sha256": {
+    "research/experiments/E-006.yaml": "39f5d348773aa600ee4745c392c4b3fc297fdbc1c4cc6ece7e5b9f60229c3644",
+    "src/analysis/e006.py": "912ca5b62de90bd689bc17962f1e1ebf3886866772a5439178bdee59397f2aff",
+    "scripts/e006_snapshot.py": "4eb3d46ad5c121253a631e732b784f44173812a5f91b0a21e9c07617e112d4fc",
+    "../.github/workflows/e006-collect.yml": "f63ca8cb53f050afae07ebb027922d584db0766ea8194fcbbea01332f1e06f88"
+  }
+}

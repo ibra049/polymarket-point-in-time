@@ -1,0 +1,81 @@
+[
+  {
+    "label": "deadline",
+    "cwd": "deadline_edits",
+    "command": [
+      "python3",
+      "audit.py",
+      "DATA/"
+    ],
+    "exit_code": 1,
+    "seconds": 0.10113070800434798
+  },
+  {
+    "label": "fee_screen",
+    "cwd": "negative_results/fee_screen",
+    "command": [
+      "python3",
+      "E-001_compute.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.025758833973668516,
+    "byte_identical": true,
+    "original_sha256": "f67597b13d201125d8a5cd5711b7c94e3bd126a0dba401f76f9334ee656d1f9c",
+    "rerun_sha256": "f67597b13d201125d8a5cd5711b7c94e3bd126a0dba401f76f9334ee656d1f9c"
+  },
+  {
+    "label": "options_offline",
+    "seconds": 0.718117207987234,
+    "status": "INVALID-RUN",
+    "pipeline": {
+      "synthetic_flat_error": 2.0638243426240876e-05,
+      "fail_share": 0.19672131147540983,
+      "denominator": 61,
+      "na": 0,
+      "failed": 12,
+      "mark_checked": 11754,
+      "mark_bad": 3
+    },
+    "snapshots": {
+      "files": 65,
+      "by_disposition": {
+        "in_sample": 61,
+        "duplicate_hour": 4
+      },
+      "in_sample": 61,
+      "valid": 61,
+      "scheduled_hours": 260
+    },
+    "all_difference_paths": [
+      "/cheap_side/ci95",
+      "/ci95",
+      "/flat_benchmark/ci95",
+      "/manifest/data_commit",
+      "/manifest/data_verified",
+      "/manifest/hash_verified",
+      "/manifest/synthetic",
+      "/non_tail/ci95",
+      "/pipeline/synthetic_flat_error",
+      "/return_per_dollar/max",
+      "/return_per_dollar/median",
+      "/return_per_dollar/min",
+      "/return_per_dollar/p25",
+      "/return_per_dollar/p75",
+      "/return_per_dollar/p95"
+    ],
+    "non_manifest_difference_paths": [
+      "/cheap_side/ci95",
+      "/ci95",
+      "/flat_benchmark/ci95",
+      "/non_tail/ci95",
+      "/pipeline/synthetic_flat_error",
+      "/return_per_dollar/max",
+      "/return_per_dollar/median",
+      "/return_per_dollar/min",
+      "/return_per_dollar/p25",
+      "/return_per_dollar/p75",
+      "/return_per_dollar/p95"
+    ],
+    "command": "README offline analyze(paths, manifest, synthetic=True); data_commit=40 zeros"
+  }
+]

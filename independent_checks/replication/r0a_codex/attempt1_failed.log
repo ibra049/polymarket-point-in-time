@@ -1,0 +1,9 @@
+{"elapsed_seconds": 8.91542625008151, "file": 25, "file_wall_seconds": 0.32702479092404246, "files": 1218, "path": "trades/year=2022/month=12/day=22/data.parquet", "peak_rss_bytes": 854638592, "rows": 60}
+{"elapsed_seconds": 17.051352917100303, "file": 50, "file_wall_seconds": 0.30512154195457697, "files": 1218, "path": "trades/year=2023/month=01/day=16/data.parquet", "peak_rss_bytes": 854638592, "rows": 99}
+Traceback (most recent call last):
+  File "r0a_codex/recompute.py", line 239, in <module>
+    main()
+    ~~~~^^
+  File "r0a_codex/recompute.py", line 186, in main
+    raise ValueError(f"input changed during scan: {path}")
+ValueError: input changed during scan: <users_v1.3>/trades/year=2023/month=01/day=23/data.parquet

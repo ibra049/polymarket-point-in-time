@@ -1,0 +1,334 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor,lmodern,microtype,booktabs,enumitem,hyperref,amssymb,textcomp}
+\usepackage[font=small]{caption}
+\setlist{itemsep=1pt,topsep=2pt}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue!50!black,citecolor=black}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\pending}[1]{\textbf{[#1]}}
+
+\title{\vspace{-1.2em}Point-in-Time Integrity of Prediction-Market Research Data:\\
+\large An Exact Replication, a Deadline-Edit Audit, and Pre-Registered Null Results on Polymarket}
+\author{Ibrahim El Makhtoum}
+\date{November 2026 \quad\textbullet\quad v1.0}
+
+\begin{document}
+\maketitle
+\vspace{-1.5em}
+
+\begin{abstract}
+\noindent
+Backtests on prediction markets usually take market metadata (deadlines,
+closing dates) from today's API and treat it as known at the time of each
+trade. We test that assumption on Polymarket.
+
+\textbf{Replication.} We reproduce exactly the published aggregates of a
+588-million-trade study of the favorite--longshot bias (Cardozo and
+Rivero-Wildemauwe, 2026) from its public dataset: 12 of 12 pre-registered
+checks pass.
+
+\textbf{Deadline edits.} We compare each market's creation-time question text,
+recovered from on-chain records, with its current API text. Of 5,559
+``by-deadline'' markets, 38 (0.68\%, in 20 events) had their deadline
+materially changed after creation.
+
+\textbf{Population edit rate.} In a pre-registered random sample of 1,000
+verifiable markets, 0.7\% had their title changed after creation, 0.16\% of
+comparable deadlines moved by at least an hour, and 0.8\% had an on-chain
+update to their terms.
+
+\textbf{Date fields and outcomes.} A pre-registered test on 3,338 fresh markets
+finds the dataset's realized closing time strongly associated with the outcome
+(+44 points). The \emph{scheduled} expiration field shows a smaller association
+(+19 points, 95\% CI 10--28) that falls just short of our frozen threshold.
+
+\textbf{Null results.} Scoped null results for three simple inefficiencies and
+a forward options-benchmark test that stopped itself (INVALID-RUN: its frozen
+pipeline check failed on 12 of 61 snapshots, traced to inconsistent source
+option data).
+
+All code, lists and frozen protocols are released.
+\end{abstract}
+
+\section{Introduction}
+
+\paragraph{The problem.} A backtest is only as honest as its timestamps. In
+equities, point-in-time data became standard after work showed that restated
+databases change research results (Banz and Breen, 1986; Ljungqvist, Malloy and
+Marston, 2009). Prediction-market research is younger and often relies on API
+snapshots.
+
+\paragraph{Mutable metadata on Polymarket.} Polymarket's rules can be clarified
+after trading starts. Nechepurenko (2026) counts 1,549 creator clarifications
+on 1,350 of 185,550 questions, but does not evaluate deadline changes. A search of
+arXiv, SSRN, Polymarket's documentation and Dune (2026-11-11;
+\texttt{note/prior\_art.md}) found no study that counts post-creation deadline
+edits, or that tests whether the date fields researchers filter on are related
+to outcomes.
+
+\paragraph{Contributions.}
+\begin{enumerate}[nosep]
+  \item An exact, pre-registered replication.
+  \item A creation-time vs.\ current audit of deadlines, with every flagged
+        market's two texts released.
+  \item A population estimate of post-creation edits.
+  \item A pre-registered test of whether date fields encode outcomes. It
+        includes a disclosed flawed first design and a fresh-sample
+        confirmation.
+  \item Scoped null results.
+\end{enumerate}
+
+\paragraph{Pre-registration.} Decision rules were committed to version
+control before the data they judge was read. Disclosed exceptions: PN-1's
+rule followed partial exposure; the mirrored-book check had no numeric
+threshold; the code and output of PN-2 and of E-002 were committed together. The repository lists each
+protocol's commit hash and time.
+
+\section{Data}
+
+\begin{itemize}
+  \item \textbf{Trades and metadata.} Polymarket Users v1.3 (Akey, Gr\'egoire,
+        Harvie and Martineau, 2026; Hugging Face
+        \code{vgregoire/\allowbreak polymarket-users} at commit \code{91ddb961}, CC-BY-4.0): 588,287,492 trades, Nov 2022 -- Mar 2026.
+        All 1,218 trade files were re-hashed against the published manifest.
+  \item \textbf{Creation-time text.} Polymarket's UMA adapter
+        \code{QuestionInitialized} events on Polygon. The question identifier
+        is a hash of this text, so the record is immutable.
+  \item \textbf{Current text.} The Gamma API, fetched 2026-10-07.
+  \item \textbf{Order books.} The quote tests use our own one-day,
+        six-hourly capture of public order books (2026-08-20/21), released as
+        an extract.
+\end{itemize}
+
+\section{Exact replication}
+
+\paragraph{Checks.} We re-implemented the paper's sample filters and return
+definitions and pre-registered 12 checks against published values: 11 point
+values plus one confidence-interval rule. All pass:
+\begin{itemize}[nosep]
+  \item observed trades 588,287,492 (exact);
+  \item return-sample purchases 560,909,624 (exact);
+  \item taker favorite return $+0.8775\%$ vs.\ published $+0.877\%$;
+  \item maker favorite return $+0.8163\%$ vs.\ $+0.816\%$.
+\end{itemize}
+Matching the taker and maker returns separately rules out swapped roles.
+
+\paragraph{Independent second implementation.} Separate code, written from the
+paper's definitions (our script and check file unopened until its first pass
+was committed; headline targets were known, so independent but not blinded), reproduces
+all four headline values. Observed trades and return-sample purchases match
+exactly; taker and maker favorite returns match ours to within $10^{-15}$. Its
+first-pass numbers were committed before the comparison.
+
+\paragraph{Fresh rerun.} A fresh rerun of the unchanged code (2026-11-12, 55
+minutes on a laptop) reproduced the output byte for byte (55 of 55 values).
+
+\paragraph{Intermediate counts.} These differ from the paper by about 28,000
+rows before converging exactly:
+\begin{itemize}[nosep]
+  \item the release has no trades for 39 multi-outcome markets;
+  \item 28,554 trade rows carry no market identifier (independently
+        re-verified). Keeping them past the two-outcome filter makes the
+        second implementation's counts exceed the paper's by exactly 28,554
+        there, and by 28,446 after the buyer filter. None has a known payoff,
+        so none can enter the return sample. Consistent with, but not proof
+        of, the paper dropping these rows.
+\end{itemize}
+
+\paragraph{On-chain spot checks.} 46 transactions (56 fills, Jan 2023 -- Jan
+2026) were checked by script against on-chain \code{OrderFilled} logs; shares
+and prices matched within $10^{-6}$. In all 25 MINT and 5 MERGE fills, the
+dataset records the trade on the side the taker did not act on. The two forms
+are economically equivalent.
+
+\section{Point-in-time audit}
+
+\subsection{Deadline edits after creation (PN-1)}
+
+\paragraph{Method.} The population is 5,744 markets phrased ``will \ldots\ by
+$\langle$deadline$\rangle$''. For each, we parse the deadline from the
+creation-time on-chain text and from the current text with the same frozen
+parser. Excluding 185 unverifiable markets leaves 5,559. Edits under one hour
+are classed as \emph{format}; the classification was frozen before counting.
+
+\paragraph{Result.}
+\begin{itemize}[nosep]
+  \item 38 material edits in 20 events (0.68\%): 31 later (median $+59$ days)
+        and 7 earlier (median $-92$ days).
+  \item Three events hold 21 of the 31 extensions.
+  \item A further 51 markets had a creation-time deadline already in the past,
+        nearly all one-year typos later corrected.
+\end{itemize}
+
+\paragraph{Why it matters.} A backtest that sets entries by ``days before
+deadline'' from today's text uses an edit that did not exist when the trade was
+placed.
+
+\paragraph{Observation outside the frozen rule.} In 16 of the 38 edits, the
+change made the rules agree with a title that already implied the new deadline.
+Neither version is safe as ground truth without a consistency check.
+
+\paragraph{Limit.} Edit timing is unobserved.
+
+\subsection{How often are market terms changed? (PN-2)}
+
+\paragraph{Sample.} A pre-registered random sample of 1,000 markets from all
+727,053 with a question identifier, each compared with its creation-time text.
+372 draws had no UMA creation event and were replaced in the frozen order; 362
+of them are crypto markets resolved outside the adapter. The estimate therefore
+describes markets with a verifiable UMA creation event, not all 727,053. The
+sample is 69\% sports and spans 989 events.
+
+\begin{table}[h]\centering\small
+\begin{tabular}{lccc}\toprule
+Measure & Rate & Wilson 95\% CI & Event-cluster 95\% CI\\\midrule
+Title changed after creation & 7/1,000 = 0.70\% & [0.34, 1.44]\% & [0.20, 1.29]\%\\
+Deadline changed $\geq$1 h (both texts parse) & 1/641 = 0.16\% & [0.03, 0.88]\% & [0.00, 0.48]\%\\
+$\geq$1 on-chain update (any poster) & 8/1,000 = 0.80\% & [0.41, 1.57]\% & [0.30, 1.40]\%\\\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Verification.} Counts and intervals were recomputed independently
+(all match). The draw order was regenerated from the seed. 25 random rows and
+all 14 flagged rows were re-checked on Polygon, with zero mismatches. Code and
+output were committed together after their stated generation time
+(\texttt{PREREGISTRATION.md}).
+
+\paragraph{Comparison.} Updates from any poster: 0.80\%. Creator-only: 5/991
+(supplementary). The latter is similar to Nechepurenko's 0.73\% creator
+clarifications over a different window, but not directly equivalent. Deadline
+edits are rare overall: 1 in 641 comparable markets, moved 24\,h earlier; most
+of the 641 are sports fixtures. They are more frequent among ``by-date''
+markets (0.68\%, \S4.1).
+
+\subsection{Do date fields encode the outcome? (PN-3, PN-3b)}
+
+\paragraph{The fields.} The dataset documents two date fields:
+\begin{itemize}[nosep]
+  \item \code{expiration\_time}: ``scheduled expiration / settlement time'';
+  \item \code{close\_time}: ``when trading closed (resolution time when
+        settled)''.
+\end{itemize}
+The replicated paper restricts samples by ``scheduled closing dates'' (its
+Table 14), without naming the column. Its equal-weight longshot returns range
+from $-13.1\%$ to $+30.7\%$ across those restrictions.
+
+\paragraph{First test (PN-3).} The test used only markets whose events stopped
+trading before 2025, to protect a separate study's hold-out. It returned REJECT
+under its frozen rule. The $\pm$24-hour class boundary, however, mostly captured
+a time-zone convention: midnight UTC vs.\ end-of-day Eastern, with 345 of 390
+``early'' markets 24--36 hours early. We disclosed the flaw and left the result
+unchanged.
+
+\paragraph{Fresh-sample test (PN-3b).} New bands were set from the outcome-free
+distribution of differences, with two separate hypotheses. The sample is 3,338
+resolved markets (1,803 events), disjoint from PN-3 and from every live study's
+population.
+
+\begin{table}[h]\centering\small
+\setlength{\tabcolsep}{4pt}\begin{tabular}{lcccc}\toprule
+Field & YES, $>$3 d early & YES, matches & Diff.\ [95\% cluster CI] & Frozen status\\\midrule
+\code{close\_time} & 50.2\% (1,292) & 5.9\% (1,908) & $+44.3$ pts [36.4, 53.5] & dependence\\
+\code{expiration\_time} & 42.1\% (221) & 23.5\% (2,954) & $+18.6$ pts [10.4, 27.6] & inconclusive\\\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Independent reading.} An independent reviewer recomputed both
+statistics from the committed data:
+\begin{itemize}[nosep]
+  \item the \code{close\_time} result ``supports a warning against treating it
+        as a scheduled deadline'';
+  \item the \code{expiration\_time} result ``does not establish absence of
+        dependence; its positive association misses the prespecified
+        effect-size threshold'';
+  \item both are associations, not causal effects or evidence of a paper error,
+        and the paper's field choice is unknown.
+\end{itemize}
+
+\paragraph{Not done.} We did not recompute Table 14 on the full sample, because
+that would read outcomes from a hold-out reserved for another pre-registered
+study.
+
+\section{Pre-registered null results (scoped)}
+
+\begin{itemize}
+  \item \textbf{YES + NO below \$1.}
+    \begin{itemize}[nosep]
+      \item In 6,432 order-book pairs, the NO ask equaled 1 $-$ YES bid every
+            time; the sum of asks was never below \$1 (minimum \$1.001).
+      \item Polymarket serves one mirrored book, so this arbitrage cannot
+            appear in quotes.
+      \item This was a mechanism check with no numeric threshold set in advance.
+    \end{itemize}
+  \item \textbf{Multi-outcome basket gaps.}
+    \begin{itemize}[nosep]
+      \item Zero opportunities above the frozen 0.5\textcent\ threshold in 105
+            complete event-snapshots (24 events, 104 meeting minimum size; 6-hourly quotes).
+      \item The closest case was a 1.8\textcent\ gross gap; taker fees turned it
+            into $-0.48$\textcent\ net.
+      \item Completeness is judged against event lists refetched later
+            (originals not saved); on 16 of the 105, exchange timestamps span
+            more than 60\,s (max 930\,s). Large multi-outcome events remain
+            untested.
+    \end{itemize}
+  \item \textbf{Fees vs.\ published edge.}
+    \begin{itemize}[nosep]
+      \item Under the taker fee schedule as of 2026-10-05 (rate $\times\,p(1-p)$), equal-weight
+            taker favorite buying is ruled out: its best-case gross edge is
+            $-0.405\%$.
+      \item The dollar-weighted version is not ruled out by the screen: its
+            point estimate nets $+0.18$\textcent\ per \$ at the worst-case fee
+            and its CI lower end nets $-0.16$\textcent. That is not evidence of a
+            tradable edge.
+      \item This is a screen on published numbers, not a new estimate
+            (\texttt{negative\_results/fee\_screen/}).
+    \end{itemize}
+  \item \textbf{Bitcoin daily markets vs.\ option-implied probabilities.}
+        INVALID-RUN.
+        \begin{itemize}[nosep]
+          \item Frozen 2026-11-06, before any Polymarket price was viewed.
+                Executable tail-strike asks vs.\ a smile-consistent digital from
+                Deribit implied volatilities; bar: taker fee $+1$ point.
+          \item Polymarket's listing API refused the collector from 11-12: 61 of
+                260 scheduled hourly snapshots; window and collector unchanged.
+          \item The frozen pipeline gate allows $\leq 5\%$ failing snapshots;
+                12 of 61 (19.7\%) failed, so $S$ is not interpreted.
+          \item Diagnosis: non-convex Deribit mark-volatility smiles (in all 61
+                snapshots) passed through the frozen method. The question stays
+                open (\texttt{options\_benchmark/}).
+        \end{itemize}
+\end{itemize}
+
+\section{Limitations and reproducibility}
+
+\paragraph{Limitations.} One data release. Creation-time recovery requires
+on-chain events, which exist for 98\% of the audited markets. Edit timing is
+unobserved. The quote tests cover one day with no fills. The date-field test
+covers ``by-deadline'' markets only. A few numbers were reproduced by our code
+but not independently recomputed; \code{NUMBERS.md} labels each number's
+verification level.
+
+\paragraph{Reproducibility.} For every section, the repository holds the frozen
+protocol, the code, the outputs and a rerun script that starts from public
+inputs: \url{https://github.com/ibra049/polymarket-point-in-time}.
+
+\footnotesize
+\vspace{-0.8em}
+\section*{References}
+\begin{itemize}[leftmargin=*,label={},nosep]
+  \item Akey, Gr\'egoire, Harvie, Martineau (2026). Who Wins and Who Loses in
+        Prediction Markets? Evidence from Polymarket. SSRN 6443103.
+  \item Banz, R., Breen, W. (1986). Sample-dependent results using accounting
+        and market data. \emph{J.\ Finance} 41(4), 779--793.
+  \item Cardozo, M., Rivero-Wildemauwe, J.\,I. (2026). The Favorite-Longshot
+        Bias in Prediction Markets: Evidence from Polymarket.
+        arXiv:2609.12878.
+  \item Ljungqvist, A., Malloy, C., Marston, F. (2009). Rewriting history.
+        \emph{Journal of Finance} 64(4), 1935--1960.
+  \item Nechepurenko (2026). Resolution Is Not Settlement, Part I.
+        arXiv:2609.15368.
+  \item Polymarket documentation: Resolution/Clarifications; Trading fees
+        (read 2026-11-11).
+\end{itemize}
+\end{document}

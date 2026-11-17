@@ -1,0 +1,18 @@
+creation rows 5 / 39
+creation rows 10 / 39
+creation rows 15 / 39
+creation rows 20 / 39
+creation rows 25 / 39
+creation rows 30 / 39
+creation rows 35 / 39
+Traceback (most recent call last):
+  File "pn2/codex/bounded_spotcheck.py", line 114, in <module>
+    elif a.run and a.root and a.grammar:run(a.root,a.grammar)
+                                        ~~~^^^^^^^^^^^^^^^^^^
+  File "pn2/codex/bounded_spotcheck.py", line 79, in run
+    found=network('eth_getLogs',[dict(fromBlock=hex(lo),toBlock=hex(hi),topics=[check.ADU,qids])])
+  File "pn2/codex/spotcheck.py", line 69, in rpc
+    return _rpc(method,params)
+  File "pn2/codex/spotcheck.py", line 87, in _rpc
+    raise RuntimeError(json.dumps({k:v for k,v in rec.items() if k not in ['request']})[:1200])
+RuntimeError: {"started_utc": "2026-11-16T01:01:16.423776+00:00", "elapsed_seconds": 0.6146241669775918, "source": "https://poly.api.pocket.network", "exit_code": 0, "stderr": "", "response": {"jsonrpc": "2.0", "id": 1, "error": {"code": -32602, "message": "eth_getLogs block range too large (max 10001 blocks)"}}}

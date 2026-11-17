@@ -1,0 +1,784 @@
+{
+ "protocol": "research/public_note/PN-3_closing_date_leak_prereg.md @ 26f4a9d",
+ "mode": "single_run",
+ "zone": {
+  "markets": 16497,
+  "events": 6517
+ },
+ "bootstrap": {
+  "resamples": 10000,
+  "seed": 20261112,
+  "order_stats_1based": [
+   250,
+   9750
+  ],
+  "rng": "numpy.random.default_rng(seed), fresh per statistic"
+ },
+ "q1": {
+  "status_frozen_rule": "REJECT",
+  "primary": "F1, expiration_time, D = P(YES|EARLIER) - P(YES|MATCH)",
+  "families": {
+   "F1": {
+    "markets": 962,
+    "events": 761,
+    "unresolved_dropped": 6,
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 390,
+      "events": 357,
+      "yes": 86,
+      "p_yes": 0.2205128205128205
+     },
+     "MATCH": {
+      "markets": 566,
+      "events": 400,
+      "yes": 131,
+      "p_yes": 0.2314487632508834
+     },
+     "LATER": {
+      "markets": 5,
+      "events": 5,
+      "yes": 4,
+      "p_yes": 0.8
+     },
+     "field_null": 1,
+     "D_EARLIER_minus_MATCH": {
+      "D": -0.010935942738062893,
+      "ci95": [
+       -0.06587361172237033,
+       0.04244724176231024
+      ],
+      "bootstrap_events": 755,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": 0.5685512367491167,
+      "ci95": [
+       0.09675281643472497,
+       0.7967032967032968
+      ],
+      "bootstrap_events": 405,
+      "undefined_draws": 81
+     }
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 362,
+      "events": 196,
+      "yes": 176,
+      "p_yes": 0.4861878453038674
+     },
+     "MATCH": {
+      "markets": 566,
+      "events": 542,
+      "yes": 35,
+      "p_yes": 0.061837455830388695
+     },
+     "LATER": {
+      "markets": 34,
+      "events": 33,
+      "yes": 11,
+      "p_yes": 0.3235294117647059
+     },
+     "field_null": 0,
+     "D_EARLIER_minus_MATCH": {
+      "D": 0.4243503894734787,
+      "ci95": [
+       0.3440465207535828,
+       0.5197981366459627
+      ],
+      "bootstrap_events": 731,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": 0.2616919559343172,
+      "ci95": [
+       0.10398519163763066,
+       0.4293861421707306
+      ],
+      "bootstrap_events": 572,
+      "undefined_draws": 0
+     }
+    }
+   },
+   "F2": {
+    "markets": 186,
+    "events": 109,
+    "unresolved_dropped": 5,
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 43,
+      "events": 24,
+      "yes": 19,
+      "p_yes": 0.4418604651162791
+     },
+     "MATCH": {
+      "markets": 142,
+      "events": 85,
+      "yes": 34,
+      "p_yes": 0.23943661971830985
+     },
+     "LATER": {
+      "markets": 0,
+      "events": 0,
+      "yes": 0,
+      "p_yes": null
+     },
+     "field_null": 1,
+     "D_EARLIER_minus_MATCH": {
+      "D": 0.20242384539796923,
+      "ci95": [
+       0.0579710144927536,
+       0.4305555555555555
+      ],
+      "bootstrap_events": 109,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": null,
+      "ci95": null,
+      "note": "a class is empty"
+     }
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 23,
+      "events": 19,
+      "yes": 15,
+      "p_yes": 0.6521739130434783
+     },
+     "MATCH": {
+      "markets": 156,
+      "events": 86,
+      "yes": 37,
+      "p_yes": 0.23717948717948717
+     },
+     "LATER": {
+      "markets": 7,
+      "events": 6,
+      "yes": 1,
+      "p_yes": 0.14285714285714285
+     },
+     "field_null": 0,
+     "D_EARLIER_minus_MATCH": {
+      "D": 0.4149944258639911,
+      "ci95": [
+       0.2153000458085204,
+       0.6589580010632643
+      ],
+      "bootstrap_events": 104,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": -0.09432234432234432,
+      "ci95": [
+       -0.2849462365591398,
+       0.28481012658227844
+      ],
+      "bootstrap_events": 91,
+      "undefined_draws": 26
+     }
+    }
+   },
+   "F3": {
+    "markets": 1423,
+    "events": 703,
+    "unresolved_dropped": 10,
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 268,
+      "events": 205,
+      "yes": 90,
+      "p_yes": 0.3358208955223881
+     },
+     "MATCH": {
+      "markets": 1132,
+      "events": 493,
+      "yes": 212,
+      "p_yes": 0.1872791519434629
+     },
+     "LATER": {
+      "markets": 15,
+      "events": 7,
+      "yes": 1,
+      "p_yes": 0.06666666666666667
+     },
+     "field_null": 8,
+     "D_EARLIER_minus_MATCH": {
+      "D": 0.1485417435789252,
+      "ci95": [
+       0.08246055020248572,
+       0.21771458434701124
+      ],
+      "bootstrap_events": 696,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": -0.12061248527679623,
+      "ci95": [
+       -0.2094240837696335,
+       -0.07856750607986193
+      ],
+      "bootstrap_events": 500,
+      "undefined_draws": 9
+     }
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 440,
+      "events": 211,
+      "yes": 196,
+      "p_yes": 0.44545454545454544
+     },
+     "MATCH": {
+      "markets": 957,
+      "events": 537,
+      "yes": 105,
+      "p_yes": 0.109717868338558
+     },
+     "LATER": {
+      "markets": 26,
+      "events": 26,
+      "yes": 4,
+      "p_yes": 0.15384615384615385
+     },
+     "field_null": 0,
+     "D_EARLIER_minus_MATCH": {
+      "D": 0.3357366771159874,
+      "ci95": [
+       0.2512151876837917,
+       0.432978820500257
+      ],
+      "bootstrap_events": 682,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": 0.04412828550759586,
+      "ci95": [
+       -0.0838048631289188,
+       0.20198497854077252
+      ],
+      "bootstrap_events": 558,
+      "undefined_draws": 0
+     }
+    }
+   },
+   "F4": {
+    "markets": 2881,
+    "events": 1029,
+    "unresolved_dropped": 2948,
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 312,
+      "events": 101,
+      "yes": 107,
+      "p_yes": 0.34294871794871795
+     },
+     "MATCH": {
+      "markets": 2457,
+      "events": 914,
+      "yes": 813,
+      "p_yes": 0.3308913308913309
+     },
+     "LATER": {
+      "markets": 98,
+      "events": 25,
+      "yes": 18,
+      "p_yes": 0.1836734693877551
+     },
+     "field_null": 14,
+     "D_EARLIER_minus_MATCH": {
+      "D": 0.01205738705738707,
+      "ci95": [
+       -0.05528046810385473,
+       0.08370541029670903
+      ],
+      "bootstrap_events": 1006,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": -0.14721786150357577,
+      "ci95": [
+       -0.21425619834710746,
+       -0.06444678628716383
+      ],
+      "bootstrap_events": 938,
+      "undefined_draws": 0
+     }
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 43,
+      "events": 19,
+      "yes": 11,
+      "p_yes": 0.2558139534883721
+     },
+     "MATCH": {
+      "markets": 2604,
+      "events": 950,
+      "yes": 864,
+      "p_yes": 0.3317972350230415
+     },
+     "LATER": {
+      "markets": 234,
+      "events": 79,
+      "yes": 67,
+      "p_yes": 0.2863247863247863
+     },
+     "field_null": 0,
+     "D_EARLIER_minus_MATCH": {
+      "D": -0.07598328153466938,
+      "ci95": [
+       -0.21688075775269236,
+       0.2172973907033005
+      ],
+      "bootstrap_events": 966,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": -0.045472448698255175,
+      "ci95": [
+       -0.10451738066188229,
+       0.021362301428380748
+      ],
+      "bootstrap_events": 1015,
+      "undefined_draws": 0
+     }
+    }
+   },
+   "F4_timed": {
+    "markets": 1853,
+    "events": 734,
+    "unresolved_dropped": 2577,
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 17,
+      "events": 9,
+      "yes": 7,
+      "p_yes": 0.4117647058823529
+     },
+     "MATCH": {
+      "markets": 1825,
+      "events": 731,
+      "yes": 632,
+      "p_yes": 0.3463013698630137
+     },
+     "LATER": {
+      "markets": 0,
+      "events": 0,
+      "yes": 0,
+      "p_yes": null
+     },
+     "field_null": 11,
+     "D_EARLIER_minus_MATCH": {
+      "D": 0.06546333601933924,
+      "ci95": [
+       -0.14787350054525628,
+       0.4069264069264069
+      ],
+      "bootstrap_events": 734,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": null,
+      "ci95": null,
+      "note": "a class is empty"
+     }
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 4,
+      "events": 2,
+      "yes": 1,
+      "p_yes": 0.25
+     },
+     "MATCH": {
+      "markets": 1843,
+      "events": 730,
+      "yes": 641,
+      "p_yes": 0.347802495930548
+     },
+     "LATER": {
+      "markets": 6,
+      "events": 4,
+      "yes": 1,
+      "p_yes": 0.16666666666666666
+     },
+     "field_null": 0,
+     "D_EARLIER_minus_MATCH": {
+      "D": -0.09780249593054802,
+      "ci95": [
+       -0.3541324575807334,
+       0.6587677725118484
+      ],
+      "bootstrap_events": 731,
+      "undefined_draws": 1388
+     },
+     "D_LATER_minus_MATCH": {
+      "D": -0.18113582926388136,
+      "ci95": [
+       -0.3545706371191136,
+       -0.019930517462058872
+      ],
+      "bootstrap_events": 733,
+      "undefined_draws": 151
+     }
+    }
+   },
+   "F4d_dateonly": {
+    "markets": 1028,
+    "events": 295,
+    "unresolved_dropped": 371,
+    "expiration_time": {
+     "EARLIER": {
+      "markets": 295,
+      "events": 92,
+      "yes": 100,
+      "p_yes": 0.3389830508474576
+     },
+     "MATCH": {
+      "markets": 632,
+      "events": 183,
+      "yes": 181,
+      "p_yes": 0.28639240506329117
+     },
+     "LATER": {
+      "markets": 98,
+      "events": 25,
+      "yes": 18,
+      "p_yes": 0.1836734693877551
+     },
+     "field_null": 3,
+     "D_EARLIER_minus_MATCH": {
+      "D": 0.052590645784166445,
+      "ci95": [
+       -0.02742616033755274,
+       0.1378348427528755
+      ],
+      "bootstrap_events": 272,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": -0.10271893567553605,
+      "ci95": [
+       -0.182034632034632,
+       -0.0116332804243435
+      ],
+      "bootstrap_events": 207,
+      "undefined_draws": 0
+     }
+    },
+    "close_time": {
+     "EARLIER": {
+      "markets": 39,
+      "events": 17,
+      "yes": 10,
+      "p_yes": 0.2564102564102564
+     },
+     "MATCH": {
+      "markets": 761,
+      "events": 220,
+      "yes": 223,
+      "p_yes": 0.29303547963206306
+     },
+     "LATER": {
+      "markets": 228,
+      "events": 75,
+      "yes": 66,
+      "p_yes": 0.2894736842105263
+     },
+     "field_null": 0,
+     "D_EARLIER_minus_MATCH": {
+      "D": -0.03662522322180667,
+      "ci95": [
+       -0.18595317725752508,
+       0.2875328083989502
+      ],
+      "bootstrap_events": 235,
+      "undefined_draws": 0
+     },
+     "D_LATER_minus_MATCH": {
+      "D": -0.0035617954215367287,
+      "ci95": [
+       -0.07540861812778604,
+       0.07625996291747933
+      ],
+      "bootstrap_events": 282,
+      "undefined_draws": 0
+     }
+    }
+   }
+  },
+  "mechanism_check_F1_resolved_population": {
+   "EARLIER": {
+    "markets": 390,
+    "with_close_time": 390,
+    "exp_within_1h_of_close": 1,
+    "share": 0.002564102564102564
+   },
+   "MATCH": {
+    "markets": 566,
+    "with_close_time": 566,
+    "exp_within_1h_of_close": 2,
+    "share": 0.0035335689045936395
+   }
+  }
+ },
+ "q2": {
+  "ledger_filter_counts_zone": {
+   "observed": 17309278,
+   "complete_distinct": 17308373,
+   "valid_qty_price": 17308373,
+   "two_outcome": 17308373,
+   "hhi_lt_0_5": 17112209,
+   "resolved": 17089216,
+   "longshot": 4882025
+  },
+  "step0_replica_zone": {
+   "R3_pooled_longshot_pct": -50.992500920962875,
+   "R3b_equal_child_longshot_pct": 109.29387064438262,
+   "resolved": 17089216,
+   "long_purchases": 4882025,
+   "observed": 17309278
+  },
+  "baseline_zone_all_markets": {
+   "purchases": 4882025,
+   "dollars": 39825031.287431,
+   "pooled_pct": -50.99250092096286,
+   "pooled_ci95": [
+    -75.41781717251745,
+    -17.028197194907843
+   ],
+   "equal_child_pct": 109.29387064438262,
+   "equal_child_ci95": [
+    80.5775654793247,
+    142.66131727147666
+   ],
+   "markets": 14225,
+   "events": 6005,
+   "undefined_draws": 0
+  },
+  "baseline_deadline_subset_no_restriction": {
+   "purchases": 1039995,
+   "dollars": 7106990.183266001,
+   "pooled_pct": -31.397305609638032,
+   "pooled_ci95": [
+    -48.495650603238914,
+    -10.272376642975116
+   ],
+   "equal_child_pct": 144.13606164942306,
+   "equal_child_ci95": [
+    100.67546874858463,
+    199.11089264354732
+   ],
+   "markets": 6701,
+   "events": 3890,
+   "undefined_draws": 0
+  },
+  "rows": {
+   "a_expiration_time|N=1": {
+    "purchases": 225078,
+    "dollars": 1655419.6765519998,
+    "pooled_pct": -20.01868858718923,
+    "pooled_ci95": [
+     -50.0931064543661,
+     22.65655780422308
+    ],
+    "equal_child_pct": 174.42662824739335,
+    "equal_child_ci95": [
+     114.58986727971829,
+     251.93656818713436
+    ],
+    "markets": 4835,
+    "events": 2591,
+    "undefined_draws": 0
+   },
+   "a_expiration_time|N=7": {
+    "purchases": 506250,
+    "dollars": 3421703.738121,
+    "pooled_pct": -15.524543730624268,
+    "pooled_ci95": [
+     -36.41584960894113,
+     9.990666900517013
+    ],
+    "equal_child_pct": 151.18474945316066,
+    "equal_child_ci95": [
+     103.0845761532058,
+     211.65267520934688
+    ],
+    "markets": 6004,
+    "events": 3519,
+    "undefined_draws": 0
+   },
+   "a_expiration_time|N=30": {
+    "purchases": 779961,
+    "dollars": 5823818.407918001,
+    "pooled_pct": -26.652384325319353,
+    "pooled_ci95": [
+     -46.033183651000456,
+     -2.00561598483916
+    ],
+    "equal_child_pct": 165.59317517970482,
+    "equal_child_ci95": [
+     111.68485108440063,
+     233.97996186937715
+    ],
+    "markets": 6315,
+    "events": 3730,
+    "undefined_draws": 0
+   },
+   "b_close_time|N=1": {
+    "purchases": 257322,
+    "dollars": 2208410.397347,
+    "pooled_pct": -20.717647101084072,
+    "pooled_ci95": [
+     -48.65770479656855,
+     17.24995577400841
+    ],
+    "equal_child_pct": 132.79508604687436,
+    "equal_child_ci95": [
+     78.6134225052074,
+     200.49629573319098
+    ],
+    "markets": 6189,
+    "events": 3557,
+    "undefined_draws": 0
+   },
+   "b_close_time|N=7": {
+    "purchases": 588601,
+    "dollars": 4565195.836517001,
+    "pooled_pct": -29.350214384215068,
+    "pooled_ci95": [
+     -48.552182372667886,
+     -4.392602448859927
+    ],
+    "equal_child_pct": 136.01911738803608,
+    "equal_child_ci95": [
+     91.59111154563077,
+     191.46739033536053
+    ],
+    "markets": 6534,
+    "events": 3757,
+    "undefined_draws": 0
+   },
+   "b_close_time|N=30": {
+    "purchases": 834031,
+    "dollars": 6190641.858171,
+    "pooled_pct": -27.7462069182351,
+    "pooled_ci95": [
+     -47.00024336963043,
+     -3.185427634512423
+    ],
+    "equal_child_pct": 158.9624532936049,
+    "equal_child_ci95": [
+     108.16764803608224,
+     220.42430392651423
+    ],
+    "markets": 6656,
+    "events": 3856,
+    "undefined_draws": 0
+   },
+   "c_rule_text_deadline|N=1": {
+    "purchases": 242399,
+    "dollars": 2005938.5575340001,
+    "pooled_pct": -0.7773347622954673,
+    "pooled_ci95": [
+     -35.19772096549457,
+     43.49413566976731
+    ],
+    "equal_child_pct": 166.8429110328648,
+    "equal_child_ci95": [
+     104.85306457831797,
+     243.88821063097836
+    ],
+    "markets": 5458,
+    "events": 3236,
+    "undefined_draws": 0
+   },
+   "c_rule_text_deadline|N=7": {
+    "purchases": 506761,
+    "dollars": 3398132.089823,
+    "pooled_pct": -11.143799058020864,
+    "pooled_ci95": [
+     -34.282239466985175,
+     18.00178831312291
+    ],
+    "equal_child_pct": 151.6642896836668,
+    "equal_child_ci95": [
+     103.41486478787402,
+     212.43030567576048
+    ],
+    "markets": 6041,
+    "events": 3513,
+    "undefined_draws": 0
+   },
+   "c_rule_text_deadline|N=30": {
+    "purchases": 773692,
+    "dollars": 5782011.045785,
+    "pooled_pct": -27.198576319850172,
+    "pooled_ci95": [
+     -46.11686433662796,
+     -2.907805355445162
+    ],
+    "equal_child_pct": 165.51303671262116,
+    "equal_child_ci95": [
+     111.34446984028915,
+     232.7404194757692
+    ],
+    "markets": 6319,
+    "events": 3723,
+    "undefined_draws": 0
+   }
+  },
+  "a_vs_c_dollar_flows": {
+   "N=1": {
+    "dollars_a": 1655419.6765519998,
+    "dollars_c": 2005938.5575340001,
+    "dollars_in_both": 1390497.592002,
+    "dollars_in_a_not_c": 264922.08454999997,
+    "dollars_in_c_not_a": 615440.965532,
+    "share_of_a_dollars_leaving_when_a_to_c": 0.16003318572471872,
+    "share_of_c_dollars_entering_when_a_to_c": 0.30680947989184276,
+    "purchases_in_a_not_c": 39591,
+    "purchases_in_c_not_a": 56912
+   },
+   "N=7": {
+    "dollars_a": 3421703.738121,
+    "dollars_c": 3398132.089823,
+    "dollars_in_both": 3281847.552878,
+    "dollars_in_a_not_c": 139856.185243,
+    "dollars_in_c_not_a": 116284.53694499999,
+    "share_of_a_dollars_leaving_when_a_to_c": 0.04087325962352336,
+    "share_of_c_dollars_entering_when_a_to_c": 0.034220134435991555,
+    "purchases_in_a_not_c": 13561,
+    "purchases_in_c_not_a": 14072
+   },
+   "N=30": {
+    "dollars_a": 5823818.407918001,
+    "dollars_c": 5782011.045785,
+    "dollars_in_both": 5765060.982121,
+    "dollars_in_a_not_c": 58757.425796999996,
+    "dollars_in_c_not_a": 16950.063663999998,
+    "share_of_a_dollars_leaving_when_a_to_c": 0.01008915829468756,
+    "share_of_c_dollars_entering_when_a_to_c": 0.0029315169981137174,
+    "purchases_in_a_not_c": 9135,
+    "purchases_in_c_not_a": 2866
+   }
+  },
+  "purchases_after_scheduled_close": {
+   "a_expiration_time": {
+    "purchases": 150445,
+    "dollars": 1212651.7502020001
+   },
+   "b_close_time": {
+    "purchases": 386,
+    "dollars": 14811.767475
+   },
+   "c_rule_text_deadline": {
+    "purchases": 123933,
+    "dollars": 1175194.127558
+   }
+  }
+ },
+ "runtime_s": 112.2
+}

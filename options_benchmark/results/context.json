@@ -1,0 +1,12 @@
+{
+  "code_commit": "0d177f727d59d21911362c2a9f035cf70c84a39b",
+  "data_commit": "43ae08cee24dd8971b2a5b97f69f5a5b57cb6d04",
+  "command": [
+    "python",
+    "-m",
+    "src.analysis.e006",
+    "<data/e006 checkout at data_commit>",
+    "research/results/E-006_2026-11-17/run_manifest.json"
+  ],
+  "hashes_checked": true
+}

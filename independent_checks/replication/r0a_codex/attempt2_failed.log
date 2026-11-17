@@ -1,0 +1,48 @@
+{"elapsed_seconds": 18.75822858302854, "file": 25, "file_wall_seconds": 1.3961645419476554, "files": 1218, "path": "trades/year=2022/month=12/day=22/data.parquet", "peak_rss_bytes": 821460992, "rows": 60}
+{"elapsed_seconds": 37.49751566699706, "file": 50, "file_wall_seconds": 0.4059234580490738, "files": 1218, "path": "trades/year=2023/month=01/day=16/data.parquet", "peak_rss_bytes": 821460992, "rows": 99}
+{"elapsed_seconds": 44.97433250001632, "file": 75, "file_wall_seconds": 0.2890154580818489, "files": 1218, "path": "trades/year=2023/month=02/day=10/data.parquet", "peak_rss_bytes": 821460992, "rows": 306}
+{"elapsed_seconds": 52.31598920794204, "file": 100, "file_wall_seconds": 0.3096194590907544, "files": 1218, "path": "trades/year=2023/month=03/day=07/data.parquet", "peak_rss_bytes": 821460992, "rows": 739}
+{"elapsed_seconds": 60.090144417015836, "file": 125, "file_wall_seconds": 0.30638362490572035, "files": 1218, "path": "trades/year=2023/month=04/day=01/data.parquet", "peak_rss_bytes": 821460992, "rows": 626}
+{"elapsed_seconds": 67.51033887499943, "file": 150, "file_wall_seconds": 0.304980207933113, "files": 1218, "path": "trades/year=2023/month=04/day=26/data.parquet", "peak_rss_bytes": 821460992, "rows": 291}
+{"elapsed_seconds": 74.75088533293456, "file": 175, "file_wall_seconds": 0.2855428750626743, "files": 1218, "path": "trades/year=2023/month=05/day=21/data.parquet", "peak_rss_bytes": 821460992, "rows": 316}
+{"elapsed_seconds": 82.17110116698314, "file": 200, "file_wall_seconds": 0.3186766250291839, "files": 1218, "path": "trades/year=2023/month=06/day=15/data.parquet", "peak_rss_bytes": 821460992, "rows": 207}
+{"elapsed_seconds": 90.50557595794089, "file": 225, "file_wall_seconds": 0.29729675000999123, "files": 1218, "path": "trades/year=2023/month=07/day=10/data.parquet", "peak_rss_bytes": 821460992, "rows": 315}
+{"elapsed_seconds": 98.04545495798811, "file": 250, "file_wall_seconds": 0.28644633397925645, "files": 1218, "path": "trades/year=2023/month=08/day=04/data.parquet", "peak_rss_bytes": 821460992, "rows": 918}
+{"elapsed_seconds": 107.42477862501983, "file": 275, "file_wall_seconds": 0.32452704093884677, "files": 1218, "path": "trades/year=2023/month=08/day=29/data.parquet", "peak_rss_bytes": 821460992, "rows": 589}
+{"elapsed_seconds": 115.34252941701561, "file": 300, "file_wall_seconds": 0.3238337499788031, "files": 1218, "path": "trades/year=2023/month=09/day=23/data.parquet", "peak_rss_bytes": 821460992, "rows": 354}
+{"elapsed_seconds": 124.62096729199402, "file": 325, "file_wall_seconds": 0.3948601658921689, "files": 1218, "path": "trades/year=2023/month=10/day=18/data.parquet", "peak_rss_bytes": 821460992, "rows": 921}
+{"elapsed_seconds": 132.17357237497345, "file": 350, "file_wall_seconds": 0.30541216710116714, "files": 1218, "path": "trades/year=2023/month=11/day=12/data.parquet", "peak_rss_bytes": 821460992, "rows": 577}
+{"elapsed_seconds": 139.36841591703705, "file": 375, "file_wall_seconds": 0.2815475839888677, "files": 1218, "path": "trades/year=2023/month=12/day=07/data.parquet", "peak_rss_bytes": 821460992, "rows": 963}
+{"elapsed_seconds": 146.57565241702832, "file": 400, "file_wall_seconds": 0.30409716605208814, "files": 1218, "path": "trades/year=2024/month=01/day=01/data.parquet", "peak_rss_bytes": 821460992, "rows": 876}
+{"elapsed_seconds": 160.14206266694237, "file": 425, "file_wall_seconds": 0.47655333299189806, "files": 1218, "path": "trades/year=2024/month=01/day=26/data.parquet", "peak_rss_bytes": 821460992, "rows": 1678}
+{"elapsed_seconds": 173.61818858294282, "file": 450, "file_wall_seconds": 0.413985125022009, "files": 1218, "path": "trades/year=2024/month=02/day=20/data.parquet", "peak_rss_bytes": 821460992, "rows": 2120}
+{"elapsed_seconds": 181.1830757500138, "file": 475, "file_wall_seconds": 0.29260583396535367, "files": 1218, "path": "trades/year=2024/month=03/day=16/data.parquet", "peak_rss_bytes": 821460992, "rows": 1773}
+{"elapsed_seconds": 188.7994912499562, "file": 500, "file_wall_seconds": 0.3169817919842899, "files": 1218, "path": "trades/year=2024/month=04/day=10/data.parquet", "peak_rss_bytes": 821460992, "rows": 2257}
+{"elapsed_seconds": 201.75097204197664, "file": 525, "file_wall_seconds": 0.3463261249708012, "files": 1218, "path": "trades/year=2024/month=05/day=05/data.parquet", "peak_rss_bytes": 821460992, "rows": 1949}
+{"elapsed_seconds": 212.55641937500332, "file": 550, "file_wall_seconds": 0.3327343750279397, "files": 1218, "path": "trades/year=2024/month=05/day=30/data.parquet", "peak_rss_bytes": 821460992, "rows": 11112}
+{"elapsed_seconds": 221.79393375001382, "file": 575, "file_wall_seconds": 0.35244479088578373, "files": 1218, "path": "trades/year=2024/month=06/day=24/data.parquet", "peak_rss_bytes": 821460992, "rows": 10261}
+{"elapsed_seconds": 232.22173283295706, "file": 600, "file_wall_seconds": 0.32072125002741814, "files": 1218, "path": "trades/year=2024/month=07/day=19/data.parquet", "peak_rss_bytes": 821460992, "rows": 35482}
+{"elapsed_seconds": 242.79980862501543, "file": 625, "file_wall_seconds": 0.3426282919244841, "files": 1218, "path": "trades/year=2024/month=08/day=13/data.parquet", "peak_rss_bytes": 821460992, "rows": 46911}
+{"elapsed_seconds": 251.5456861249404, "file": 650, "file_wall_seconds": 0.30520504200831056, "files": 1218, "path": "trades/year=2024/month=09/day=07/data.parquet", "peak_rss_bytes": 821460992, "rows": 48903}
+{"elapsed_seconds": 259.9864178749267, "file": 675, "file_wall_seconds": 0.316905582905747, "files": 1218, "path": "trades/year=2024/month=10/day=02/data.parquet", "peak_rss_bytes": 821460992, "rows": 93809}
+{"elapsed_seconds": 269.88870683300775, "file": 700, "file_wall_seconds": 0.3508361669955775, "files": 1218, "path": "trades/year=2024/month=10/day=27/data.parquet", "peak_rss_bytes": 843792384, "rows": 200868}
+{"elapsed_seconds": 283.50860133301467, "file": 725, "file_wall_seconds": 0.34699108300264925, "files": 1218, "path": "trades/year=2024/month=11/day=21/data.parquet", "peak_rss_bytes": 843792384, "rows": 229976}
+{"elapsed_seconds": 293.8943118749885, "file": 750, "file_wall_seconds": 0.8633140000747517, "files": 1218, "path": "trades/year=2024/month=12/day=16/data.parquet", "peak_rss_bytes": 843792384, "rows": 315526}
+{"elapsed_seconds": 312.66870483302046, "file": 775, "file_wall_seconds": 0.3968703750288114, "files": 1218, "path": "trades/year=2025/month=01/day=10/data.parquet", "peak_rss_bytes": 843792384, "rows": 259421}
+{"elapsed_seconds": 323.91508266702294, "file": 800, "file_wall_seconds": 0.40590862499084324, "files": 1218, "path": "trades/year=2025/month=02/day=04/data.parquet", "peak_rss_bytes": 843792384, "rows": 140173}
+{"elapsed_seconds": 332.72981158294715, "file": 825, "file_wall_seconds": 0.3247394999489188, "files": 1218, "path": "trades/year=2025/month=03/day=01/data.parquet", "peak_rss_bytes": 843792384, "rows": 147475}
+{"elapsed_seconds": 341.08846166695, "file": 850, "file_wall_seconds": 0.3191188749624416, "files": 1218, "path": "trades/year=2025/month=03/day=26/data.parquet", "peak_rss_bytes": 843792384, "rows": 136693}
+{"elapsed_seconds": 349.5176595420344, "file": 875, "file_wall_seconds": 0.354598208097741, "files": 1218, "path": "trades/year=2025/month=04/day=20/data.parquet", "peak_rss_bytes": 843792384, "rows": 101156}
+{"elapsed_seconds": 359.95527637493797, "file": 900, "file_wall_seconds": 0.3373768749879673, "files": 1218, "path": "trades/year=2025/month=05/day=15/data.parquet", "peak_rss_bytes": 843792384, "rows": 180796}
+{"elapsed_seconds": 368.37465845793486, "file": 925, "file_wall_seconds": 0.33459245797712356, "files": 1218, "path": "trades/year=2025/month=06/day=09/data.parquet", "peak_rss_bytes": 843792384, "rows": 135006}
+{"elapsed_seconds": 377.0178543749498, "file": 950, "file_wall_seconds": 0.35738795797806233, "files": 1218, "path": "trades/year=2025/month=07/day=04/data.parquet", "peak_rss_bytes": 843792384, "rows": 213270}
+{"elapsed_seconds": 386.05205008294433, "file": 975, "file_wall_seconds": 0.35201508295722306, "files": 1218, "path": "trades/year=2025/month=07/day=29/data.parquet", "peak_rss_bytes": 864567296, "rows": 227264}
+Traceback (most recent call last):
+  File "r0a_codex/recompute.py", line 241, in <module>
+    main()
+    ~~~~^^
+  File "r0a_codex/recompute.py", line 186, in main
+    raise ValueError(f"input changed during scan: {path}; "
+                     f"before_size={stat.st_size}, before_mtime_ns={stat.st_mtime_ns}; "
+                     f"after_size={after.st_size}, after_mtime_ns={after.st_mtime_ns}")
+ValueError: input changed during scan: <users_v1.3>/trades/year=2025/month=08/day=21/data.parquet; before_size=10117144, before_mtime_ns=1791247273783448521; after_size=10117144, after_mtime_ns=1791247273783448457

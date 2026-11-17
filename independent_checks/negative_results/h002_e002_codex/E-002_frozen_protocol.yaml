@@ -1,0 +1,72 @@
+# E-002 — Multi-outcome (NegRisk) basket inconsistency screen on existing local data
+# Frozen before any cross-market price sums were computed.
+id: E-002
+hypothesis: H-002  # NegRisk basket mispricing survives fees at executable prices
+rc: RC000-followup (owner-requested check, 2026-10-05)
+author: Claude
+frozen_at: 2026-10-05
+status: FROZEN
+
+question: >
+  In mutually exclusive, exhaustive (NegRisk) Polymarket events, does buying
+  every YES at the ask cost less than $1, or does buying every NO at the ask
+  cost less than n-1, by more than taker fees? The test uses near-simultaneous
+  executable quotes.
+
+prior_exposure: >
+  The same sample was used for the single-binary YES/NO probe (RC000), which
+  examined within-market sums only. No cross-market sums have been computed.
+  Metadata coverage was checked before freezing: 1,364 markets carry
+  negRisk=true with a negRiskMarketID. No prices were looked at.
+
+data:
+  source: "local data/polysignal.db, market_snapshots_v2 + markets.raw_json + events.raw_payload"
+  window: "2026-08-20 11:36 to 2026-08-21 12:18 UTC (non-authoritative, is_authoritative=0)"
+  rows: "fetch_status='ok' with best_bid and best_ask present"
+
+grouping:
+  event_key: "negRiskMarketID from markets.raw_json, keeping only negRisk=true"
+  completeness: >
+    The event's full market list comes from events.raw_payload, with markets
+    linked through event_markets / markets.raw_json.events. An event-slot
+    qualifies only when every market of that NegRisk event has a fetch-ok
+    snapshot in the same scheduled_slot. Unnamed placeholder outcomes that are
+    not yet tradable do not count as legs, but such an event-slot is only
+    included when the event's "Other" outcome is itself one of the snapshotted
+    legs. Otherwise it is excluded as non-exhaustive. Events with fewer than 2
+    legs are excluded.
+  synchrony: "max(captured_at) - min(captured_at) across legs <= 60 seconds"
+
+economics:
+  long_basket: "edge_long = 1 - sum_i(ask_i) - sum_i(fee(ask_i))"
+  short_basket: "buy every NO at no_ask_i = 1 - bid_i (mirrored book): edge_short = sum_i(bid_i) - 1 - sum_i(fee(1 - bid_i))"
+  fee: >
+    fee(p) = feeRate * p * (1-p) per share, from the official docs fetched
+    2026-10-05. feeRate is the market's latest market_fee_observations
+    fee_rate at or before the snapshot (fees_enabled=0 means 0). If there is
+    none, use the market's feeSchedule from raw_json. If neither exists, the
+    event-slot is excluded and counted.
+  size: "every leg's touch size >= max(market orderMinSize, 5) shares; YES ask size for long, YES bid size for short"
+  conversion_and_gas: "ignored (makes the screen more favorable to finding gaps)"
+
+decision_rule:
+  opportunity: "a qualifying event-slot with edge_long > 0.005 or edge_short > 0.005 (0.5c per $1 basket payout)"
+  episode: "opportunities in the same event, same direction, in consecutive scheduled_slots"
+  DATA_BLOCKED: "fewer than 20 qualifying event-slots or fewer than 5 distinct events"
+  REJECT_at_cadence: "enough data and zero opportunities. Scope: these events, this window, slot cadence, quotes only."
+  INCONCLUSIVE_screen_survives: "at least one episode spanning >= 2 consecutive slots. Report it; fills, latency and conversion need a separate approved protocol."
+  REJECT_at_cadence_isolated: "only single-slot opportunities with no persistence. Same scope as above; note the count."
+
+always_report:
+  - "Funnel counts: NegRisk markets -> events -> event-slots -> complete -> synchronous -> fee-known -> size-ok."
+  - "Distribution of sum(ask) - 1 and 1 - sum(bid) over qualifying event-slots (quantiles), whatever the decision."
+  - "Code commit hash and DB file SHA-256."
+
+limitations:
+  - "One day of stale, non-authoritative local data; slot cadence is minutes, while any real gap is likely seconds-scale."
+  - "The sample is now explored and cannot be used as a holdout for this question."
+
+reopen_condition: >
+  Seconds-scale synchronous books for complete NegRisk events become available,
+  or a later authoritative capture shows persistent gaps.
+resources: "Read-only local analysis, < 2 hours."

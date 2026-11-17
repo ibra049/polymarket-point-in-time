@@ -1,0 +1,588 @@
+{
+ "verdict": "PASS",
+ "scanned": 48,
+ "counts": {
+  "mint": 7,
+  "comp_taker_sell": 6,
+  "comp_taker_buy": 5,
+  "merge": 2
+ },
+ "multi_maker": 3,
+ "n": 20,
+ "quota_met": true,
+ "results": [
+  {
+   "tx": "0x1c1f79eef5dd63418dbd0523b9b0279422f99f262382ffccde0dd2fd4df03839",
+   "block": 77500480,
+   "kind": "mint",
+   "multi_maker": true,
+   "n_rows": 2,
+   "n_passive": 2,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x8749194e",
+      "side": "BUY",
+      "token": "1250985521",
+      "shares": 37.17,
+      "usdc": 0.3717
+     },
+     {
+      "role": "passive",
+      "maker": "0xdf72efd3",
+      "side": "SELL",
+      "token": "9446007660",
+      "shares": 3.234039,
+      "usdc": 3.201698
+     },
+     {
+      "role": "active",
+      "maker": "0x2615e0c5",
+      "side": "BUY",
+      "token": "9446007660",
+      "shares": 40.404039,
+      "usdc": 39.999998
+     }
+    ],
+    "dataset": [
+     {
+      "token": "9446007660",
+      "maker": "0xdf72efd3",
+      "taker": "0x2615e0c5",
+      "taker_is_active": true,
+      "taker_bought": true,
+      "qty": 3.2340389999999997,
+      "price": 0.99
+     },
+     {
+      "token": "1250985521",
+      "maker": "0x8749194e",
+      "taker": "0x2615e0c5",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 37.17,
+      "price": 0.01
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0xe96cae7e8ce4bcf4af2ba1c7b0d17d5eb5267926a64532b55e86f5c98abbb3d0",
+   "block": 77479092,
+   "kind": "mint",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x48183e17",
+      "side": "BUY",
+      "token": "2230847931",
+      "shares": 200.0,
+      "usdc": 36.0
+     },
+     {
+      "role": "active",
+      "maker": "0xca85f4b9",
+      "side": "BUY",
+      "token": "2398229749",
+      "shares": 200.0,
+      "usdc": 164.0
+     }
+    ],
+    "dataset": [
+     {
+      "token": "2230847931",
+      "maker": "0x48183e17",
+      "taker": "0xca85f4b9",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 200.0,
+      "price": 0.18
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x63223a05cb5983974310f0fb6883d3b2e4826e57a7481b857cff58ad6ad86dce",
+   "block": 77478197,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x63dbd144e3d04eb0fd5c07eb565c46b5252a8d98ecc3edf21de7271fdf208f0c",
+   "block": 77483780,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0xb066ba022ad2012dcd3ef7e7f42c2e6cff76134cb69d2f4dfae9a8617753eb2a",
+   "block": 77499192,
+   "kind": "comp_taker_buy",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x44434ce3be0c0bd6d99f2a42a671e0978666556c6090b914d20ea815ea007021",
+   "block": 77476946,
+   "kind": "merge",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0xe8e0111e",
+      "side": "SELL",
+      "token": "5383380465",
+      "shares": 9.86,
+      "usdc": 0.01972
+     },
+     {
+      "role": "active",
+      "maker": "0xc9606f93",
+      "side": "SELL",
+      "token": "1560967656",
+      "shares": 9.86,
+      "usdc": 9.84028
+     }
+    ],
+    "dataset": [
+     {
+      "token": "5383380465",
+      "maker": "0xe8e0111e",
+      "taker": "0xc9606f93",
+      "taker_is_active": true,
+      "taker_bought": true,
+      "qty": 9.86,
+      "price": 0.002
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "merge",
+     "row_token": "maker_token",
+     "taker_bought": true
+    }
+   ]
+  },
+  {
+   "tx": "0xc178039b02af0aeaa2c7faec089eec40a473d04f6ab214eeb6a0e929adcbc63f",
+   "block": 77508056,
+   "kind": "mint",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0xec65d156",
+      "side": "BUY",
+      "token": "1926147459",
+      "shares": 10.416665,
+      "usdc": 5.416666
+     },
+     {
+      "role": "active",
+      "maker": "0x81bd24c1",
+      "side": "BUY",
+      "token": "1135261135",
+      "shares": 10.416665,
+      "usdc": 4.999999
+     }
+    ],
+    "dataset": [
+     {
+      "token": "1926147459",
+      "maker": "0xec65d156",
+      "taker": "0x81bd24c1",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 10.416665,
+      "price": 0.52
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x50ac528d8100b6c890c48d237009ad697ab67a09bd116ecb11e986b7aacc9684",
+   "block": 77492386,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0xb51b6c63849e3ca12834b4429639fe4ad6aabb5a14ab919cba75cbb1588bd093",
+   "block": 77498114,
+   "kind": "merge",
+   "multi_maker": true,
+   "n_rows": 2,
+   "n_passive": 2,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x51373c6b",
+      "side": "BUY",
+      "token": "1054932439",
+      "shares": 66.47,
+      "usdc": 49.1878
+     },
+     {
+      "role": "passive",
+      "maker": "0x51373c6b",
+      "side": "SELL",
+      "token": "6176630562",
+      "shares": 89.73,
+      "usdc": 23.3298
+     },
+     {
+      "role": "active",
+      "maker": "0x765b56bb",
+      "side": "SELL",
+      "token": "1054932439",
+      "shares": 156.2,
+      "usdc": 115.588
+     }
+    ],
+    "dataset": [
+     {
+      "token": "1054932439",
+      "maker": "0x51373c6b",
+      "taker": "0x765b56bb",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 66.47,
+      "price": 0.74
+     },
+     {
+      "token": "6176630562",
+      "maker": "0x51373c6b",
+      "taker": "0x765b56bb",
+      "taker_is_active": true,
+      "taker_bought": true,
+      "qty": 89.72999999999999,
+      "price": 0.26
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "merge",
+     "row_token": "maker_token",
+     "taker_bought": true
+    }
+   ]
+  },
+  {
+   "tx": "0xd88f7d6919dbc6490a94adbb288baa88323661f49c09be860e37fa58de80165e",
+   "block": 77515308,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0xb588bf3a608ece7885e0a0c876f5d49bb94855b9f0514d7d4a99664b1845c40f",
+   "block": 77508942,
+   "kind": "mint",
+   "multi_maker": true,
+   "n_rows": 2,
+   "n_passive": 2,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x21ffd2b7",
+      "side": "SELL",
+      "token": "3663749015",
+      "shares": 200.1,
+      "usdc": 145.0725
+     },
+     {
+      "role": "passive",
+      "maker": "0x1cfc260b",
+      "side": "BUY",
+      "token": "1044588702",
+      "shares": 478.92,
+      "usdc": 131.703
+     },
+     {
+      "role": "active",
+      "maker": "0x5f390e4b",
+      "side": "BUY",
+      "token": "3663749015",
+      "shares": 679.02,
+      "usdc": 492.2895
+     }
+    ],
+    "dataset": [
+     {
+      "token": "3663749015",
+      "maker": "0x21ffd2b7",
+      "taker": "0x5f390e4b",
+      "taker_is_active": true,
+      "taker_bought": true,
+      "qty": 200.1,
+      "price": 0.725
+     },
+     {
+      "token": "1044588702",
+      "maker": "0x1cfc260b",
+      "taker": "0x5f390e4b",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 478.91999999999996,
+      "price": 0.275
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0xf562e4b7eda058cb6ef0a3751e68f0a94d6b5bfb32fac27296176d8056f1c59e",
+   "block": 77494733,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0xbc8969e1ab7e5dd5b55d382a8dbc37d45374c7a4aa9330fccab2f0c7fe441733",
+   "block": 77504183,
+   "kind": "mint",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x9066aa36",
+      "side": "BUY",
+      "token": "6333000816",
+      "shares": 4211.0,
+      "usdc": 3410.91
+     },
+     {
+      "role": "active",
+      "maker": "0xe78425bb",
+      "side": "BUY",
+      "token": "3890601988",
+      "shares": 4211.0,
+      "usdc": 800.09
+     }
+    ],
+    "dataset": [
+     {
+      "token": "6333000816",
+      "maker": "0x9066aa36",
+      "taker": "0xe78425bb",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 4211.0,
+      "price": 0.81
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x0b254972ff4866dcc891f35371fba2ac28d1e45258057150276db0c899bd259b",
+   "block": 77502204,
+   "kind": "mint",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0xb41ac4e8",
+      "side": "BUY",
+      "token": "2638997461",
+      "shares": 626.52,
+      "usdc": 4.38564
+     },
+     {
+      "role": "active",
+      "maker": "0xdb6a1811",
+      "side": "BUY",
+      "token": "3171150941",
+      "shares": 626.52,
+      "usdc": 622.13436
+     }
+    ],
+    "dataset": [
+     {
+      "token": "2638997461",
+      "maker": "0xb41ac4e8",
+      "taker": "0xdb6a1811",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 626.52,
+      "price": 0.007
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x254ba0e006a7e3c8e8379cfe3cb7419630450d73c71c57e2b26769b7e2039304",
+   "block": 77510328,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x527b7202e1323fe41b663187a5085150721f2425d41994d6a37529e943dc3c76",
+   "block": 38452450,
+   "kind": "mint",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x7789806c",
+      "side": "BUY",
+      "token": "1027119696",
+      "shares": 3571.42857,
+      "usdc": 2571.428571
+     },
+     {
+      "role": "active",
+      "maker": "0x3cf3e8d5",
+      "side": "BUY",
+      "token": "6706068453",
+      "shares": 3571.42857,
+      "usdc": 999.999999
+     }
+    ],
+    "dataset": [
+     {
+      "token": "1027119696",
+      "maker": "0x7789806c",
+      "taker": "0x3cf3e8d5",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 3571.42857,
+      "price": 0.72
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x27b75e62f53ea5784c9ec539e5220d8678d76318c8f98974a32370013a63629b",
+   "block": 38451484,
+   "kind": "comp_taker_buy",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x460135442d8aa421409e24df2f5e3e5874e7a9e45d1d09213dfb3b53eb09d145",
+   "block": 50835312,
+   "kind": "comp_taker_buy",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x5ad6dba26234214c50ac953762894778055c9c53e1d4c11d6a2b9df33ff844bd",
+   "block": 50865216,
+   "kind": "comp_taker_buy",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0xde3f864b736a8458cfa581af350a2472f9b7986a83bcfe64c7a0519362765a89",
+   "block": 55629750,
+   "kind": "comp_taker_buy",
+   "multi_maker": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  }
+ ]
+}

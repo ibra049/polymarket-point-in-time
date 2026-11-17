@@ -1,0 +1,66 @@
+{
+ "sample": {
+  "rows": 6432,
+  "markets": 1766,
+  "events": 624,
+  "first_captured_at": "2026-08-20T18:01:15.246328+00:00",
+  "last_captured_at": "2026-08-21T12:18:28.557075+00:00",
+  "scheduled_slots": [
+   "2026-08-20T18:00:00+00:00",
+   "2026-08-21T00:00:00+00:00",
+   "2026-08-21T06:00:00+00:00",
+   "2026-08-21T12:00:00+00:00"
+  ]
+ },
+ "top_of_book": {
+  "rows_no_ask_eq_1_minus_yes_bid": 6432,
+  "rows_yes_ask_plus_no_ask_below_1": 0,
+  "min_yes_ask_plus_no_ask": 1.001,
+  "mean_yes_ask_plus_no_ask": 1.036791
+ },
+ "full_ladder": {
+  "pairs_mirrored_exactly": 6385,
+  "pairs_not_mirrored": 47,
+  "yes_levels_total": 286053,
+  "no_levels_total": 286048,
+  "mismatch_book_timestamp_gap_ms": {
+   "-3": 1,
+   "-2": 5,
+   "-1": 16,
+   "0": 7,
+   "1": 12,
+   "2": 2,
+   "4": 2,
+   "5": 1,
+   "17": 1
+  },
+  "mismatches_with_crossed_sum": 0,
+  "mismatch_examples": [
+   {
+    "market_id": "1193098",
+    "captured_at": "2026-08-20T18:01:15.246328+00:00",
+    "book_ts_gap_ms": -1
+   },
+   {
+    "market_id": "3257389",
+    "captured_at": "2026-08-20T18:01:15.246328+00:00",
+    "book_ts_gap_ms": 1
+   },
+   {
+    "market_id": "2850825",
+    "captured_at": "2026-08-20T18:01:15.246328+00:00",
+    "book_ts_gap_ms": 1
+   },
+   {
+    "market_id": "1193097",
+    "captured_at": "2026-08-20T18:01:15.246328+00:00",
+    "book_ts_gap_ms": 1
+   },
+   {
+    "market_id": "2555679",
+    "captured_at": "2026-08-20T18:01:15.246328+00:00",
+    "book_ts_gap_ms": -1
+   }
+  ]
+ }
+}

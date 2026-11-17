@@ -1,0 +1,290 @@
+id: E-006
+title: Polymarket daily BTC "above X" vs the Deribit smile-consistent digital
+backlog: B-14 (daily part only; the 15-min part stays PARKED)
+version: v1.2 FROZEN (Claude, 2026-11-06; v1.1 + Codex CP1 findings 1-5 from
+  research/reviews/CP1-2026-11-04-E006-codex.md @ fcbe023; disposition in
+  research/reviews/R-025_claude_E-006_CP1_disposition.md). Frozen by Codex on 2026-11-06 after CP1 and CP2 approval of
+  b5ef1415a16d9c80e726b38f30be212535e7dd9e. No Polymarket
+  price has been viewed. No decision threshold changed from v1.1. CP2 rev
+  2026-11-06 applies Codex CP1-CP2-2026-11-06 corrections 1-2 and the Deribit
+  citation; disposition research/reviews/R-026_claude_E-006_CP2_disposition.md.
+roles: Claude designs and implements. Codex reviews checkpoints 1 and 2 and
+  leads the result interpretation, because the implementer doesn't interpret.
+first_result_date:
+  step1_pipeline_check: 2026-11-04 (PASS 2026-11-02, 212/212 marks)
+  final_analysis: 2026-11-17, endpoint unchanged (see timing_amendment).
+cost: "$0. Public APIs and GitHub Actions minutes."
+
+question: >
+  On Polymarket's daily BTC "above X" markets, is the longshot side of tail
+  strikes priced above its options-implied probability by more than the
+  Polymarket taker fee plus 1 percentage point, at executable size?
+prior_art: >
+  backlog_ranked v3, B-14 row. Portnaya (arXiv 2606.19517) and Olsen (AAU 2026)
+  find tail gaps only against a flat-vol benchmark built from last-trade prices.
+  Neither uses executable quotes or a smile-consistent digital. Our setting
+  differs on both points.
+prediction_before_data: >
+  Claude, moderate confidence: REJECT. Against a smile-consistent digital,
+  most tail gaps fall below fee plus spread.
+
+data:
+  mode: forward only. Nothing historical is used and no outcome is ever read.
+  snapshot_schedule: hourly (cron :07 UTC) from the first collector run after
+    freeze until 2026-11-16T23:59Z.
+  sample_boundary: >
+    (CP1 #1) A snapshot is in the sample iff freeze_ts < started_at <
+    2026-11-17T00:00:00Z, it is not the excluded step-1 snapshot, and it is
+    made by the pinned collector (recorded collector_sha256 equals the
+    manifest's collector hash; CP2 #2), and it is
+    the earliest snapshot of its UTC hour (manual dispatches cannot add
+    weight). The step-1 snapshot is excluded by identity: file name
+    20261102T2214Z.json.gz, or any started_at in minute 2026-11-02T22:14 UTC
+    whatever the file is called. These bounds are constants in the analysis
+    code. Files supplied by hand are filtered the same way. Every file gets a
+    disposition (in_sample, excluded_pipeline, pre_freeze, post_window,
+    collector_mismatch, duplicate_hour, unreadable, unreadable_out_of_window)
+    and its sha256 in
+    the output ledger.
+  run_manifest: >
+    research/experiments/E-006_manifest.json pins freeze_commit, freeze_ts, the
+    window end, the exclusion list, and the sha256 of this YAML, the analysis
+    code, the collector and the workflow. data_commit (the full 40-hex
+    data/e006 head) is added at the run. The analysis refuses to run while the
+    freeze fields are null, the window or exclusions differ from the code, any
+    pinned hash differs from the files on disk, or (CP2 #2) data_commit is
+    not a full commit. Before any snapshot is parsed, the supplied file set
+    and each file's git blob id must equal snapshots/*.json.gz in that commit
+    of the data repo. The workflow checks out the default branch, so each
+    snapshot (schema v3) records the sha256 of the collector file that made it
+    and GITHUB_SHA; snapshots whose collector hash differs from the pinned one
+    are excluded (collector_mismatch), so a later main edit cannot silently
+    change inputs. The git-free path (synthetic=True) exists for offline
+    tests only and its output says so.
+  sources_per_snapshot:
+    - "Polymarket Gamma: open events with slug bitcoin-above-on-*; per market
+      the strike (groupItemTitle), YES token id, endDate, and the fee metadata
+      feesEnabled and feeSchedule {rate, exponent, takerOnly, rebateRate}."
+    - "Polymarket CLOB /book for each YES token: the top 30 bid and ask levels."
+    - "Deribit public/get_book_summary_by_currency (BTC options), restricted to
+      expiries up to 15 days out: instrument, mark_iv, mark_price,
+      underlying_price, bid and ask."
+    - "Deribit public/get_index_price btc_usd."
+    - "Binance BTCUSDT last price (data-api.binance.vision)."
+  snapshot_validity: >
+    A snapshot is used only if it has schema e006-snapshot-v3 with every
+    required field present and non-null (including collector_sha256 and, for
+    each Deribit option with mark_iv > 0, underlying_price and mark_price;
+    every option needs a parseable instrument_name and a non-null mark_iv),
+    timezone-aware timestamps, finite positive Binance and index prices,
+    finite underlying_price > 0, mark_price >= 0 and mark_iv >= 0, no recorded source error (one failed
+    book is enough to fail it), 0 ≤ finished_at − started_at ≤ 120 s, and the
+    Binance BTCUSDT price read before the Polymarket books and the one read
+    after differ by ≤ 0.15% (R-022 #2: stale-quote guard). Otherwise the whole
+    snapshot is dropped and counted (snapshot_incomplete, snapshot_invalid,
+    snapshot_stale). Missing cron hours are reported against scheduled_hours.
+    These are collector-health counts, not pipeline failures. All of this is
+    checked before any math (CP2 #1). A Polymarket market row is dropped and
+    counted on its own (market_incomplete: null event_slug, market_id,
+    strike_label, end_date, missing book key, or a null book side, price or
+    size; market_invalid: wrong type, naive or unparseable end_date, strike
+    not finite > 0, or a book level not finite with 0 ≤ price ≤ 1 and size ≥ 0).
+    Missing fee metadata keeps its own drop (fee_metadata_missing).
+  excluded_by_design: >
+    The step-1 pipeline snapshot, which Claude viewed, is never part of the
+    sample (see sample_boundary).
+
+benchmark:
+  resolution: >
+    YES iff the Binance BTC/USDT 1-minute candle closing at 12:00 ET on the
+    date has close > K (Gamma rules, read 2026-10-24 and 2026-11-02).
+    T = endDate.
+  strike_mapping: >
+    Basis r = Binance BTCUSDT / Deribit btc_usd index at the snapshot.
+    Benchmark strike K* = K / r, assumed constant to T. r is recorded.
+  bracketing_expiries: >
+    T1 = the latest Deribit BTC option expiry ≤ T that is ≥ 1 h after the
+    snapshot. T2 = the earliest expiry ≥ T. Both must exist; otherwise the
+    (snapshot, event) pair is excluded and counted.
+  coverage_rule: >
+    (CP1 #4) A strike enters only if, on each of T1 and T2, the
+    moneyness-equivalent strike K_i = F_i · K*/F (the same k = ln(K*/F) at
+    which the surface is evaluated) has a listed strike in [K_i − 2000, K_i)
+    and one in (K_i, K_i + 2000] with a usable mark_iv (> 0), and K_i ± $50
+    lies inside the listed grid. There is no wing extrapolation. Excluded
+    strikes are counted (triage 2026-10-25 proposal 1).
+  surface: >
+    For each expiry, total variance w(k) = iv² · τ is linear in
+    k = ln(K/F) between listed strikes, where F = underlying_price for that
+    expiry. Across time, total variance at fixed k is linear in calendar time
+    between T1 and T2, and so is F. No discounting (rates ≈ 0 over ≤ 4 days;
+    disclosed).
+  digital: >
+    D(K*) = −∂C/∂K by a central difference with h = $50 on the interpolated
+    Black-76 surface. This equals N(d2) − vega · ∂σ/∂K.
+  pipeline_checks:
+    run_level_gate: >
+      (CP1 #2) Synthetic flat smile: D equals the Black-Scholes N(d2) within
+      0.1 pp. Computed once inside every analysis run; failure makes the whole
+      run INVALID-RUN.
+    per_snapshot_gate: >
+      INVALID-RUN if more than 5% of counted snapshots fail. Denominator: valid
+      snapshots (passed snapshot_validity) that use at least one expiry. A
+      valid snapshot where no market passes the horizon filter uses no expiry,
+      contributes no observation and is reported as 'na', not counted.
+    per_snapshot_checks:
+      - "Known number (R-022 #1, CP1 #2): population = every option with
+        mark_iv > 0 and mark_price ≥ 0.0005 BTC on an expiry used as T1 or T2
+        by at least one market that passes the horizon filter in that snapshot
+        (the used expiries; options on unused expiries are not checked).
+        mark_price, in BTC, must equal the undiscounted Black-76 USD value on
+        that option's own underlying_price F divided by the same F, within 2%
+        relative. The Deribit btc_usd index is not used in this check; it is
+        used only for the basis r. Source (verified by Codex CP2, read
+        2026-11-06): Deribit Inverse Options,
+        https://support.deribit.com/hc/en-us/articles/31424939096093-Inverse-Options,
+        Black-Scholes section: X = index, F = forward, R = ln(F/X)/T,
+        C = X N(d1) − K exp(−RT) N(d2). Hence USD C = (X/F)·B76(F), and
+        converting USD to BTC with X gives B76(F)/F, the check used here.
+        The study's undiscounted digital remains a disclosed short-horizon
+        approximation; this derivation verifies the mark check only. The
+        regression test sets F 3% away from the index, so dividing by the index
+        would fail the gate. The choice affects only this gate, not D, which
+        uses F and mark_iv only."
+      - "Live: D is in [0, 1] and non-increasing in K across the covered
+        strikes of one event (tolerance 1e-6)."
+
+measurement:
+  longshot_side: >
+    For each market at a snapshot, the side whose benchmark probability is
+    below 0.5. YES when D < 0.5; otherwise NO, with probability 1 − D.
+  tail_market: "min(D, 1 − D) < 0.10 at that snapshot."
+  executed_leg: >
+    (CP1 #3) "Selling the longshot side" is executed as one taker BUY of the
+    favourite token. Longshot YES (D < 0.5): buy NO, matched against resting
+    YES bids (CTF mint match), at NO price 1 − bid. Longshot NO: buy YES by
+    walking the YES asks. Only the recorded YES book is used. Resting NO-token
+    asks are ignored, which gives fewer levels and is conservative.
+  sizing: >
+    $100 is the purchase cash of the executed leg: Σ p_fav · q = 100 USDC
+    before fees, walking levels best-first. This is the capital committed and
+    the maximum loss. If less than $100 of cash can be filled, the observation
+    is untradable and counted. Reported alongside, not used in the decision:
+    shares q, longshot-equivalent proceeds (1 − VWAP_fav) · q, and fees in
+    USDC. v1.1 sized $100 of longshot proceeds, which needs about 20× more
+    shares in a 5% tail. That sizing is superseded.
+  fee: >
+    Taker fee on each fill of the executed leg, in USDC:
+    round_half_up(q · rate · p · (1 − p), 5 dp), where p is the executed
+    (favourite) fill price. Source: Polymarket docs trading/fees and
+    market-data/market-details, read 2026-11-06: fee = C × feeRate × p ×
+    (1 − p), crypto rate 0.07, rounded to 5 decimals, minimum 0.00001 USDC;
+    per-market parameters in feesEnabled and feeSchedule. rate is the market's
+    own recorded feeSchedule.rate. Fail closed: feesEnabled missing or null, or
+    feesEnabled true with feeSchedule.rate or .exponent missing, gives
+    fee_metadata_missing. exponent ≠ 1 or rate outside [0, 0.25] gives
+    fee_unsupported. Both are dropped and counted, never defaulted to 0.07.
+    feesEnabled false gives fee 0. Rounding is applied per book level (one
+    level = one match), an approximation of per-match rounding, disclosed.
+  net_gap: >
+    net_gap = (1 − VWAP_fav) − longshot_probability − fee_usdc / q, per share,
+    in probability points. It is a pricing statistic (a benchmark
+    discrepancy), not a return.
+  horizon_filter: "Use only snapshots taken 6 h to 96 h before T."
+
+analysis:
+  unit: >
+    A market is one (event date, strike). Its statistic is the median net_gap
+    over its tradable tail snapshots. A market enters if it has ≥ 3 such
+    snapshots.
+  primary_statistic: >
+    S = share of entered markets with median net_gap > 0.01. Each market has
+    equal weight. This is a pricing statistic over markets. It is not equal
+    capital weighting and is not presented as a portfolio return (CP1 #3).
+  dependence: >
+    95% CI for S from a cluster bootstrap over event dates, 10,000 resamples,
+    seed 20261102 (percentiles: sorted resamples 250 and 9,750).
+  decision:
+    order: "Checked in this order: run-level flat gate, per-snapshot gate,
+      minimum sample, then S."
+    DATA-BLOCKED: "< 30 entered markets, or < 8 distinct event dates."
+    INVALID-RUN: "the synthetic flat gate fails; pipeline checks fail on > 5%
+      of counted snapshots; or a collector defect is found that changes the
+      inputs."
+    REJECT: "S < 0.10."
+    INCONCLUSIVE: "S ≥ 0.10 and the CI lower bound < 0.05."
+    PROMOTE: "S ≥ 0.10 and the CI lower bound ≥ 0.05. PROMOTE means design a
+      forward paper test of selling the longshot side. It is not alpha. The
+      automated status is a recommendation; the owner decides PROMOTE/REJECT."
+  output_contract: >
+    (CP1 #4) analyze returns exactly these keys (OUTPUT_KEYS in the code,
+    asserted): status, status_reason, S, ci95, markets, events (primary);
+    manifest (freeze, data commit, pinned hashes, whether the hashes were
+    verified, per-file ledger with sha256 and disposition); snapshots (file
+    and disposition counts, in-sample, valid, scheduled_hours); pipeline
+    (synthetic_flat_error, fail_share, denominator, na, failed, mark_checked,
+    mark_bad); drops (per stage); flat_benchmark, non_tail, cheap_side (each
+    S, ci95, markets, events, by the primary machinery); basis_r (quantiles);
+    capacity_median_depth_usdc; return_per_dollar (quantiles); fee_rates;
+    sizing (executed leg, $100 cash, and quantiles of shares, longshot
+    proceeds and fees).
+  secondary_reported_only:
+    - "flat_benchmark: the primary statistic with D replaced by the
+      Black-Scholes N(d2) at the IV of the single listed strike nearest in
+      log-moneyness on each of T1 and T2 (ties go to the lower strike),
+      time-interpolated in total variance like the surface (Portnaya-style).
+      Tail selection and the longshot side are recomputed with this D. This
+      measures the flat-vol confound."
+    - "non_tail: selling the longshot side in non-tail markets
+      (min(D, 1 − D) ≥ 0.10), same statistic."
+    - "cheap_side: buying the longshot token in tail markets as a taker with
+      $100 cash (YES asks; NO via 1 − YES bid). net = probability − VWAP − fee
+      per share; share of markets with median > 0.01."
+    - "Counts dropped at each stage: snapshot validity, horizon, bracket,
+      coverage, fee metadata, depth."
+    - "basis_r: quantiles of r over valid snapshots."
+    - "Capacity (R-022 #3): per entered market, the median purchase cash
+      (USDC) available on the executed leg at levels where the per-share
+      net_gap > 0.01."
+    - "return_per_dollar: per entered market, the median of net_gap · q / cash
+      (the pricing gap per $ committed). Reported only. It is not a decision
+      input and not an expected return."
+    - "Same-day snapshots after the 08:00 UTC Deribit expiry are excluded
+      (no T1). Counted, not modelled."
+
+caveats_disclosed:
+  - "Scope (R-022 #4): the coverage rule removes strikes beyond Deribit's
+    listed grid. If most strikes with min(D, 1−D) < 0.05 are excluded, the
+    result speaks only to moderate tails (about 5–10%). This is stated before
+    any data."
+  - "Q/P benchmark caveat (CP1 #5): D is the risk-neutral (Q) probability
+    implied by Deribit, not the physical (P) probability. The sign of Q − P
+    for each selected side and strike is not established here. Variance and
+    skew premia often make Q tails heavier, but that is untested for 1–4 day
+    BTC digitals and can differ between the upside and downside tails. This
+    study measures discrepancies between Polymarket executable prices and an
+    options benchmark. It does not measure physical expected returns, and a
+    positive S is not evidence of profit."
+  - "Binance last trade vs the 1-minute close at 12:00 ET, and the Deribit index
+    vs Binance: basis risk, recorded but not modelled beyond r."
+  - "Fill risk, queue position and the speed of quote updates are not modelled.
+    Snapshots are hourly."
+  - "Buy-side fees may be collected in shares rather than USDC; the study
+    charges the USDC value. At favourite prices the difference is below the
+    fee itself."
+
+timing_amendment: >
+  (CP1 #5, recorded 2026-11-06 before any sample data.) v1.1 planned 14 days of
+  snapshots ending 2026-11-16T23:59Z. The freeze cannot happen before Codex
+  re-reviews this packet, so the window is shorter: about 9–10 days if frozen
+  on 2026-11-07. Decision: keep the endpoint 2026-11-16T23:59Z and the
+  2026-11-17 analysis date, collect fewer scheduled hours, and keep the
+  minimum-sample gates unchanged (≥ 30 entered markets, ≥ 8 event dates, ≥ 3
+  tradable tail snapshots per market). If the sample is thin, the result is
+  DATA-BLOCKED, never REJECT. No date is moved. Extending the window would be
+  a separate pre-data amendment for the owner.
+stopping_condition: >
+  Analysis runs once, after the last snapshot, by the frozen code with the
+  frozen manifest: python -m src.analysis.e006 <data/e006 checkout at
+  data_commit> research/experiments/E-006_manifest.json. No interim peeks. Collection
+  health checks (counts only) are allowed.

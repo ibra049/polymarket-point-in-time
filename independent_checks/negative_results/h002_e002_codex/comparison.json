@@ -1,0 +1,273 @@
+{
+  "author_code_hashes": {
+    "mirrored_book.py": "8210f4acd875dd61bdfaddaf55d42be6f8fe9c957cee69db6a728c8eb3e8ba0f",
+    "negrisk_basket/E-002_compute.py": "3aa460473c41a7d3544e1f5bfa9d6b3d4ab653508803081081b633dbd1d5f8c0",
+    "negrisk_basket/E-002_compute_frozen.py": "a2b282cc78f41b5503c65623ef84b852ac3dc2cd66e5e4e66da980af123331a0"
+  },
+  "best_gross_cases": [
+    {
+      "capture_span_seconds": 0.0,
+      "edge_long": "-0.00484780",
+      "edge_short": "-0.08392095",
+      "event_id": "627652",
+      "exchange_span_seconds": 33.216,
+      "fee_rates": [
+        "0.05",
+        "0.05",
+        "0.05"
+      ],
+      "fee_sources": [
+        "observation_rate",
+        "observation_rate",
+        "observation_rate"
+      ],
+      "gross_long": "0.018",
+      "gross_short": "-0.061",
+      "leg_ids": [
+        "2661522",
+        "2661523",
+        "2661524"
+      ],
+      "long_fee": "0.02284780",
+      "long_size_ok": true,
+      "min_ask_size": "19.99",
+      "n_legs": 3,
+      "neg_risk_id": "0x948091e9a33bc51aaf4ad145cd8a4d5c6656e6fb83d5d8c9360ca3dc727c2300",
+      "one_minus_sum_bid": "0.061",
+      "scheduled_slot": "2026-08-21T00:00:00+00:00",
+      "short_fee": "0.02292095",
+      "short_size_ok": true,
+      "snapshot_ids": [
+        35891,
+        35834,
+        35825
+      ],
+      "sum_ask_minus_one": "-0.018",
+      "title": "Bank of Russia decision in September?"
+    },
+    {
+      "capture_span_seconds": 0.0,
+      "edge_long": "-0.00484780",
+      "edge_short": "-0.09403595",
+      "event_id": "627652",
+      "exchange_span_seconds": 16.657,
+      "fee_rates": [
+        "0.05",
+        "0.05",
+        "0.05"
+      ],
+      "fee_sources": [
+        "observation_rate",
+        "observation_rate",
+        "observation_rate"
+      ],
+      "gross_long": "0.018",
+      "gross_short": "-0.071",
+      "leg_ids": [
+        "2661522",
+        "2661523",
+        "2661524"
+      ],
+      "long_fee": "0.02284780",
+      "long_size_ok": true,
+      "min_ask_size": "19.99",
+      "n_legs": 3,
+      "neg_risk_id": "0x948091e9a33bc51aaf4ad145cd8a4d5c6656e6fb83d5d8c9360ca3dc727c2300",
+      "one_minus_sum_bid": "0.071",
+      "scheduled_slot": "2026-08-21T06:00:00+00:00",
+      "short_fee": "0.02303595",
+      "short_size_ok": true,
+      "snapshot_ids": [
+        47715,
+        47656,
+        47645
+      ],
+      "sum_ask_minus_one": "-0.018",
+      "title": "Bank of Russia decision in September?"
+    }
+  ],
+  "best_size_feasible_gross": "0.018",
+  "comparison_phase": "after first-pass raw commit 73c8873; no first-pass replacement",
+  "e002_population": {
+    "author_pre_size_membership_count": 105,
+    "author_selection_exclusions": {
+      "incomplete": 1422
+    },
+    "events_with_any_usable_snapshots": 367,
+    "events_with_gamma_original": 367,
+    "events_with_gamma_refetch": 373,
+    "events_with_usable_slotted_snapshots": 338,
+    "membership_identical": true,
+    "post_size": 104,
+    "pre_size": 105,
+    "slots_failing_both_size_gates": [
+      {
+        "event_slot": {
+          "capture_span_seconds": 0.0,
+          "edge_long": "-0.04328344",
+          "edge_short": "-0.10110400",
+          "event_id": "101977",
+          "exchange_span_seconds": 19.437,
+          "fee_rates": [
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04",
+            "0.04"
+          ],
+          "fee_sources": [
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule",
+            "metadata_schedule"
+          ],
+          "gross_long": "-0.030",
+          "gross_short": "-0.092",
+          "leg_ids": [
+            "909055",
+            "909056",
+            "909057",
+            "909058",
+            "909059",
+            "909060",
+            "909061"
+          ],
+          "long_fee": "0.01328344",
+          "long_size_ok": false,
+          "min_ask_size": "1.0",
+          "n_legs": 7,
+          "neg_risk_id": "0xad87a86d64b719a89107afa83f52a36ff440296ec57c9141530f3035927fa500",
+          "one_minus_sum_bid": "0.092",
+          "scheduled_slot": "2026-08-20T12:00:00+00:00",
+          "short_fee": "0.00910400",
+          "short_size_ok": false,
+          "snapshot_ids": [
+            12923,
+            12467,
+            12431,
+            12921,
+            12783,
+            13255,
+            13301
+          ],
+          "sum_ask_minus_one": "0.030",
+          "title": "How many Republican House members not running in 2026?"
+        },
+        "legs": [
+          {
+            "best_ask": 0.023,
+            "best_ask_size": 10.38,
+            "best_bid": 0.003,
+            "best_bid_size": 100.0,
+            "id": 12923,
+            "market_id": "909055",
+            "minimum_size": 5
+          },
+          {
+            "best_ask": 0.022,
+            "best_ask_size": 132.94,
+            "best_bid": 0.01,
+            "best_bid_size": 3.3,
+            "id": 12467,
+            "market_id": "909056",
+            "minimum_size": 5
+          },
+          {
+            "best_ask": 0.012,
+            "best_ask_size": 45.03,
+            "best_bid": 0.002,
+            "best_bid_size": 554.97,
+            "id": 12431,
+            "market_id": "909057",
+            "minimum_size": 5
+          },
+          {
+            "best_ask": 0.052,
+            "best_ask_size": 34.64,
+            "best_bid": 0.01,
+            "best_bid_size": 10.0,
+            "id": 12921,
+            "market_id": "909058",
+            "minimum_size": 5
+          },
+          {
+            "best_ask": 0.83,
+            "best_ask_size": 502.7,
+            "best_bid": 0.823,
+            "best_bid_size": 134.3,
+            "id": 12783,
+            "market_id": "909059",
+            "minimum_size": 5
+          },
+          {
+            "best_ask": 0.068,
+            "best_ask_size": 1.0,
+            "best_bid": 0.053,
+            "best_bid_size": 15.1,
+            "id": 13255,
+            "market_id": "909060",
+            "minimum_size": 5
+          },
+          {
+            "best_ask": 0.023,
+            "best_ask_size": 10.0,
+            "best_bid": 0.007,
+            "best_bid_size": 100.0,
+            "id": 13301,
+            "market_id": "909061",
+            "minimum_size": 5
+          }
+        ]
+      }
+    ]
+  },
+  "exchange_timing_pre_size": {
+    "above_60_seconds": 16,
+    "known": 105,
+    "max_seconds": 929.946,
+    "slots": 105
+  },
+  "h002_checks": {
+    "exact_ladders": true,
+    "minimum": true,
+    "pairs": true,
+    "timestamp_deltas": true,
+    "top_mirrored": true
+  },
+  "input_hashes": {
+    "<this-repo>/negative_results/mirrored_book_result.json": "9608938dd5f46f08a38d490579fb0559ff364a6ea290fb334b5f90ca93865ce5",
+    "<this-repo>/negative_results/negrisk_basket/E-002_result.json": "cda3608de0a431cbc74c9289d8f0cc2811d64f5ab457e748735e4ee96f7151c0",
+    "<this-repo>/negative_results/negrisk_basket/E-002_result_recorded_2026-10-05.json": "8efeabf92f241a3ea4bd766b04af5394b3d1d887f68cca4bed05642c92e1ed35",
+    "polysignal/research/public_note/h002_e002_codex/first_pass.json": "d6da8df80fefa1cdc1b337a92745b0e4dcc60cae4b0bc1ef5dc665cd8aa2c4da",
+    "polysignal/research/public_note/h002_e002_codex/post_comparison.json": "3bdec3d8184c27555f2a40aeda9ea62a301cdd20b74103822770f8dd553e3c1e"
+  },
+  "nearest_rank_over_pre_size_population": {
+    "ask_quantiles_match_recorded": true,
+    "bid_quantiles_match_recorded": true,
+    "one_minus_sum_bid": {
+      "0": "-0.005",
+      "0.05": "0.003",
+      "0.25": "0.019",
+      "0.5": "0.054",
+      "0.75": "0.104",
+      "0.95": "0.216",
+      "1": "0.50"
+    },
+    "sum_ask_minus_one": {
+      "0": "-0.018",
+      "0.05": "0.009",
+      "0.25": "0.020",
+      "0.5": "0.043",
+      "0.75": "0.140",
+      "0.95": "0.237",
+      "1": "0.42"
+    }
+  },
+  "scope": "D1 quote screen at recorded batch cadence; strict local completeness remains DATA-BLOCKED",
+  "status": "REJECT"
+}

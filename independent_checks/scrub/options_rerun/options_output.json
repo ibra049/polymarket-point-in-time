@@ -1,0 +1,594 @@
+{
+  "status": "INVALID-RUN",
+  "status_reason": "pipeline fail share 0.197 > 0.05",
+  "S": 0.07936507936507936,
+  "ci95": [
+    0.03225806451612903,
+    0.125
+  ],
+  "markets": 63,
+  "events": 9,
+  "manifest": {
+    "freeze_ts": "2026-11-06T04:02:01.093405+00:00",
+    "freeze_commit": "c9470aab941ffded655b3370ce938534bd2ddbf8",
+    "data_commit": "0000000000000000000000000000000000000000",
+    "window_end_exclusive": "2026-11-17T00:00:00+00:00",
+    "pinned_sha256": {
+      "research/experiments/E-006.yaml": "39f5d348773aa600ee4745c392c4b3fc297fdbc1c4cc6ece7e5b9f60229c3644",
+      "src/analysis/e006.py": "912ca5b62de90bd689bc17962f1e1ebf3886866772a5439178bdee59397f2aff",
+      "scripts/e006_snapshot.py": "4eb3d46ad5c121253a631e732b784f44173812a5f91b0a21e9c07617e112d4fc",
+      "../.github/workflows/e006-collect.yml": "f63ca8cb53f050afae07ebb027922d584db0766ea8194fcbbea01332f1e06f88"
+    },
+    "hash_verified": false,
+    "data_verified": false,
+    "synthetic": true,
+    "collector_sha256": "4eb3d46ad5c121253a631e732b784f44173812a5f91b0a21e9c07617e112d4fc",
+    "files": [
+      {
+        "file": "20261106T0404Z.json.gz",
+        "sha256": "a2cba0fe4dcd4bb784418abd7e797255b29b60721af159dd50b633f4a754d8fc",
+        "started_at": "2026-11-06T04:04:55.121395+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261106T1201Z.json.gz",
+        "sha256": "edc6bd845bdee9d9116534a03b8c326863a2f66822a75ce145b3f3c7a4b0a2bf",
+        "started_at": "2026-11-06T12:01:58.508552+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261106T1917Z.json.gz",
+        "sha256": "365ed1e3c5072758b60d4aa1eb7a83268c61622742d4f8a0521b6152d42f499b",
+        "started_at": "2026-11-06T19:17:59.589741+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261106T2102Z.json.gz",
+        "sha256": "a324a462093ed71d2691ba40137019ea42396fc92b6b2ff6ccf973df171a0ff7",
+        "started_at": "2026-11-06T21:02:56.581089+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T0004Z.json.gz",
+        "sha256": "7c918518c977df1a237d718bc414c0443519439bab0bb77f36da453216f86a2d",
+        "started_at": "2026-11-07T00:04:19.777038+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T0107Z.json.gz",
+        "sha256": "ccc4469b32f66ec1d5fbfebd9306fdc20f6df7095180356e16433e4930652aa6",
+        "started_at": "2026-11-07T01:07:38.230835+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T0551Z.json.gz",
+        "sha256": "d5a3af8dd3485534e838c56ba786bd14165090a28fa38fd0a4ad84894604a16e",
+        "started_at": "2026-11-07T05:51:07.295676+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T0720Z.json.gz",
+        "sha256": "3cae2c09584c2643dad634d9d8256f5ed7b3c1e85670903594ff0b84b0092fec",
+        "started_at": "2026-11-07T07:20:54.080989+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T1252Z.json.gz",
+        "sha256": "ce687032237e4e35e73b251aeace262d3d525afebea498440f41c7fd93c67060",
+        "started_at": "2026-11-07T12:52:57.005572+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T1415Z.json.gz",
+        "sha256": "0d5edafd78d4e246359f84930a4e17dc9f5a86dac499830eacc2d796b79d719a",
+        "started_at": "2026-11-07T14:15:18.109582+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T1503Z.json.gz",
+        "sha256": "9dc40f3ecafa1bc7c61bece95febb2db7fa298ed922e64778229fdb904e85a62",
+        "started_at": "2026-11-07T15:03:47.766234+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T1759Z.json.gz",
+        "sha256": "ceb8b1c370e789266056b1356f2d0bce1872c92aec8995a0d30437db6a3a8304",
+        "started_at": "2026-11-07T17:59:51.662325+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T1853Z.json.gz",
+        "sha256": "9dc301350800384ab61f42e903198d31321f1e3c352d5badb52cdf8d8c029a66",
+        "started_at": "2026-11-07T18:53:42.966379+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T1934Z.json.gz",
+        "sha256": "14225878eed94f5ded6701892a66afa4c72d7f91c30274611176a7534673abe7",
+        "started_at": "2026-11-07T19:34:55.127942+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T2143Z.json.gz",
+        "sha256": "8d33fa3f5bacf5eede714a3c58eca04b276918216435f2906d0c97f933d2da1a",
+        "started_at": "2026-11-07T21:43:50.722045+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T2250Z.json.gz",
+        "sha256": "c823fe9c66afc3f21c69f2468c5d7a5823e0e20d2cafe2757ebb13dc083ed3e5",
+        "started_at": "2026-11-07T22:50:20.985478+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261107T2307Z.json.gz",
+        "sha256": "031ac0c4bedec9ce99509c6435ebf7eee6baf0aa3dc1551e1b65c6e7a65c86a2",
+        "started_at": "2026-11-07T23:07:58.154044+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261108T0120Z.json.gz",
+        "sha256": "b8698cc6c8bd4f3150aeffe0e63444499aae9820bf0f58dfaf77aaa12c2d3b2d",
+        "started_at": "2026-11-08T01:20:20.266237+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261108T0234Z.json.gz",
+        "sha256": "c86531afdeb879e299162f9e10fea9d9284466d973bdbc920ebe318e57b541d8",
+        "started_at": "2026-11-08T02:34:04.838228+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261108T0854Z.json.gz",
+        "sha256": "b62221ec78bc34b123a6ec698c053d91036fb27b6a9456b28f0645b62695c2ea",
+        "started_at": "2026-11-08T08:54:34.133071+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261108T0936Z.json.gz",
+        "sha256": "085c40919fc9bf7fd5ce2365154e9e0158462770afc3d6380b33e558adf36c1a",
+        "started_at": "2026-11-08T09:36:40.454369+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261108T1035Z.json.gz",
+        "sha256": "47bda3353394ca010caf29dbd297613c79474acb75cd826f15fc04132695f6f9",
+        "started_at": "2026-11-08T10:35:58.782738+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261108T1555Z.json.gz",
+        "sha256": "9eaa33a8c2cf662a5fbe6140317309d6921cbe3d917231e5ca01116ff2cd7161",
+        "started_at": "2026-11-08T15:55:31.848715+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261108T1623Z.json.gz",
+        "sha256": "843110b09c0cdf71a2892db3e432a5a277e951c289e793aef78dfc8f7aa850b1",
+        "started_at": "2026-11-08T16:23:29.794611+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261108T1708Z.json.gz",
+        "sha256": "3a25a3e15e91db02ec7f0c6c6b5b1d64b06aff86dc7fefd6589b9ff216d12c68",
+        "started_at": "2026-11-08T17:08:29.261404+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261108T2024Z.json.gz",
+        "sha256": "1a40b459e319a18b301f620ba40b1be48b3b15a23aa9c20a59f8d34b50d0971f",
+        "started_at": "2026-11-08T20:24:37.520270+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261108T2114Z.json.gz",
+        "sha256": "7ce2983239175613d6c2862a73d446c415fb8852b22d9e48e6822e10d132ab92",
+        "started_at": "2026-11-08T21:14:56.826263+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261109T0017Z.json.gz",
+        "sha256": "f3d3b78daee31f96fbbbbce4cce109d98a7c7d7e13a37846eb7b851338c81a6e",
+        "started_at": "2026-11-09T00:17:28.287210+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261109T0047Z.json.gz",
+        "sha256": "5065c944448b066336876d807bbe87eef920b2065c21b93f4735455322eff456",
+        "started_at": "2026-11-09T00:47:13.586120+00:00",
+        "disposition": "duplicate_hour"
+      },
+      {
+        "file": "20261109T0101Z.json.gz",
+        "sha256": "365376151764d80b9e401836e66ae5f3f42371ecb76cbf2e3e28584304a277bd",
+        "started_at": "2026-11-09T01:01:43.274785+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261109T0717Z.json.gz",
+        "sha256": "b6744935507cc1014f861cb3e468ef689b60278e10037091517efab6b8472cb3",
+        "started_at": "2026-11-09T07:17:00.537784+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261109T0752Z.json.gz",
+        "sha256": "8154d33f1ff374372c92d8889e2c72ad96488cf26f47abaffc2d358ea0e8296d",
+        "started_at": "2026-11-09T07:52:56.264567+00:00",
+        "disposition": "duplicate_hour"
+      },
+      {
+        "file": "20261109T0808Z.json.gz",
+        "sha256": "ade072b60ed8a917b1e81ca3025bb296a7fd4b6ddd4516c9b1b87e77c9808def",
+        "started_at": "2026-11-09T08:08:46.721667+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261109T1751Z.json.gz",
+        "sha256": "a60decc5208cab01cef61ec910773dc78b395cf8db7f43cf68be2e14aca67dcb",
+        "started_at": "2026-11-09T17:51:23.823347+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261109T1841Z.json.gz",
+        "sha256": "097230314f3c960a4f020ea3b7c19737057bc62b221f58d5bf7493873bca218b",
+        "started_at": "2026-11-09T18:41:46.138628+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261109T1959Z.json.gz",
+        "sha256": "67dc1e9fa7b2c50ddfcb22698f91b1749f70770c212ea8654b6936ad3a727ea5",
+        "started_at": "2026-11-09T19:59:14.482161+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261110T0106Z.json.gz",
+        "sha256": "b6da5b12da7daccc0e991ca2cf04e0f7d0b39c6a1a661dfa51594bc70fb9ed1a",
+        "started_at": "2026-11-10T01:06:51.035753+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261110T0159Z.json.gz",
+        "sha256": "b45ebb7cf5005b6421db9413bbfd13f17ed43ac1e7352753ca68f570b225792e",
+        "started_at": "2026-11-10T01:59:34.089536+00:00",
+        "disposition": "duplicate_hour"
+      },
+      {
+        "file": "20261110T0217Z.json.gz",
+        "sha256": "bf47e05de3041c450fdbe7880ed27fc1e5929d259431866ce7048d730c47e801",
+        "started_at": "2026-11-10T02:17:40.548036+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261110T0852Z.json.gz",
+        "sha256": "8eb123c3c6439597f8c5a225997d49cd107ee1afd4516f34146607dbfccbe879",
+        "started_at": "2026-11-10T08:52:20.807860+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261110T1004Z.json.gz",
+        "sha256": "94864fd37814de06ed08016ba0f4397275cb1c243493753203841499e821e9b0",
+        "started_at": "2026-11-10T10:04:39.382834+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261110T1139Z.json.gz",
+        "sha256": "fc6acfa901d99716c9172259c5c95b5f028f64262af086ba1ae72af169406fdd",
+        "started_at": "2026-11-10T11:39:44.258775+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261110T1720Z.json.gz",
+        "sha256": "3d8d05dc8506133589a0352ee7f6a360be010377fd8f5e1e788274502ff98ab1",
+        "started_at": "2026-11-10T17:20:24.086307+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261110T1742Z.json.gz",
+        "sha256": "0fd4171bedf29ca0267281968cec050fc06067974d7251feedb673130cdb95ad",
+        "started_at": "2026-11-10T17:42:52.531657+00:00",
+        "disposition": "duplicate_hour"
+      },
+      {
+        "file": "20261110T1957Z.json.gz",
+        "sha256": "3a1085a6da5e58bf37bcf1fe5e32f2f32346b953c4ccc38efb1fc4606ba014ed",
+        "started_at": "2026-11-10T19:57:53.590792+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261110T2235Z.json.gz",
+        "sha256": "c54d34e83609e0adc599c086faeb98dacf7a06859760020fffed62790e378d38",
+        "started_at": "2026-11-10T22:35:12.454876+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261110T2312Z.json.gz",
+        "sha256": "0c720ec2886c511009f94d4d44952ebe0be35283b778c62d68a52ddce9e8f558",
+        "started_at": "2026-11-10T23:12:17.681594+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T0051Z.json.gz",
+        "sha256": "db361ad21e3f7e9dbb5fe9929e2a4ed254eba1b4a2cc07c631177828b40ae4b7",
+        "started_at": "2026-11-11T00:51:17.989077+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T0218Z.json.gz",
+        "sha256": "642295f3d959b54575aaeae43d350e3c6c801ea5e9a3a57ee9bc20f4780abcc1",
+        "started_at": "2026-11-11T02:18:53.816048+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T0559Z.json.gz",
+        "sha256": "dad25a7f6da9e72b0b123bf664bcdf6a90a0af3d9351f33ef21ba43e860f96cc",
+        "started_at": "2026-11-11T05:59:13.027640+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T0648Z.json.gz",
+        "sha256": "49f695b2c5f246cc079b2a93aedd761b49c7313334b8ca8f6ce3a8742a601c8a",
+        "started_at": "2026-11-11T06:48:31.948816+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T0817Z.json.gz",
+        "sha256": "5242d4e49d648a2cd0f76a2ed2a879d7e0e76f56e4b263f795517515a585e77d",
+        "started_at": "2026-11-11T08:17:29.122905+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T0954Z.json.gz",
+        "sha256": "a73c4bc7ea8ce105a9fc340e9a502e9e98d7ae022b21949e6336735edce9279f",
+        "started_at": "2026-11-11T09:54:47.100186+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T1405Z.json.gz",
+        "sha256": "62dfd3bc44e55ecc34b3eaa49fdc378589e8a536828c1e0710eaea6e740cf629",
+        "started_at": "2026-11-11T14:05:47.183102+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T1526Z.json.gz",
+        "sha256": "961d5caa7a476d4d819369086b3289c79dc1e90f55f887315feb902d4773ff05",
+        "started_at": "2026-11-11T15:26:53.405428+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T1632Z.json.gz",
+        "sha256": "bde9c454ad5fdd8d8974f39db33fa3edffbd255483f64663b40b0d0074e0fb1f",
+        "started_at": "2026-11-11T16:32:15.697644+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T1809Z.json.gz",
+        "sha256": "6dc1f4f36adf9dba97b5314d6196018a4e7c1fe348283040e1d2dc078eed4a3e",
+        "started_at": "2026-11-11T18:09:52.126413+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T2121Z.json.gz",
+        "sha256": "0450a1f001a35abb9b1e3a21fb9df3a4cb5fdaf2c1f91843b6598c61289bad82",
+        "started_at": "2026-11-11T21:21:43.512401+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261111T2250Z.json.gz",
+        "sha256": "3e6cfdf8afba96c6c2b96785806127c1a18e6d3eadd01462c78fa28ea5adb290",
+        "started_at": "2026-11-11T22:50:13.288095+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261112T0105Z.json.gz",
+        "sha256": "3819145c9113b8f7ac4da954f5a277a365b0764c0447c32b3327f336b539605e",
+        "started_at": "2026-11-12T01:05:52.447515+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261112T0252Z.json.gz",
+        "sha256": "e56747390991939c73a582ce021e7bf9ef975835bdb0cd35b186bc32f7b15f23",
+        "started_at": "2026-11-12T02:52:56.739142+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261112T0355Z.json.gz",
+        "sha256": "e62b2036c47100085eda046c3a37f5255ea8b1924277896845c30a1203662fee",
+        "started_at": "2026-11-12T03:55:46.246854+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261112T0405Z.json.gz",
+        "sha256": "84d12ab50e12e83cefab555d9ddf9a750a812cf59531f479a9c5e379a271bd8e",
+        "started_at": "2026-11-12T04:05:54.913085+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261112T0853Z.json.gz",
+        "sha256": "493732f0d6a7b96597a3e472380ea02bc20dfd1c6be85546c127e6784d665168",
+        "started_at": "2026-11-12T08:53:29.493693+00:00",
+        "disposition": "in_sample"
+      },
+      {
+        "file": "20261112T1055Z.json.gz",
+        "sha256": "3e613b376eef85b2cc1f7212eb67f5e50a5e438d2b3fa6e55ca99481c1128cf8",
+        "started_at": "2026-11-12T10:55:18.553469+00:00",
+        "disposition": "in_sample"
+      }
+    ]
+  },
+  "snapshots": {
+    "files": 65,
+    "by_disposition": {
+      "in_sample": 61,
+      "duplicate_hour": 4
+    },
+    "in_sample": 61,
+    "valid": 61,
+    "scheduled_hours": 260
+  },
+  "pipeline": {
+    "synthetic_flat_error": 2.0638243426240876e-05,
+    "fail_share": 0.19672131147540983,
+    "denominator": 61,
+    "na": 0,
+    "failed": 12,
+    "mark_checked": 11754,
+    "mark_bad": 3
+  },
+  "drops": {
+    "coverage": 544,
+    "untradable": 130,
+    "horizon": 1452,
+    "no_bracket": 132
+  },
+  "flat_benchmark": {
+    "S": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "markets": 61,
+    "events": 9
+  },
+  "non_tail": {
+    "S": 0.07407407407407407,
+    "ci95": [
+      0.0,
+      0.24
+    ],
+    "markets": 27,
+    "events": 9
+  },
+  "cheap_side": {
+    "S": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "markets": 66,
+    "events": 9
+  },
+  "basis_r": {
+    "n": 61,
+    "min": 1.0008779419682001,
+    "p05": 1.0010525858800599,
+    "p25": 1.0011812721363518,
+    "median": 1.0012887553494543,
+    "p75": 1.0013556056270352,
+    "p95": 1.0014532727048866,
+    "max": 1.0015986106399006
+  },
+  "capacity_median_depth_usdc": {
+    "bitcoin-above-on-november-7-2026|6475106": 0,
+    "bitcoin-above-on-november-7-2026|6475109": 0,
+    "bitcoin-above-on-november-7-2026|6475120": 0,
+    "bitcoin-above-on-november-7-2026|6475123": 0.0,
+    "bitcoin-above-on-november-8-2026|6536918": 0,
+    "bitcoin-above-on-november-8-2026|6536920": 0,
+    "bitcoin-above-on-november-8-2026|6536928": 0,
+    "bitcoin-above-on-november-8-2026|6536929": 0,
+    "bitcoin-above-on-november-8-2026|6536931": 0.0,
+    "bitcoin-above-on-november-8-2026|6536934": 0.0,
+    "bitcoin-above-on-november-8-2026|6536936": 0.0,
+    "bitcoin-above-on-november-9-2026|6587496": 0,
+    "bitcoin-above-on-november-9-2026|6587497": 0,
+    "bitcoin-above-on-november-9-2026|6587505": 0,
+    "bitcoin-above-on-november-9-2026|6587507": 0,
+    "bitcoin-above-on-november-9-2026|6587508": 0,
+    "bitcoin-above-on-november-9-2026|6587495": 0.0,
+    "bitcoin-above-on-november-7-2026|6475112": 0,
+    "bitcoin-above-on-november-7-2026|6475117": 0,
+    "bitcoin-above-on-november-8-2026|6536922": 0,
+    "bitcoin-above-on-november-8-2026|6536926": 0,
+    "bitcoin-above-on-november-10-2026|6639464": 0.0,
+    "bitcoin-above-on-november-10-2026|6639466": 0.0,
+    "bitcoin-above-on-november-10-2026|6639478": 0.0,
+    "bitcoin-above-on-november-10-2026|6639481": 0,
+    "bitcoin-above-on-november-10-2026|6639484": 0.0,
+    "bitcoin-above-on-november-9-2026|6587498": 0.0,
+    "bitcoin-above-on-november-9-2026|6587502": 2199.5474,
+    "bitcoin-above-on-november-10-2026|6639462": 0.0,
+    "bitcoin-above-on-november-11-2026|6683300": 0.0,
+    "bitcoin-above-on-november-11-2026|6683301": 0.0,
+    "bitcoin-above-on-november-11-2026|6683308": 0.0,
+    "bitcoin-above-on-november-11-2026|6683310": 0.0,
+    "bitcoin-above-on-november-11-2026|6683312": 0.0,
+    "bitcoin-above-on-november-12-2026|6716569": 0.0,
+    "bitcoin-above-on-november-12-2026|6716586": 0,
+    "bitcoin-above-on-november-12-2026|6716591": 0.0,
+    "bitcoin-above-on-november-12-2026|6716594": 0,
+    "bitcoin-above-on-november-10-2026|6639475": 1042.48403,
+    "bitcoin-above-on-november-11-2026|6683306": 0.0,
+    "bitcoin-above-on-november-12-2026|6716583": 0,
+    "bitcoin-above-on-november-13-2026|6753150": 0,
+    "bitcoin-above-on-november-13-2026|6753161": 0.0,
+    "bitcoin-above-on-november-13-2026|6753162": 0.0,
+    "bitcoin-above-on-november-13-2026|6753164": 0,
+    "bitcoin-above-on-november-13-2026|6753166": 0,
+    "bitcoin-above-on-november-12-2026|6716573": 455.347,
+    "bitcoin-above-on-november-13-2026|6753158": 0,
+    "bitcoin-above-on-november-11-2026|6683305": 2057.175,
+    "bitcoin-above-on-november-12-2026|6716580": 498.96,
+    "bitcoin-above-on-november-14-2026|6801787": 0,
+    "bitcoin-above-on-november-14-2026|6801790": 0.0,
+    "bitcoin-above-on-november-14-2026|6801813": 0.0,
+    "bitcoin-above-on-november-14-2026|6801817": 0.0,
+    "bitcoin-above-on-november-14-2026|6801822": 0.0,
+    "bitcoin-above-on-november-14-2026|6801794": 0.0,
+    "bitcoin-above-on-november-15-2026|6873184": 0,
+    "bitcoin-above-on-november-15-2026|6873186": 0,
+    "bitcoin-above-on-november-15-2026|6873188": 0,
+    "bitcoin-above-on-november-15-2026|6873200": 0,
+    "bitcoin-above-on-november-15-2026|6873204": 0,
+    "bitcoin-above-on-november-15-2026|6873207": 0,
+    "bitcoin-above-on-november-13-2026|6753156": 704.4209999999999
+  },
+  "return_per_dollar": {
+    "n": 63,
+    "min": -0.011888699871843846,
+    "p05": -0.00838684775564251,
+    "p25": -0.002488833779874096,
+    "median": 0.0002387096566001768,
+    "p75": 0.0016638270131854012,
+    "p95": 0.012882455774856142,
+    "max": 0.020330248700467117
+  },
+  "fee_rates": [
+    0.07
+  ],
+  "sizing": {
+    "executed_leg": "taker BUY of the favourite token",
+    "purchase_cash_usdc": 100.0,
+    "median_shares": {
+      "n": 1198,
+      "min": 100.10010010010011,
+      "p05": 100.10510510510511,
+      "p25": 100.55778894472363,
+      "median": 101.5228426395939,
+      "p75": 103.89233954451346,
+      "p95": 109.06796116504853,
+      "max": 116.27906976744187
+    },
+    "median_longshot_proceeds_usdc": {
+      "n": 1198,
+      "min": 0.1001001001001113,
+      "p05": 0.1051051051051064,
+      "p25": 0.5577889447236232,
+      "median": 1.5228426395938985,
+      "p75": 3.8923395445134643,
+      "p95": 9.067961165048535,
+      "max": 16.279069767441865
+    },
+    "median_fee_usdc": {
+      "n": 1198,
+      "min": 0.007,
+      "p05": 0.00735,
+      "p25": 0.03883,
+      "median": 0.105,
+      "p75": 0.26219000000000003,
+      "p95": 0.5813900000000001,
+      "max": 0.98
+    },
+    "statistic": "per-share pricing gap, equal weight per market; not a portfolio return"
+  }
+}

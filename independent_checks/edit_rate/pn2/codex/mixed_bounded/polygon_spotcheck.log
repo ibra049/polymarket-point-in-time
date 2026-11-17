@@ -1,0 +1,64 @@
+creation rows 5 / 39
+creation rows 10 / 39
+creation rows 15 / 39
+creation rows 20 / 39
+creation rows 25 / 39
+creation rows 30 / 39
+creation rows 35 / 39
+clarification chunks 25 / 40 logs 41
+clarification chunks 40 / 40 logs 48
+1684136 random complete 0
+1135904 random complete 0
+1785819 random complete 0
+666956 random complete 0
+900797 random complete 0
+586974 random complete 0
+1155534 random complete 0
+1566927 random complete 0
+723097 random complete 0
+1385451 random complete 0
+1678315 random complete 0
+1340102 random complete 0
+562371 random complete 0
+600658 random complete 0
+1500010 random complete 0
+531357 random complete 0
+510370 random complete 0
+1193701 random complete 0
+1198667 random complete 0
+659122 random complete 0
+578549 random complete 0
+1657239 random complete 0
+690499 random complete 0
+948313 random complete 0
+564626 random complete 0
+665226 supplemental-positive complete 0
+1357997 supplemental-positive complete 0
+520318 supplemental-positive complete 0
+821089 supplemental-positive complete 0
+659069 supplemental-positive complete 0
+621127 supplemental-positive complete 0
+1353142 supplemental-positive complete 0
+530903 supplemental-positive complete 0
+1553593 supplemental-positive complete 0
+942709 supplemental-positive complete 0
+502480 supplemental-positive complete 0
+1554878 supplemental-positive complete 0
+1554899 supplemental-positive complete 0
+502302 supplemental-positive complete 0
+{
+  "random": {
+    "planned": 25,
+    "complete": 25,
+    "rows_with_mismatches": 0,
+    "field_mismatches": 0,
+    "unknown": 0
+  },
+  "supplemental-positive": {
+    "planned": 14,
+    "complete": 14,
+    "rows_with_mismatches": 0,
+    "field_mismatches": 0,
+    "unknown": 0
+  }
+}

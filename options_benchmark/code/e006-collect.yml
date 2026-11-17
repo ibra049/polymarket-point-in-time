@@ -1,0 +1,54 @@
+name: E-006 collector (hourly, public data)
+
+# research/experiments/E-006.yaml: forward snapshots until 2026-11-16 23:59 UTC.
+# Raw data goes to the orphan branch data/e006. Commits carry [skip ci].
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: e006-collect
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Stop after the protocol window
+        id: window
+        run: |
+          if [ "$(date -u +%Y%m%d%H%M)" -gt 202611162359 ]; then echo "done=1" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v4
+        if: steps.window.outputs.done != '1'
+        with:
+          sparse-checkout: polysignal/scripts/e006_snapshot.py
+          sparse-checkout-cone-mode: false
+          path: code
+      - uses: actions/setup-python@v5
+        if: steps.window.outputs.done != '1'
+        with:
+          python-version: '3.12'
+      - name: Snapshot
+        if: steps.window.outputs.done != '1'
+        run: python code/polysignal/scripts/e006_snapshot.py out
+      - name: Commit to data/e006
+        if: steps.window.outputs.done != '1'
+        run: |
+          git config --global user.name 'e006-collector'
+          git config --global user.email 'e006-collector@users.noreply.github.com'
+          url="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          if git ls-remote --exit-code --heads "$url" data/e006 >/dev/null; then
+            git clone -q --depth 1 --branch data/e006 "$url" data
+          else
+            git init -q data && git -C data checkout -q --orphan data/e006
+            git -C data remote add origin "$url"
+          fi
+          mkdir -p data/snapshots && cp out/*.json.gz data/snapshots/
+          git -C data add snapshots
+          git -C data commit -q -m "e006 snapshot $(ls out) [skip ci]"
+          git -C data push -q origin HEAD:data/e006

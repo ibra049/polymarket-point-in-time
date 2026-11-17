@@ -1,0 +1,1011 @@
+{
+ "verdict": "PASS",
+ "scanned": 47,
+ "counts": {
+  "mint": 14,
+  "comp_taker_sell": 5,
+  "comp_taker_buy": 5,
+  "merge": 2
+ },
+ "multi_maker": 5,
+ "year2026": 14,
+ "n": 26,
+ "quota_met": true,
+ "results": [
+  {
+   "tx": "0x90caae50ddfd1f075eb70fe0cf06cc5b7922d07239ccf05ccf56dace0e83a9a8",
+   "block": 55736642,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x9d84ce03",
+      "side": "BUY",
+      "token": "5312758201",
+      "shares": 16.666665,
+      "usdc": 15.666666
+     },
+     {
+      "role": "active",
+      "maker": "0x82e74b77",
+      "side": "BUY",
+      "token": "7696191317",
+      "shares": 16.666665,
+      "usdc": 0.999999
+     }
+    ],
+    "dataset": [
+     {
+      "token": "5312758201",
+      "maker": "0x9d84ce03",
+      "taker": "0x82e74b77",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 16.666665,
+      "price": 0.94
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x1e115887f158238fbfa3cca9482e34e2e01c0806c1fb7870043cd6f4d94f3571",
+   "block": 55738240,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x24c8cf69",
+      "side": "BUY",
+      "token": "8842580203",
+      "shares": 157.142856,
+      "usdc": 146.142857
+     },
+     {
+      "role": "active",
+      "maker": "0x8a2c357b",
+      "side": "BUY",
+      "token": "5754840077",
+      "shares": 157.142856,
+      "usdc": 10.999999
+     }
+    ],
+    "dataset": [
+     {
+      "token": "8842580203",
+      "maker": "0x24c8cf69",
+      "taker": "0x8a2c357b",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 157.142856,
+      "price": 0.93
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x75be7d771017af88ed4c45d99cb516e8a57bcd6b703cff399253a7966b3f75f0",
+   "block": 55742526,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0xeca016a03de9130cc41c3940334b66a4350bbabf47cf8b9bee34a6856c54d646",
+   "block": 55749429,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x62d2bcd1",
+      "side": "BUY",
+      "token": "4488956116",
+      "shares": 500.0,
+      "usdc": 25.0
+     },
+     {
+      "role": "active",
+      "maker": "0x4c2da46b",
+      "side": "BUY",
+      "token": "4251071579",
+      "shares": 500.0,
+      "usdc": 475.0
+     }
+    ],
+    "dataset": [
+     {
+      "token": "4488956116",
+      "maker": "0x62d2bcd1",
+      "taker": "0x4c2da46b",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 500.0,
+      "price": 0.05
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x27149794b974d9c5105c4bb9c2c14945ad1c04bc4eb2a102329469cad9a69162",
+   "block": 55743372,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x9d84ce03",
+      "side": "BUY",
+      "token": "1917316084",
+      "shares": 205.0,
+      "usdc": 65.6
+     },
+     {
+      "role": "active",
+      "maker": "0x2c036bf4",
+      "side": "BUY",
+      "token": "9398803519",
+      "shares": 205.0,
+      "usdc": 139.4
+     }
+    ],
+    "dataset": [
+     {
+      "token": "1917316084",
+      "maker": "0x9d84ce03",
+      "taker": "0x2c036bf4",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 205.0,
+      "price": 0.32
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x71cbe1be36707e5b3de638cc16c3f0a36b5cf9542a46d5446ef68a0103c1b040",
+   "block": 55730351,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x368a54c470cd8a8dcfc0fd84985a3822a778f10646bbebd6cf542f9a63b988ae",
+   "block": 55724631,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x3cf3e8d5",
+      "side": "BUY",
+      "token": "9584496709",
+      "shares": 43.33,
+      "usdc": 32.9308
+     },
+     {
+      "role": "active",
+      "maker": "0x3cb9b7cf",
+      "side": "BUY",
+      "token": "4865259675",
+      "shares": 43.33,
+      "usdc": 10.3992
+     }
+    ],
+    "dataset": [
+     {
+      "token": "9584496709",
+      "maker": "0x3cf3e8d5",
+      "taker": "0x3cb9b7cf",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 43.33,
+      "price": 0.76
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0xd14d23b7d3451ac6d72671d3777b6689e359da7945a6682bd126076dce5f95d7",
+   "block": 55747627,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x1d330b1a",
+      "side": "BUY",
+      "token": "1012749376",
+      "shares": 5.617972,
+      "usdc": 0.617977
+     },
+     {
+      "role": "active",
+      "maker": "0x53d71854",
+      "side": "BUY",
+      "token": "6063206844",
+      "shares": 5.617972,
+      "usdc": 4.999995
+     }
+    ],
+    "dataset": [
+     {
+      "token": "1012749376",
+      "maker": "0x1d330b1a",
+      "taker": "0x53d71854",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 5.617972,
+      "price": 0.11
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0xe86e861c97e72435adf3dbf8d7c7fbd724fb59ae0f1e492b43aba13485eb05a9",
+   "block": 55748860,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x21589505",
+      "side": "BUY",
+      "token": "2912906269",
+      "shares": 100.0,
+      "usdc": 60.0
+     },
+     {
+      "role": "active",
+      "maker": "0xe2b1fc26",
+      "side": "BUY",
+      "token": "9402609008",
+      "shares": 100.0,
+      "usdc": 40.0
+     }
+    ],
+    "dataset": [
+     {
+      "token": "2912906269",
+      "maker": "0x21589505",
+      "taker": "0xe2b1fc26",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 100.0,
+      "price": 0.6
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x27349a6339026493d70fb69bb6aa08b428c3f94707d05d5b483b3e20d95559d7",
+   "block": 55748860,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x4cc3522b",
+      "side": "BUY",
+      "token": "3133743875",
+      "shares": 63.6,
+      "usdc": 28.62
+     },
+     {
+      "role": "active",
+      "maker": "0x94d18fca",
+      "side": "BUY",
+      "token": "4678151355",
+      "shares": 63.6,
+      "usdc": 34.98
+     }
+    ],
+    "dataset": [
+     {
+      "token": "3133743875",
+      "maker": "0x4cc3522b",
+      "taker": "0x94d18fca",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 63.599999999999994,
+      "price": 0.45
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0xc61d0dd2b15d31d5df83d31c6538794e3f14f728dae968f0216ff5b95d94b879",
+   "block": 55753598,
+   "kind": "mint",
+   "multi_maker": true,
+   "year2026": false,
+   "n_rows": 2,
+   "n_passive": 2,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0xd42f6a16",
+      "side": "BUY",
+      "token": "2643895896",
+      "shares": 200.0,
+      "usdc": 21.4
+     },
+     {
+      "role": "passive",
+      "maker": "0x43372356",
+      "side": "BUY",
+      "token": "2643895896",
+      "shares": 200.0,
+      "usdc": 21.2
+     },
+     {
+      "role": "active",
+      "maker": "0x59ee6c6a",
+      "side": "BUY",
+      "token": "7983248108",
+      "shares": 400.0,
+      "usdc": 357.4
+     }
+    ],
+    "dataset": [
+     {
+      "token": "2643895896",
+      "maker": "0x43372356",
+      "taker": "0x59ee6c6a",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 200.0,
+      "price": 0.106
+     },
+     {
+      "token": "2643895896",
+      "maker": "0xd42f6a16",
+      "taker": "0x59ee6c6a",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 200.0,
+      "price": 0.107
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    },
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x2fe01913444a5acb65f960d9705c5ddd4267de313ffba431d1923da800a27689",
+   "block": 81659137,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": true,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x6ad05591",
+      "side": "BUY",
+      "token": "7559874313",
+      "shares": 34.642856,
+      "usdc": 32.702857
+     },
+     {
+      "role": "active",
+      "maker": "0xe3256165",
+      "side": "BUY",
+      "token": "9746528484",
+      "shares": 34.642856,
+      "usdc": 1.94
+     }
+    ],
+    "dataset": [
+     {
+      "token": "7559874313",
+      "maker": "0x6ad05591",
+      "taker": "0xe3256165",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 34.642856,
+      "price": 0.944
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x32bde8b9beef370ef7cff2383a792854dfc5f83fd13489fe0b35d55fa28ff09d",
+   "block": 81684268,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": true,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x1117eade",
+      "side": "BUY",
+      "token": "9884403292",
+      "shares": 100.0,
+      "usdc": 34.0
+     },
+     {
+      "role": "active",
+      "maker": "0xead152b8",
+      "side": "BUY",
+      "token": "1109683637",
+      "shares": 100.0,
+      "usdc": 66.0
+     }
+    ],
+    "dataset": [
+     {
+      "token": "9884403292",
+      "maker": "0x1117eade",
+      "taker": "0xead152b8",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 100.0,
+      "price": 0.34
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x1fa95e3a407061bb058d08c4934ca4aeed14dff72d9743aae8b750960bb160bd",
+   "block": 81686478,
+   "kind": "mint",
+   "multi_maker": false,
+   "year2026": true,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0xdc876e68",
+      "side": "BUY",
+      "token": "4235723409",
+      "shares": 2.07,
+      "usdc": 0.9729
+     },
+     {
+      "role": "active",
+      "maker": "0x08cfdf77",
+      "side": "BUY",
+      "token": "9439200392",
+      "shares": 2.07,
+      "usdc": 1.0971
+     }
+    ],
+    "dataset": [
+     {
+      "token": "4235723409",
+      "maker": "0xdc876e68",
+      "taker": "0x08cfdf77",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 2.07,
+      "price": 0.47
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0x5ae8e90b056d7a4888f6baeab20e92ec86bb27578065000b47a0009bf9b07aa6",
+   "block": 81689582,
+   "kind": "mint",
+   "multi_maker": true,
+   "year2026": true,
+   "n_rows": 2,
+   "n_passive": 2,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0xb548b896",
+      "side": "BUY",
+      "token": "8343909203",
+      "shares": 17.89,
+      "usdc": 14.6698
+     },
+     {
+      "role": "passive",
+      "maker": "0xc03e61eb",
+      "side": "BUY",
+      "token": "8343909203",
+      "shares": 13.02,
+      "usdc": 10.6764
+     },
+     {
+      "role": "active",
+      "maker": "0xf247584e",
+      "side": "BUY",
+      "token": "9289904945",
+      "shares": 30.91,
+      "usdc": 5.5638
+     }
+    ],
+    "dataset": [
+     {
+      "token": "8343909203",
+      "maker": "0xb548b896",
+      "taker": "0xf247584e",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 17.89,
+      "price": 0.82
+     },
+     {
+      "token": "8343909203",
+      "maker": "0xc03e61eb",
+      "taker": "0xf247584e",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 13.02,
+      "price": 0.82
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    },
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0xc8133f3086788e042f825b3aff237b4fad8f966a00d23754cbcf62277fcf862a",
+   "block": 81699751,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "year2026": true,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x38cb382ca42f87de224db6a77aab7c5ba1555956d45895602e96601a34f8feb7",
+   "block": 81668936,
+   "kind": "comp_taker_buy",
+   "multi_maker": false,
+   "year2026": true,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x6867f6ff79b0ada8eb5e8117d9c27d2d0bbae2ca50ea2c4db21a5b176729ed34",
+   "block": 81692488,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "year2026": true,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x8b20e4bb8166673aa365216950e2494a9b9de037db82c79d00d2d95d43b2103e",
+   "block": 81669198,
+   "kind": "comp_taker_sell",
+   "multi_maker": false,
+   "year2026": true,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x00c4cc4fc647139b07212eedaef10b26b8253c9ca78f389bae45c573c76e99c9",
+   "block": 81693284,
+   "kind": "mint",
+   "multi_maker": true,
+   "year2026": true,
+   "n_rows": 4,
+   "n_passive": 4,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x695c6ac9",
+      "side": "BUY",
+      "token": "9953694608",
+      "shares": 5.5,
+      "usdc": 4.345
+     },
+     {
+      "role": "passive",
+      "maker": "0x55b27548",
+      "side": "SELL",
+      "token": "3941887744",
+      "shares": 5.5,
+      "usdc": 1.155
+     },
+     {
+      "role": "passive",
+      "maker": "0x68db8920",
+      "side": "BUY",
+      "token": "9953694608",
+      "shares": 5.5,
+      "usdc": 4.345
+     },
+     {
+      "role": "passive",
+      "maker": "0xf71f65d7",
+      "side": "BUY",
+      "token": "9953694608",
+      "shares": 0.738094,
+      "usdc": 0.583095
+     },
+     {
+      "role": "active",
+      "maker": "0xd4b6561f",
+      "side": "BUY",
+      "token": "3941887744",
+      "shares": 17.238094,
+      "usdc": 3.619999
+     }
+    ],
+    "dataset": [
+     {
+      "token": "3941887744",
+      "maker": "0x55b27548",
+      "taker": "0xd4b6561f",
+      "taker_is_active": true,
+      "taker_bought": true,
+      "qty": 5.5,
+      "price": 0.21
+     },
+     {
+      "token": "9953694608",
+      "maker": "0xf71f65d7",
+      "taker": "0xd4b6561f",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 0.7380939999999999,
+      "price": 0.790001
+     },
+     {
+      "token": "9953694608",
+      "maker": "0x68db8920",
+      "taker": "0xd4b6561f",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 5.5,
+      "price": 0.79
+     },
+     {
+      "token": "9953694608",
+      "maker": "0x695c6ac9",
+      "taker": "0xd4b6561f",
+      "taker_is_active": true,
+      "taker_bought": false,
+      "qty": 5.5,
+      "price": 0.79
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    },
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    },
+    {
+     "fill": "mint",
+     "row_token": "maker_token",
+     "taker_bought": false
+    }
+   ]
+  },
+  {
+   "tx": "0xd5399a25ffa27d450a87c9b7c4f84947868b4adf780447daac0601b8dc88bc31",
+   "block": 81698450,
+   "kind": "comp_taker_buy",
+   "multi_maker": true,
+   "year2026": true,
+   "n_rows": 2,
+   "n_passive": 2,
+   "problems": []
+  },
+  {
+   "tx": "0x0dec58434e9765156cfb441bbee835b4ccdfaa05cfe447f5d41a0b526ca73858",
+   "block": 81985892,
+   "kind": "comp_taker_buy",
+   "multi_maker": false,
+   "year2026": true,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0xd5eba2c607824806866993d6e0d831ab0f6664f081b35690f59a50695908fef9",
+   "block": 81963240,
+   "kind": "comp_taker_buy",
+   "multi_maker": false,
+   "year2026": true,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x964395de8e13098e56cda315d373258c641bd5170fd137bdb69412e89b1dd565",
+   "block": 81996084,
+   "kind": "comp_taker_buy",
+   "multi_maker": false,
+   "year2026": true,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": []
+  },
+  {
+   "tx": "0x21bceb8fe96cb9fc65fbf687ff0691dd39ee2e43b5223a383fefa481ba7c8d18",
+   "block": 81984986,
+   "kind": "merge",
+   "multi_maker": true,
+   "year2026": true,
+   "n_rows": 2,
+   "n_passive": 2,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x0ad7f341",
+      "side": "SELL",
+      "token": "1362730945",
+      "shares": 20.64,
+      "usdc": 0.63984
+     },
+     {
+      "role": "passive",
+      "maker": "0x793c61ad",
+      "side": "SELL",
+      "token": "1362730945",
+      "shares": 5.0,
+      "usdc": 0.16
+     },
+     {
+      "role": "active",
+      "maker": "0xeac695cb",
+      "side": "SELL",
+      "token": "4355253434",
+      "shares": 25.64,
+      "usdc": 24.84016
+     }
+    ],
+    "dataset": [
+     {
+      "token": "1362730945",
+      "maker": "0x0ad7f341",
+      "taker": "0xeac695cb",
+      "taker_is_active": true,
+      "taker_bought": true,
+      "qty": 20.64,
+      "price": 0.031
+     },
+     {
+      "token": "1362730945",
+      "maker": "0x793c61ad",
+      "taker": "0xeac695cb",
+      "taker_is_active": true,
+      "taker_bought": true,
+      "qty": 5.0,
+      "price": 0.032
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "merge",
+     "row_token": "maker_token",
+     "taker_bought": true
+    },
+    {
+     "fill": "merge",
+     "row_token": "maker_token",
+     "taker_bought": true
+    }
+   ]
+  },
+  {
+   "tx": "0xec456a0e0b66e1a77a4620a27cee8b8d67da62a9a1a4079a3a200f40bb42cf5c",
+   "block": 60598587,
+   "kind": "merge",
+   "multi_maker": false,
+   "year2026": false,
+   "n_rows": 1,
+   "n_passive": 1,
+   "problems": [],
+   "representation": {
+    "chain": [
+     {
+      "role": "passive",
+      "maker": "0x7789806c",
+      "side": "SELL",
+      "token": "9545568605",
+      "shares": 46.0,
+      "usdc": 0.138
+     },
+     {
+      "role": "active",
+      "maker": "0x30fbf02f",
+      "side": "SELL",
+      "token": "2735212181",
+      "shares": 46.0,
+      "usdc": 45.862
+     }
+    ],
+    "dataset": [
+     {
+      "token": "9545568605",
+      "maker": "0x7789806c",
+      "taker": "0x30fbf02f",
+      "taker_is_active": true,
+      "taker_bought": true,
+      "qty": 46.0,
+      "price": 0.003
+     }
+    ]
+   },
+   "conventions": [
+    {
+     "fill": "merge",
+     "row_token": "maker_token",
+     "taker_bought": true
+    }
+   ]
+  }
+ ]
+}

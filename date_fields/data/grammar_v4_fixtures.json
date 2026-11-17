@@ -1,0 +1,191 @@
+{
+ "spec": "A15 grammar v4 fixtures, frozen before schedule_grammar_v4.py is written. Each must pass (status; and family + instant to the second when status is ok; primary per A14 option A).",
+ "fixtures": [
+  {
+   "id": "seconds_real_248977",
+   "source": "R-007 v6 #26",
+   "text": "This market will resolve to \"Yes\" if Silvergate (https://www.silvergate.com/) announces that it will file for bankruptcy, is filing for bankruptcy, or has filed for bankruptcy of any variety by March 31, 2023, 11:59:59 PM ET. Otherwise, this market will resolve to \"No\".",
+   "created": "2023-03-02T20:05:18Z",
+   "status": "ok",
+   "family": "F1i",
+   "instant": "2023-04-01T03:59:59Z",
+   "primary": false
+  },
+  {
+   "id": "seconds_real_239302",
+   "source": "R-007 v5 #2",
+   "text": "This market will resolve to “Yes” If H.R.3684 has “Become Law” (according to https://www.congress.gov/bill/117th-congress/house-bill/3684) by November 15, 2021, at 12:00:59 PM ET, and “No” otherwise. ",
+   "created": "2021-11-08T20:11:28Z",
+   "status": "ok",
+   "family": "F1i",
+   "instant": "2021-11-15T17:00:59Z",
+   "primary": false
+  },
+  {
+   "id": "seconds_12h",
+   "text": "This market will resolve to \"Yes\" if X happens by December 31, 2025, 11:59:59 PM ET. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F1i",
+   "instant": "2026-01-01T04:59:59Z",
+   "primary": false
+  },
+  {
+   "id": "seconds_24h_F2",
+   "text": "This market will resolve to \"Yes\" if the price on May 31, 2025 at 14:00:30 UTC is above X.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F2",
+   "instant": "2025-05-31T14:00:30Z",
+   "primary": true
+  },
+  {
+   "id": "partial_24h_unknown_zone",
+   "source": "R-007 s2 row 1",
+   "text": "This market will resolve to \"Yes\" if X happens by May 31, 2025 at 14:00 CEST. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "partial_temporal",
+   "primary": false
+  },
+  {
+   "id": "24h_supported_zone",
+   "source": "R-007 s2 row 2",
+   "text": "This market will resolve to \"Yes\" if X happens by May 31, 2025 at 14:00 EST. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F1i",
+   "instant": "2025-05-31T19:00:00Z",
+   "primary": false
+  },
+  {
+   "id": "dotted_meridiem_PT",
+   "source": "R-007 s2 row 3",
+   "text": "This market will resolve to \"Yes\" if X happens by May 31, 2025 at 9 a.m. PT. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F1i",
+   "instant": "2025-05-31T16:00:00Z",
+   "primary": false
+  },
+  {
+   "id": "malformed_year",
+   "source": "R-007 s2 row 4",
+   "text": "This market will resolve to \"Yes\" if X happens by December 31, 20256, 11:59 PM ET. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "partial_temporal",
+   "primary": false
+  },
+  {
+   "id": "hour_13_pm",
+   "text": "This market will resolve to \"Yes\" if X happens by May 31, 2025 at 13:30 PM ET. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "invalid_time",
+   "primary": false
+  },
+  {
+   "id": "hour_0_am",
+   "text": "This market will resolve to \"Yes\" if X happens by May 31, 2025 at 0:30 AM ET. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "invalid_time",
+   "primary": false
+  },
+  {
+   "id": "second_60",
+   "text": "This market will resolve to \"Yes\" if X happens by May 31, 2025 at 11:59:60 PM ET. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "invalid_time",
+   "primary": false
+  },
+  {
+   "id": "on_or_before_untimed",
+   "source": "R-007 s3",
+   "text": "This market will resolve to \"Yes\" if X happens on or before May 31, 2025. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F1i",
+   "instant": "2025-06-01T03:59:59Z",
+   "primary": false
+  },
+  {
+   "id": "on_or_before_timed",
+   "source": "R-007 s3 family",
+   "text": "This market will resolve to \"Yes\" if X happens on or before May 31, 2025, 11:59 PM ET. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F1i",
+   "instant": "2025-06-01T03:59:00Z",
+   "primary": false
+  },
+  {
+   "id": "F4_timed",
+   "text": "In the upcoming NBA game, scheduled for March 15, 2025 at 7:30 PM ET: This market will resolve to \"Lakers\" if the Lakers win.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F4",
+   "instant": "2025-03-15T23:30:00Z",
+   "primary": true
+  },
+  {
+   "id": "F4_untimed",
+   "source": "R-007 s4",
+   "text": "In the upcoming game, scheduled for March 15, 2025: This market will resolve to \"A\" if A wins.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F4d",
+   "instant": "2025-03-16T03:59:59Z",
+   "primary": false
+  },
+  {
+   "id": "F4_over_F2_same_mention",
+   "text": "The match takes place on March 15, 2025 at 7:30 PM ET. This market will resolve to \"Yes\" if team A wins the match that takes place on March 15, 2025 at 7:30 PM ET.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F4",
+   "instant": "2025-03-15T23:30:00Z",
+   "primary": true
+  },
+  {
+   "id": "F3_over_F1i_through",
+   "text": "This market will resolve to \"Yes\" if X happens at any point from June 1, 2025 through June 30, 2025. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F3",
+   "instant": "2025-07-01T03:59:59Z",
+   "primary": true
+  },
+  {
+   "id": "regression_F1i_minute",
+   "text": "This market will resolve to \"Yes\" if X happens by June 30, 2025, 11:59 PM ET. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F1i",
+   "instant": "2025-07-01T03:59:00Z",
+   "primary": false
+  },
+  {
+   "id": "regression_F2_noon",
+   "text": "This market will resolve according to the price on April 30, 2025 at noon ET.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F2",
+   "instant": "2025-04-30T16:00:00Z",
+   "primary": true
+  },
+  {
+   "id": "regression_midnight",
+   "text": "This market will resolve to \"Yes\" if X happens by May 31, 2025 at midnight ET. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "midnight",
+   "primary": false
+  },
+  {
+   "id": "regression_F1x",
+   "text": "This market will resolve to \"Yes\" if X happens before May 31, 2025. Otherwise No.",
+   "created": "2025-01-01T00:00:00Z",
+   "status": "ok",
+   "family": "F1x",
+   "instant": "2025-05-31T04:00:00Z",
+   "primary": false
+  }
+ ]
+}

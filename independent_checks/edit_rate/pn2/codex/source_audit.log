@@ -1,0 +1,95 @@
+{
+  "sample": {
+    "population_size": 727053,
+    "population_sha256_sorted_ids": "cf5d6281dd18dd843955659964e15360ca665d0f1fba7d69a0a5a5bb7f7bf538",
+    "original_sample_script_output_equal": true,
+    "independent_2000_ids_equal": true,
+    "all_1372_ranked_ids_equal": true,
+    "verified_1000_ids_equal": true,
+    "original_sample_requires_gamma": true,
+    "markets_columns_independent": [
+      "market_id"
+    ],
+    "market_row_count": 729133,
+    "gamma_with_qid_count": 727053
+  },
+  "hashes_all_match": true,
+  "comparison": {
+    "M1": {
+      "counts_equal": true,
+      "wilson_equal_at_recorded_precision": true,
+      "first_pass_bootstrap": [
+        0.002008032128514056,
+        0.01287160604068335
+      ],
+      "recorded_bootstrap": [
+        0.002006,
+        0.01291
+      ],
+      "disclosed_method_diagnostic": [
+        0.002012072434607646,
+        0.012935323383084577
+      ],
+      "disclosed_method_equal_at_recorded_precision": false,
+      "positive_events_equal": true,
+      "category_counts_equal": true
+    },
+    "M2": {
+      "counts_equal": true,
+      "wilson_equal_at_recorded_precision": true,
+      "first_pass_bootstrap": [
+        0.0,
+        0.004709576138147566
+      ],
+      "recorded_bootstrap": [
+        0.0,
+        0.004831
+      ],
+      "disclosed_method_diagnostic": [
+        0.0,
+        0.004838709677419355
+      ],
+      "disclosed_method_equal_at_recorded_precision": false,
+      "positive_events_equal": true,
+      "category_counts_equal": true
+    },
+    "FORMAT": {
+      "counts_equal": true,
+      "wilson_equal_at_recorded_precision": true,
+      "first_pass_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "recorded_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "disclosed_method_diagnostic": [
+        0.0,
+        0.0
+      ],
+      "disclosed_method_equal_at_recorded_precision": true,
+      "positive_events_equal": true,
+      "category_counts_equal": true
+    },
+    "M3": {
+      "counts_equal": true,
+      "wilson_equal_at_recorded_precision": true,
+      "first_pass_bootstrap": [
+        0.003,
+        0.013972055888223553
+      ],
+      "recorded_bootstrap": [
+        0.003,
+        0.013986
+      ],
+      "disclosed_method_diagnostic": [
+        0.003,
+        0.014
+      ],
+      "disclosed_method_equal_at_recorded_precision": false,
+      "positive_events_equal": true,
+      "category_counts_equal": true
+    }
+  }
+}

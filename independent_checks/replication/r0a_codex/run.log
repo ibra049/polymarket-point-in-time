@@ -1,0 +1,94 @@
+{"elapsed_seconds": 9.716308292001486, "file": 25, "file_wall_seconds": 0.2929742909036577, "files": 1218, "path": "trades/year=2022/month=12/day=22/data.parquet", "peak_rss_bytes": 998473728, "rows": 60}
+{"elapsed_seconds": 16.669443457969464, "file": 50, "file_wall_seconds": 0.27680962497834116, "files": 1218, "path": "trades/year=2023/month=01/day=16/data.parquet", "peak_rss_bytes": 998473728, "rows": 99}
+{"elapsed_seconds": 23.940835166955367, "file": 75, "file_wall_seconds": 0.2939018328906968, "files": 1218, "path": "trades/year=2023/month=02/day=10/data.parquet", "peak_rss_bytes": 998473728, "rows": 306}
+{"elapsed_seconds": 31.696374666993506, "file": 100, "file_wall_seconds": 0.31774949992541224, "files": 1218, "path": "trades/year=2023/month=03/day=07/data.parquet", "peak_rss_bytes": 998473728, "rows": 739}
+{"elapsed_seconds": 43.081215791986324, "file": 125, "file_wall_seconds": 0.3038602090673521, "files": 1218, "path": "trades/year=2023/month=04/day=01/data.parquet", "peak_rss_bytes": 998473728, "rows": 626}
+{"elapsed_seconds": 50.876521957921796, "file": 150, "file_wall_seconds": 0.30962774995714426, "files": 1218, "path": "trades/year=2023/month=04/day=26/data.parquet", "peak_rss_bytes": 998473728, "rows": 291}
+{"elapsed_seconds": 59.00041258300189, "file": 175, "file_wall_seconds": 0.28869320801459253, "files": 1218, "path": "trades/year=2023/month=05/day=21/data.parquet", "peak_rss_bytes": 998473728, "rows": 316}
+{"elapsed_seconds": 66.59510554198641, "file": 200, "file_wall_seconds": 0.30835566692985594, "files": 1218, "path": "trades/year=2023/month=06/day=15/data.parquet", "peak_rss_bytes": 998473728, "rows": 207}
+{"elapsed_seconds": 73.96510562498588, "file": 225, "file_wall_seconds": 0.2838782500475645, "files": 1218, "path": "trades/year=2023/month=07/day=10/data.parquet", "peak_rss_bytes": 998473728, "rows": 315}
+{"elapsed_seconds": 81.59463137493003, "file": 250, "file_wall_seconds": 0.2859579580835998, "files": 1218, "path": "trades/year=2023/month=08/day=04/data.parquet", "peak_rss_bytes": 998473728, "rows": 918}
+{"elapsed_seconds": 89.04296062490903, "file": 275, "file_wall_seconds": 0.29112537507899106, "files": 1218, "path": "trades/year=2023/month=08/day=29/data.parquet", "peak_rss_bytes": 998473728, "rows": 589}
+{"elapsed_seconds": 96.36859495798126, "file": 300, "file_wall_seconds": 0.2751993329729885, "files": 1218, "path": "trades/year=2023/month=09/day=23/data.parquet", "peak_rss_bytes": 998473728, "rows": 354}
+{"elapsed_seconds": 104.5311423749663, "file": 325, "file_wall_seconds": 0.39658408297691494, "files": 1218, "path": "trades/year=2023/month=10/day=18/data.parquet", "peak_rss_bytes": 998473728, "rows": 921}
+{"elapsed_seconds": 112.64154824998695, "file": 350, "file_wall_seconds": 0.31094766699243337, "files": 1218, "path": "trades/year=2023/month=11/day=12/data.parquet", "peak_rss_bytes": 998473728, "rows": 577}
+{"elapsed_seconds": 119.82744575000834, "file": 375, "file_wall_seconds": 0.27458137494977564, "files": 1218, "path": "trades/year=2023/month=12/day=07/data.parquet", "peak_rss_bytes": 998473728, "rows": 963}
+{"elapsed_seconds": 126.99431179196108, "file": 400, "file_wall_seconds": 0.28215020801872015, "files": 1218, "path": "trades/year=2024/month=01/day=01/data.parquet", "peak_rss_bytes": 998473728, "rows": 876}
+{"elapsed_seconds": 134.08345049992204, "file": 425, "file_wall_seconds": 0.2837696250062436, "files": 1218, "path": "trades/year=2024/month=01/day=26/data.parquet", "peak_rss_bytes": 998473728, "rows": 1678}
+{"elapsed_seconds": 141.04846879199613, "file": 450, "file_wall_seconds": 0.291444499976933, "files": 1218, "path": "trades/year=2024/month=02/day=20/data.parquet", "peak_rss_bytes": 998473728, "rows": 2120}
+{"elapsed_seconds": 148.4412925830111, "file": 475, "file_wall_seconds": 0.3476637089625001, "files": 1218, "path": "trades/year=2024/month=03/day=16/data.parquet", "peak_rss_bytes": 998473728, "rows": 1773}
+{"elapsed_seconds": 155.98222924990114, "file": 500, "file_wall_seconds": 0.28045729198493063, "files": 1218, "path": "trades/year=2024/month=04/day=10/data.parquet", "peak_rss_bytes": 998473728, "rows": 2257}
+{"elapsed_seconds": 163.06314449990168, "file": 525, "file_wall_seconds": 0.2916123339673504, "files": 1218, "path": "trades/year=2024/month=05/day=05/data.parquet", "peak_rss_bytes": 998473728, "rows": 1949}
+{"elapsed_seconds": 170.24110224994365, "file": 550, "file_wall_seconds": 0.2819802089361474, "files": 1218, "path": "trades/year=2024/month=05/day=30/data.parquet", "peak_rss_bytes": 998473728, "rows": 11112}
+{"elapsed_seconds": 177.6485066669993, "file": 575, "file_wall_seconds": 0.2949128750478849, "files": 1218, "path": "trades/year=2024/month=06/day=24/data.parquet", "peak_rss_bytes": 998473728, "rows": 10261}
+{"elapsed_seconds": 185.13467966695316, "file": 600, "file_wall_seconds": 0.29619229200761765, "files": 1218, "path": "trades/year=2024/month=07/day=19/data.parquet", "peak_rss_bytes": 998473728, "rows": 35482}
+{"elapsed_seconds": 192.77107862499543, "file": 625, "file_wall_seconds": 0.2961519999662414, "files": 1218, "path": "trades/year=2024/month=08/day=13/data.parquet", "peak_rss_bytes": 998473728, "rows": 46911}
+{"elapsed_seconds": 200.0689942499157, "file": 650, "file_wall_seconds": 0.29024962498806417, "files": 1218, "path": "trades/year=2024/month=09/day=07/data.parquet", "peak_rss_bytes": 998473728, "rows": 48903}
+{"elapsed_seconds": 207.73207249992993, "file": 675, "file_wall_seconds": 0.3027648329734802, "files": 1218, "path": "trades/year=2024/month=10/day=02/data.parquet", "peak_rss_bytes": 998473728, "rows": 93809}
+{"elapsed_seconds": 218.64596916700248, "file": 700, "file_wall_seconds": 0.32616079202853143, "files": 1218, "path": "trades/year=2024/month=10/day=27/data.parquet", "peak_rss_bytes": 998473728, "rows": 200868}
+{"elapsed_seconds": 231.30951454199385, "file": 725, "file_wall_seconds": 0.35762920894194394, "files": 1218, "path": "trades/year=2024/month=11/day=21/data.parquet", "peak_rss_bytes": 1061486592, "rows": 229976}
+{"elapsed_seconds": 241.4584073330043, "file": 750, "file_wall_seconds": 0.7193044580053538, "files": 1218, "path": "trades/year=2024/month=12/day=16/data.parquet", "peak_rss_bytes": 1061486592, "rows": 315526}
+{"elapsed_seconds": 260.0240791669348, "file": 775, "file_wall_seconds": 0.3504370410228148, "files": 1218, "path": "trades/year=2025/month=01/day=10/data.parquet", "peak_rss_bytes": 1066762240, "rows": 259421}
+{"elapsed_seconds": 269.9130535000004, "file": 800, "file_wall_seconds": 0.42363216599915177, "files": 1218, "path": "trades/year=2025/month=02/day=04/data.parquet", "peak_rss_bytes": 1066762240, "rows": 140173}
+{"elapsed_seconds": 278.43607854191214, "file": 825, "file_wall_seconds": 0.35239433392416686, "files": 1218, "path": "trades/year=2025/month=03/day=01/data.parquet", "peak_rss_bytes": 1066762240, "rows": 147475}
+{"elapsed_seconds": 286.9675589170074, "file": 850, "file_wall_seconds": 0.3234767500543967, "files": 1218, "path": "trades/year=2025/month=03/day=26/data.parquet", "peak_rss_bytes": 1066762240, "rows": 136693}
+{"elapsed_seconds": 295.4775766249513, "file": 875, "file_wall_seconds": 0.44516558304894716, "files": 1218, "path": "trades/year=2025/month=04/day=20/data.parquet", "peak_rss_bytes": 1066762240, "rows": 101156}
+{"elapsed_seconds": 303.778295416967, "file": 900, "file_wall_seconds": 0.3268397500505671, "files": 1218, "path": "trades/year=2025/month=05/day=15/data.parquet", "peak_rss_bytes": 1066762240, "rows": 180796}
+{"elapsed_seconds": 312.24650770798326, "file": 925, "file_wall_seconds": 0.3228767500258982, "files": 1218, "path": "trades/year=2025/month=06/day=09/data.parquet", "peak_rss_bytes": 1066762240, "rows": 135006}
+{"elapsed_seconds": 320.79008441697806, "file": 950, "file_wall_seconds": 0.3291991660371423, "files": 1218, "path": "trades/year=2025/month=07/day=04/data.parquet", "peak_rss_bytes": 1066762240, "rows": 213270}
+{"elapsed_seconds": 329.67016412492376, "file": 975, "file_wall_seconds": 0.44819358398672193, "files": 1218, "path": "trades/year=2025/month=07/day=29/data.parquet", "peak_rss_bytes": 1066762240, "rows": 227264}
+{"elapsed_seconds": 340.11625420791097, "file": 1000, "file_wall_seconds": 0.3319357499713078, "files": 1218, "path": "trades/year=2025/month=08/day=23/data.parquet", "peak_rss_bytes": 1066762240, "rows": 208455}
+{"elapsed_seconds": 355.06067858298775, "file": 1025, "file_wall_seconds": 0.6597559589426965, "files": 1218, "path": "trades/year=2025/month=09/day=17/data.parquet", "peak_rss_bytes": 1066762240, "rows": 282181}
+{"elapsed_seconds": 371.3685120419832, "file": 1050, "file_wall_seconds": 0.7403825829969719, "files": 1218, "path": "trades/year=2025/month=10/day=12/data.parquet", "peak_rss_bytes": 1066762240, "rows": 496325}
+{"elapsed_seconds": 413.592572457972, "file": 1075, "file_wall_seconds": 1.7754777499940246, "files": 1218, "path": "trades/year=2025/month=11/day=06/data.parquet", "peak_rss_bytes": 1067417600, "rows": 849317}
+{"elapsed_seconds": 449.84591170796193, "file": 1100, "file_wall_seconds": 2.0746692089596763, "files": 1218, "path": "trades/year=2025/month=12/day=01/data.parquet", "peak_rss_bytes": 1150926848, "rows": 1160907}
+{"elapsed_seconds": 506.01187583291903, "file": 1125, "file_wall_seconds": 2.3678825419628993, "files": 1218, "path": "trades/year=2025/month=12/day=26/data.parquet", "peak_rss_bytes": 1161723904, "rows": 1768303}
+{"elapsed_seconds": 604.6325331669068, "file": 1150, "file_wall_seconds": 10.687346582999453, "files": 1218, "path": "trades/year=2026/month=01/day=20/data.parquet", "peak_rss_bytes": 1161723904, "rows": 2632773}
+{"elapsed_seconds": 733.2298929579556, "file": 1175, "file_wall_seconds": 8.713167665991932, "files": 1218, "path": "trades/year=2026/month=02/day=14/data.parquet", "peak_rss_bytes": 1234763776, "rows": 5815445}
+{"elapsed_seconds": 956.3667662919033, "file": 1200, "file_wall_seconds": 11.263867457979359, "files": 1218, "path": "trades/year=2026/month=03/day=11/data.parquet", "peak_rss_bytes": 1341833216, "rows": 6289331}
+{"elapsed_seconds": 1123.6974635419901, "file": 1218, "file_wall_seconds": 8.122582749929279, "files": 1218, "path": "trades/year=2026/month=03/day=29/data.parquet", "peak_rss_bytes": 1341833216, "rows": 5809942}
+{
+  "status": "INCONCLUSIVE",
+  "stages": {
+    "observed": 588287492,
+    "complete_distinct": 588286587,
+    "valid_price_quantity": 588286587,
+    "two_outcome": 588286587,
+    "buyer_hhi": 586151609,
+    "return_sample": 560909624
+  },
+  "favorites": {
+    "taker": {
+      "purchases": 19058161,
+      "cost": 2662127096.893231,
+      "payoff": 2685486051.5154557,
+      "gain": 23358954.622225016,
+      "return_percent": 0.8774545230949155
+    },
+    "maker": {
+      "purchases": 39618777,
+      "cost": 6999835447.114509,
+      "payoff": 7056977991.150546,
+      "gain": 57142544.03603703,
+      "return_percent": 0.8163412478445116
+    }
+  },
+  "diagnostics": {
+    "valid_unknown_market": 28554,
+    "binary_unknown_buyer_hhi": 0,
+    "null_action": 0,
+    "null_timestamp": 0,
+    "null_market": 28554,
+    "null_maker": 0,
+    "null_taker": 0,
+    "null_price": 0,
+    "null_quantity": 0,
+    "nonfinite_nonnull_price": 0,
+    "nonfinite_nonnull_quantity": 0
+  },
+  "timing": {
+    "wall_seconds": 1123.8434478749987,
+    "cpu_seconds": 1073.428772,
+    "peak_rss_bytes": 1341833216
+  }
+}

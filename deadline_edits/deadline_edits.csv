@@ -1,0 +1,737 @@
+market_id,event_id,event_slug,event_title,question,market_start_time,creation_instant,current_instant,delta_hours,delta_days,class,creation_block,creation_tx,creation_block_time,creation_title,creation_text,current_text
+1144762,153773,will-ja-morant-be-traded-before-the-2026-trade-deadline,Will Ja Morant be traded before the 2026 trade deadline?,Will Ja Morant be traded before the 2026 trade deadline?,2026-01-09T18:50:57.812000+00:00,2026-02-05T19:59:00+00:00,2026-02-05T20:00:00+00:00,0.0167,0.0007,FORMAT,81432674,0x44fe62e105e5229fe1a7a89093c6a536bdb37396ef1613cb94616abf49b3dda8,2026-01-09T18:50:10+00:00,Will Ja Morant be traded before the 2026 trade deadline?,"q: title: Will Ja Morant be traded before the 2026 trade deadline?, description: This market will resolve to ""Yes"" if Ja Morant of the Memphis Grizzlies is traded to another NBA team before February 5, 2026, 2:59 PM ET. 
+
+Otherwise, this market will resolve to ""No"".
+
+The resolution source for this market will be official information from the NBA, however a consensus of credible reporting may also be used. market_id: 1144762 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Ja Morant of the Memphis Grizzlies is traded to another NBA team by February 5, 2026, 3:00 PM ET. 
+
+Otherwise, this market will resolve to ""No"".
+
+The resolution source for this market will be official information from the NBA, however a consensus of credible reporting may also be used."
+248850,901322,will-opensea-announce-a-token-by-march-31,Will OpenSea announce a token by March 31?,Will OpenSea announce a token by March 31?,2023-02-22T20:19:48.702000+00:00,2023-04-01T03:59:59+00:00,2023-04-01T03:59:00+00:00,-0.0164,-0.0007,FORMAT,39598582,0x42815747e5a74dcbe8bd2c19eb7c945aa91eb421ad799f2215d520a7ef43e979,2023-02-22T19:47:07+00:00,Will OpenSea announce a token by March 31?,"q: title: Will OpenSea announce a token by March 31?, description: This market will resolve to ""Yes"" if OpenSea announces a token by March 31, or to ""No"" otherwise.
+
+""Announces a token by March 31"" means they confirm by March 31 that they will have a token, regardless of when the token actually launches.
+
+The resolution source is OpenSea (https://opensea.io/blog/, https://twitter.com/opensea, etc.). res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if OpenSea announces a token by March 31, 2023 11:59:59 PM ET, or to ""No"" otherwise.
+
+""Announces a token by March 31"" means they confirm by March 31 that they will have a token, regardless of when the token actually launches.
+
+The resolution source is OpenSea (https://opensea.io/blog/, https://twitter.com/opensea, etc.). "
+503296,11438,rfk-jr-secret-service-protection-by-friday,RFK Jr. Secret Service protection by Friday?,RFK Jr. Secret Service protection by Friday?,2024-07-15T16:11:31.860000+00:00,2024-07-20T03:59:59+00:00,2024-07-20T03:59:00+00:00,-0.0164,-0.0007,FORMAT,59395216,0x6ba5d9f9a512933172978aeb7bd8b93284b72170842f25eca903ae61681f7aac,2024-07-15T16:01:11+00:00,RFK Jr. Secret Service protection by Friday?,"q: title: RFK Jr. Secret Service protection by Friday?, description: This market will resolve to ""Yes"" if Robert F. Kennedy Jr. is approved for US Secret Service protection by July 19, 2024. Otherwise, this market will resolve to ""No"".
+
+For this market to resolve to ""Yes"" it is only necessary that RFK Jr. be approved to receive US Secret Service protection within timeframe, whether or not he has begun receiving it.
+
+The primary resolution source for this market will be information from RFK Jr. (e.g. https://x.com/RobertKennedyJr), his official representatives, and/or the US Secret Service (e.g. https://www.secretservice.gov/), however a consensus of credible reporting will also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Robert F. Kennedy Jr. is approved for US Secret Service protection by July 19, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+For this market to resolve to ""Yes"" it is only necessary that RFK Jr. be approved to receive US Secret Service protection within timeframe, whether or not he has begun receiving it.
+
+The primary resolution source for this market will be information from RFK Jr. (e.g. https://x.com/RobertKennedyJr), his official representatives, and/or the US Secret Service (e.g. https://www.secretservice.gov/), however a consensus of credible reporting will also be used."
+506548,12435,will-boeing-starliner-successfully-retrun-to-earth,Will Boeing Starliner successfully return to Earth?,Will Boeing Starliner successfully return to Earth?,2024-09-06T19:02:47.764000+00:00,2024-10-01T03:59:59+00:00,2024-10-01T03:59:00+00:00,-0.0164,-0.0007,FORMAT,61504440,0xd501b936601bd88fc2dc75c1a4b9b5e0dac729b70774777426ad586cc519dd4b,2024-09-06T19:00:23+00:00,Will Boeing Starliner successfully return to Earth?,"q: title: Will Boeing Starliner successfully return to Earth?, description: This market will resolve to ""Yes"" if Boeing’s Starliner spacecraft successfully completes its return to Earth by September 30, 2024. Otherwise, this market will resolve to ""No.""
+
+A successful return is defined as the spacecraft touching down on Earth while maintaining structural integrity during descent/reentry and landing, without any incidents resulting in significant damage.
+
+If the Boeing’s Starliner is destroyed before the resolution date this market will resolve to ""No"". 
+
+The resolution source will be a consensus of credible reporting. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Boeing’s Starliner spacecraft successfully completes its return to Earth by September 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+A successful return is defined as the spacecraft touching down on Earth while maintaining structural integrity during descent/reentry and landing, without any incidents resulting in significant damage.
+
+If the Boeing’s Starliner is destroyed before the resolution date this market will resolve to ""No"". 
+
+The resolution source will be a consensus of credible reporting."
+1731346,310530,iran-agrees-to-surrender-enriched-uranium-stockpile-by, Iran agrees to surrender enriched uranium stockpile by...?,"Iran agrees to surrender enriched uranium stockpile by December 31, 2026?",2026-03-27T00:15:17.118943+00:00,2026-04-01T03:59:00+00:00,2027-01-01T04:59:00+00:00,6601.0,275.0417,MATERIAL-LATER,84725120,0x5b30ccd0bf04435cca6b204698617ff094bae05ca9c8bb355ec1d1b6a99b000e,2026-03-27T00:11:15+00:00,"Iran agrees to surrender enriched uranium stockpile by December 31, 2026?","q: title: Iran agrees to surrender enriched uranium stockpile by December 31, 2026?, description: This market will resolve to ""Yes"" if Iran publicly agrees to surrender its enriched uranium stockpile by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+An official pledge by Iran to surrender its enriched uranium stockpile will qualify for a “Yes” resolution whether as a unilateral announcement or part of an agreement with the U.S. or Israel.
+
+An agreement by Iran to surrender any amount of its enriched uranium stockpile will count.
+
+To qualify, Iran must publicly agree that its enriched uranium stockpile, or any portion thereof, will be transferred, shipped, or placed under the custody or control of any entity outside of Iran and its influence, excluding non-state armed groups or Iranian-aligned organizations (such as Hezbollah, the Houthis, or similar actors).
+
+Any agreement or pledge made before the resolution date of this market will qualify, regardless of if/when the agreement goes into effect.
+
+An agreement by Iran to surrender its enriched uranium stockpile as a precondition of a more comprehensive peace process or deal will qualify, even if the agreement is not finalized or part of a formalized peace deal.
+
+Agreements to merely limit or cap the level or quality of enrichment—such as reducing enrichment to below weapons-grade thresholds—will not qualify.
+
+The primary resolution source for this market will be a consensus of credible reporting. market_id: 1731346 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Iran publicly agrees to surrender its enriched uranium stockpile by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+An official pledge by Iran to surrender its enriched uranium stockpile will qualify for a “Yes” resolution whether as a unilateral announcement or part of an agreement with the U.S. or Israel.
+
+An agreement by Iran to surrender any amount of its enriched uranium stockpile will count.
+
+To qualify, Iran must publicly agree that its enriched uranium stockpile, or any portion thereof, will be transferred, shipped, or placed under the custody or control of any entity outside of Iran and its influence, excluding non-state armed groups or Iranian-aligned organizations (such as Hezbollah, the Houthis, or similar actors).
+
+Any agreement or pledge made before the resolution date of this market will qualify, regardless of if/when the agreement goes into effect.
+
+An agreement by Iran to surrender its enriched uranium stockpile as a precondition of a more comprehensive peace process or deal will qualify, even if the agreement is not finalized or part of a formalized peace deal.
+
+Agreements to merely limit or cap the level or quality of enrichment—such as reducing enrichment to below weapons-grade thresholds—will not qualify.
+
+The primary resolution source for this market will be a consensus of credible reporting."
+524292,19123,will-trump-withdraw-the-us-from-nato-in-2025,Will Trump withdraw the U.S. from NATO in 2025?,Will Trump withdraw the U.S. from NATO in 2025?,2025-02-20T19:36:10.830000+00:00,2025-07-01T03:59:00+00:00,2026-01-01T04:59:00+00:00,4417.0,184.0417,MATERIAL-LATER,68165695,0x2007b3b0de88b9bc8a316aae022d6f6a8a52b9b3b4a9a3efab1e2d6cf22d9782,2025-02-20T19:33:09+00:00,Will Trump withdraw the U.S. from NATO in 2025?,"q: title: Will Trump withdraw the U.S. from NATO in 2025?, description: This market will resolve to ""Yes"" if the United States formally initiates a withdrawal from NATO or provides an official notice of denunciation to NATO by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+A notice of denunciation refers to the submission of a notice of withdrawal as per Article 13 of the North Atlantic Treaty.
+
+Any action meeting these criteria will qualify for a “Yes” resolution regardless of if its implementation is immediately halted or delayed by judicial or other actions.
+
+The U.S.'s exit from NATO’s integrated military command structure will not be sufficient to resolve this market to ""Yes"". 
+
+The resolution source will be official information from the US government and NATO, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if the United States formally initiates a withdrawal from NATO or provides an official notice of denunciation to NATO by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+A notice of denunciation refers to the submission of a notice of withdrawal as per Article 13 of the North Atlantic Treaty.
+
+Any action meeting these criteria will qualify for a “Yes” resolution regardless of if its implementation is immediately halted or delayed by judicial or other actions.
+
+The U.S.'s exit from NATO’s integrated military command structure will not be sufficient to resolve this market to ""Yes"". 
+
+The resolution source will be official information from the US government and NATO, however a consensus of credible reporting may also be used."
+1731345,310530,iran-agrees-to-surrender-enriched-uranium-stockpile-by, Iran agrees to surrender enriched uranium stockpile by...?,"Iran agrees to surrender enriched uranium stockpile by June 30, 2026?",2026-03-27T00:15:16.865235+00:00,2026-04-01T03:59:00+00:00,2026-07-01T03:59:00+00:00,2184.0,91.0,MATERIAL-LATER,84725120,0xbcee6002c0e271c54a24c876aeee61d482951d3e84fdbc1673bd3725e77f946a,2026-03-27T00:11:15+00:00,"Iran agrees to surrender enriched uranium stockpile by June 30, 2026?","q: title: Iran agrees to surrender enriched uranium stockpile by June 30, 2026?, description: This market will resolve to ""Yes"" if Iran publicly agrees to surrender its enriched uranium stockpile by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+An official pledge by Iran to surrender its enriched uranium stockpile will qualify for a “Yes” resolution whether as a unilateral announcement or part of an agreement with the U.S. or Israel.
+
+An agreement by Iran to surrender any amount of its enriched uranium stockpile will count.
+
+To qualify, Iran must publicly agree that its enriched uranium stockpile, or any portion thereof, will be transferred, shipped, or placed under the custody or control of any entity outside of Iran and its influence, excluding non-state armed groups or Iranian-aligned organizations (such as Hezbollah, the Houthis, or similar actors).
+
+Any agreement or pledge made before the resolution date of this market will qualify, regardless of if/when the agreement goes into effect.
+
+An agreement by Iran to surrender its enriched uranium stockpile as a precondition of a more comprehensive peace process or deal will qualify, even if the agreement is not finalized or part of a formalized peace deal.
+
+Agreements to merely limit or cap the level or quality of enrichment—such as reducing enrichment to below weapons-grade thresholds—will not qualify.
+
+The primary resolution source for this market will be a consensus of credible reporting. market_id: 1731345 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Iran publicly agrees to surrender its enriched uranium stockpile by June 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+An official pledge by Iran to surrender its enriched uranium stockpile will qualify for a “Yes” resolution whether as a unilateral announcement or part of an agreement with the U.S. or Israel.
+
+An agreement by Iran to surrender any amount of its enriched uranium stockpile will count.
+
+To qualify, Iran must publicly agree that its enriched uranium stockpile, or any portion thereof, will be transferred, shipped, or placed under the custody or control of any entity outside of Iran and its influence, excluding non-state armed groups or Iranian-aligned organizations (such as Hezbollah, the Houthis, or similar actors).
+
+Any agreement or pledge made before the resolution date of this market will qualify, regardless of if/when the agreement goes into effect.
+
+An agreement by Iran to surrender its enriched uranium stockpile as a precondition of a more comprehensive peace process or deal will qualify, even if the agreement is not finalized or part of a formalized peace deal.
+
+Agreements to merely limit or cap the level or quality of enrichment—such as reducing enrichment to below weapons-grade thresholds—will not qualify.
+
+The primary resolution source for this market will be a consensus of credible reporting."
+573828,36308,claude-5-released-by,Claude 5 released by…?,"Will Claude 5 be released by March 31, 2026?",2025-08-07T20:35:51.688000+00:00,2026-01-01T04:59:00+00:00,2026-04-01T03:59:00+00:00,2159.0,89.9583,MATERIAL-LATER,74924269,0x3852dbff230648e57802800a1d5f5b80e31b9a10bcb2a0b651945cc5032a7359,2025-08-07T20:34:51+00:00,"Will Claude 5 be released by March 31, 2026?","q: title: Will Claude 5 be released by March 31, 2026?, description: This market will resolve to ""Yes"" if Anthropic's Claude 5 model is made available to the general public by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+For this market to resolve to ""Yes,"" Claude 5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Anthropic as being accessible to the general public.
+
+Claude 5 refers to a product explicitly named Claude 5 (e.g. Claude 5.0 would count), or one that is recognized as a successor to Claude 4, similar to the progression from Claude 2 to Claude 3. Products labeled as Claude 4.5 or similar will not count for this market's resolution.
+
+The primary resolution source for this market will be official information from Anthropic, with additional verification from a consensus of credible reporting. market_id: 573828 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Anthropic's Claude 5 model is made available to the general public by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+For this market to resolve to ""Yes,"" Claude 5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Anthropic as being accessible to the general public.
+
+Claude 5 refers to a product explicitly named Claude 5 (e.g. Claude 5.0 would count), or one that is recognized as a successor to Claude 4, similar to the progression from Claude 2 to Claude 3. Products labeled as Claude 4.5 or similar will not count for this market's resolution.
+
+The primary resolution source for this market will be official information from Anthropic, with additional verification from a consensus of credible reporting."
+573830,36309,grok-5-released-by,Grok 5 released by...?,"Grok 5 released by March 31, 2026?",2025-08-07T20:35:20.828000+00:00,2026-01-01T04:59:00+00:00,2026-04-01T03:59:00+00:00,2159.0,89.9583,MATERIAL-LATER,74924258,0x5a1ab285fb5cfe340f3ad1fe5a59122efab8fb370d82f57dd8f666a72a737176,2025-08-07T20:34:29+00:00,"Grok 5 released by March 31, 2026?","q: title: Grok 5 released by March 31, 2026?, description: This market will resolve to ""Yes"" if xAI's Grok 5 model is made available to the general public by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+For this market to resolve to ""Yes,"" Grok 5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Anthropic as being accessible to the general public.
+
+Grok 5 refers to a product explicitly named Grok 5 (e.g. Grok 5.0 would count), or one that is recognized as a successor to Grok 4 similar to the progression from Grok 2 to Grok 3. Products labeled as Grok 4.5 or similar will not count for this market's resolution.
+
+The primary resolution source for this market will be official information from xAI, with additional verification from a consensus of credible reporting. market_id: 573830 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if xAI's Grok 5 model is made available to the general public by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+For this market to resolve to ""Yes,"" Grok 5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by xAI as being accessible to the general public.
+
+Grok 5 refers to a product explicitly named Grok 5 (e.g. Grok 5.0 would count), or one that is recognized as a successor to Grok 4 similar to the progression from Grok 2 to Grok 3. Products labeled as Grok 4.5 or similar will not count for this market's resolution.
+
+The primary resolution source for this market will be official information from xAI, with additional verification from a consensus of credible reporting."
+587167,41639,afd-deaths-foul-play-confirmed-in-2025,AFD deaths foul play confirmed in 2025?,AFD deaths foul play confirmed in 2025?,2025-09-03T16:36:21.781000+00:00,2025-11-01T03:59:00+00:00,2026-01-01T04:59:00+00:00,1465.0,61.0417,MATERIAL-LATER,76009165,0xc6282f291c5c9b3873731858d45128cbaee07e2142194007ff3dbe9b3947583f,2025-09-03T16:35:34+00:00,AFD deaths foul play confirmed in 2025?,"q: title: AFD deaths foul play confirmed in 2025?, description: Six candidates of the German party AfD (Alternative for Germany) in North Rhine-Westphalia—four official contenders and two reserve list candidates—died between mid‑August and early September 2025, ahead of the September 14 local elections, prompting ballot reprints and political controversy.
+
+This market will resolve to “Yes” if definitive evidence confirming at least one of those deaths involved foul play is released by October 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+Statements from the German government indicating that there was foul play will qualify for a ""Yes"" resolution.
+
+The primary resolution source for this market will be official information from any German government agency, law enforcement agencies, and courts; however, a consensus of credible reporting may also be used. market_id: 587167 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","Six candidates of the German party AfD (Alternative for Germany) in North Rhine-Westphalia—four official contenders and two reserve list candidates—died between mid‑August and early September 2025, ahead of the September 14 local elections, prompting ballot reprints and political controversy.
+
+This market will resolve to “Yes” if definitive evidence confirming at least one of those deaths involved foul play is released by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+Statements from the German government indicating that there was foul play will qualify for a ""Yes"" resolution.
+
+The primary resolution source for this market will be official information from any German government agency, law enforcement agencies, and courts; however, a consensus of credible reporting may also be used."
+587171,41642,meek-mill-releases-ai-app-in-2025,Meek Mill releases AI app in 2025?,Meek Mill releases AI app in 2025?,2025-09-03T17:59:20.472000+00:00,2025-11-01T06:59:00+00:00,2026-01-01T07:59:00+00:00,1465.0,61.0417,MATERIAL-LATER,76011481,0x410573ca87cc9805465e2b2e23cb7b6c22a7871a3a2bde0a2d09e295b03cea86,2025-09-03T17:58:34+00:00,Meek Mill releases AI app in 2025?,"q: title: Meek Mill releases AI app in 2025?, description: Recent posts on X indicated that Meek Mill is looking for investors for an app. You can see more about that here: https://x.com/MeekMill/status/1962925141496598797
+
+This market will resolve to ""Yes"" if Meek Mill launches an app advertised as making use of Artificial Intelligence by October 31, 2025, 11:59 PM PT. Otherwise, this market will resolve to ""No"".
+
+Only an AI app which is confirmed to have been launched by or in affiliation with Meek Mill, either through posts from official social media channels, or otherwise confirmed by public statements will qualify.
+
+The resolution source will be a consensus of credible reporting. market_id: 587171 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","Recent posts on X indicated that Meek Mill is looking for investors for an app. You can see more about that here: https://x.com/MeekMill/status/1962925141496598797
+
+This market will resolve to ""Yes"" if Meek Mill launches an app advertised as making use of Artificial Intelligence by December 31, 2025, 11:59 PM PT. Otherwise, this market will resolve to ""No"".
+
+Only an AI app which is confirmed to have been launched by or in affiliation with Meek Mill, either through posts from official social media channels, or otherwise confirmed by public statements will qualify.
+
+The resolution source will be a consensus of credible reporting."
+511867,14034,trump-administration,Who will be part of Trump's Administration?,Will Elon Musk be a member of the Trump administration? ,2024-11-06T16:10:23.046000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960675,0x42cc9617ccab67221d63774d539922e382dc115e3ac9466fe6f0b4dbce91a22d,2024-11-06T16:07:35+00:00,Will Elon Musk be a member of the Trump administration?,"q: title: Will Elon Musk be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Elon Musk to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Elon Musk to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511868,14034,trump-administration,Who will be part of Trump's Administration?,Will RFK be a member of the Trump administration? ,2024-11-06T16:10:23.040000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960682,0x35b68a732c4fa4b2b40737b3b4ce7c20bf1bf5b37d011ea7ff3c274a7c8e667b,2024-11-06T16:07:49+00:00,Will RFK be a member of the Trump administration?,"q: title: Will RFK be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Robert F. Kennedy Jr. to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Robert F. Kennedy Jr. to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511869,14034,trump-administration,Who will be part of Trump's Administration?,Will Ron Paul be a member of the Trump administration? ,2024-11-06T16:10:29.167000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960688,0x95bb37b1550614ecbdb2ec61c2b6dfdb5e93e21f5b6a0c3592eceae51809257a,2024-11-06T16:08:03+00:00,Will Ron Paul be a member of the Trump administration?,"q: title: Will Ron Paul be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Ron Paul to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Ron Paul to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511870,14034,trump-administration,Who will be part of Trump's Administration?,Will Steve Bannon be a member of the Trump administration? ,2024-11-06T16:11:43.347000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960720,0xc472207449cc7a48488b14051cacdee12d8464c0797a9391fa710b6b5371badc,2024-11-06T16:09:11+00:00,Will Steve Bannon be a member of the Trump administration?,"q: title: Will Steve Bannon be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Steve Bannon to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Steve Bannon to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511871,14034,trump-administration,Who will be part of Trump's Administration?,Will Vivek Ramaswamy be a member of the Trump administration? ,2024-11-06T16:11:52.452000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960727,0x236276663e78ea8c9cbd65c24b3c0d5e2f94bd1a4bcd5e366627756435ec64db,2024-11-06T16:09:25+00:00,Will Vivek Ramaswamy be a member of the Trump administration?,"q: title: Will Vivek Ramaswamy be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Vivek Ramaswamy to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Vivek Ramaswamy to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511872,14034,trump-administration,Who will be part of Trump's Administration?,Will Donald Trump Jr. be a member of the Trump administration? ,2024-11-06T16:12:08.774000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960733,0x03dff2df386b79103e2b565d6e5955f9e2280f2d92f98f7a71d763f50259811d,2024-11-06T16:09:37+00:00,Will Donald Trump Jr. be a member of the Trump administration?,"q: title: Will Donald Trump Jr. be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Donald Trump Jr. to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Donald Trump Jr. to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511873,14034,trump-administration,Who will be part of Trump's Administration?,Will Doug Burgum be a member of the Trump administration? ,2024-11-06T16:13:01.352000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960760,0x91999fd0583e473012d962901edf1358af39c21d816b5cfbf0a036835baf6650,2024-11-06T16:10:35+00:00,Will Doug Burgum be a member of the Trump administration?,"q: title: Will Doug Burgum be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Doug Burgum to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Doug Burgum to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511874,14034,trump-administration,Who will be part of Trump's Administration?,Will Mike Pompeo be a member of the Trump administration? ,2024-11-06T16:13:17.313000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960766,0x87e13137c2fb8afea13aa8b52372166a6113f98d5dc06431eb72461a8b7c344f,2024-11-06T16:10:47+00:00,Will Mike Pompeo be a member of the Trump administration?,"q: title: Will Mike Pompeo be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Mike Pompeo to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Mike Pompeo to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511877,14034,trump-administration,Who will be part of Trump's Administration?,Will Jared Kushner be a member of the Trump administration? ,2024-11-06T16:13:34.018000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960773,0x574020b00d877aa69b5e8b93dfece0f62e037e87143b5c75e08925829fe4c159,2024-11-06T16:11:03+00:00,Will Jared Kushner be a member of the Trump administration?,"q: title: Will Jared Kushner be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Jared Kushner to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Jared Kushner to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511878,14034,trump-administration,Who will be part of Trump's Administration?,Will David Sacks be a member of the Trump administration? ,2024-11-06T16:13:44.112000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960779,0x7f8b89a198f3c2ad1cf44c010f3012302c2e36907edfa5beba9256a13c10e718,2024-11-06T16:11:15+00:00,Will David Sacks be a member of the Trump administration?,"q: title: Will David Sacks be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints David Sacks to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints David Sacks to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511879,14034,trump-administration,Who will be part of Trump's Administration?,Will Jamie Dimon be a member of the Trump administration? ,2024-11-06T16:13:54.398000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960785,0xc4c498c8bd5f9d7ac418bc3b3285ab10c6f92376636e23acefdacd30bbae4638,2024-11-06T16:11:29+00:00,Will Jamie Dimon be a member of the Trump administration?,"q: title: Will Jamie Dimon be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Jamie Dimon to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Jamie Dimon to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+511880,14034,trump-administration,Who will be part of Trump's Administration?,Will Marco Rubio be a member of the Trump administration? ,2024-11-06T16:14:16.319000+00:00,2025-02-01T04:59:00+00:00,2025-04-01T03:59:00+00:00,1415.0,58.9583,MATERIAL-LATER,63960795,0x367156d7bedab05c14eb5fae68ed7d868809d69335c5486b9c6a94231762c9ea,2024-11-06T16:11:49+00:00,Will Marco Rubio be a member of the Trump administration?,"q: title: Will Marco Rubio be a member of the Trump administration? , description: This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Marco Rubio to his administration by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Trump wins the 2024 election and officially nominates or appoints Marco Rubio to his administration by March 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will immediately resolve to ""No"" if Donald Trump loses the 2024 US Presidential Election.
+
+The Trump administration includes individuals formally appointed or nominated by Donald Trump to roles within the U.S. federal government, such as Cabinet members, Executive Office staff, senior policy advisors, ambassadors, or White House staff whose appointments are publicly announced by official government channels.
+
+Nominations will qualify even if the individual is not confirmed. 
+
+The primary resolution source for this market will be official information from the US government, however a consensus of credible reporting may also be used."
+568052,34328,will-trump-pardon-ghislaine-maxwell-by-august-31,Will Trump pardon Ghislaine Maxwell by August 31?,Will Trump pardon Ghislaine Maxwell by August 31?,2025-07-25T15:01:20.357000+00:00,2025-08-01T03:59:00+00:00,2025-09-01T03:59:00+00:00,744.0,31.0,MATERIAL-LATER,74396135,0x6a2c625687fbc798db5f9c52bc76df2fcb62ccddc802a22f428b5f1675363027,2025-07-25T15:00:35+00:00,Will Trump pardon Ghislaine Maxwell by August 31?,"q: title: Will Trump pardon Ghislaine Maxwell by August 31?, description: This market will resolve to ""Yes"" if Ghislaine Maxwell receives a presidential pardon, commutation, or reprieve from Donald Trump by July 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+If it becomes impossible for Trump issue a federal pardon, commutation, or reprieve within this market's timeframe, it may immediately resolve to ""No"".
+
+The primary resolution source for whether a person is pardoned or not will be official information from the US government, however a consensus of credible reporting will also be used.
+ market_id: 568052 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Ghislaine Maxwell receives a presidential pardon, commutation, or reprieve from Donald Trump by August 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+If it becomes impossible for Trump issue a federal pardon, commutation, or reprieve within this market's timeframe, it may immediately resolve to ""No"".
+
+The primary resolution source for whether a person is pardoned or not will be official information from the US government, however a consensus of credible reporting will also be used.
+"
+1731344,310530,iran-agrees-to-surrender-enriched-uranium-stockpile-by, Iran agrees to surrender enriched uranium stockpile by...?,"Iran agrees to surrender enriched uranium stockpile by April 30, 2026?",2026-03-27T00:24:12.513535+00:00,2026-04-01T03:59:00+00:00,2026-05-01T03:59:00+00:00,720.0,30.0,MATERIAL-LATER,84725361,0x2a5f7c7c6b606e0556a8e1cee4d68e873494d712f1f30059476080917020dc46,2026-03-27T00:19:17+00:00,"Iran agrees to surrender enriched uranium stockpile by April 30, 2026?","q: title: Iran agrees to surrender enriched uranium stockpile by April 30, 2026?, description: This market will resolve to ""Yes"" if Iran publicly agrees to surrender its enriched uranium stockpile by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+An official pledge by Iran to surrender its enriched uranium stockpile will qualify for a “Yes” resolution whether as a unilateral announcement or part of an agreement with the U.S. or Israel.
+
+An agreement by Iran to surrender any amount of its enriched uranium stockpile will count.
+
+To qualify, Iran must publicly agree that its enriched uranium stockpile, or any portion thereof, will be transferred, shipped, or placed under the custody or control of any entity outside of Iran and its influence, excluding non-state armed groups or Iranian-aligned organizations (such as Hezbollah, the Houthis, or similar actors).
+
+Any agreement or pledge made before the resolution date of this market will qualify, regardless of if/when the agreement goes into effect.
+
+An agreement by Iran to surrender its enriched uranium stockpile as a precondition of a more comprehensive peace process or deal will qualify, even if the agreement is not finalized or part of a formalized peace deal.
+
+Agreements to merely limit or cap the level or quality of enrichment—such as reducing enrichment to below weapons-grade thresholds—will not qualify.
+
+The primary resolution source for this market will be a consensus of credible reporting. market_id: 1731344 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Iran publicly agrees to surrender its enriched uranium stockpile by April 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+An official pledge by Iran to surrender its enriched uranium stockpile will qualify for a “Yes” resolution whether as a unilateral announcement or part of an agreement with the U.S. or Israel.
+
+An agreement by Iran to surrender any amount of its enriched uranium stockpile will count.
+
+To qualify, Iran must publicly agree that its enriched uranium stockpile, or any portion thereof, will be transferred, shipped, or placed under the custody or control of any entity outside of Iran and its influence, excluding non-state armed groups or Iranian-aligned organizations (such as Hezbollah, the Houthis, or similar actors).
+
+Any agreement or pledge made before the resolution date of this market will qualify, regardless of if/when the agreement goes into effect.
+
+An agreement by Iran to surrender its enriched uranium stockpile as a precondition of a more comprehensive peace process or deal will qualify, even if the agreement is not finalized or part of a formalized peace deal.
+
+Agreements to merely limit or cap the level or quality of enrichment—such as reducing enrichment to below weapons-grade thresholds—will not qualify.
+
+The primary resolution source for this market will be a consensus of credible reporting."
+581142,39659,which-cities-will-trump-send-the-national-guard-to-by-september-30,Which cities will Trump send  the National Guard to by September 30?,Will Trump send the national guard to New York City?,2025-08-26T00:32:47.605000+00:00,2025-09-16T03:59:00+00:00,2025-10-01T03:59:00+00:00,360.0,15.0,MATERIAL-LATER,75657668,0x271fbc4c1cb117b37d636cbac1b3560d68c89e2df7a177ae5f28af7cdb39382c,2025-08-26T00:31:37+00:00,Will Trump send the national guard to New York City?,"q: title: Will Trump send the national guard to New York City?, description: This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 15, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting. market_id: 581142 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 30, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting."
+581143,39659,which-cities-will-trump-send-the-national-guard-to-by-september-30,Which cities will Trump send  the National Guard to by September 30?,Will Trump send the national guard to Chicago?,2025-08-26T00:32:32.291000+00:00,2025-09-16T03:59:00+00:00,2025-10-01T03:59:00+00:00,360.0,15.0,MATERIAL-LATER,75657667,0xdc4ed333834628ef3e4340420464e4e0ada190a6a7094b95efab09b8d4ad037c,2025-08-26T00:31:35+00:00,Will Trump send the national guard to Chicago?,"q: title: Will Trump send the national guard to Chicago?, description: This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 15, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting. market_id: 581143 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 30, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting."
+581144,39659,which-cities-will-trump-send-the-national-guard-to-by-september-30,Which cities will Trump send  the National Guard to by September 30?,Will Trump send the national guard to Baltimore?,2025-08-26T00:32:57.439000+00:00,2025-09-16T03:59:00+00:00,2025-10-01T03:59:00+00:00,360.0,15.0,MATERIAL-LATER,75657669,0x7ad872a886928a10f51c529fd8519b4de504a8279709d09d39ea6f5ca7d3186d,2025-08-26T00:31:39+00:00,Will Trump send the national guard to Baltimore?,"q: title: Will Trump send the national guard to Baltimore?, description: This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 15, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting. market_id: 581144 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 30, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting."
+581146,39659,which-cities-will-trump-send-the-national-guard-to-by-september-30,Which cities will Trump send  the National Guard to by September 30?,Will Trump send the national guard to Detroit?,2025-08-26T00:33:07.456000+00:00,2025-09-16T03:59:00+00:00,2025-10-01T03:59:00+00:00,360.0,15.0,MATERIAL-LATER,75657669,0x74b7915351ce1c19ae3003168296ac00b2ea6df92c7c1143947a34c75f3bd438,2025-08-26T00:31:39+00:00,Will Trump send the national guard to Detroit?,"q: title: Will Trump send the national guard to Detroit?, description: This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 15, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting. market_id: 581146 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 30, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting."
+581147,39659,which-cities-will-trump-send-the-national-guard-to-by-september-30,Which cities will Trump send  the National Guard to by September 30?,Will Trump send the national guard to San Francisco?,2025-08-26T00:32:23.035000+00:00,2025-09-16T03:59:00+00:00,2025-10-01T03:59:00+00:00,360.0,15.0,MATERIAL-LATER,75657668,0x514d4fb60089b1ae53d0ec19577637c303f3686e9da15d9185e43e22f2243c26,2025-08-26T00:31:37+00:00,Will Trump send the national guard to San Francisco?,"q: title: Will Trump send the national guard to San Francisco?, description: This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 15, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting. market_id: 581147 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 30, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting."
+581148,39659,which-cities-will-trump-send-the-national-guard-to-by-september-30,Which cities will Trump send  the National Guard to by September 30?,Will Trump send the national guard to Boston?,2025-08-26T00:33:16.712000+00:00,2025-09-16T03:59:00+00:00,2025-10-01T03:59:00+00:00,360.0,15.0,MATERIAL-LATER,75657670,0x1328a876408823ef9aebe7dc2188b2bcd73b1d329037d396111b1c8e94f3de05,2025-08-26T00:31:41+00:00,Will Trump send the national guard to Boston?,"q: title: Will Trump send the national guard to Boston?, description: This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 15, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting. market_id: 581148 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if Donald Trump or his administration takes a formal action or makes an official announcement directing the deployment of National Guard troops to the listed city by September 30, 2025, 11:59 PM ET. Otherwise, the market will resolve to “No.”
+A qualifying announcement or action will count, regardless of if/when the deployment actually occurs, or if the deployment is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+Qualifying actions include but are not limited to:
+- A Presidential action (e.g., Executive Order, Presidential Memorandum) that directs or announces National Guard deployment to the listed city.
+- An official White House/DoD/National Guard Bureau press release, fact sheet, or order explicitly stating that National Guard troops will be deployed to the listed city.
+- A Secretary of Defense or NGB directive/order that calls up or assigns National Guard forces to the listed city, including under Title 32 (state control with federal funding) or Title 10 (federalized).
+- An official federal announcement that specific state Guard units (including the listed city National Guard or out-of-state Guard) are being sent to the listed city.
+
+Non-qualifying actions include:
+- Informal announcements/social media posts which do not constitute a formal policy announcement 
+- Ambiguous remarks, “we’re considering it,” broad statements like “ready to go anywhere,” or contingent plans without a clear directive to the listed city.
+- Generic posture changes (e.g., standing up quick-reaction forces “nationwide”) that do not explicitly name the listed city as a deployment location.
+- A state-only activation by the listed city's state Governor without any official Trump administration action or announcement about sending the Guard to the listed city.
+
+The primary resolution source will be a consensus of credible reporting."
+518002,16540,sunset-wildfire-burns-1k-or-more-acres-by-sunday,Sunset wildfire burns 1k or more acres by Sunday?,Sunset wildfire burns 1k or more acres by Sunday?,2025-01-09T16:52:09.524246+00:00,2025-01-11T07:59:00+00:00,2025-01-13T07:59:00+00:00,48.0,2.0,MATERIAL-LATER,66496574,0x834c8dd5dab8b9dd721c4f3c11bbc78648d96e92701d4a06ebd54daeb16dfbe2,2025-01-09T16:49:14+00:00,Sunset wildfire burns 1k or more acres by Sunday?,"q: title: Sunset wildfire burns 1k or more acres by Sunday?, description: This market will resolve to “Yes” if the Sunset fire in California burns 1,000 or more acres by January 10, 2025, 11:59 PM PT (Pacific Time). Otherwise this market will resolve to “No.”
+
+The resolution source is official updates from https://www.fire.ca.gov/. If the website for the California Department of Forestry and Fire Protection becomes unavailable, another credible source will be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if the Sunset fire in California burns 1,000 or more acres by January 12, 2025, 11:59 PM PT (Pacific Time). Otherwise this market will resolve to “No.”
+
+The resolution source is official updates from https://www.fire.ca.gov/. If the website for the California Department of Forestry and Fire Protection becomes unavailable, another credible source will be used."
+790889,95318,will-baluta-flip-ciucu-for-bucharest-mayor-by-saturday,Will Baluta flip Ciucu for Bucharest Mayor by Saturday?,Will Baluta flip Ciucu for Bucharest Mayor by Saturday?,2025-12-01T23:50:08.611000+00:00,2025-12-06T04:59:00+00:00,2025-12-07T04:59:00+00:00,24.0,1.0,MATERIAL-LATER,79763962,0x85a144c67386705d7227846888ee92b2e6d5fa7862d3f9c7778c80d0bbffde0c,2025-12-01T23:49:22+00:00,Will Baluta flip Ciucu for Bucharest Mayor by Saturday?,"q: title: Will Baluta flip Ciucu for Bucharest Mayor by Saturday?, description: This market will resolve to “Yes” if, between Daniel Baluta and Ciprian Ciucu, Daniel Baluta becomes the favorite in the Romania: Bucharest Mayoral Election market (https://polymarket.com/event/romania-bucharest-mayoral-election?tid=1764630183061) for any two-hour period ending by December 5, 2025, 11:59 PM ET or earlier. Otherwise, this market will resolve to “No”.
+
+Daniel Baluta will be considered to have become the favorite for any two-hour period if he is ahead of Ciprian Ciucu in more individual minutes than Ciprian Ciucu is ahead of Daniel Baluta during a qualifying time period.
+
+A tie in the number of minutes will resolve to ""No"".
+
+If the underlying market resolves prior to this market, this market will immediately resolve in accordance with the underlying market’s final outcome.
+
+The resolution source will be the underlying minute-level price data for the “Romania: Bucharest Mayoral Election” market, which can be viewed using the bar chart on https://derivative.polymarket.com/index/will-baluta-flip-ciucu-by-saturday-2 or through the “Resolution” tab with the time set to show the two-hour period window. Both interfaces display the same underlying data.
+
+Note: This market will resolve according to the price scoring methodology of derivative.polymarket.com.
+ market_id: 790889 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to “Yes” if, between Daniel Baluta and Ciprian Ciucu, Daniel Baluta becomes the favorite in the Romania: Bucharest Mayoral Election market (https://polymarket.com/event/romania-bucharest-mayoral-election?tid=1764630183061) for any two-hour period ending by December 6, 2025, 11:59 PM ET or earlier. Otherwise, this market will resolve to “No”.
+
+Daniel Baluta will be considered to have become the favorite for any two-hour period if he is ahead of Ciprian Ciucu in more individual minutes than Ciprian Ciucu is ahead of Daniel Baluta during a qualifying time period.
+
+A tie in the number of minutes will resolve to ""No"".
+
+If the underlying market resolves prior to this market, this market will immediately resolve in accordance with the underlying market’s final outcome.
+
+The resolution source will be the underlying minute-level price data for the “Romania: Bucharest Mayoral Election” market, which can be viewed using the bar chart on https://derivative.polymarket.com/index/will-baluta-flip-ciucu-for-bucharest-mayor-by-saturday or through the “Resolution” tab with the time set to show the two-hour period window. Both interfaces display the same underlying data.
+
+Note: This market will resolve according to the price scoring methodology of derivative.polymarket.com.
+"
+502112,10919,bitcoin-all-time-high-in-june,Bitcoin all time high in June?,Bitcoin all time high in June?,2024-06-05T21:11:50.027000+00:00,2024-06-30T04:00:00+00:00,2024-07-01T03:59:00+00:00,23.9833,0.9993,MATERIAL-LATER,57770843,0xaefc50a45f54f1196340ee04d1b4b9f4fd358bf523fcd638fbb9d33625a207de,2024-06-04T20:35:43+00:00,Bitcoin all time high in June?,"q: title: Bitcoin all time high in June?, description: This market will resolve to ""Yes"" if Bitcoin (BTC) reaches a price greater than 73,777.00 for the first time according to Binance's candlestick prices before June 30, 2024, 12:00 AM ET. Otherwise, this market will resolve to ""No"".
+
+The resolution source for this market will be the 30-min candlestick high prices from Binance (https://www.binance.com/en/trade/BTC_USDT). res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Bitcoin (BTC) reaches a price greater than 73,777.00 for the first time according to Binance's candlestick prices before June 30, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The resolution source for this market will be the 30-min candlestick high prices from Binance (https://www.binance.com/en/trade/BTC_USDT)."
+687789,83837,sp500-all-time-high-by-december-31,S&P 500 all time high by December 31?,S&P 500 all time high by December 31?,2025-11-18T14:00:45.810000+00:00,2025-12-31T17:59:00+00:00,2026-01-01T04:59:00+00:00,11.0,0.4583,MATERIAL-LATER,79184683,0x7e5c5cb21823385e86ae746b1111d32e2e11167c6abdc2878aa647dc9eb94ddb,2025-11-18T13:59:57+00:00,S&P 500 all time high by December 31?,"q: title: S&P 500 all time high by December 31?, description: This market will resolve to ""Yes"" if the S&P 500 achieves a price a daily high price greater than 6,920.34 during market hours by December 31, 2025, 12:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the S&P 500's highest intraday high during the specified timeframe.
+
+The primary resolution source for this market will be figures from Yahoo Finance specifically the finalized  ""High"" numbers listed under historical data (https://finance.yahoo.com/quote/%5EGSPC/history/). market_id: 687789 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if the S&P 500 achieves a daily high price greater than 6,920.34 during market hours by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+This market will resolve based on the S&P 500's highest intraday high during the specified timeframe.
+
+The primary resolution source for this market will be figures from Yahoo Finance, specifically the finalized  ""High"" numbers listed under historical data (https://finance.yahoo.com/quote/%5EGSPC/history/)."
+504389,11794,will-openai-release-gpt-5-in-2024,GPT-5 released in 2024?,GPT-5 released in 2024?,2024-07-31T21:16:50.761000+00:00,2026-01-01T04:59:00+00:00,2025-01-01T04:59:00+00:00,-8760.0,-365.0,MATERIAL-EARLIER,60039841,0x7572ef5810466b07c0b904608fef29046966dd5c418e9b9fcc69687f93bffb04,2024-07-31T20:04:20+00:00,GPT-5 released in 2024?,"q: title: GPT-5 released in 2024?, description: This market will resolve to ""Yes"" if OpenAI's GPT-5 model is made available to the general public by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+For this market to resolve to ""Yes,"" GPT-5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by OpenAI as being accessible to the general public.
+
+GPT-5 refers to a product explicitly named GPT-5, or one that is recognized as a successor to GPT-4, similar to the progression from GPT-3 to GPT-4. Products labeled as GPT-4.5 or similar will not count for this market's resolution.
+
+The primary resolution source for this market will be official information from OpenAI, with additional verification from a consensus of credible reporting.
+
+
+
+
+
+
+ res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if OpenAI's GPT-5 model is made available to the general public by December 31, 2024, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+For this market to resolve to ""Yes,"" GPT-5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by OpenAI as being accessible to the general public.
+
+GPT-5 refers to a product explicitly named GPT-5, or one that is recognized as a successor to GPT-4, similar to the progression from GPT-3 to GPT-4. Products labeled as GPT-4.5 or similar will not count for this market's resolution.
+
+The primary resolution source for this market will be official information from OpenAI, with additional verification from a consensus of credible reporting.
+
+
+
+
+
+
+"
+663965,72458,will-nancy-pelosi-announce-her-retirement-by,Will Nancy Pelosi announce her retirement by...?,Will Nancy Pelosi announce her retirement by November 30?,2025-11-04T01:48:40.896000+00:00,2026-12-01T04:59:00+00:00,2025-12-01T04:59:00+00:00,-8760.0,-365.0,MATERIAL-EARLIER,78558005,0x1a9e63bd5f6193f106bfe97c41194428dd8ccf6433fdaf3967b22ed99a787534,2025-11-04T01:47:53+00:00,Will Nancy Pelosi announce her retirement by November 30?,"q: title: Will Nancy Pelosi announce her retirement by November 30?, description: This market will resolve to ""Yes"" if Nancy Pelosi announces that she will retire from representing California's 11th Congressional District by November 30, 2026, at 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The announced timing of her retirement may be immediate, at the end of her current term, or at any point in between.
+
+Any qualifying announcement from Pelosi will count for a ""Yes"" resolution, regardless of whether the announced resignation goes into effect.
+
+The resolution source for this market will be official announcements from Pelosi or one of her official representatives. market_id: 663965 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if Nancy Pelosi announces that she will retire from representing California's 11th Congressional District by November 30, 2025, at 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The announced timing of her retirement may be immediate, at the end of her current term, or at any point in between.
+
+Any qualifying announcement from Pelosi will count for a ""Yes"" resolution, regardless of whether the announced resignation goes into effect.
+
+The resolution source for this market will be official announcements from Pelosi or one of her official representatives."
+253241,902946,will-the-kyberswap-exploiters-demands-be-met,Will the Kyberswap exploiter's demands be met?,Will the Kyberswap exploiter's demands be met?,2023-11-30T16:53:09.706000+00:00,2024-07-01T03:59:59+00:00,2023-12-16T04:59:00+00:00,-4751.0164,-197.959,MATERIAL-EARLIER,50579729,0x2af4698cb294c7522c6b3c56af577f585312327a352b2ae8393e39e4f8924754,2023-11-30T16:49:57+00:00,Will the Kyberswap exploiter's demands be met?,"q: title: Will the Kyberswap exploiter's demands be met?, description: This market will resolve to ""Yes"" if the full list of demands made by the Kyberswap exploiter are met by June 30, 2024 ET. Otherwise, this market will resolve to ""No"".
+
+The full list of demands can be found here: https://etherscan.io/tx/0x0479da9d6a3a29b294d6337630ea0a482e7ec7223f3b6e6d72442f6c450264d4
+
+The primary resolution source for this market will be official information released by the Kyberswap/Kyber Network team (e.g. https://twitter.com/kybernetwork), however a consensus of credible reporting will also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if the full list of demands made by the Kyberswap exploiter are met by December 15, 2023, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The full list of demands can be found here: https://etherscan.io/tx/0x0479da9d6a3a29b294d6337630ea0a482e7ec7223f3b6e6d72442f6c450264d4
+
+The primary resolution source for this market will be official information released by the Kyberswap/Kyber Network team (e.g. https://twitter.com/kybernetwork), however a consensus of credible reporting will also be used."
+581003,39652,trump-renames-department-of-defense-by-september-30,Trump renames Department of Defense by September 30?,Trump renames Department of Defense by September 30?,2025-08-25T18:30:10.922000+00:00,2026-01-01T04:59:00+00:00,2025-10-01T03:59:00+00:00,-2209.0,-92.0417,MATERIAL-EARLIER,75647455,0x87053c1632dfbb99e128ba0815f797cd771773e4e9458b2b6714310bcd4dffd3,2025-08-25T18:29:23+00:00,Trump renames Department of Defense by September 30?,"q: title: Trump renames Department of Defense by September 30?, description: On August 18, 2025, President Donald J. Trump mentioned he wished to change the name of the Department of Defense. You can read more about that here: https://www.newsweek.com/trump-hegseth-department-defense-name-change-war-2118837
+
+This market will resolve to “Yes” if Donald Trump signs any federal legislation or performs any executive action that changes the name of the Department of Defense by December 31, 2025, 11:59 PM ET ET. Otherwise, this market will resolve to “No”.
+
+Any executive action or legislation that renames the Department of Defense will qualify, regardless of if/when the change goes into effect or if the action is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+This market’s primary resolution source will be official information from the Trump administration; however, a consensus of credible information from major news outlets or government statements will also be used. market_id: 581003 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x157Ce2d672854c848c9b79C49a8Cc6cc89176a49 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","On August 18, 2025, President Donald J. Trump mentioned he wished to change the name of the Department of Defense. You can read more about that here: https://www.newsweek.com/trump-hegseth-department-defense-name-change-war-2118837
+
+This market will resolve to “Yes” if Donald Trump signs any federal legislation or performs any executive action that changes the name of the Department of Defense by September 30, 2025, 11:59 PM ET ET. Otherwise, this market will resolve to “No”.
+
+Any executive action or legislation that renames the Department of Defense will qualify, regardless of if/when the change goes into effect or if the action is delayed, suspended, or subsequently blocked by judicial or other actions.
+
+This market’s primary resolution source will be official information from the Trump administration; however, a consensus of credible information from major news outlets or government statements will also be used."
+552105,26897,will-israel-declare-war-on-iran-by-next-friday,Will Israel declare war on Iran by Friday?,Will Israel declare war on Iran by Friday?,2025-06-13T05:23:36.696000+00:00,2025-07-01T03:59:00+00:00,2025-06-21T03:59:00+00:00,-240.0,-10.0,MATERIAL-EARLIER,72705353,0x96186851371ba5979678c507453fc38e223fbcc538588a6562a95931b9365292,2025-06-13T05:22:38+00:00,Will Israel declare war on Iran by next Friday?,"q: title: Will Israel declare war on Iran by next Friday?, description: This market will resolve to ""Yes"" if the government of Israel officially declares war on Iran by June 30, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+A qualifying declaration must be explicit and formal, issued through official Israeli government channels, and must clearly state that Israel is at war with Iran. General statements about conflict, military operations, or threats do not qualify unless accompanied by a formal declaration of war.
+
+Only statements made by the Israeli government qualify. 
+
+The resolution source will be a clear consensus of credible reporting. market_id: 552105 res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","This market will resolve to ""Yes"" if the government of Israel officially declares war on Iran by June 20, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No.""
+
+A qualifying declaration must be explicit and formal, issued through official Israeli government channels, and must clearly state that Israel is at war with Iran. General statements about conflict, military operations, or threats do not qualify unless accompanied by a formal declaration of war.
+
+Only statements made by the Israeli government qualify. 
+
+The resolution source will be a clear consensus of credible reporting."
+525275,19679,mary-kate-cornett-statement-by-friday,Mary Kate Cornett statement by Friday?,Mary Kate Cornett statement by Friday?,2025-02-26T15:13:44.046441+00:00,2025-03-08T04:59:00+00:00,2025-03-01T04:59:00+00:00,-168.0,-7.0,MATERIAL-EARLIER,68399501,0xbd9f491a21b62886c3be6e6d686c30c64c0f5a69c342b526bdd204c1b282f31a,2025-02-26T15:11:17+00:00,Mary Kate Cornett statement by Friday?,"q: title: Mary Kate Cornett statement by Friday?, description: A sorority girl named Mary Kate Cornett reportedly had romantic relationship with her boyfriend’s father while continuing to date the boyfriend afterward (see: https://x.com/search?q=Mary%20Kate%20Cornett&src=typed_query)
+
+This market will resolve to ""Yes"" if Mary Kate Cornett releases a statement about her relationship with her boyfriend or her boyfriend's father by March 7, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The primary resolutions source for this market will be from Mary Kate Cornett, however a consensus of credible reporting will also be used. res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","A sorority girl named Mary Kate Cornett reportedly had romantic relationship with her boyfriend’s father while continuing to date the boyfriend afterward (see: https://x.com/search?q=Mary%20Kate%20Cornett&src=typed_query)
+
+This market will resolve to ""Yes"" if Mary Kate Cornett releases a statement about her relationship with her boyfriend or her boyfriend's father by February 28, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+The primary resolutions source for this market will be from Mary Kate Cornett, however a consensus of credible reporting will also be used."
+525277,19681,adan-test-pump-fun,Will pump.fun recover their X account by noon?,Will pump.fun recover their X account by noon?,2025-02-26T15:53:47.654000+00:00,2025-02-27T04:59:00+00:00,2025-02-26T17:00:00+00:00,-11.9833,-0.4993,MATERIAL-EARLIER,68400633,0x398bd01c948afb484f9ea650de78ba3ef8bb01173794944434c796168a4f386f,2025-02-26T15:51:23+00:00,Will pump.fun recover their X account by noon?,"q: title: Will pump.fun recover their X account by noon?, description: On February 26 pump.fun's X account was hacked.
+
+This market will resolve to ""Yes"" if it is confirmed that pump.fun has recovered their X account by February 26, 2025, 11:59 PM ET. Otherwise, this market will resolve to ""No"". 
+
+Pump.fun must make an authentic post from their account in order to qualify. If the account is disabled or suspended it will not alone qualify. 
+
+The resolution source for this market will be a consensus of credible reporting.  res_data: p1: 0, p2: 1, p3: 0.5. Where p1 corresponds to No, p2 to Yes, p3 to unknown/50-50. Updates made by the question creator via the bulletin board at 0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74 as described by https://polygonscan.com/tx/0xa14f01b115c4913624fc3f508f960f4dea252758e73c28f5f07f8e19d7bca066 should be considered.,initializer:91430cad2d3975766499717fa0d66a78d814e5c5","On February 26 pump.fun's X account was hacked.
+
+This market will resolve to ""Yes"" if it is confirmed that pump.fun has recovered their X account by February 26, 2025, 12:00 PM ET. Otherwise, this market will resolve to ""No"". 
+
+Pump.fun must make an authentic post from their account in order to qualify. If the account is disabled or suspended it will not alone qualify. 
+
+The resolution source for this market will be a consensus of credible reporting. "

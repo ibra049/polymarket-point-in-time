@@ -1,0 +1,353 @@
+{
+  "generated_utc": "2026-11-16T00:51:25.413359+00:00",
+  "chain_id": "0x89",
+  "observed_head": 97389876,
+  "original_cutoff": 97166757,
+  "original_cutoff_utc": "2026-11-12T03:53:12+00:00",
+  "source": "https://poly.api.pocket.network",
+  "selection_plan": {
+    "created_utc": "2026-11-16T00:50:55.024643+00:00",
+    "seed": 20261111,
+    "rule": "random.sample of CSV sorted by numeric market_id; no replacement",
+    "csv_sha256": "30314969af2965150a1e123d3a86b86a0d7817156219dfb6fe29be60fa66da2c",
+    "historical_to_block": 97166757,
+    "primary_source": "https://poly.api.pocket.network",
+    "source_reason": "Independent allowed provider after preserved Tatum free-quota failure; original builder used Tenderly.",
+    "failure_rule": "No retries/provider substitutions; 1.1-second request spacing; circuit stops network after first error; failed/unattempted rows remain unknown.",
+    "random_market_ids": [
+      "1135904",
+      "1684136",
+      "1785819",
+      "666956",
+      "900797",
+      "586974",
+      "1155534",
+      "723097",
+      "1566927",
+      "1385451",
+      "1678315",
+      "1340102",
+      "562371",
+      "600658",
+      "1500010",
+      "531357",
+      "510370",
+      "1193701",
+      "1198667",
+      "659122",
+      "578549",
+      "1657239",
+      "690499",
+      "948313",
+      "564626"
+    ],
+    "supplemental_positive_market_ids": [
+      "665226",
+      "1357997",
+      "520318",
+      "821089",
+      "659069",
+      "621127",
+      "1353142",
+      "530903",
+      "1553593",
+      "942709",
+      "502480",
+      "1554878",
+      "1554899",
+      "502302"
+    ],
+    "original_plan_sha256": "38d149f5fc25e40fcadebb6e51cfdd6e842d27dfb8fc7244ef5da1953dc09f22"
+  },
+  "summary": {
+    "random": {
+      "planned": 25,
+      "complete": 0,
+      "rows_with_mismatches": 0,
+      "field_mismatches": 0,
+      "unknown": 25
+    },
+    "supplemental-positive": {
+      "planned": 14,
+      "complete": 0,
+      "rows_with_mismatches": 0,
+      "field_mismatches": 0,
+      "unknown": 14
+    }
+  },
+  "rows": [
+    {
+      "market_id": "1135904",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:24.747047+00:00",
+      "complete": false,
+      "error": "RuntimeError: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1684136",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:24.747173+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1785819",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.411770+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "666956",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.411846+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "900797",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.411884+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "586974",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.411972+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1155534",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412023+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "723097",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412068+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1566927",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412097+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1385451",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412136+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1678315",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412168+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1340102",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412196+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "562371",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412228+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "600658",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412277+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1500010",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412294+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "531357",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412320+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "510370",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412369+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1193701",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412421+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1198667",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412453+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "659122",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412491+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "578549",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412515+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1657239",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412557+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "690499",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412581+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "948313",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412628+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "564626",
+      "selection": "random",
+      "started_utc": "2026-11-16T00:51:25.412672+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "665226",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412705+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1357997",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412755+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "520318",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412774+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "821089",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412808+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "659069",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412859+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "621127",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412879+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1353142",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412912+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "530903",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412934+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1553593",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412952+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "942709",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412972+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "502480",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.412989+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1554878",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.413010+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "1554899",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.413055+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    },
+    {
+      "market_id": "502302",
+      "selection": "supplemental-positive",
+      "started_utc": "2026-11-16T00:51:25.413099+00:00",
+      "complete": false,
+      "error": "RuntimeError: source circuit stopped after prior error: {\"started_utc\": \"2026-11-16T00:51:25.001843+00:00\", \"elapsed_seconds\": 0.40921091695781797, \"source\": \"https://poly.api.pocket.network\", \"exit_code\": 0, \"stderr\": \"\", \"response\": {\"jsonrpc\": \"2.0\", \"id\": 1, \"error\": {\"code\": -32602, \"message\": \"invalid argument 0: block range exceeds maximum 50000\"}}}"
+    }
+  ]
+}

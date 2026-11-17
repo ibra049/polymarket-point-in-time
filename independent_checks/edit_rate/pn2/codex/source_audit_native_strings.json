@@ -1,0 +1,183 @@
+{
+  "generated_utc": "2026-11-16T00:51:00.220574+00:00",
+  "sample": {
+    "population_size": 727053,
+    "population_sha256_sorted_ids": "cf5d6281dd18dd843955659964e15360ca665d0f1fba7d69a0a5a5bb7f7bf538",
+    "original_sample_script_output_equal": true,
+    "independent_2000_ids_equal": true,
+    "all_1372_ranked_ids_equal": true,
+    "verified_1000_ids_equal": true,
+    "original_sample_requires_gamma": true,
+    "markets_columns_independent": [
+      "market_id"
+    ],
+    "market_row_count": 729133,
+    "gamma_with_qid_count": 727053
+  },
+  "comparison": {
+    "M1": {
+      "counts_equal": true,
+      "wilson_equal_at_recorded_precision": true,
+      "first_pass_bootstrap": [
+        0.002008032128514056,
+        0.01287160604068335
+      ],
+      "recorded_bootstrap": [
+        0.002006,
+        0.01291
+      ],
+      "disclosed_method_diagnostic": [
+        0.0020060180541624875,
+        0.012909632571996028
+      ],
+      "disclosed_method_equal_at_recorded_precision": true,
+      "positive_events_equal": true,
+      "category_counts_equal": true
+    },
+    "M2": {
+      "counts_equal": true,
+      "wilson_equal_at_recorded_precision": true,
+      "first_pass_bootstrap": [
+        0.0,
+        0.004709576138147566
+      ],
+      "recorded_bootstrap": [
+        0.0,
+        0.004831
+      ],
+      "disclosed_method_diagnostic": [
+        0.0,
+        0.004830917874396135
+      ],
+      "disclosed_method_equal_at_recorded_precision": true,
+      "positive_events_equal": true,
+      "category_counts_equal": true
+    },
+    "FORMAT": {
+      "counts_equal": true,
+      "wilson_equal_at_recorded_precision": true,
+      "first_pass_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "recorded_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "disclosed_method_diagnostic": [
+        0.0,
+        0.0
+      ],
+      "disclosed_method_equal_at_recorded_precision": true,
+      "positive_events_equal": true,
+      "category_counts_equal": true
+    },
+    "M3": {
+      "counts_equal": true,
+      "wilson_equal_at_recorded_precision": true,
+      "first_pass_bootstrap": [
+        0.003,
+        0.013972055888223553
+      ],
+      "recorded_bootstrap": [
+        0.003,
+        0.013986
+      ],
+      "disclosed_method_diagnostic": [
+        0.003,
+        0.013986013986013986
+      ],
+      "disclosed_method_equal_at_recorded_precision": true,
+      "positive_events_equal": true,
+      "category_counts_equal": true
+    }
+  },
+  "diagnostic_method": "numpy default_rng(20261111); native large_string event IDs sorted lexicographically; all 989 clusters shared across measures; 10,000 resamples",
+  "first_pass_preserved": true,
+  "original_status": "MEASURED",
+  "original_status_allowed": false,
+  "input_hashes": {
+    "markets.parquet": {
+      "actual": "ca0a8438097fa830a2f94025e46196f4ff7a803656419e041f5c86c081c4a723",
+      "recorded": "ca0a8438097fa830a2f94025e46196f4ff7a803656419e041f5c86c081c4a723",
+      "equal": true
+    },
+    "gamma_rules.jsonl": {
+      "actual": "6e5144a0afe3878d0b56836f45a871b916e619a32cb7d3c1daeaa360a028ef15",
+      "recorded": "6e5144a0afe3878d0b56836f45a871b916e619a32cb7d3c1daeaa360a028ef15",
+      "equal": true
+    },
+    "draws.json": {
+      "actual": "12884faac7639fad8893f515702b78bc83260b7b983f11d952ea506041e3a199",
+      "recorded": "12884faac7639fad8893f515702b78bc83260b7b983f11d952ea506041e3a199",
+      "equal": true
+    },
+    "sample.py": {
+      "actual": "03a4a9bc7c741c9f849041bf62bab6294f5a3fb5af6beec92b7133109e879c5c",
+      "recorded": "03a4a9bc7c741c9f849041bf62bab6294f5a3fb5af6beec92b7133109e879c5c",
+      "equal": true
+    },
+    "fetch.py": {
+      "actual": "ad98a39464a7165bd87d68ec59c8467f6ae6e8e97d2635f59efce7f16a0a3d25",
+      "recorded": "ad98a39464a7165bd87d68ec59c8467f6ae6e8e97d2635f59efce7f16a0a3d25",
+      "equal": true
+    },
+    "measure.py": {
+      "actual": "e038af562fc902d1f3cafc015c9eb5b42252bdb3024c939953e7e31bb444bd4f",
+      "recorded": "e038af562fc902d1f3cafc015c9eb5b42252bdb3024c939953e7e31bb444bd4f",
+      "equal": true
+    },
+    "schedule_grammar_v5.py": {
+      "actual": "d804736a60857bb5eb0d2e47c9f0ac4d78613a4c7878cfcab2c059a5be400ea8",
+      "recorded": "d804736a60857bb5eb0d2e47c9f0ac4d78613a4c7878cfcab2c059a5be400ea8",
+      "equal": true
+    },
+    "schedule_grammar_v4.py": {
+      "actual": "606d130087ce9d09bfb8814ede5cc49544f04c9b4cbe3e30d2d4b43db97f5cdb",
+      "recorded": "606d130087ce9d09bfb8814ede5cc49544f04c9b4cbe3e30d2d4b43db97f5cdb",
+      "equal": true
+    },
+    "schedule_grammar_v3.py": {
+      "actual": "3b74af472d63569d07b88275cb33c036984b30f6c2fa36171f9532d8a519c2d4",
+      "recorded": "3b74af472d63569d07b88275cb33c036984b30f6c2fa36171f9532d8a519c2d4",
+      "equal": true
+    }
+  },
+  "prereg_current_sha256": "a58c52b7a8f71063af9bd898d4be74aeb301be3a1de8195d860ba5f5f6e5012a",
+  "prereg_at_freeze_sha256": "a58c52b7a8f71063af9bd898d4be74aeb301be3a1de8195d860ba5f5f6e5012a",
+  "prereg_unchanged": true,
+  "prereg_commit_utc": "2026-11-12T03:16:12+00:00",
+  "result_generation_utc": "2026-11-12T04:39:07Z",
+  "measure_log_generation_utc": [
+    "2026-11-12T04:39:07Z"
+  ],
+  "generated_after_prereg": true,
+  "fetch_log_has_wallclock_timestamp": false,
+  "fetch_log_head": 97166757,
+  "original_commit": {
+    "exit_code": 0,
+    "stdout": "2bdf13efbe3c665b04c18f9b031e77664589e613 2026-11-15T17:15:02-05:00 research: PN-2 single-run outputs (generated 2026-11-12T04:39Z) + builder package; Claude note draft mirror \u2014 unblocks shared ledger",
+    "stderr": ""
+  },
+  "prereg_is_ancestor": true,
+  "original_builder_first_commit": {
+    "exit_code": 0,
+    "stdout": "2bdf13efbe3c665b04c18f9b031e77664589e613 2026-11-15T17:15:02-05:00",
+    "stderr": ""
+  },
+  "original_result_first_commit": {
+    "exit_code": 0,
+    "stdout": "2bdf13efbe3c665b04c18f9b031e77664589e613 2026-11-15T17:15:02-05:00",
+    "stderr": ""
+  },
+  "original_code_before_output": false,
+  "raw_fetch_checkpoint_in_worktree": false,
+  "artifact_sha256": {
+    "polysignal/research/public_note/PN-2_population_edit_rate_prereg.md": "a58c52b7a8f71063af9bd898d4be74aeb301be3a1de8195d860ba5f5f6e5012a",
+    "polysignal/research/public_note/PN-2_result.json": "7d9fc630215c2c3456fdcbef3847d8f4788dd51d36b8111122a28261b85d8adb",
+    "polysignal/research/public_note/pn2/edit_rate_sample.csv": "30314969af2965150a1e123d3a86b86a0d7817156219dfb6fe29be60fa66da2c",
+    "polysignal/research/public_note/pn2/fetch.log": "1bc7cca254e11c04aabacaed685714f6eb71f9b1733245199c27a37e32333d33",
+    "polysignal/research/public_note/pn2/measure.log": "3681fe91fbcd3422b03db04dfa00e42c054ad21f3bdaf7fd0f819960b1ddc04e",
+    "polysignal/research/public_note/pn2/codex/first_pass.json": "d06f8972677a0b313eea67c61f2688e4229e87058166db5f3ad233a323653e8f"
+  }
+}
